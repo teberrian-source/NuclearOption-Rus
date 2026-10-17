@@ -1,0 +1,11 @@
+python : Traceback (most recent call last):
+строка:1 знак:49
++ ... ption_Rus'; python tools\restructure_repo.py > tools\rst.txt 2>&1; py ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\user\Documents\NuclearOption_Rus\tools\restructure_repo.py", line 30, in <module>
+    os.remove(p)
+PermissionError: [WinError 32] ╧ЁюЎхёё эх ьюцхЄ яюыєўшЄ№ фюёЄєя ъ Їрщыє, Єръ ъръ ¤ЄюЄ Їрщы чрэ Є фЁєушь яЁюЎхёёюь: 'C:\
+\Users\\user\\Documents\\NuclearOption_Rus\\tools\\rst.txt'
