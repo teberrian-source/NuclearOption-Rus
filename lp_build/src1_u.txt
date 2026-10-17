@@ -1,0 +1,22 @@
+390 | private float nextAutoDumpTime = 25f;
+393 | private float sceneScanUntilTime;
+482 | sceneScanUntilTime = Time.time + 10f;
+759 | Log.LogInfo((object)$"[HB] Enabled={Enabled} isPatching={isPatching} translated={translatedCount} missed={missedCount} untranslated={untrans
+782 | if (Enabled && autoDumpCount < 3 && Time.time >= nextAutoDumpTime)
+796 | if (Enabled && Time.time - lastAutoExportTime > 60f)
+809 | if (Enabled && Time.time < sceneScanUntilTime && Time.time - lastTextScanTime > 1f)
+831 | sceneScanUntilTime = Time.time + 10f;
+1211 | typeof(TMP_FontAsset).GetMethod("ReadFontAssetDefinition", BindingFlags.Instance | BindingFlags.Public)?.Invoke(val2, null);
+1237 | TMP_FontAsset[] array = Resources.FindObjectsOfTypeAll<TMP_FontAsset>();
+1294 | TMP_FontAsset[] array = Resources.FindObjectsOfTypeAll<TMP_FontAsset>();
+1403 | TMP_FontAsset[] array = Resources.FindObjectsOfTypeAll<TMP_FontAsset>();
+1486 | TMP_FontAsset[] array = Resources.FindObjectsOfTypeAll<TMP_FontAsset>();
+1551 | TMP_Text[] array = Resources.FindObjectsOfTypeAll<TMP_Text>();
+1589 | Text[] array2 = Resources.FindObjectsOfTypeAll<Text>();
+2105 | MonoBehaviour[] array = Resources.FindObjectsOfTypeAll<MonoBehaviour>();
+2178 | ScriptableObject[] array4 = Resources.FindObjectsOfTypeAll<ScriptableObject>();
+2266 | ScriptableObject[] array4 = Resources.FindObjectsOfTypeAll<ScriptableObject>();
+2315 | CollectLongStrings(Resources.FindObjectsOfTypeAll<ScriptableObject>(), sortedDictionary, list);
+2316 | CollectLongStrings(Resources.FindObjectsOfTypeAll<MonoBehaviour>(), sortedDictionary, list);
+2584 | headerStyle.normal.textColor = new Color(0.7f, 0.85f, 1f);
+2618 | if (GUILayout.Button(Enabled ? "ON" : "OFF", buttonStyle, (GUILayoutOption[])(object)new GUILayoutOption[1] { GUILayout.Width(60f) }))

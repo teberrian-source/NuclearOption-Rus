@@ -1,0 +1,9 @@
+╨Э╨Р╨Щ╨Ф╨Х╨Э╨Ю: C:\Users\user\AppData\LocalLow\Shockfront\NuclearOption\Player-prev.log ['Ingress Via Mountains', 'Ironjaw Sound - Sill Strike']
+╨Э╨Р╨Щ╨Ф╨Х╨Э╨Ю: C:\Users\user\AppData\LocalLow\Shockfront\NuclearOption\Player.log ['catapults of a Penumbra-class', 'Ingress Via Mountains', 'Ironjaw Sound - Sill Strike']
+╨Э╨Р╨Щ╨Ф╨Х╨Э╨Ю: C:\Users\user\AppData\LocalLow\Shockfront\NuclearOption\Missions\Ironjaw Sound - Sill Strike\meta.json ['Ironjaw Sound - Sill Strike']
+╨┐╤А╨╛╤Б╨║╨░╨╜╨╕╤А╨╛╨▓╨░╨╜╨╛ ╤Д╨░╨╣╨╗╨╛╨▓: 10635 | 18 ╤Б
+╨┐╤А╨╛╤Б╨║╨░╨╜╨╕╤А╨╛╨▓╨░╨╜╨╛ ╤Д╨░╨╣╨╗╨╛╨▓: 15003 | 22 ╤Б
+╨┐╤А╨╛╤Б╨║╨░╨╜╨╕╤А╨╛╨▓╨░╨╜╨╛ ╤Д╨░╨╣╨╗╨╛╨▓: 15010 | 22 ╤Б
+╨┐╤А╨╛╤Б╨║╨░╨╜╨╕╤А╨╛╨▓╨░╨╜╨╛ ╤Д╨░╨╣╨╗╨╛╨▓: 22530 | 34 ╤Б
+╨┐╤А╨╛╤Б╨║╨░╨╜╨╕╤А╨╛╨▓╨░╨╜╨╛ ╤Д╨░╨╣╨╗╨╛╨▓: 22531 | 34 ╤Б
+╨│╨╛╤В╨╛╨▓╨╛, ╤Д╨░╨╣╨╗╨╛╨▓: 22531

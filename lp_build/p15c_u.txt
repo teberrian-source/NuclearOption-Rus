@@ -1,0 +1,74 @@
+╨║ ╨┐╨╡╤А╨╡╨▓╨╛╨┤╤Г: 72
+╨┐╤А╨╛╨┐╤Г╤Й╨╡╨╜╨╛: 93
+   Assist Attack on Airfield
+   Capture Airport
+   Capture Depot
+   Capture South Boscali
+   Capture Supply Point
+   Come to a stop
+   Defend Bridge
+   Defend Maris Airport
+   Defend bridge
+   Deploy Team One
+   Deploy Team Two
+   Destroy AAA
+   Destroy Airfield
+   Destroy Depot
+   Destroy Fuel Stores
+   Destroy Launchers
+   Destroy Neutral Shard 1
+   Destroy Neutral Shard 2
+   Destroy Radar
+   Destroy Radar Truck
+   Destroy Shelter
+   Destroy Supply Point
+   Destroy Target
+   Destroy Targets
+   Destroy Trucks
+   Destroy Vehicle Depots
+   Eliminate Depot
+   Enemy Aircraft
+   Enemy Formation
+   Ingress Via Mountains
+   Intercept Bomber
+   Intercept Cruise Missiles
+   Intercept Marker Timeout
+   Island14 Airstrip
+   Island5 Airstrip
+   Island7 Airstrip
+   Island9 Airstrip
+   Land at Naval Base
+   Landing Site 1
+   Landing Site 2
+   Leave Combat Area
+   Locate Enemy Carrier
+   MoveCorvette1To2
+   MoveCorvette2To1
+   NE Airbase
+   NW Airbase
+   Navigate Storm
+   Neutralize Airfield
+   Neutralize Artillery
+   Neutralize Inlet Base
+   PALA Troops Retreat
+   Re-capture K92
+   Rendezvous with ships
+   Resupply Message
+   Resupply Point
+   Return to Base
+   Reveal Base
+   Riven Beach
+   SE Airbase
+   SW Airbase
+   Shoot Down Commander
+   Sink Enemy Carrier
+   Spot Vehicles
+   Startle Supply Point
+   Take off
+   Touch Down
+   Upload Targets
+   Use Airbakes
+   Waypoint1Hidden
+   Waypoint2Hidden
+   West Coast Landing
+   fratricide box

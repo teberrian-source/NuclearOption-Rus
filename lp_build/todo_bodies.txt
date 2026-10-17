@@ -1,0 +1,224 @@
+### 118
+Missiles that see via the infrared spectral band are a common battlefield threat.
+
+The signature of your aircraft is provided to them by the heat that operating it produces.
+
+### 119
+You can defeat IR missiles by using flares - intense heat signatures - that can either distract or dazzle the seeker head.
+
+Every aircraft in the arsenal has flares.
+
+### 120
+In front of you is an enemy SAM launcher which fires IRM-S2s. It has an effective range of 8km (5 miles).
+
+To pass the training, you will have to fly within half that distance from it, and then return to this point alive.
+
+### 121
+Make sure flares are selected and visible in the top right of the HMD <bind=Next Countermeasure>
+
+When fired on, press and hold the Countermeasure button. <bind=Countermeasures>
+
+### 122
+Flare effectiveness is determined by your aspect to the missile, as well as your engine output. Lower your throttle and turn the plane side-on to the threat to get the most out of your flares. If you get fired on from behind at full throttle, or you may need to expend the whole cartridge.
+
+### 123
+Pre-flaring (releasing flares if you suspect you're about to be fired on) is the most effective use of flares, as it can prevent the launching platform from obtaining a lock.
+
+Try releasing flares periodically (once or twice a second) when in danger.
+
+### 124
+You are pulling away too soon. While the best and most obvious survival method is to avoid the SAM in the first place, for the sake of this demonstration, please take unreasonable risk.
+
+### 125
+Now leave the SAM's area of effect and return to where you started. Because you'll be showing it your exhaust as you fly away, it is especially important that you reduce your throttle to reduce your signature compared to that of your flares.
+
+### 126
+Well done, you've entered the IR SAM's area of effect and come back alive.
+
+This completes the training, but if you still have flares left, feel free to resume and continue tempting fate.
+
+### 127
+The airstrip you'll be landing at is directly infront of you. Start by reducing your throttle <bind=Throttle:neg> to zero - this will deploy the airbrake.
+
+Try to bring your speed down to at most 375kph (200 knots) before the next waypoint.
+
+### 128
+Lower your landing gear using <bind=Gear> or the radial menu <bind=Radial Menu> + <bind=Radial Menu Horizontal>
+
+Your flaps will automatically lower to landing position at slower speeds - you will notice a change in handling.
+
+### 129
+Lowering your gear has also activated the landing assist on the HUD.
+
+It has two features: The Glideslope indicator, and the Angle of Attack (AoA) Indexer
+
+### 130
+The line coming out of the runway with a small circle at the end is your glideslope indicator.
+
+As you glide, steer so that your velocity vector envelops the small circle at the end of the glideslope.
+
+### 131
+On the left side of the HUD is your angle of attack indexer. Green is too slow, yellow is on speed, and red is too fast.
+
+While steering, adjust the throttle to keep the AoA indexer showing a yellow circle. Continue until you touch down.
+
+### 132
+Hold down the wheelbrake button <bind=Brake> to bring the plane to a stop.
+
+### 133
+Well done. Normally, you wouldn't come to a complete stop, as it is important to keep the runway clear.
+
+Use one of the two marked ramps to exit the runway.
+
+### 134
+When you come to a stop at an airbase, you can disembark the plane using the Eject key <bind=Eject>
+
+This will return your plane to your inventory. This will be important later.
+
+### 135
+Today we're going to be practicing taxiing to the runway threshold and taking off. To begin, increase the throttle to 20% using <bind=Throttle:pos>
+
+### 136
+Good, now tap the wheelbrake <bind=Brake> to keep your plane from exceeding 50km/h. We are approaching a turn which will require you stay slow.
+
+Use the rudder to steer <bind=Yaw>
+
+### 137
+As we approach the runway threshold, we will make another left turn to line up the plane on the runway.
+
+### 138
+Now turn left and keep the plane centered on the runway.
+
+### 139
+Increase throttle to 100%, and when speed is above 180km/h, gradually pull back on the stick to lift off. <bind=Pitch:neg>
+
+### 140
+Great job, we're in the air! If you haven't already, you should now retract your landing gear using <bind=Gear>
+
+or the radial menu <bind=Radial Menu> + <bind=Radial Menu Horizontal>
+
+### 141
+Positioned on a small island 20km (12 miles) in front of you are two trucks.
+
+One tows a launch system for R9 Stratolance missiles, while the other carries a connected radar that provides guidance for them.
+
+### 142
+The emission from the radar is detectable by your radar receiver, and the direction to the radar is indicated by an orange line on the minimap. As radar based detection relies on bouncing a signal off of something, you can detect radar emissions at approximately double the range of a radar system.
+
+### 143
+Having received an emission doesn't necessarily mean you have been spotted - it just means you have detected that a radar is being used.
+
+### 144
+Radar pings appear as lines on your minimap
+
+Grey = this radar has probably not detected you
+
+Yellow = this radar has probably detected you
+
+Red = this radar is actively targeting you
+
+### 145
+In this instance, however, you have definitely been spotted. The radar has a range of approximately 40km, and is only 15km away.
+
+The radar will now be used to guide a Stratolance missile into you.
+
+### 146
+The bright light rising up off of the island is a Stratolance missile. You have been fired at.
+
+As you are high in the air and well within the range of the missile, the only way to survive this encounter is by executing a notch.
+
+### 147
+Notching, in short, can be described as flying perpendicular to the enemy radar.
+
+Doing this removes the doppler shift from your return frequencies, making it harder for the radar to track you.
+
+### 148
+Our goal will be to get to cover behind the mountains. Start by breaking right, diving toward the water's surface, and getting the incoming radar line to stay at your 9 o'clock.
+
+You should also select your Radar ECM by pressing Next Countermeasures <bind=Next Countermeasure>
+
+### 149
+Now that the missile is close enough to be picked up and analysed by your sensors, a notch guide is provided both on the HUD and minimap.
+
+The yellow dotted line indicates the ideal heading to maintain in order to perform a notch.
+
+### 150
+Notching alone is rarely enough to defeat a missile, especially in less stealthy aircraft.
+
+While in the notch envelope however, is the ideal time to use your ECM. The lack of doppler shifted returns, combined with the radar ECM, should mask you from the radar.
+
+### 151
+The tracking must be broken for at least 3 seconds for the missile to not re-acquire.
+
+Note that even when the missile loses track, it will still head for the last calculated intercept point. You must take care to evade whilst not exiting the notch.
+
+### 152
+The jammer's effectiveness is proportional to remaining capacitor charge. It is best used in 3 second bursts per missile.
+
+Use the jammer <bind=Countermeasures> while notching to escape toward the coast.
+
+### 153
+Congratulations - you've successfully avoided radar missiles in a worst case scenario.
+
+Ideally, you can avoid these missiles by breaking line of sight of the radar, or by hugging the surface as tightly as possible to stay within ground clutter. Feel free to resume and practice this.
+
+### 154
+Today you will learn how to target and fire on enemy units.
+
+Your HMD will highlight all units known to either your aircraft's sensors or the datalink system.
+
+Observe the various units highlighted in front of you.
+
+### 155
+Anchored to the center of your view, there is a target designator diamond, which will become visible when you look around.
+
+You can select targets by looking at a unit, and pressing the Target Select button <bind=Select>
+
+### 156
+If you are using virtual joystick (mouse flight), you will need to hold the freelook button <bind=Free Look> to look around.
+
+If you are using a controller, you should make sure virtual joystick is disabled in options, and use the right stick <bind=Pan View> to look around.
+
+### 157
+You can add multiple targets to your designation.
+
+To remove the last selected target, press Target Cancel <bind=Cancel>
+
+To clear the designation entirely, hold the button down.
+
+### 158
+Take some time to practice selecting and deselecting targets. You will need to be proficient at this, and be able to do it quickly under pressure in order to be truly effective in combat.
+
+When you are ready to start shooting, fly to the marked waypoint.
+
+### 159
+Four new contacts - enemy trucks - are present at bearing 060.
+
+Press the Next Weapon button <bind=Next Weapon> or the weapon wheel <bind=Weapon Wheel> + <bind=Radial Menu Horizontal> until your AGM-48s are selected, and then designate the four enemy trucks as targets and fire on them.
+
+### 160
+A single trigger pull <bind=Fire> will release one munition per designated target.
+
+Shoot when TGT is within MIN and MAX on the range indicator.
+
+All your current weapons are fire and forget.
+
+### 161
+Good job - the trucks are destroyed.
+
+The process for targeting and firing on aerial targets is the same, however, you should make sure you have the right weapon selected.
+
+### 162
+Different weapons have different intended targets. If targets are ever overlapping, target selection will be biased towards suitable targets for the currently selected weapon.
+
+Switch weapons to your MMR-S3s, and find and destroy the plane approaching from bearing 180.
+
+### 163
+Excellent work. This concludes Targeting and Weapons.
+
+### 164
+Red icons denote enemy units.
+
+Blue icons denote friendly units.
+
+Do not fire on the blue icons.

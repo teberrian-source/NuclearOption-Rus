@@ -1,0 +1,29 @@
+=== имён предметов/техники с описанием (переведены нами): 7 ===
+
+• 'AA' -> 'ЗА'
+  файлы: Bote_1.5.2.dll.62156.unity3d
+  описание: Turret containing a .50 cal rotary minigun and 4 IRM-S1 missiles for light air defense
+
+• 'Ammo Box' -> 'Ящик боеприпасов'
+  файлы: Kar_1.1.2.dll.47768.unity3d, bundle_Kar_1.1.2.dll_47768.unity3d
+  описание: A 1 ton ammo box designed to replenish the munitions of a ground vehicle. Avoid subjecting ammo box to enemy fire or impact forces. explosiv
+
+• 'Ammo box' -> 'Ящик боеприпасов'
+  файлы: Kar_1.1.2.dll.47768.unity3d, bundle_Kar_1.1.2.dll_47768.unity3d
+  описание: A 1 ton ammo box designed to replenish the munitions of a ground vehicle. Avoid subjecting ammo box to enemy fire or impact forces. explosiv
+
+• 'Cursor Class LFD' -> 'Класс курсора LFD'
+  файлы: Bote_1.5.2.dll.62156.unity3d
+  описание: The Cursor class represents the vanguard of the BDF fleet. This littoral flight deck (LFD) is designed to rapidly deploy light VTOL aircraft
+
+• 'MBT' -> 'ОБТ'
+  файлы: Aryx_MC260_Chimera_1.2.0.dll.84708.unity3d
+  описание: Formidable but dated MBT design, lighter weight allows for carriage within the Chimera. Warning: Does not have a parachute, must be dropped 
+
+• 'RADAR' -> 'РАДАР'
+  файлы: Aryx_MC260_Chimera_1.2.0.dll.84708.unity3d
+  описание: An extremely powerful long-range all-aspect radar system for early warning, capable of spotting aircraft even at altitudes as low as 5m (16f
+
+• 'Radar' -> 'Радар'
+  файлы: Aryx_MC260_Chimera_1.2.0.dll.84708.unity3d
+  описание: An air transportable radar container, that can provide guidance to with nearby SARH SAM launchers with a range of 17km.

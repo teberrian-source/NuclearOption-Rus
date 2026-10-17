@@ -1,0 +1,11 @@
+python : Traceback (most recent call last):
+строка:1 знак:47
++ cd C:\Users\user\AppData\Local\Temp\lp_build; python -c "
++                                               ~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "<string>", line 11, in <module>
+  File "<string>", line 9, in ls
+ValueError: unsupported format character ',' (0x2c) at index 1
+=== NuclearOption_Rus ===

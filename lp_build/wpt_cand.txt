@@ -1,0 +1,165 @@
+Agrapol City Supply Point
+Airbase Spawn
+Aircraft Taking Off Alert
+Artillery Base Spawn
+Assist Attack on Airfield
+BDF_CapSouthEP
+BDF_Victory_Conditions
+Base Commander Spawn
+Box 1 - Prepare for Landing
+Box 1 - Throttle
+Box 2 - Deploy Gear
+Box 2 - Use Brakes
+Box 3 - Landing Assist
+Box 3 - Steering
+Box 3.1 - Landing Assist Pt1
+Box 3.2 - Landing Assist Pt2
+Box 4 - Brake
+Box 4 - Keep plane centered
+Box 5 - Full throttle
+Box 5 - Taxi
+Box 6 - Well done
+Bridgehead Operations Base
+Camp Westpoint
+Capture Airport
+Capture Depot
+Capture South Boscali
+Capture Supply Point
+CaptureMessage2Delay
+City Airport
+Come to a stop
+Corvette1Lost
+Corvette2Lost
+Defend Bridge
+Defend Maris Airport
+Defend bridge
+Deploy Team One
+Deploy Team Two
+Destroy AAA
+Destroy Airfield
+Destroy Depot
+Destroy Fuel Stores
+Destroy Launchers
+Destroy Neutral Shard 1
+Destroy Neutral Shard 2
+Destroy Radar
+Destroy Radar Truck
+Destroy Shelter
+Destroy Supply Point
+Destroy Target
+Destroy Targets
+Destroy Trucks
+Destroy Vehicle Depots
+Eliminate Depot
+Enemy Aircraft
+Enemy Formation
+Fail Condition - Destroy BDF Port Facility
+Fail Condition Warning - Destroy BDF Facility
+Hyperion Class Carrier
+Ingress Via Mountains
+Intercept Bomber
+Intercept Cruise Missiles
+Intercept Marker Timeout
+Island14 Airstrip
+Island5 Airstrip
+Island7 Airstrip
+Island9 Airstrip
+Land at Naval Base
+Landing Site 1
+Landing Site 2
+Leave Combat Area
+Locate Enemy Carrier
+Maris Heliport
+Message1Delay
+Message2Delay
+Message3Delay
+Message4Delay
+MoveCorvette1To2
+MoveCorvette2To1
+NE Airbase
+NW Airbase
+Naval Garrison Spawn
+Navigate Storm
+Neutralize Airfield
+Neutralize Artillery
+Neutralize Inlet Base
+North Coast Enrichment Plant
+Orbit Location
+Orbit Timer
+PALA Troops Retreat
+PALA_AdvancePastK92
+PALA_CapNorthEP
+PALA_CaptureMarisAirport
+PALA_Victory_Conditions
+Re-capture K92
+Reinf_FromCityToEast
+Reinf_FromCityToWest
+Reinf_FromDesertToEast
+Reinf_FromDesertToWest
+Reinf_FromMountainToEast
+Reinf_FromMountainToWest
+Reinf_FromNorthToEast
+Reinf_FromNorthToWest
+Rendezvous with ships
+Resupply Message
+Resupply Point
+Return to Base
+Reveal Base
+Riven Beach
+SE Airbase
+SS1FleeBehaviour
+SS2FleeBehaviour
+SS3FleeBehaviour
+SW Airbase
+Shard 1 Spawn Timer
+Shard 2 Spawn Timer
+Shoot Down Commander
+Shoot Down Commander Fail Timer
+Sink Enemy Carrier
+South Coast Enrichment Plant
+Southgate Plaza
+Spot Vehicles
+Startle Supply Point
+Take off
+Target Location
+Temp Orbit Location
+The Farm
+Touch Down
+Upload Targets
+Use Airbakes
+Veh1Move
+Veh2Move
+Veh3Move
+Waypoint1Hidden
+Waypoint2Hidden
+Weather Cascade Change 1
+Weather Cascade Change 10
+Weather Cascade Change 2
+Weather Cascade Change 3
+Weather Cascade Change 4
+Weather Cascade Change 5
+Weather Cascade Change 6
+Weather Cascade Change 7
+Weather Cascade Change 8
+Weather Cascade Change 9
+West Coast Landing
+_BDF_Push
+_PALA_EastPush
+_PALA_WestPush
+box final
+close enough
+close enough box
+final box
+fratricide box
+not close enough
+not close enough box
+spot enemy QRF
+spot radar
+started moving
+wait a bit longer
+wait a few
+wait a few more
+wait for box 4
+wait for destroyed trucks
+wait for seconds
+wait to start

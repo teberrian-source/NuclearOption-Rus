@@ -1,0 +1,44 @@
+[Info   :Localization Patch] Patched: TMP_Text.SetText(String, Boolean)
+[Info   :Localization Patch] Patched: TMP_Text.SetText(String, Single)
+[Info   :Localization Patch] Patched: TMP_Text.SetText(String, Single, Single)
+[Info   :Localization Patch] Patched: TMP_Text.SetText(String, Single, Single, Single)
+[Info   :Localization Patch] Patched: TMP_Text.SetText(String, Single, Single, Single, Single)
+[Info   :Localization Patch] Patched: TMP_Text.SetText(String, Single, Single, Single, Single, Single)
+[Info   :Localization Patch] Patched: TMP_Text.SetText(String, Single, Single, Single, Single, Single, Single)
+[Info   :Localization Patch] Patched: TMP_Text.SetText(String, Single, Single, Single, Single, Single, Single, Single)
+[Info   :Localization Patch] Patched: TMP_Text.SetText(String, Single, Single, Single, Single, Single, Single, Single, Single)
+[Info   :Localization Patch] Patched: TMP_Text.SetText(StringBuilder)
+[Info   :Localization Patch] Scene loaded: MainMenu (index 0)
+[Info   :Custom Map Loader] Scene loaded: MainMenu
+[Info   :Localization Patch] Scene loaded: GameWorld (index 1)
+[Info   :Custom Map Loader] Scene loaded: GameWorld
+[Info   :Localization Patch] Scene loaded: MainMenu (index 0)
+[Info   :Custom Map Loader] Scene loaded: MainMenu
+[Info   :Localization Patch] Extracted 101 hint lines from CSV
+[Info   :Localization Patch] ExtractAllStrings: 1211 text, 142 raw -> extracted_strings.txt
+[Info   :Localization Patch] Scene loaded: MissionsMenu (index 4)
+[Info   :Custom Map Loader] Scene loaded: MissionsMenu
+[Info   :Localization Patch] Exported 60 untranslated strings to untranslated.txt
+[Info   :Localization Patch] Extracted 101 hint lines from CSV
+[Info   :Localization Patch] ExtractAllStrings: 1298 text, 141 raw -> extracted_strings.txt
+[Info   :Localization Patch] Exported 60 untranslated strings to untranslated.txt
+[Info   :Localization Patch] Scene loaded: GameWorld (index 1)
+[Info   :Custom Map Loader] Scene loaded: GameWorld
+[Info   :Localization Patch] Exported 231 untranslated strings to untranslated.txt
+[Info   :Localization Patch] Extracted 101 hint lines from CSV
+[Info   :Localization Patch] ExtractAllStrings: 1340 text, 141 raw -> extracted_strings.txt
+[Info   :Localization Patch] Exported 875 untranslated strings to untranslated.txt
+--- ╤Б╨╛╨▓╨┐╨░╨┤╨╡╨╜╨╕╨╣: 30
+
+extracted_strings.txt ╤И╨░╨┐╨║╨░:
+  я╗┐// ========== ALL TEXT STRINGS FROM LOADED OBJECTS ==========
+  // Extracted: 17.10.2026 21:32:58
+  // Total: 1340 / untranslated: 777
+  
+  // TextMeshProUGUI.m_text
+extracted_gamedata.txt ╤И╨░╨┐╨║╨░:
+  я╗┐// ========== EXTRACTED GAME DATA ==========
+  // Extraction time: 17.10.2026 21:32:41
+  
+  // ========== DID YOU KNOW? HINTS ==========
+  // Raw CSV (14273 chars):

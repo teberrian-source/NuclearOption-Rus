@@ -1,0 +1,14 @@
+python : C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\UnityPy\files\BundleFile.py:538: Unity
+VersionFallbackWarning: No valid Unity version found, defaulting to UnityPy.config.FALLBACK_UNITY_VERSION (2022.3.62f1)
+строка:1 знак:47
++ ... ata\Local\Temp\lp_build; python bundle_raw.py > braw.txt 2>&1; python ...
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\user\A...N (2022.3.62f1):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  version_str = config.get_fallback_version()
+C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\UnityPy\files\SerializedFile.py:379: UnityVersi
+onFallbackWarning: No valid Unity version found, defaulting to UnityPy.config.FALLBACK_UNITY_VERSION (2022.3.62f1)
+  string_version = config.get_fallback_version()
+defaultlocalgroup_as ╨╛╨▒╤К╨╡╨║╤В╨╛╨▓: 62 | ╤Б ╨╕╤Б╨║╨╛╨╝╨╛╨╣ ╤Б╤В╤А╨╛╨║╨╛╨╣: 0 | ╤Б╤В╤А╨╛╨║: 26 | 0.5 ╤Б
+skins_assets_all_88d ╨╛╨▒╤К╨╡╨║╤В╨╛╨▓: 54 | ╤Б ╨╕╤Б╨║╨╛╨╝╨╛╨╣ ╤Б╤В╤А╨╛╨║╨╛╨╣: 0 | ╤Б╤В╤А╨╛╨║: 26 | 0.2 ╤Б

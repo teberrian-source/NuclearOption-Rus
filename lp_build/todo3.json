@@ -1,0 +1,242 @@
+[
+ {
+  "i": 1,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "[Ctrl]+[LMB] to to split existing road segment\n[Del] to delete selected road node"
+ },
+ {
+  "i": 2,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "[start capture airbase] - Ref:2 - Type:StartObjective"
+ },
+ {
+  "i": 3,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "[Unit Unique Name] Inventory"
+ },
+ {
+  "i": 4,
+  "src": "Text.m_Text",
+  "en": "All hangars for this aircraft are currently in use, please try again in a moment..."
+ },
+ {
+  "i": 5,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Are you sure you want to end the game? \nDoing so will kick 15 other players."
+ },
+ {
+  "i": 6,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Average position of multiple units"
+ },
+ {
+  "i": 7,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Built in unit, some value can not be changed"
+ },
+ {
+  "i": 8,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Can't edit both factions because supplies are not equal"
+ },
+ {
+  "i": 9,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Can't edit both factions because values are not equal"
+ },
+ {
+  "i": 10,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Can't multi-edit because aircraft have different max speeds"
+ },
+ {
+  "i": 11,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Can't multi-edit because waypoints are different"
+ },
+ {
+  "i": 12,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Can't multi-edit factory of different type"
+ },
+ {
+  "i": 13,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Can't multi-edit Inventory because some items part of Inventory are different"
+ },
+ {
+  "i": 14,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Can't multi-edit livery because aircraft type is different"
+ },
+ {
+  "i": 15,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Can't multi-edit weapons because aircraft type is different"
+ },
+ {
+  "i": 16,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Changing this will rename the project folder"
+ },
+ {
+  "i": 17,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "default airbase, some value can not be changed"
+ },
+ {
+  "i": 18,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Donate airframes to Faction :"
+ },
+ {
+  "i": 19,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "LMB: <color=#FFFFFF88>Select object / Place unit</color>\nShift + LMB: <color=#FFFFFF88>Toggle selection / Place more</color>\n\nDrag: <color=#FFFFFF88>Box Select / Move selection</color>\nAlt + drag: <color=#FFFFFF88>Move vertically</color>\nShift + drag: <color=#FFFFFF88>Aim toward cursor</color>\nClick selected: <color=#FFFFFF88>Change group pivot</color>\n\nWheel: <color=#FFFFFF88>Rotate before placing</color>\nCtrl + C / V: <color=#FFFFFF88>Copy / Paste units</color>\nEsc: <color=#FFFFFF88>Cancel action</color>\n"
+ },
+ {
+  "i": 20,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Main Mission File • Last saved 2h ago"
+ },
+ {
+  "i": 21,
+  "src": "Text.m_Text",
+  "en": "Missile range display type :"
+ },
+ {
+  "i": 22,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Multi-Select AIrcraft are part of different factions\nOnly showing liveries without faction limits"
+ },
+ {
+  "i": 23,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Pitch Ang Vel [Target Ang Vel]"
+ },
+ {
+  "i": 24,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Pitch angular velocity limit (rad/s)"
+ },
+ {
+  "i": 25,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Pitch autotrim D factor slow"
+ },
+ {
+  "i": 26,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Pitch autotrim limit fast"
+ },
+ {
+  "i": 27,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Pitch autotrim limit slow"
+ },
+ {
+  "i": 28,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Pitch autotrim P factor slow"
+ },
+ {
+  "i": 29,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Post stall maneuver unlock speed (m/s)"
+ },
+ {
+  "i": 30,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Refueling from HLT Fuel Truck...\nRearming from HLT Munitions Truck..."
+ },
+ {
+  "i": 31,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Remap Factor (Inverse Dynamic Pressure)"
+ },
+ {
+  "i": 32,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Reserve aircraft from your faction's inventory"
+ },
+ {
+  "i": 33,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Return this airframe to your faction's inventory ?\n"
+ },
+ {
+  "i": 34,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Save As Copy and Overwrite!!"
+ },
+ {
+  "i": 35,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Select unit after placing (shift click to place more)"
+ },
+ {
+  "i": 36,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Server is loading: mission"
+ },
+ {
+  "i": 37,
+  "src": "Text.m_Text",
+  "en": "Show Aircraft Deployed Messages"
+ },
+ {
+  "i": 38,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Slow/fast transition speed (m/s)"
+ },
+ {
+  "i": 39,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Surface Units Skill Multiplier"
+ },
+ {
+  "i": 40,
+  "src": "StyleLabel.displayLabel",
+  "en": "Tac Screen Primary Text Color"
+ },
+ {
+  "i": 41,
+  "src": "StyleLabel.displayLabel",
+  "en": "Tac Screen Secondary Text Color"
+ },
+ {
+  "i": 42,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Tobii Eye Tracker Settings"
+ },
+ {
+  "i": 43,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Unable to reserve from faction's inventory"
+ },
+ {
+  "i": 44,
+  "src": "Text.m_Text",
+  "en": "Use Head Tracker inputs for cockpit camera"
+ },
+ {
+  "i": 45,
+  "src": "StyleLabel.displayLabel",
+  "en": "Virtual MFD Primary Color"
+ },
+ {
+  "i": 46,
+  "src": "StyleLabel.displayLabel",
+  "en": "Virtual MFD Primary Text Color"
+ },
+ {
+  "i": 47,
+  "src": "TextMeshProUGUI.m_text",
+  "en": "Waiting for server to load next mission"
+ },
+ {
+  "i": 48,
+  "src": "Text.m_Text",
+  "en": "Weapons and countermeasures on HUD :"
+ }
+]

@@ -1,0 +1,33 @@
+﻿╨╖╨╜╨░╤З╨╕╨╝╤Л╤Е ╨║╨╛╤А╨╛╤В╨║╨╕╤Е: 32
+'(╨┐╨╡╤А╨╡╨║╨╗╤О╤З╨╕╤В╤М F3)'
+'(╨┐╨╡╤А╨╡╨║╨╗╤О╤З╨╕╤В╤М F4)'
+'[FS-3] Force Projection'
+'[FS-41] Supercarrier Duel'
+'[FS-41] The Bigger They Are'
+'[FS-41] The Harder They Fall'
+'[KAR] Altercation'
+'[KAR] Confrontation Kar'
+'[OA-27] Standoff'
+'BMDF Bulkhead [Surf Class Patrol Boat]'
+'BMDF Farsight [Surf Class Patrol Boat]'
+'Chicane ╨╝╨╛╨╢╨╜╨╛ ╤Б╨▒╨╕╤В╤М ╤П╨┤╨╡╤А╨╜╤Л╨╝ ╨╖╨░╤А╤П╨┤╨╛╨╝'
+'Emplacement1_23mm_5'
+'FS-12 \n7.7km\n[JAMMED]'
+"HT-200 'Hammerhead' x2"
+"HT-200 'Hammerhead' x4"
+'Linebreaker_IFV_13'
+'NO [F10]'
+'palalvf1_factory_large_3'
+'RANK 4 [76.8]'
+"SCT-350 'Mako'"
+"SCT-350 'Mako' x2"
+"SCT-350 'Mako' x4"
+"Type-88 'Lemon'"
+"Type-88 'Lemon' x2"
+"Type-88 'Lemon' x4"
+"Type-88 'Lemon' x6"
+'VERyLONG_PLAYER_NAME_1234567890'
+'YES [F9]'
+'╨Я╤А╨╛╤Д╨╕╨╗╤М Steam'
+'╨б╨║╨╗╨░╨┤ ╤В╨╡╤Е╨╜╨╕╨║╨╕\nSelect + [F7]: ╨┐╨╛╨║╤Г╨┐╨║╨░ ╤В╨╡╤Е╨╜╨╕╨║╨╕'
+'╨в╨╡╨║╤Г╤Й╨╕╨╡ ╤Б╤А╨╡╨┤╤Б╤В╨▓╨░ : \\n Total value : \\n\\n Remaining funds :'

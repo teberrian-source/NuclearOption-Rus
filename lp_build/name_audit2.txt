@@ -1,0 +1,34 @@
+=== кандидаты (переведённые ключи рядом с описанием): 11 ===
+
+• 'Ammo Box' -> 'Ящик боеприпасов'   [через 3 ток., Kar_1.1.2.dll.47768.unity3d]
+  A 1 ton ammo box designed to replenish the munitions of a ground vehicle. Avoid subjecting ammo box to enemy fire or impact forces. explosive.
+
+• 'MBT' -> 'ОБТ'   [через 4 ток., Aryx_MC260_Chimera_1.2.0.dll.84708.unity3d]
+  Formidable but dated MBT design, lighter weight allows for carriage within the Chimera. Warning: Does not have a parachute, must be dropped on or near
+
+• 'AA' -> 'ЗА'   [через 5 ток., Bote_1.5.2.dll.62156.unity3d]
+  Turret containing a .50 cal rotary minigun and 4 IRM-S1 missiles for light air defense
+
+• 'RADAR' -> 'РАДАР'   [через 6 ток., Aryx_MC260_Chimera_1.2.0.dll.84708.unity3d]
+  An extremely powerful long-range all-aspect radar system for early warning, capable of spotting aircraft even at altitudes as low as 5m (16ft)
+
+• 'Radar' -> 'Радар'   [через 6 ток., Aryx_MC260_Chimera_1.2.0.dll.84708.unity3d]
+  An air transportable radar container, that can provide guidance to with nearby SARH SAM launchers with a range of 17km.
+
+• 'Ammo box' -> 'Ящик боеприпасов'   [через 7 ток., Kar_1.1.2.dll.47768.unity3d]
+  A 1 ton ammo box designed to replenish the munitions of a ground vehicle. Avoid subjecting ammo box to enemy fire or impact forces. explosive.
+
+• 'Cursor Class LFD' -> 'Класс курсора LFD'   [через 7 ток., Bote_1.5.2.dll.62156.unity3d]
+  The Cursor class represents the vanguard of the BDF fleet. This littoral flight deck (LFD) is designed to rapidly deploy light VTOL aircraft from shal
+
+• 'Argus Class Frigate' -> 'Фрегат класса «Аргус»'   [через 8 ток., Bote_1.5.2.dll.62156.unity3d]
+  Bristling with air defense weapons, the Argus class is a missile frigate designed to protect valuable assets from air attack. Capable of locking down 
+
+• '4xS1 Turret' -> 'Турель 4xS1'   [через 10 ток., Kar_1.1.2.dll.47768.unity3d]
+  Short range anti air launcher from the Hexhound SAM, capable of engaging targets autonomously.
+
+• 'MSV LADS' -> 'МСВ ПАРНИ'   [через 12 ток., Bote_1.5.2.dll.62156.unity3d]
+  Modular Support Vehicle carrying a Laser Air Defence System capable of destroying small calibre aerial munitions.
+
+• 'MSV MRAP' -> 'МСВ МРАП'   [через 12 ток., Bote_1.5.2.dll.62156.unity3d]
+  A lightly armed and armored personnel carrier built on the Modular Support Vehicle chassis

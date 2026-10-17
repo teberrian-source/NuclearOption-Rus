@@ -1,0 +1,1074 @@
+! DANGER - INCOMING MISSILE !
+====
+12.7mm Machine Gun
+====
+12.7mm Machine Gun (500 rounds)
+====
+15. Breaking the Atoll
+====
+20mm Autocannon (250 rounds)
+====
+20mm Rotary Cannon (500 rounds)
+====
+25mm Autocannon (250 rounds)
+====
+30mm AC TURRET
+====
+30mm Autocannon (400 rounds)
+====
+30mm Rotary Cannon
+====
+30mm Rotary Cannon Turret under pilot control
+====
+30mm Swivel Gunpod
+====
+450kg Drop Tank
+====
+<color=#008FFFFF>SAH-46 Chicane</color> уничтожил <color=#FF140AFF>StratoLance R9 Launcher</color>
+<color=#008FFFFF>SAH-46 Chicane</color> уничтожил <color=#FF140AFF>HLT Tractor</color>
+====
+<color=#00FF00FF>AKSAI575 зашёл в игру</color>
+====
+<color=#FFFFFFFF>$20,5m</color> <color=#80FF80FF>(+$3,30m)</color>
+====
+<color=#FFFFFFFF>$23,4m</color> <color=#80FF80FF>(+$2,88m)</color>
+====
+<color=#FFFFFFFF>$23,6m</color> <color=#80FF80FF>(+$190,1k)</color>
+====
+<color=#FFFFFFFF>$26,3m</color> <color=#80FF80FF>(+$2,74m)</color>
+====
+<color=#FFFFFFFF>$9,98b</color> <color=#FF8000FF>(-$16,0m)</color>
+====
+<color=#FFFFFFFF>$9,98b</color> <color=#FF8000FF>(-$2,81m)</color>
+====
+A duel between two light carriers; the Cursor-class LFD of BDF and the Devotion-class Escort Carrier of PALA. Both carriers start with their full respective air wings and do not get resupplies.
+====
+A fast-paced PvP scenario where BDF must defend their supercarrier fleet in the newly introduced FS-41 Eclipse and PALA must destroy the fleet with advanced supersonic bombers escorted by multirole fighters.
+
+BBDF's objective is to protect the CSG and destroy a heavily fortified PALA airbase in the occupied Feldspar International Airport.
+
+PALA's objective is to destroy the BDF carrier strike group.
+====
+A helicopter-heavy fight for the islands, in the spirit of Terminal Control. Boscali start at Sorrel Field, Rook Island and Kittiwake; Primeva at Graylock Strip, Graylock South and Brekka Hills. Fenwick (well defended), the Ostrin Isles and Skerry Island start neutral. Hold all three at once, or take the enemy's forward base, to win. Fenwick sits about 15 km from Kittiwake and 20 km from Graylock South.
+====
+A long username
+FS-12
+====
+AEC-124 Offensive Jammer
+====
+AGM-76 Atlatl
+====
+AGM-76 Atlatl x2
+====
+AGR-18 Lynchpin x14
+====
+AGR-18 Lynchpin x21
+====
+AGR-18 Lynchpin x7
+====
+AGR-24 Kingpin x4
+====
+AGR-37 Jester
+====
+AGR-37 Jester x2
+====
+AIR SAR
+====
+ASD-16 Submunition Dispenser x16
+====
+Air race on Ironjaw Sound: Fjord Sprint. Short, fast and low over water: north up Halvard Sound, through Ironjaw Narrows, west along Tarn Bay, a hop over the neck into the narrow north fjord and out through its S-bend to the open sea. 41 km, 26 gates, about 3.0 min in a fast jet. Any aircraft. Needs the TerrainLabRace plugin on the host: spawn at Sorrel Field and the host puts you on the start grid in the air. Host chat: !race grid (open the grid), !race go (start now), !race reset, !race status.
+====
+Aircraft : AA-nn
+====
+Annex Class Carrier
+====
+Apex-8 Single Rail
+====
+Auto Thrust <b>Enabled</b>
+====
+BAY R GUN MOUNT
+====
+BDF Forest Camo
+====
+BDF Matte Gray
+====
+BDF Matte Grey
+====
+BDF Navy
+====
+BDF Temperate Camo
+====
+Boscali Ocean Training Exercise
+====
+Boscali push north up the Cinder Notch road to take Tarn Head Strip and burn the Ironjaw fuel terminal. Primeva send a counter-attack south toward Sorrel Field. First side to capture the other's main airbase wins. AI aircraft fly for both sides.
+====
+CAPACITOR 0  kJ
+====
+CAPACITOR 1  kJ
+====
+CAPACITOR 10  kJ
+====
+CAPACITOR 100  kJ
+====
+CAPACITOR 101  kJ
+====
+CAPACITOR 102  kJ
+====
+CAPACITOR 103  kJ
+====
+CAPACITOR 104  kJ
+====
+CAPACITOR 105  kJ
+====
+CAPACITOR 106  kJ
+====
+CAPACITOR 107  kJ
+====
+CAPACITOR 108  kJ
+====
+CAPACITOR 109  kJ
+====
+CAPACITOR 11  kJ
+====
+CAPACITOR 110  kJ
+====
+CAPACITOR 111  kJ
+====
+CAPACITOR 112  kJ
+====
+CAPACITOR 113  kJ
+====
+CAPACITOR 114  kJ
+====
+CAPACITOR 115  kJ
+====
+CAPACITOR 116  kJ
+====
+CAPACITOR 117  kJ
+====
+CAPACITOR 118  kJ
+====
+CAPACITOR 119  kJ
+====
+CAPACITOR 12  kJ
+====
+CAPACITOR 120  kJ
+====
+CAPACITOR 121  kJ
+====
+CAPACITOR 122  kJ
+====
+CAPACITOR 123  kJ
+====
+CAPACITOR 124  kJ
+====
+CAPACITOR 125  kJ
+====
+CAPACITOR 126  kJ
+====
+CAPACITOR 127  kJ
+====
+CAPACITOR 128  kJ
+====
+CAPACITOR 129  kJ
+====
+CAPACITOR 13  kJ
+====
+CAPACITOR 130  kJ
+====
+CAPACITOR 131  kJ
+====
+CAPACITOR 132  kJ
+====
+CAPACITOR 133  kJ
+====
+CAPACITOR 134  kJ
+====
+CAPACITOR 135  kJ
+====
+CAPACITOR 136  kJ
+====
+CAPACITOR 137  kJ
+====
+CAPACITOR 138  kJ
+====
+CAPACITOR 139  kJ
+====
+CAPACITOR 14  kJ
+====
+CAPACITOR 140  kJ
+====
+CAPACITOR 141  kJ
+====
+CAPACITOR 142  kJ
+====
+CAPACITOR 143  kJ
+====
+CAPACITOR 144  kJ
+====
+CAPACITOR 145  kJ
+====
+CAPACITOR 146  kJ
+====
+CAPACITOR 147  kJ
+====
+CAPACITOR 148  kJ
+====
+CAPACITOR 149  kJ
+====
+CAPACITOR 15  kJ
+====
+CAPACITOR 150  kJ
+====
+CAPACITOR 151  kJ
+====
+CAPACITOR 152  kJ
+====
+CAPACITOR 153  kJ
+====
+CAPACITOR 154  kJ
+====
+CAPACITOR 155  kJ
+====
+CAPACITOR 156  kJ
+====
+CAPACITOR 157  kJ
+====
+CAPACITOR 158  kJ
+====
+CAPACITOR 159  kJ
+====
+CAPACITOR 16  kJ
+====
+CAPACITOR 160  kJ
+====
+CAPACITOR 161  kJ
+====
+CAPACITOR 162  kJ
+====
+CAPACITOR 163  kJ
+====
+CAPACITOR 164  kJ
+====
+CAPACITOR 165  kJ
+====
+CAPACITOR 166  kJ
+====
+CAPACITOR 167  kJ
+====
+CAPACITOR 168  kJ
+====
+CAPACITOR 169  kJ
+====
+CAPACITOR 17  kJ
+====
+CAPACITOR 170  kJ
+====
+CAPACITOR 171  kJ
+====
+CAPACITOR 172  kJ
+====
+CAPACITOR 173  kJ
+====
+CAPACITOR 174  kJ
+====
+CAPACITOR 175  kJ
+====
+CAPACITOR 176  kJ
+====
+CAPACITOR 177  kJ
+====
+CAPACITOR 178  kJ
+====
+CAPACITOR 179  kJ
+====
+CAPACITOR 18  kJ
+====
+CAPACITOR 180  kJ
+====
+CAPACITOR 181  kJ
+====
+CAPACITOR 182  kJ
+====
+CAPACITOR 183  kJ
+====
+CAPACITOR 184  kJ
+====
+CAPACITOR 185  kJ
+====
+CAPACITOR 186  kJ
+====
+CAPACITOR 187  kJ
+====
+CAPACITOR 188  kJ
+====
+CAPACITOR 189  kJ
+====
+CAPACITOR 19  kJ
+====
+CAPACITOR 190  kJ
+====
+CAPACITOR 191  kJ
+====
+CAPACITOR 192  kJ
+====
+CAPACITOR 193  kJ
+====
+CAPACITOR 194  kJ
+====
+CAPACITOR 195  kJ
+====
+CAPACITOR 196  kJ
+====
+CAPACITOR 197  kJ
+====
+CAPACITOR 198  kJ
+====
+CAPACITOR 199  kJ
+====
+CAPACITOR 2  kJ
+====
+CAPACITOR 20  kJ
+====
+CAPACITOR 200  kJ
+====
+CAPACITOR 201  kJ
+====
+CAPACITOR 202  kJ
+====
+CAPACITOR 203  kJ
+====
+CAPACITOR 204  kJ
+====
+CAPACITOR 205  kJ
+====
+CAPACITOR 206  kJ
+====
+CAPACITOR 207  kJ
+====
+CAPACITOR 208  kJ
+====
+CAPACITOR 209  kJ
+====
+CAPACITOR 21  kJ
+====
+CAPACITOR 210  kJ
+====
+CAPACITOR 211  kJ
+====
+CAPACITOR 212  kJ
+====
+CAPACITOR 213  kJ
+====
+CAPACITOR 214  kJ
+====
+CAPACITOR 215  kJ
+====
+CAPACITOR 216  kJ
+====
+CAPACITOR 217  kJ
+====
+CAPACITOR 218  kJ
+====
+CAPACITOR 219  kJ
+====
+CAPACITOR 22  kJ
+====
+CAPACITOR 220  kJ
+====
+CAPACITOR 221  kJ
+====
+CAPACITOR 222  kJ
+====
+CAPACITOR 223  kJ
+====
+CAPACITOR 224  kJ
+====
+CAPACITOR 225  kJ
+====
+CAPACITOR 226  kJ
+====
+CAPACITOR 227  kJ
+====
+CAPACITOR 228  kJ
+====
+CAPACITOR 229  kJ
+====
+CAPACITOR 23  kJ
+====
+CAPACITOR 230  kJ
+====
+CAPACITOR 231  kJ
+====
+CAPACITOR 232  kJ
+====
+CAPACITOR 233  kJ
+====
+CAPACITOR 234  kJ
+====
+CAPACITOR 235  kJ
+====
+CAPACITOR 236  kJ
+====
+CAPACITOR 237  kJ
+====
+CAPACITOR 238  kJ
+====
+CAPACITOR 239  kJ
+====
+CAPACITOR 24  kJ
+====
+CAPACITOR 240  kJ
+====
+CAPACITOR 241  kJ
+====
+CAPACITOR 242  kJ
+====
+CAPACITOR 243  kJ
+====
+CAPACITOR 244  kJ
+====
+CAPACITOR 245  kJ
+====
+CAPACITOR 246  kJ
+====
+CAPACITOR 247  kJ
+====
+CAPACITOR 248  kJ
+====
+CAPACITOR 249  kJ
+====
+CAPACITOR 25  kJ
+====
+CAPACITOR 250  kJ
+====
+CAPACITOR 251  kJ
+====
+CAPACITOR 252  kJ
+====
+CAPACITOR 253  kJ
+====
+CAPACITOR 254  kJ
+====
+CAPACITOR 255  kJ
+====
+CAPACITOR 256  kJ
+====
+CAPACITOR 257  kJ
+====
+CAPACITOR 258  kJ
+====
+CAPACITOR 259  kJ
+====
+CAPACITOR 26  kJ
+====
+CAPACITOR 260  kJ
+====
+CAPACITOR 261  kJ
+====
+CAPACITOR 262  kJ
+====
+CAPACITOR 263  kJ
+====
+CAPACITOR 264  kJ
+====
+CAPACITOR 265  kJ
+====
+CAPACITOR 266  kJ
+====
+CAPACITOR 267  kJ
+====
+CAPACITOR 268  kJ
+====
+CAPACITOR 269  kJ
+====
+CAPACITOR 27  kJ
+====
+CAPACITOR 270  kJ
+====
+CAPACITOR 271  kJ
+====
+CAPACITOR 272  kJ
+====
+CAPACITOR 273  kJ
+====
+CAPACITOR 274  kJ
+====
+CAPACITOR 275  kJ
+====
+CAPACITOR 276  kJ
+====
+CAPACITOR 277  kJ
+====
+CAPACITOR 278  kJ
+====
+CAPACITOR 279  kJ
+====
+CAPACITOR 28  kJ
+====
+CAPACITOR 280  kJ
+====
+CAPACITOR 281  kJ
+====
+CAPACITOR 282  kJ
+====
+CAPACITOR 283  kJ
+====
+CAPACITOR 284  kJ
+====
+CAPACITOR 285  kJ
+====
+CAPACITOR 286  kJ
+====
+CAPACITOR 287  kJ
+====
+CAPACITOR 288  kJ
+====
+CAPACITOR 289  kJ
+====
+CAPACITOR 29  kJ
+====
+CAPACITOR 290  kJ
+====
+CAPACITOR 291  kJ
+====
+CAPACITOR 292  kJ
+====
+CAPACITOR 293  kJ
+====
+CAPACITOR 294  kJ
+====
+CAPACITOR 295  kJ
+====
+CAPACITOR 296  kJ
+====
+CAPACITOR 297  kJ
+====
+CAPACITOR 298  kJ
+====
+CAPACITOR 299  kJ
+====
+CAPACITOR 3  kJ
+====
+CAPACITOR 30  kJ
+====
+CAPACITOR 300  kJ
+====
+CAPACITOR 301  kJ
+====
+CAPACITOR 302  kJ
+====
+CAPACITOR 303  kJ
+====
+CAPACITOR 304  kJ
+====
+CAPACITOR 305  kJ
+====
+CAPACITOR 306  kJ
+====
+CAPACITOR 307  kJ
+====
+CAPACITOR 308  kJ
+====
+CAPACITOR 309  kJ
+====
+CAPACITOR 31  kJ
+====
+CAPACITOR 310  kJ
+====
+CAPACITOR 311  kJ
+====
+CAPACITOR 312  kJ
+====
+CAPACITOR 313  kJ
+====
+CAPACITOR 314  kJ
+====
+CAPACITOR 315  kJ
+====
+CAPACITOR 316  kJ
+====
+CAPACITOR 317  kJ
+====
+CAPACITOR 318  kJ
+====
+CAPACITOR 319  kJ
+====
+CAPACITOR 32  kJ
+====
+CAPACITOR 320  kJ
+====
+CAPACITOR 321  kJ
+====
+CAPACITOR 322  kJ
+====
+CAPACITOR 323  kJ
+====
+CAPACITOR 324  kJ
+====
+CAPACITOR 325  kJ
+====
+CAPACITOR 326  kJ
+====
+CAPACITOR 327  kJ
+====
+CAPACITOR 328  kJ
+====
+CAPACITOR 329  kJ
+====
+CAPACITOR 33  kJ
+====
+CAPACITOR 330  kJ
+====
+CAPACITOR 331  kJ
+====
+CAPACITOR 332  kJ
+====
+CAPACITOR 333  kJ
+====
+CAPACITOR 334  kJ
+====
+CAPACITOR 335  kJ
+====
+CAPACITOR 336  kJ
+====
+CAPACITOR 337  kJ
+====
+CAPACITOR 338  kJ
+====
+CAPACITOR 339  kJ
+====
+CAPACITOR 34  kJ
+====
+CAPACITOR 340  kJ
+====
+CAPACITOR 341  kJ
+====
+CAPACITOR 342  kJ
+====
+CAPACITOR 343  kJ
+====
+CAPACITOR 344  kJ
+====
+CAPACITOR 345  kJ
+====
+CAPACITOR 346  kJ
+====
+CAPACITOR 347  kJ
+====
+CAPACITOR 348  kJ
+====
+CAPACITOR 349  kJ
+====
+CAPACITOR 35  kJ
+====
+CAPACITOR 350  kJ
+====
+CAPACITOR 351  kJ
+====
+CAPACITOR 352  kJ
+====
+CAPACITOR 353  kJ
+====
+CAPACITOR 354  kJ
+====
+CAPACITOR 355  kJ
+====
+CAPACITOR 356  kJ
+====
+CAPACITOR 357  kJ
+====
+CAPACITOR 358  kJ
+====
+CAPACITOR 359  kJ
+====
+CAPACITOR 36  kJ
+====
+CAPACITOR 360  kJ
+====
+CAPACITOR 361  kJ
+====
+CAPACITOR 362  kJ
+====
+CAPACITOR 363  kJ
+====
+CAPACITOR 364  kJ
+====
+CAPACITOR 365  kJ
+====
+CAPACITOR 366  kJ
+====
+CAPACITOR 367  kJ
+====
+CAPACITOR 368  kJ
+====
+CAPACITOR 369  kJ
+====
+CAPACITOR 37  kJ
+====
+CAPACITOR 370  kJ
+====
+CAPACITOR 371  kJ
+====
+CAPACITOR 372  kJ
+====
+CAPACITOR 373  kJ
+====
+CAPACITOR 374  kJ
+====
+CAPACITOR 375  kJ
+====
+CAPACITOR 376  kJ
+====
+CAPACITOR 377  kJ
+====
+CAPACITOR 378  kJ
+====
+CAPACITOR 379  kJ
+====
+CAPACITOR 38  kJ
+====
+CAPACITOR 380  kJ
+====
+CAPACITOR 381  kJ
+====
+CAPACITOR 382  kJ
+====
+CAPACITOR 383  kJ
+====
+CAPACITOR 384  kJ
+====
+CAPACITOR 385  kJ
+====
+CAPACITOR 386  kJ
+====
+CAPACITOR 387  kJ
+====
+CAPACITOR 388  kJ
+====
+CAPACITOR 389  kJ
+====
+CAPACITOR 39  kJ
+====
+CAPACITOR 390  kJ
+====
+CAPACITOR 391  kJ
+====
+CAPACITOR 392  kJ
+====
+CAPACITOR 393  kJ
+====
+CAPACITOR 394  kJ
+====
+CAPACITOR 395  kJ
+====
+CAPACITOR 396  kJ
+====
+CAPACITOR 397  kJ
+====
+CAPACITOR 398  kJ
+====
+CAPACITOR 399  kJ
+====
+CAPACITOR 4  kJ
+====
+CAPACITOR 40  kJ
+====
+CAPACITOR 400  kJ
+====
+CAPACITOR 41  kJ
+====
+CAPACITOR 42  kJ
+====
+CAPACITOR 43  kJ
+====
+CAPACITOR 44  kJ
+====
+CAPACITOR 45  kJ
+====
+CAPACITOR 46  kJ
+====
+CAPACITOR 47  kJ
+====
+CAPACITOR 48  kJ
+====
+CAPACITOR 49  kJ
+====
+CAPACITOR 5  kJ
+====
+CAPACITOR 50  kJ
+====
+CAPACITOR 51  kJ
+====
+CAPACITOR 52  kJ
+====
+CAPACITOR 53  kJ
+====
+CAPACITOR 54  kJ
+====
+CAPACITOR 55  kJ
+====
+CAPACITOR 56  kJ
+====
+CAPACITOR 57  kJ
+====
+CAPACITOR 58  kJ
+====
+CAPACITOR 59  kJ
+====
+CAPACITOR 6  kJ
+====
+CAPACITOR 60  kJ
+====
+CAPACITOR 61  kJ
+====
+CAPACITOR 62  kJ
+====
+CAPACITOR 63  kJ
+====
+CAPACITOR 64  kJ
+====
+CAPACITOR 65  kJ
+====
+CAPACITOR 66  kJ
+====
+CAPACITOR 67  kJ
+====
+CAPACITOR 68  kJ
+====
+CAPACITOR 69  kJ
+====
+CAPACITOR 7  kJ
+====
+CAPACITOR 70  kJ
+====
+CAPACITOR 71  kJ
+====
+CAPACITOR 72  kJ
+====
+CAPACITOR 73  kJ
+====
+CAPACITOR 74  kJ
+====
+CAPACITOR 75  kJ
+====
+CAPACITOR 76  kJ
+====
+CAPACITOR 77  kJ
+====
+CAPACITOR 78  kJ
+====
+CAPACITOR 79  kJ
+====
+CAPACITOR 8  kJ
+====
+CAPACITOR 80  kJ
+====
+CAPACITOR 81  kJ
+====
+CAPACITOR 82  kJ
+====
+CAPACITOR 83  kJ
+====
+CAPACITOR 84  kJ
+====
+CAPACITOR 85  kJ
+====
+CAPACITOR 86  kJ
+====
+CAPACITOR 87  kJ
+====
+CAPACITOR 88  kJ
+====
+CAPACITOR 89  kJ
+====
+CAPACITOR 9  kJ
+====
+CAPACITOR 90  kJ
+====
+CAPACITOR 91  kJ
+====
+CAPACITOR 92  kJ
+====
+CAPACITOR 93  kJ
+====
+CAPACITOR 94  kJ
+====
+CAPACITOR 95  kJ
+====
+CAPACITOR 96  kJ
+====
+CAPACITOR 97  kJ
+====
+CAPACITOR 98  kJ
+====
+CAPACITOR 99  kJ
+====
+CI-22 Cricket
+====
+Call Resupply
+====
+Call Resupply - Player
+====
+Carrier Duel Lite
+====
+Cursor : AA-nn
+====
+Deploy FOB
+====
+Deploy Unit
+====
+ECS-16 Flare Dispenser
+====
+ECS-32 Flare Dispenser
+====
+ETS-15 Targeting Pod
+====
+EW-25 Medusa (234)
+====
+Eyeball Mk.II x2
+====
+FS-12 
+7.7km
+[JAMMED]
+====
+GUN 30MM AC
+====
+HIGHWAY STRIP 1
+====
+Hyperion Class Carrier
+====
+Ingress Via Mountains
+====
+Ingress Via Mountains 1,2km
+====
+Ironjaw Sound - Air Race Fjord Sprint
+====
+Ironjaw Sound - Air Race Glacier Run
+====
+Ironjaw Sound - Air Race Grand Tour
+====
+Ironjaw Sound - Escalation
+====
+Ironjaw Sound - Fjord Confrontation
+====
+Ironjaw Sound - Free Flight
+====
+Ironjaw Sound - Gannet Sound Defence
+====
+Ironjaw Sound - Island Hop
+====
+Ironjaw Sound - Ostrin Confrontation
+====
+Ironjaw Sound - Port Ansel Defence
+====
+Ironjaw Sound - SAM Hunt
+====
+Ironjaw Sound - Sill Strike
+====
+Ironjaw Sound - Supply Line
+====
+Ironjaw Sound - Tarn Bay Strike
+====
+Ironjaw Sound - Tarn Head Raid
+====
+L ENG FAIL
+====
+LOWER ROTOR
+FAILURE
+====
+Learn how to use the catapults of a Penumbra-class Supercarrier and utilise the FS-41 Eclipse in a high speed combat air patrol to destroy an incoming PALA bomber wave.
+====
+MAIN ROTOR DAMAGE
+====
+Maris Airport 548m
+====
+Maris Airport 549m
+====
+Maris Airport 550m
+====
+Maris Airport 551m
+====
+Maris Airport 552m
+====
+Maris Airport 553m
+====
+Maris Airport 554m
+====
+Maris Airport 555m
+====
+Next Camera
+====
+Next Unit
+====
+No reserve RAH-72 Knockouts currently available. You are first in queue for this airframe
+====
+Objective Info
+====
+Previous Camera
+====
+Previous Unit
+====
+Primeva have spread long-range SAM sites across the fjord country, with a mobile SAM patrolling the Cinder Notch road. Boscali must destroy every SAM radar within an hour; Primeva win if the umbrella survives. AI aircraft fly for both sides.
+====
+Primeva warships patrol Tarn Bay and the Ironjaw Narrows. Boscali must sink most of them within 45 minutes; Primeva win if the fleet survives. AI aircraft fly for both sides.
+====
+R ENG FAIL
+====
+RAH-72 Knockout
+====
+REDUCE COLLECTIVE
+====
+Radar ECM
+====
+Rotate Unit Mode
+====
+SPD 0km/h
+====
+Select Head Tracker:
+====
+Select Unit Mode
+====
+TAIL ROTOR 
+FAIL
+====
+TrackIR/OpenTrack
+====
+Translate Unit Mode
+====
+Two Penumbra-class Supercarriers clash in a battle for the Ignus. Both carriers have their full air wings and light escorts.
+
+A pair of lighter Helion-class carriers sit at the frontline with accompanying PB escorts.
+====
+UPPER ROTOR
+FAILURE
+====
+Use the Ternion's diverse and heavy armament to repel a Primevan invasion of the neutral nation of Feldspar, after a routine force projection flight turns hot. Engage in multirole combat with a heavy airframe, and choose when and where to attack in contested airspace.
+====
+VORTEX RING STATE
+====
+Vote Kick No
+====
+Vote Kick Yes
+====
+XInput Gamepad 1
+====
+[FS-3] Force Projection
+====
+[FS-41] Supercarrier Duel
+====
+[FS-41] The Bigger They Are
+====
+[FS-41] The Harder They Fall
+====
+[KAR] Altercation
+====
+[KAR] Confrontation Kar
+====
+АНО <b>вкл</b>
+30mm Rotary Cannon Turret under pilot control
+====
+Вы можете приказать пилотируемым турелям на вашем самолёте не открывать огонь, нажав кнопку «Toggle Turret Control».
+====
+Передние и задние секции внутренних оружейных отсеков SFB-81 Darkreach можно объединить для размещения крупных ракет или использовать раздельно для более разнообразных вариантов загрузки.
+====

@@ -1,0 +1,16 @@
+python : C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\UnityPy\files\BundleFile.py:538: Unity
+VersionFallbackWarning: No valid Unity version found, defaulting to UnityPy.config.FALLBACK_UNITY_VERSION (2022.3.62f1)
+строка:1 знак:47
++ ... ppData\Local\Temp\lp_build; python bundle15.py > b15.txt 2>&1; python ...
++                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\user\A...N (2022.3.62f1):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  version_str = config.get_fallback_version()
+C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\UnityPy\files\SerializedFile.py:379: UnityVersi
+onFallbackWarning: No valid Unity version found, defaulting to UnityPy.config.FALLBACK_UNITY_VERSION (2022.3.62f1)
+  string_version = config.get_fallback_version()
+╨╖╨░╨│╤А╤Г╨╢╨╡╨╜╨╛ ╨╖╨░ 0.5 ╤Б
+╤В╨╕╨┐╨╛╨▓ ╨╛╨▒╤К╨╡╨║╤В╨╛╨▓: [('MonoBehaviour', 30), ('Texture2D', 30), ('AssetBundle', 1), ('MonoScript', 1)]
+╤В╨╡╨║╤Б╤В╨╛╨▓╤Л╤Е ╨╛╨▒╤К╨╡╨║╤В╨╛╨▓: 0 | ╤Б ╨╕╤Б╨║╨╛╨╝╨╛╨╣ ╤Б╤В╤А╨╛╨║╨╛╨╣: []
+╤Б╨╛╤Е╤А╨░╨╜╨╡╨╜╨╛ ╨▓ bundle_texts.txt

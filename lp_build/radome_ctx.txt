@@ -1,0 +1,512 @@
+===== TYPE=MonoBehaviour size=2676 вхождений=1
+  @1960: ……@…+6…3…G[..w'…Bomb Bay (2x)…#…vZ…w..K2.=…D…t…sf…$j..~Jb…_..7?…t.Ct…/*..f..'…A0.S..dd…o..P.A…;.Y.d5:q…L…`\…4?..y…!.YW.q…@…q…T…q…T…{…N…4?..y…4~…l…@…q…T…q…T…Radome…y.&..{+…i>d..'.d…4?..y…q…T…G[..w'…Front Turret…l*..G…v.#,_…U.T1.e…}2.[…q…$…usp.5ad4…}…jX.j…}…jX.j…d.2…?…Rear Turret…l*..G…v.#,_…U.T1.e…}2.[…E…9…^"…;…u…;…u…6.P*…-…z…]…g.B.I…9…^"…P;:db1.…
+
+===== TYPE=GameObject size=95 вхождений=1
+  @83: ……;.J…}…C…8.V…x>.ES…$…Aryx_MC260_Radome……
+
+===== TYPE=MonoBehaviour size=432 вхождений=2
+  @43: ……Aryx_MC260_Radome_WI…Radome…RADAR…An extremely powerful long-range all-aspect radar system for early warning, capable of spotting aircraft even at altitudes as low as 5m (16ft)…?……
+  @132: ……Aryx_MC260_Radome_WI…Radome…RADAR…An extremely powerful long-range all-aspect radar system for early warning, capable of spotting aircraft even at altitudes as low as 5m (16ft)…?……
+
+===== TYPE=GameObject size=35 вхождений=1
+  @24: ……i>d..'.d…Radome……
+
+===== TYPE=AssetBundle size=350988 вхождений=3
+  @350148: …rinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_chimera_railgun_wm.assetR…u…l*..G.X…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_chimera_rotary_turret.prefab…H…f…Z…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_chimera_rotary_turret_wi.asset…A…?.Z.{.O5Z…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_chimera_rotary_turret_wm.asset…/..J…U.T1.eI…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_radome.prefab…\…q9Z…K…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_radome_wi.asset.P…-:..:.x.K…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_radome_wm.asset..4.. …y.&..{+X…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_weaponicon_127mm_railgun.png.C…0g8.e.p.X…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_weaponicon_127mm_railgun.png.C…d..r..{.X…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_weaponicon_57mm_chaingun.png!2…P…v…X…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_weaponicon_57mm_chaingun.png!2…^0…assets/blueprinter/generated/patch_manifest.jsonqB…&,.Zp.9`…aryx_mc260_chimera…
+…_donotship……
+  @350248: …ts/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_chimera_rotary_turret.prefab…H…f…Z…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_chimera_rotary_turret_wi.asset…A…?.Z.{.O5Z…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_chimera_rotary_turret_wm.asset…/..J…U.T1.eI…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_radome.prefab…\…q9Z…K…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_radome_wi.asset.P…-:..:.x.K…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_radome_wm.asset..4.. …y.&..{+X…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_weaponicon_127mm_railgun.png.C…0g8.e.p.X…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_weaponicon_127mm_railgun.png.C…d..r..{.X…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_weaponicon_57mm_chaingun.png!2…P…v…X…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_weaponicon_57mm_chaingun.png!2…^0…assets/blueprinter/generated/patch_manifest.jsonqB…&,.Zp.9`…aryx_mc260_chimera…
+…_donotship……
+  @350348: ……Z…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_chimera_rotary_turret_wi.asset…A…?.Z.{.O5Z…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_chimera_rotary_turret_wm.asset…/..J…U.T1.eI…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_radome.prefab…\…q9Z…K…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_radome_wi.asset.P…-:..:.x.K…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_radome_wm.asset..4.. …y.&..{+X…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_weaponicon_127mm_railgun.png.C…0g8.e.p.X…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_weaponicon_127mm_railgun.png.C…d..r..{.X…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_weaponicon_57mm_chaingun.png!2…P…v…X…assets/blueprinter/aryx/aryx_cargoplane1/weapons/aryx_mc260_weaponicon_57mm_chaingun.png!2…^0…assets/blueprinter/generated/patch_manifest.jsonqB…&,.Zp.9`…aryx_mc260_chimera…
+…_donotship……
+
+===== TYPE=GameObject size=71 вхождений=1
+  @60: ……{..#Zu…MH.q…zS…Aryx_Cargo1_Radome……
+
+===== TYPE=MonoBehaviour size=208 вхождений=3
+  @43: ……G
+.8+…Aryx_MC260_Radome_WM…q9Z…Aryx_MC260_Radome…-:..:.x…Radome… A.`jF..aE…>…>…=…=……
+  @79: ……G
+.8+…Aryx_MC260_Radome_WM…q9Z…Aryx_MC260_Radome…-:..:.x…Radome… A.`jF..aE…>…>…=…=……
+  @104: ……G
+.8+…Aryx_MC260_Radome_WM…q9Z…Aryx_MC260_Radome…-:..:.x…Radome… A.`jF..aE…>…>…=…=……
+
+===== TYPE=Mesh size=161140 вхождений=1
+  @16: ……Aryx_Cargo1_Radome…W'..lD.?@..@.>a?\).@.)…3.&.?.P.@.+.>…@./..h
+…|…?.3.@..S?.#.@…pD…
+…
+…
+…
+…
+…
+… …!…!…"… ."…".!…#.". .#.!.".#. .$.%.#.$.&…!.#.&.!.%.'.#.&.#.'.(.'.%.&.)…)…&.'.*.).&.*.(.+.'.*.'.+.).,…,…(.-.+.(…-./.+.-.*.+././.-.0.).*.1.1.*./.,.).1.2./.0.1./.2.2.0.3.,.4…4…,.1.5.5.1.2.4.,.5.6.2.3.5.2.6.6.3.7…4.8.4.5.8.8.5.6…8.9.8.:.9.;.6.7.8.6.;.8.;.:.;.7.<.=.:.;.=.;.<.>.?.@.>.A.?.>.B.A.>.C.B.?.A.D.?.D.E.C.F.B.C.G.F.H.A.B.H.D.A.E.D.I.E.I.J.I.K.J.G.L.F.G.M.L.N.B.F.N.H.B.O.D.H.O.I.D.M.P.L.M.Q.P.R.P.Q.R.S.P.T.P.S.T.L.P.T.S.U.V.T.U.W.F.L.T.W.L.W.N.F.…
+
+===== TYPE=TextAsset size=1528260 вхождений=15
+  @114615: …Turret.prefab",
+                        "name": "Aryx_MC260_Chimera_Rotary_Turret",
+                        "type": "UnityEngine.GameObject, UnityEngine.CoreModule"
+                    },
+                    "hierarchyPath": "angleOffset",
+                    "componentType": "UnityEngine.MeshRenderer, UnityEngine.CoreModule",
+                    "componentIndex": 0,
+                    "memberPath": "sharedMaterials[0]"
+                },
+                {
+                    "id": "Aryx_MC260_Radome/Radome/MeshRenderer#0",
+                    "asset": {
+                        "locator": "Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Radome.prefab",
+                        "name": "Aryx_MC260_Radome",
+                        "type": "UnityEngine.GameObject, UnityEngine.CoreModule"
+                    },
+                    "hierarchyPath": "Radome",
+                    "componentType": "UnityEngine.MeshRenderer, UnityEngine.CoreModule",
+                    "componentIndex": 0,
+                    "memberPath": "sharedMaterials[2]"
+                }
+            ]
+        },
+        {
+            "GameAsset": {
+                "id": "runway scrape|UnityEngine.AudioClip, UnityEngine.AudioModule",
+                "asset": {
+                    "locator": "runway scrape",
+                    "name": "runway scrape",
+                    "type": "UnityEngine.AudioClip,…
+  @114622: …prefab",
+                        "name": "Aryx_MC260_Chimera_Rotary_Turret",
+                        "type": "UnityEngine.GameObject, UnityEngine.CoreModule"
+                    },
+                    "hierarchyPath": "angleOffset",
+                    "componentType": "UnityEngine.MeshRenderer, UnityEngine.CoreModule",
+                    "componentIndex": 0,
+                    "memberPath": "sharedMaterials[0]"
+                },
+                {
+                    "id": "Aryx_MC260_Radome/Radome/MeshRenderer#0",
+                    "asset": {
+                        "locator": "Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Radome.prefab",
+                        "name": "Aryx_MC260_Radome",
+                        "type": "UnityEngine.GameObject, UnityEngine.CoreModule"
+                    },
+                    "hierarchyPath": "Radome",
+                    "componentType": "UnityEngine.MeshRenderer, UnityEngine.CoreModule",
+                    "componentIndex": 0,
+                    "memberPath": "sharedMaterials[2]"
+                }
+            ]
+        },
+        {
+            "GameAsset": {
+                "id": "runway scrape|UnityEngine.AudioClip, UnityEngine.AudioModule",
+                "asset": {
+                    "locator": "runway scrape",
+                    "name": "runway scrape",
+                    "type": "UnityEngine.AudioClip, UnityE…
+  @114773: …odule"
+                    },
+                    "hierarchyPath": "angleOffset",
+                    "componentType": "UnityEngine.MeshRenderer, UnityEngine.CoreModule",
+                    "componentIndex": 0,
+                    "memberPath": "sharedMaterials[0]"
+                },
+                {
+                    "id": "Aryx_MC260_Radome/Radome/MeshRenderer#0",
+                    "asset": {
+                        "locator": "Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Radome.prefab",
+                        "name": "Aryx_MC260_Radome",
+                        "type": "UnityEngine.GameObject, UnityEngine.CoreModule"
+                    },
+                    "hierarchyPath": "Radome",
+                    "componentType": "UnityEngine.MeshRenderer, UnityEngine.CoreModule",
+                    "componentIndex": 0,
+                    "memberPath": "sharedMaterials[2]"
+                }
+            ]
+        },
+        {
+            "GameAsset": {
+                "id": "runway scrape|UnityEngine.AudioClip, UnityEngine.AudioModule",
+                "asset": {
+                    "locator": "runway scrape",
+                    "name": "runway scrape",
+                    "type": "UnityEngine.AudioClip, UnityEngine.AudioModule"
+                },
+                "hierarchyPath": "",
+                "componentType": "",
+                "componentIndex": 0,
+  …
+  @114833: …Path": "angleOffset",
+                    "componentType": "UnityEngine.MeshRenderer, UnityEngine.CoreModule",
+                    "componentIndex": 0,
+                    "memberPath": "sharedMaterials[0]"
+                },
+                {
+                    "id": "Aryx_MC260_Radome/Radome/MeshRenderer#0",
+                    "asset": {
+                        "locator": "Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Radome.prefab",
+                        "name": "Aryx_MC260_Radome",
+                        "type": "UnityEngine.GameObject, UnityEngine.CoreModule"
+                    },
+                    "hierarchyPath": "Radome",
+                    "componentType": "UnityEngine.MeshRenderer, UnityEngine.CoreModule",
+                    "componentIndex": 0,
+                    "memberPath": "sharedMaterials[2]"
+                }
+            ]
+        },
+        {
+            "GameAsset": {
+                "id": "runway scrape|UnityEngine.AudioClip, UnityEngine.AudioModule",
+                "asset": {
+                    "locator": "runway scrape",
+                    "name": "runway scrape",
+                    "type": "UnityEngine.AudioClip, UnityEngine.AudioModule"
+                },
+                "hierarchyPath": "",
+                "componentType": "",
+                "componentIndex": 0,
+                "memberPath": ""
+            },
+            "P…
+  @114984: …
+                    "memberPath": "sharedMaterials[0]"
+                },
+                {
+                    "id": "Aryx_MC260_Radome/Radome/MeshRenderer#0",
+                    "asset": {
+                        "locator": "Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Radome.prefab",
+                        "name": "Aryx_MC260_Radome",
+                        "type": "UnityEngine.GameObject, UnityEngine.CoreModule"
+                    },
+                    "hierarchyPath": "Radome",
+                    "componentType": "UnityEngine.MeshRenderer, UnityEngine.CoreModule",
+                    "componentIndex": 0,
+                    "memberPath": "sharedMaterials[2]"
+                }
+            ]
+        },
+        {
+            "GameAsset": {
+                "id": "runway scrape|UnityEngine.AudioClip, UnityEngine.AudioModule",
+                "asset": {
+                    "locator": "runway scrape",
+                    "name": "runway scrape",
+                    "type": "UnityEngine.AudioClip, UnityEngine.AudioModule"
+                },
+                "hierarchyPath": "",
+                "componentType": "",
+                "componentIndex": 0,
+                "memberPath": ""
+            },
+            "PatchLocations": [
+                {
+                    "id": "Aryx_MC260_Chimera/Aircraft#0",
+                    "asset": {
+                        "…
+  @295078: …prefab",
+                        "name": "Aryx_MC260_Chimera",
+                        "type": "UnityEngine.GameObject, UnityEngine.CoreModule"
+                    },
+                    "hierarchyPath": "Aryx_Cargo1_Wing_Right_Root_Rear",
+                    "componentType": "UnityEngine.MeshRenderer, UnityEngine.CoreModule",
+                    "componentIndex": 0,
+                    "memberPath": "sharedMaterials[2]"
+                },
+                {
+                    "id": "Aryx_MC260_Radome/Radome/MeshRenderer#0",
+                    "asset": {
+                        "locator": "Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Radome.prefab",
+                        "name": "Aryx_MC260_Radome",
+                        "type": "UnityEngine.GameObject, UnityEngine.CoreModule"
+                    },
+                    "hierarchyPath": "Radome",
+                    "componentType": "UnityEngine.MeshRenderer, UnityEngine.CoreModule",
+                    "componentIndex": 0,
+                    "memberPath": "sharedMaterials[1]"
+                }
+            ]
+        },
+        {
+            "GameAsset": {
+                "id": "metal_tear1|UnityEngine.AudioClip, UnityEngine.AudioModule",
+                "asset": {
+                    "locator": "metal_tear1",
+                    "name": "metal_tear1",
+                    "type": "UnityEngine.AudioClip, Unity…
+  @295085: …,
+                        "name": "Aryx_MC260_Chimera",
+                        "type": "UnityEngine.GameObject, UnityEngine.CoreModule"
+                    },
+                    "hierarchyPath": "Aryx_Cargo1_Wing_Right_Root_Rear",
+                    "componentType": "UnityEngine.MeshRenderer, UnityEngine.CoreModule",
+                    "componentIndex": 0,
+                    "memberPath": "sharedMaterials[2]"
+                },
+                {
+                    "id": "Aryx_MC260_Radome/Radome/MeshRenderer#0",
+                    "asset": {
+                        "locator": "Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Radome.prefab",
+                        "name": "Aryx_MC260_Radome",
+                        "type": "UnityEngine.GameObject, UnityEngine.CoreModule"
+                    },
+                    "hierarchyPath": "Radome",
+                    "componentType": "UnityEngine.MeshRenderer, UnityEngine.CoreModule",
+                    "componentIndex": 0,
+                    "memberPath": "sharedMaterials[1]"
+                }
+            ]
+        },
+        {
+            "GameAsset": {
+                "id": "metal_tear1|UnityEngine.AudioClip, UnityEngine.AudioModule",
+                "asset": {
+                    "locator": "metal_tear1",
+                    "name": "metal_tear1",
+                    "type": "UnityEngine.AudioClip, UnityEngine.…
+  @295236: …      },
+                    "hierarchyPath": "Aryx_Cargo1_Wing_Right_Root_Rear",
+                    "componentType": "UnityEngine.MeshRenderer, UnityEngine.CoreModule",
+                    "componentIndex": 0,
+                    "memberPath": "sharedMaterials[2]"
+                },
+                {
+                    "id": "Aryx_MC260_Radome/Radome/MeshRenderer#0",
+                    "asset": {
+                        "locator": "Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Radome.prefab",
+                        "name": "Aryx_MC260_Radome",
+                        "type": "UnityEngine.GameObject, UnityEngine.CoreModule"
+                    },
+                    "hierarchyPath": "Radome",
+                    "componentType": "UnityEngine.MeshRenderer, UnityEngine.CoreModule",
+                    "componentIndex": 0,
+                    "memberPath": "sharedMaterials[1]"
+                }
+            ]
+        },
+        {
+            "GameAsset": {
+                "id": "metal_tear1|UnityEngine.AudioClip, UnityEngine.AudioModule",
+                "asset": {
+                    "locator": "metal_tear1",
+                    "name": "metal_tear1",
+                    "type": "UnityEngine.AudioClip, UnityEngine.AudioModule"
+                },
+                "hierarchyPath": "",
+                "componentType": "",
+                "componentIndex": 0,
+        …
+  @295296: …ing_Right_Root_Rear",
+                    "componentType": "UnityEngine.MeshRenderer, UnityEngine.CoreModule",
+                    "componentIndex": 0,
+                    "memberPath": "sharedMaterials[2]"
+                },
+                {
+                    "id": "Aryx_MC260_Radome/Radome/MeshRenderer#0",
+                    "asset": {
+                        "locator": "Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Radome.prefab",
+                        "name": "Aryx_MC260_Radome",
+                        "type": "UnityEngine.GameObject, UnityEngine.CoreModule"
+                    },
+                    "hierarchyPath": "Radome",
+                    "componentType": "UnityEngine.MeshRenderer, UnityEngine.CoreModule",
+                    "componentIndex": 0,
+                    "memberPath": "sharedMaterials[1]"
+                }
+            ]
+        },
+        {
+            "GameAsset": {
+                "id": "metal_tear1|UnityEngine.AudioClip, UnityEngine.AudioModule",
+                "asset": {
+                    "locator": "metal_tear1",
+                    "name": "metal_tear1",
+                    "type": "UnityEngine.AudioClip, UnityEngine.AudioModule"
+                },
+                "hierarchyPath": "",
+                "componentType": "",
+                "componentIndex": 0,
+                "memberPath": ""
+            },
+            "PatchLo…
+  @295447: …
+                    "memberPath": "sharedMaterials[2]"
+                },
+                {
+                    "id": "Aryx_MC260_Radome/Radome/MeshRenderer#0",
+                    "asset": {
+                        "locator": "Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Radome.prefab",
+                        "name": "Aryx_MC260_Radome",
+                        "type": "UnityEngine.GameObject, UnityEngine.CoreModule"
+                    },
+                    "hierarchyPath": "Radome",
+                    "componentType": "UnityEngine.MeshRenderer, UnityEngine.CoreModule",
+                    "componentIndex": 0,
+                    "memberPath": "sharedMaterials[1]"
+                }
+            ]
+        },
+        {
+            "GameAsset": {
+                "id": "metal_tear1|UnityEngine.AudioClip, UnityEngine.AudioModule",
+                "asset": {
+                    "locator": "metal_tear1",
+                    "name": "metal_tear1",
+                    "type": "UnityEngine.AudioClip, UnityEngine.AudioModule"
+                },
+                "hierarchyPath": "",
+                "componentType": "",
+                "componentIndex": 0,
+                "memberPath": ""
+            },
+            "PatchLocations": [
+                {
+                    "id": "Aryx_MC260_Chimera/Aryx_Cargo1_Fuselage_Neck/AeroPart#0",
+                    "asset": {
+     …
+  @368860: …1/Aryx_MC260_Chimera.prefab",
+                        "name": "Aryx_MC260_Chimera",
+                        "type": "UnityEngine.GameObject, UnityEngine.CoreModule"
+                    },
+                    "hierarchyPath": "Aryx_Cargo1_Wing_Right_Root_Rear",
+                    "componentType": "AeroPart, Assembly-CSharp",
+                    "componentIndex": 0,
+                    "memberPath": "joints[2].breakSound"
+                },
+                {
+                    "id": "Aryx_MC260_Radome/AeroPart#0",
+                    "asset": {
+                        "locator": "Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Radome.prefab",
+                        "name": "Aryx_MC260_Radome",
+                        "type": "UnityEngine.GameObject, UnityEngine.CoreModule"
+                    },
+                    "hierarchyPath": "",
+                    "componentType": "AeroPart, Assembly-CSharp",
+                    "componentIndex": 0,
+                    "memberPath": "joints[0].breakSound"
+                }
+            ]
+        },
+        {
+            "GameAsset": {
+                "id": "Matte_black|UnityEngine.Material, UnityEngine.CoreModule",
+                "asset": {
+                    "locator": "Matte_black",
+                    "name": "Matte_black",
+                    "type": "UnityEngine.Material, UnityEngine.CoreModule"
+                },
+   …
+  @369007: …ngine.CoreModule"
+                    },
+                    "hierarchyPath": "Aryx_Cargo1_Wing_Right_Root_Rear",
+                    "componentType": "AeroPart, Assembly-CSharp",
+                    "componentIndex": 0,
+                    "memberPath": "joints[2].breakSound"
+                },
+                {
+                    "id": "Aryx_MC260_Radome/AeroPart#0",
+                    "asset": {
+                        "locator": "Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Radome.prefab",
+                        "name": "Aryx_MC260_Radome",
+                        "type": "UnityEngine.GameObject, UnityEngine.CoreModule"
+                    },
+                    "hierarchyPath": "",
+                    "componentType": "AeroPart, Assembly-CSharp",
+                    "componentIndex": 0,
+                    "memberPath": "joints[0].breakSound"
+                }
+            ]
+        },
+        {
+            "GameAsset": {
+                "id": "Matte_black|UnityEngine.Material, UnityEngine.CoreModule",
+                "asset": {
+                    "locator": "Matte_black",
+                    "name": "Matte_black",
+                    "type": "UnityEngine.Material, UnityEngine.CoreModule"
+                },
+                "hierarchyPath": "",
+                "componentType": "",
+                "componentIndex": 0,
+                "memberPath": ""
+      …
+  @369067: … "hierarchyPath": "Aryx_Cargo1_Wing_Right_Root_Rear",
+                    "componentType": "AeroPart, Assembly-CSharp",
+                    "componentIndex": 0,
+                    "memberPath": "joints[2].breakSound"
+                },
+                {
+                    "id": "Aryx_MC260_Radome/AeroPart#0",
+                    "asset": {
+                        "locator": "Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Radome.prefab",
+                        "name": "Aryx_MC260_Radome",
+                        "type": "UnityEngine.GameObject, UnityEngine.CoreModule"
+                    },
+                    "hierarchyPath": "",
+                    "componentType": "AeroPart, Assembly-CSharp",
+                    "componentIndex": 0,
+                    "memberPath": "joints[0].breakSound"
+                }
+            ]
+        },
+        {
+            "GameAsset": {
+                "id": "Matte_black|UnityEngine.Material, UnityEngine.CoreModule",
+                "asset": {
+                    "locator": "Matte_black",
+                    "name": "Matte_black",
+                    "type": "UnityEngine.Material, UnityEngine.CoreModule"
+                },
+                "hierarchyPath": "",
+                "componentType": "",
+                "componentIndex": 0,
+                "memberPath": ""
+            },
+            "PatchLocations": [
+                {
+ …
+  @1525609: …\":\"WeaponMount, Assembly-CSharp\"},{\"locator\":\"Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Chimera_Railgun_WM.asset\",\"name\":\"Aryx_MC260_Chimera_Railgun_WM\",\"type\":\"WeaponMount, Assembly-CSharp\"},{\"locator\":\"Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Chimera_Rotary_Turret_WM.asset\",\"name\":\"Aryx_MC260_Chimera_Rotary_Turret_WM\",\"type\":\"WeaponMount, Assembly-CSharp\"},{\"locator\":\"Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Radome_WM.asset\",\"name\":\"Aryx_MC260_Radome_WM\",\"type\":\"WeaponMount, Assembly-CSharp\"}]}"
+        }
+    ],
+    "Addressables": [
+        {
+            "guid": "b676c77714359244491fdaf734c81255",
+            "subObjectName": "",
+            "subObjectType": "",
+            "BundleAsset": {
+                "locator": "Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Liveries/Aryx_MC260_Chimera_Livery_BDF_1.asset",
+                "name": "Aryx_MC260_Chimera_Livery_BDF_1",
+                "type": "LiveryData, Assembly-CSharp"
+            }
+        },
+        {
+            "guid": "131fe6cb581c7534487abbd024d3b8ff",
+            "subObjectName": "",
+            "subObjectType": "",
+            "BundleAsset": {
+                "locator": "Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Liveries/Aryx_MC260_Chimera_Livery_BDF_2.asset",
+                "name": "Aryx_MC260_Chimera_Livery_BDF_2",
+        …
+  @1525649: …locator\":\"Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Chimera_Railgun_WM.asset\",\"name\":\"Aryx_MC260_Chimera_Railgun_WM\",\"type\":\"WeaponMount, Assembly-CSharp\"},{\"locator\":\"Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Chimera_Rotary_Turret_WM.asset\",\"name\":\"Aryx_MC260_Chimera_Rotary_Turret_WM\",\"type\":\"WeaponMount, Assembly-CSharp\"},{\"locator\":\"Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Weapons/Aryx_MC260_Radome_WM.asset\",\"name\":\"Aryx_MC260_Radome_WM\",\"type\":\"WeaponMount, Assembly-CSharp\"}]}"
+        }
+    ],
+    "Addressables": [
+        {
+            "guid": "b676c77714359244491fdaf734c81255",
+            "subObjectName": "",
+            "subObjectType": "",
+            "BundleAsset": {
+                "locator": "Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Liveries/Aryx_MC260_Chimera_Livery_BDF_1.asset",
+                "name": "Aryx_MC260_Chimera_Livery_BDF_1",
+                "type": "LiveryData, Assembly-CSharp"
+            }
+        },
+        {
+            "guid": "131fe6cb581c7534487abbd024d3b8ff",
+            "subObjectName": "",
+            "subObjectType": "",
+            "BundleAsset": {
+                "locator": "Assets/Blueprinter/Aryx/Aryx_CargoPlane1/Liveries/Aryx_MC260_Chimera_Livery_BDF_2.asset",
+                "name": "Aryx_MC260_Chimera_Livery_BDF_2",
+                "type": "LiveryData, Assembly-CS…
+
+===== TYPE=GameObject size=59 вхождений=1
+  @48: ……|?S..wcK…-.E.k…e.?..a…Radome……

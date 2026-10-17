@@ -1,0 +1,17 @@
+╨┐╨╛╨┤╨┐╨░╨┐╨║╨╕:
+  KoreanPatch                   0.3 ╨Ь╨С
+  Properties                    0.0 ╨Ь╨С
+  bin                           0.1 ╨Ь╨С
+  obj                           0.2 ╨Ь╨С
+  regex_test                    0.3 ╨Ь╨С
+  unpack                      328.6 ╨Ь╨С
+╨║╤А╤Г╨┐╨╜╨╡╨╣╤И╨╕╨╡ ╤Д╨░╨╣╨╗╤Л (╨▒╨╡╨╖ unpack):
+       0.9 ╨Ь╨С  item_ctx_out.txt
+       0.4 ╨Ь╨С  item_ctx.txt
+       0.4 ╨Ь╨С  ru_safe_3116.json
+       0.3 ╨Ь╨С  untr_dump_out.txt
+       0.2 ╨Ь╨С  desc_dump.txt
+       0.2 ╨Ь╨С  cand_real.jsonl
+       0.2 ╨Ь╨С  real_text.jsonl
+       0.2 ╨Ь╨С  audit_names_out.txt
+Math suma ╨▒╨╡╨╖ unpack: 6.6 ╨Ь╨С

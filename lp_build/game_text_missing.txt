@@ -1,0 +1,212 @@
+#### resources.assets: всего 303, нет в словаре 95
+0fcc0ff8ee92cfd47bc415ba2f372140
+----
+167669cf5bfbf624ba5acfd23ec721dc
+----
+3de2fc57b8da39a41be6b277ed0ec59b
+----
+47b2af4b-4ed7-47cc-bac1-0ca5f40dd13b
+----
+8BitDo SN30 Pro+  8BitDo SN30 Pro+
+----
+8Bitdo AP40 GamePad    8Bitdo AP40 GamePad
+----
+8Bitdo FC30 Pro    8Bitdo FC30 Pro
+----
+8Bitdo FC30 Pro 8Bitdo FC30 Pro
+----
+8Bitdo NES30 Pro 8Bitdo NES30 Pro
+----
+8Bitdo SF30 Pro  8Bitdo SF30 Pro
+----
+8Bitdo SN30 Pro  8Bitdo SN30 Pro
+----
+9ec45b94bd8c5c145be4ea6830db80be
+----
+All: Chrome, Opera, Windows: Edge, Firefox
+----
+BUFFALO INC. BUFFALO BGC-FC801 USB Gamepad
+----
+Buffalo Classic USB Super NES gamepad w/ turbo
+----
+CH PRODUCTS CH PRO PEDALS USB
+----
+CH PRODUCTS CH PRO THROTTLE USB
+----
+Controller with media buttons. Must be in Gamepad mode (hold X + Home).
+----
+Default controller with all possible axes and buttons
+----
+Enum(None, 0, Side by Side, 1, Over Under, 2)
+----
+Fantec Porsche 911 Turbo S, Fantec Porsche 911 Carrera
+----
+First center or zero all sticks and axes and press any button or wait for the timer to finish.
+----
+Full-sized ipega gamepad. Must be in Gamepad mode (hold X + Home).
+----
+G920 Driving Force Racing Wheel for Xbox One
+----
+HJZ Mayflash PS3 Game Controller Adapter
+----
+HJZ Mayflash WiiU Pro Game Controller Adapter
+----
+IndexNotFoundException - 'key' was not found in dictionary
+----
+Jess Tech GGE909 PC Recoil Pad
+----
+Keyboard&Mouse;Gamepad;Touch;Joystick;XR
+----
+KeywordEnum(6 Frames Layout, Latitude Longitude Layout)
+----
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+----
+MFi game controller based on extended profile
+----
+MODE2 SHIFT POV Hat Down-Left
+----
+MODE2 SHIFT POV Hat Down-Right
+----
+MODE2 SHIFT POV Hat Up-Left
+----
+MODE2 SHIFT POV Hat Up-Right
+----
+Mad Catz Pro Flight Cessna Rudder Pedals
+----
+Mad Catz Pro Flight TPM System
+----
+Mad Catz Saitek Pro Flight X-56 Rhino Stick
+----
+Mad Catz Saitek Pro Flight X-56 Rhino Throttle
+----
+Madcatz Saitek Pro Flight X-55 Rhino Stick
+----
+Madcatz Saitek Pro Flight X-55 Rhino Throttle
+----
+Mayflash WiiU Pro Game Controller Adapter
+----
+Microsoft SideWinder Force Feedback Pro (USB)
+----
+Mode 1: Hold Power + X to connect. Triggers act as buttons.
+----
+Mode 2; Hold Power + XY to connect. Triggers act as a single axis.
+----
+Must be in Gamepad mode in Windows, OSX, Linux.
+----
+Must be in PC mode for Win/OSX/Linux, GameSmart mode for Android.
+----
+My-Power CO., LTD PS2 adapter
+----
+My-Power CO.,LTD. PS(R) Controller Adaptor
+----
+No driver or new driver without support for G25 around 10/2016
+----
+No driver or new driver without support for G27 around 10/2016
+----
+Nvidia Shield Portable and Nvidia Shield Wireless Controller (2015 model)
+----
+Players who are kicked from current session. Cleared when making a lobby.
+----
+Players who are permanently banned from joining games you host.
+----
+Players who are permanently muted in chat, and hides games they host in Multiplayer lobby list
+----
+Press any button or move an axis on the controller you would like to use.
+----
+Pro Flight Helicopter PUMA - 4th generation Helicopter Controller
+----
+Requires SteelSeries Engine software to be installed.
+----
+Rewired.UI.ControlMapper.ButtonInfo, Assembly-CSharp-firstpass
+----
+Saitek Heavy Equip Panel (Pro Farming)
+----
+Saitek Pro Flight Cessna Trim Wheel
+----
+Saitek Pro Flight Combat Rudder Pedals
+----
+Saitek Saitek Pro Flight Combat Rudder Pedals
+----
+Saitek Saitek Pro Flight Rudder Pedals
+----
+Saitek Saitek X52 Pro Flight Control System
+----
+Save New override button-danger-subtle
+----
+Standardized Gamepad (for platform-specific standardized layouts)
+----
+Stick Y axes do not return any value.
+----
+Super Dual Box Pro (default driver)
+----
+Super Dual Box Pro (downloaded driver)
+----
+Switch is set to DirectInput mode
+----
+T.RJ12 USB Adapter for T3PA and T3PA Pro racing pedals
+----
+Template for a dual stick game pad with up to 6 action buttons, 2 shoulder buttons, 2 triggers, and 3 center buttons.
+----
+Test Error Message, Test Error Message, Test ErrorTest Error Message
+----
+This will restore the default input configuration for all players. Are you sure you want to do this?
+----
+This will restore the default input configuration. Are you sure you want to do this?d
+----
+Thrustmaster FireStorm(TM) Dual Power Gamepad
+----
+TigerGame PS/PS2 Game Controller Adapter
+----
+Ubuntu, wired: Firefox, Ubuntu 17.04, wireless (BT pair): Firefox
+----
+UnityEngine.Rendering.UI.DebugUIHandlerButton, Unity.RenderPipelines.Core.Runtime
+----
+UnityEngine.Rendering.UI.DebugUIHandlerIntField, Unity.RenderPipelines.Core.Runtime
+----
+UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField, Unity.RenderPipelines.Core.Runtime
+----
+UnityEngine.Rendering.UI.DebugUIHandlerPanel, Unity.RenderPipelines.Core.Runtime
+----
+UnityEngine.Rendering.UI.DebugUIHandlerUIntField, Unity.RenderPipelines.Core.Runtime
+----
+Universal Render Pipeline/Particles/Simple Lit
+----
+Update 02/20/2023: Tested in Ubuntu 22.04. Xbox Series S/X controller via BT, Xbox One controller via BT.
+----
+Windows XP, Vista, 7, 8, RI (Win10, post AU)
+----
+Windows: Must use Windows Mode. Android: Can use Android or Windows modes.
+----
+Wired mode (mode 5), Joystick mode (mode1)
+----
+Xbox One S (fw 3.1.1221.0), OSX, Bluetooth: Safari - LT/RT, View, Guide don't work
+----
+Xbox One S (orig fw), OSX, Bluetooth: Safari, Guide doesn't work
+----
+bd7bc65f4bae14b4cae2fed6714f46ae
+----
+c3ad3cad-c7cf-4ca8-8c2e-e3df8d9960bb
+----
+mayflash limited MAYFLASH GameCube Controller Adapter
+----
+#### level0: всего 9, нет в словаре 2
+Host has kicked you from the game
+----
+Save New override button-danger-subtle
+----
+#### level1: всего 5, нет в словаре 3
+EXTREMELY LONG PLAYER NAME THAT GETS OUT OF BOUNDS
+----
+Long description about some stuff happening in the game. Long description about some stuff happening in the game. Long description about some stuff happening in the game.
+----
+What the fuck did you just fucking say about me, you little bitch? I'll have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I'm the top sniper in the entire US armed forces. You
+----
+#### level2: всего 12, нет в словаре 2
+A great place for new players to learn the ropes. The description would highlight the helpful community and the cooperative nature of the missions.
+----
+Are you sure you want to block the owner of this lobby?
+----
+#### level3: всего 1, нет в словаре 1
+The SAH-46 Chicane retains a traditional attack helicopter configuation while incorporating upgrades that keep it a formidable presence on the battlefield of the late 21st Century. Cutting edge stealth technology allows the Chicane to conduct pop-up attacks from behind terrain and disappear from radar without a trace. Cutting edge stealth technology allows the Chicane to conduct pop-up attacks from behind terrain and disappear from radar without a trace.
+----
+#### level4: всего 10, нет в словаре 0

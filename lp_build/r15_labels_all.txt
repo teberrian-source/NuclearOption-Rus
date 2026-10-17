@@ -1,0 +1,310 @@
+### 115
+Armour rolling
+
+### 116
+Assault landing
+
+### 117
+B Ground push
+
+### 118
+B Supply income
+
+### 119
+B Supply income 2
+
+### 120
+Break the Cinder Gate depot
+
+### 121
+Break the Delta Gate depot
+
+### 122
+Build the Dunmore supply dump
+
+### 123
+Build the Hollin supply dump
+
+### 124
+Burn Port Ansel
+
+### 125
+Burn the Rook station
+
+### 126
+Capture Dunmore Crossing LZ
+
+### 127
+Capture Fenwick
+
+### 128
+Capture Graylock South
+
+### 129
+Capture Hollin Mine LZ
+
+### 130
+Capture Kittiwake FARP
+
+### 131
+Capture Skerry Island
+
+### 132
+Capture Sorrel Field
+
+### 133
+Capture Tarn Head Strip
+
+### 134
+Capture the Ostrin Isles
+
+### 135
+Catch the mobile SAM
+
+### 136
+Destroy Ironjaw fuel terminal
+
+### 137
+Destroy the Boscali radar network
+
+### 138
+Destroy the Fenwick aircraft factories
+
+### 139
+Destroy the Graylock peninsula aircraft factories
+
+### 140
+Destroy the Primeva radar network
+
+### 141
+Destroy the SAM radars
+
+### 142
+Destroy the Sill depot
+
+### 143
+Destroy the Sorrel aircraft factories
+
+### 144
+Destroy the Tarn Head aircraft factories
+
+### 145
+Hold Fenwick, the Ostrin Isles and Skerry Island
+
+### 146
+Hold the Sill for 45 minutes
+
+### 147
+Keep the fleet afloat for 45 minutes
+
+### 148
+Keep the umbrella up for an hour
+
+### 149
+Landing run
+
+### 150
+Patrol leg 01
+
+### 151
+Patrol leg 02
+
+### 152
+Patrol leg 03
+
+### 153
+Patrol leg 04
+
+### 154
+Patrol leg 05
+
+### 155
+Patrol leg 06
+
+### 156
+Patrol leg 07
+
+### 157
+Patrol leg 08
+
+### 158
+Patrol leg 09
+
+### 159
+Patrol leg 10
+
+### 160
+Patrol leg 11
+
+### 161
+Patrol leg 12
+
+### 162
+Patrol leg 13
+
+### 163
+Patrol leg 14
+
+### 164
+Patrol leg 15
+
+### 165
+Patrol leg 16
+
+### 166
+Patrol leg 17
+
+### 167
+Patrol leg 18
+
+### 168
+Patrol leg 19
+
+### 169
+Patrol leg 20
+
+### 170
+Patrol leg 21
+
+### 171
+Patrol leg 22
+
+### 172
+Patrol leg 23
+
+### 173
+Patrol leg 24
+
+### 174
+Patrol leg 25
+
+### 175
+Patrol leg 26
+
+### 176
+Patrol leg 27
+
+### 177
+Patrol leg 28
+
+### 178
+Patrol leg 29
+
+### 179
+Patrol leg 30
+
+### 180
+R Ground push
+
+### 181
+R Supply income
+
+### 182
+R Supply income 2
+
+### 183
+Reinforcements 1
+
+### 184
+Reinforcements 2
+
+### 185
+Reinforcements 3
+
+### 186
+Second wave
+
+### 187
+Sink the Tarn Bay fleet
+
+### 188
+Sink the assault fleet
+
+### 189
+Sink the carrier group
+
+### 190
+Sink the fjord corvettes
+
+### 191
+Sink the landing force
+
+### 192
+Strike the carrier
+
+### 193
+Supply convoy 1
+
+### 194
+Supply convoy 2
+
+### 195
+Supply convoy 3
+
+### 196
+Supply convoy 4
+
+### 197
+Supply convoy 5
+### 205
+! DANGER - INCOMING MISSILE !
+
+### 206
+MAIN ROTOR DAMAGE
+
+### 207
+L ENG FAIL
+
+### 208
+R ENG FAIL
+
+### 209
+VORTEX RING STATE
+
+### 210
+REDUCE COLLECTIVE
+
+### 211
+Next Camera
+
+### 212
+Previous Camera
+
+### 213
+Next Unit
+
+### 214
+Previous Unit
+
+### 215
+Select Unit Mode
+
+### 216
+Rotate Unit Mode
+
+### 217
+Translate Unit Mode
+
+### 218
+Deploy Unit
+
+### 219
+Deploy FOB
+
+### 220
+Call Resupply
+
+### 221
+Call Resupply - Player
+
+### 222
+Objective Info
+
+### 223
+Vote Kick Yes
+
+### 224
+Vote Kick No
+
+### 225
+Radar ECM

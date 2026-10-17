@@ -1,0 +1,686 @@
+#### resources.assets
+0fcc0ff8ee92cfd47bc415ba2f372140
+====
+167669cf5bfbf624ba5acfd23ec721dc
+====
+18-tube Multiple Launch Rocket System installed on an MSV chassis, providing mobile rocket artillery.
+====
+20mm cannon firing explosive shells at a lower rate of fire than its rotary counterpart.
+====
+25kg optically guided submunition packing a shaped charge warhead
+====
+3de2fc57b8da39a41be6b277ed0ec59b
+====
+47b2af4b-4ed7-47cc-bac1-0ca5f40dd13b
+====
+8BitDo SN30 Pro+  8BitDo SN30 Pro+
+====
+8Bitdo AP40 GamePad    8Bitdo AP40 GamePad
+====
+8Bitdo FC30 Pro    8Bitdo FC30 Pro
+====
+8Bitdo FC30 Pro 8Bitdo FC30 Pro
+====
+8Bitdo NES30 Pro 8Bitdo NES30 Pro
+====
+8Bitdo SF30 Pro  8Bitdo SF30 Pro
+====
+8Bitdo SN30 Pro  8Bitdo SN30 Pro
+====
+9ec45b94bd8c5c145be4ea6830db80be
+====
+A 10kg HE warhead housed in a fin-stabilised airframe. Uses canard control for terminal guidance that is provided by an electro-optical seeker head.
+====
+A 3kg HE warhead housed in a fin-stabilised airframe. Uses canard control for terminal guidance that is provided by an electro-optical seeker head.
+====
+A 6-ton munitions pallet for replenishing a warship's ammunition stores. Has floatation devices and can be picked up by ships within 200m after being placed in the water. Avoid subjecting the containers to large impact forces, as they may detonate.
+====
+A 6-ton munitions pallet. When placed on the ground, allows continuous weapon rearmament for ground vehicles and aircraft within 100m. Avoid subjecting the containers to large impact forces, as they may detonate.
+====
+A Hexhound equipped with a four-shot IRM-S1 launcher. Its small profile makes it hard to detect, allowing it to ambush low flying air targets.
+====
+A Hexhound equipped with an automatic grenade launcher. The grenade launcher is able to rain indirect fire on datalink targets within 2km (1.2 miles).
+====
+A Hexhound equipped with an automatic grenade launcher. The grenade launcher is able to rain indirect fire on datalink targets within 2km.
+====
+A Laser Air Defence System capable of destroying small calibre aerial munitions.
+====
+A Modular Support Vehicle equipped with a 20mm rotary gun to provide point defence against shells, missiles, bombs, and low flying aircraft within a range of approximately 3km.
+====
+A cargo hook with a 20m (65ft) line for slinging external loads and recovering downed pilots.
+====
+A compact and advanced multirole fighter, the Vortex is capable of operating vertically from small carriers and remaining undetected thanks to outstanding stealth characteristics. While fast, agile, and stealthy when lightly loaded, these characteristics can suffer when carrying a heavy payload of weapons.
+====
+A concealed front line fighting position of an infantry team armed with light machine guns, grenades, and rocket launchers. Capable of ambushing unsuspecting vehicles that enter its field of fire.
+====
+A controller that allows up to 6-degrees of freedom: Translate X, Y, Z and rotate X, Y, Z.
+====
+A high drag 125kg bomb, ideal for destroying vehicles in extremely low attacks.
+====
+A large, carrier capable, twin engine multirole fighter, the Ifrit is equally suited to air superiority and ground attack missions. It features excellent thrust and maneuverability alongside reduced radar signature and powerful sensors. Two internal weapon bays plus two additional side bays for heat-seeking missiles allow the Ifrit to carry a significant internal payload without impacting stealth or top speed.
+====
+A lightly armed and armored personnel carrier built on the Modular Support Vehicle chassis
+====
+A low-footprint vehicle manufacturing facility, housing an entirely automated production chain. Lighting, heating, and floorspace requirements are only considered for the handful of quality assurance workers overseeing the facility. Factory buildings supply a specific type of vehicle to a faction's inventory.
+====
+A reinforced hangar which stores fighter aircraft and a small complement of nuclear warheads. It is resistant to bombs and missiles, often requiring multiple direct hits or large/penetrating munitions to destroy it.
+====
+A single 10-ton ammo container. When placed on the ground, allows weapon rearmament for units within 100m. Avoid subjecting the containers to large impact forces, as they may detonate.
+====
+A single 10-ton container for replenishing a warship's ammunition stores. Has floatation devices and can be picked up by ships within 200m after being placed in the water. Avoid subjecting the containers to large impact forces, as they may detonate.
+====
+A single use, air transportable 1,500L fuel tank, commonly deployed at Forward Operating Bases.
+====
+A single use, air transportable 1500L fuel bladder that can be deployed at Forward Operation Bases.
+====
+A small optically guided 125kg bomb, ideal for destroying vehicles and small buildings in low level attacks.
+====
+A small pallet carrying 1.5 tons of munitions. When placed on the ground, allows rearmament of units within 100m. Volatile.
+====
+A small, remote-controlled, air-transportable combat engineering unit designed for light role forces. Combat engineering units are able to facilitate the repair and reconstruction of destroyed hangars, helipads and vehicle depots.
+====
+A small, remote-controlled, air-transportable combat engineering unit designed for light role forces. Combat engineering units are able to facilitate the repair and reconstruction of hangars, helipads and vehicle depots.
+====
+A subsonic anti-ship missile with a very low altitude cruise profile and pop-up terminal attack mode designed to penetrate ship defenses. Can be deployed from aircraft or launched from an Argus Class Frigate.
+====
+A surface-launched active radar homing missile. Uses a combination of inertial guidance and terminal radar homing, and can be fired at aerial targets on datalink from beyond visual range.
+====
+A vehicle manufacturing facility, housing a production line and its associated machinery. Factory buildings supply a specific type of vehicle to a faction's inventory.
+====
+Add AI Aircraft per enemy Player
+====
+Airbase support vehicle capable of refueling aircraft parked within 300m
+====
+All: Chrome, Opera, Windows: Edge, Firefox
+====
+Allowing a traverse range from -10 to +10 degrees and an elevation range from -20 to +5 degrees, this aimable cannon pod is effective against light armor or aircraft at distances of up to 2000m.
+====
+Allows continuous weapon rearmament for ground vehicles and aircraft within 100m. Avoid subjecting the container to large impact forces, as it may detonate.
+====
+An active radar guided, beyond-visual-range air-to-air missile. The Scimitar maintains constant thrust and mid-course acceleration thanks to its ramjet engine, which can burn for up to a minute and gives the scimitar excellent speed and range.
+====
+An advanced jet trainer which is well suited for light combat duty, the T/A-30 is highly maneuverable at low to medium speeds and possesses forgiving flight characteristics. Particularly adept at low-altitude strike missions, the Compass features redundant control surfaces and twin engines to improve survivability.
+====
+An air transportable 10,000L fuel tank that can be deployed at Forward Operation Bases.
+====
+An air transportable 10,000L fuel tank, commonly deployed at Forward Operating Bases.
+====
+An air transportable 6,000L fuel tank, commonly deployed at Forward Operating Bases.
+====
+An air transportable 6000L fuel tank that can be deployed at Forward Operation Bases.
+====
+An air transportable radar container, that can provide guidance to with nearby SARH SAM launchers with a range of 17km.
+====
+An amphibious assault ship which can support rotary wing and V/STOL aircraft operations. It has a well deck from which it can launch landing craft, and it can perform shore bombardment with its 76mm cannon and dual-purpose 40mm point defence guns.
+====
+An armored personnel carrier upfit for the Linebreaker chassis, this troop transport is well protected with good off-road mobility
+====
+An elevated, air conditioned chair for a human sentry. Reveals targets within a 5km radius, and will defend itself with small arms fire within a 1km radius.
+====
+An extended range guided artillery shell, using a combination of inertial navigation and terminal laser guidance to improve its accuracy.
+====
+An fast firing, autoloaded 57mm gun, firing high velocity unguided shells. When fired against air targets, the shells use a proximity fuse to deal fragmentation damage.
+====
+An open stockpile for storing conventional ammunition. Can resupply units within 300m.
+====
+Automatic grenade launcher firing low-velocity 40mm explosive rounds, ideal for destroying small buildings or groups of lightly-armored targets
+====
+Aviation fuel depot that can fill empty aircraft tanks within 300m.
+====
+BUFFALO INC. BUFFALO BGC-FC801 USB Gamepad
+====
+Bristling with air defense weapons, the Argus class is a missile frigate designed to protect valuable assets from air attack. Capable of locking down airspace in a wide radius, it is an essential component of BDF naval doctrine. The Argus class is fitted with the NL-98 active radar homing missile, capable of engaging datalinked targets at beyond visual ranges.
+====
+Buffalo Classic USB Super NES gamepad w/ turbo
+====
+Built in unit, some value can not be changed
+====
+CH PRODUCTS CH PRO PEDALS USB
+====
+CH PRODUCTS CH PRO THROTTLE USB
+====
+Can't edit both factions because supplies are not equal
+====
+Can't edit both factions because values are not equal
+====
+Can't multi-edit Inventory because some items part of Inventory are different
+====
+Can't multi-edit because aircraft have different max speeds
+====
+Can't multi-edit because waypoints are different
+====
+Can't multi-edit factory of different type
+====
+Can't multi-edit livery because aircraft type is different
+====
+Can't multi-edit weapons because aircraft type is different
+====
+Capable of tracking multiple aerial units at ranges of up to 100km (60m).
+====
+Capable of tracking multiple aerial units at ranges of up to 40km
+====
+Carried by air defense vehicles and light aircraft, this heat-seeking missile is effective against air targets at a range up to 5km
+====
+Changing this will rename the project folder
+====
+Color for the hit marker indicator.
+====
+Combining vertical lift capability with a 20 ton cargo capacity, this large quad tiltwing can deliver crucial supplies to forward positions or serve as a versatile gunship. Its 4 proprotors are linked by internal driveshafts, allowing the Tarantula to continue flying after absorbing significant damage.
+====
+Command vehicle capable of distributing targets from a radar to individual SAM launchers in a battery
+====
+Compact and maneuverable short-range heat seeking missile, ideal for defensive anti-air use
+====
+Confined space compatible shoulder fired recoilless rifle
+====
+Controller with media buttons. Must be in Gamepad mode (hold X + Home).
+====
+Default controller with all possible axes and buttons
+====
+Designed for a PALA fast vertical lift program in the 2050s, the UH-90 was conceptualized as a medium-sized compound utility helicopter, but has since been fitted with numerous weapon stations allowing it to occupy a gunship role. Featuring a coaxial rigid rotor system and two reversible turbine-electric ducted fans in pusher configuration, the Ibis can rapidly reach high cruising speeds before decelerating to a vertical landing in less than 30 seconds.
+====
+Designed for counter insurgency operations and low-intensity battlefields, the CI-22 Cricket features robust landing gear and short takeoff and landing capability, allowing it to operate from unprepared fields. While lacking in speed and survivability, the CI-22 possesses remarkable agility and the ability to mount an array of weapon types
+====
+Designed for long-range precision strikes against high value targets, this tactical ballistic missile leaves the atmosphere before reentering on a steep trajectory, exceeding Mach 4 on impact. The Piledriver is virtually impossible to intercept without long range missile defenses in the vicinity of the target.
+====
+Designed for rapidly delivering vehicles from Annex class assault carriers to landing points, this fast hovercraft can carry up to 80 tons of cargo and is equipped with an IRM-S1 launcher and heavy machine gun for self defense.
+====
+Designed specifically for anti-armor applications, this short range fire-and-forget missile is ideal for penetrating well protected tanks from any angle.
+====
+Designed to supplement and eventually replace human sentries, the pillbox represents part of a networked perimeter monitoring system. The hardened structure houses a pair of autonomous 12.7mm machine gun turrets.
+====
+Directional offensive jammer, capable of blinding one targeted radar per pod at ranges of up to 50km.
+====
+Effective against ground targets or slow-flying aircraft at ranges of up to 8km, the AGM-48 can maneuver erratically to make interception difficult.
+====
+Enum(None, 0, Side by Side, 1, Over Under, 2)
+====
+Fantec Porsche 911 Turbo S, Fantec Porsche 911 Carrera
+====
+Featuring 8 IR missile launchers, this air defense system is capable of intercepting missiles and aircraft at a range of up to 5km
+====
+Featuring a unique 3-post ducted thrust system, this trainer doubles as an affordable attack aircraft with VTOL capability. The Vagrant is highly maneuverable and capable of transonic speeds, while also featuring a radar to allow engagement of air targets at beyond visual range. Although lacking advanced stealth features, the VT-7 continues to serve as the backbone of BDF naval aviation.
+====
+Featuring powerful engines, a stealthy silhouette, and 4 large internal weapon bays, the SFB-81 Darkreach is a formidable bomber capable of deploying both conventional and nuclear weapons. Its blended wing design allows the Darkreach to conduct operations in a variety of flight regimes, from low-altitude penetrating strikes to standoff strategic bombardment.
+====
+Firing .50 caliber ammunition, the 12.7mm machine gun is effective against aircraft and lightly armored surface targets at ranges of up to 1km (0.61 miles).
+====
+Firing 57mm proximity fused explosive shells, the Anvil is capable of dealing devastating volleys against both air and land targets
+====
+First center or zero all sticks and axes and press any button or wait for the timer to finish.
+====
+Flying at subsonic speeds along a terrain-hugging flight path, this cruise missile is difficult to detect and can overwhelm defenses in large numbers.
+====
+Full-sized ipega gamepad. Must be in Gamepad mode (hold X + Home).
+====
+G920 Driving Force Racing Wheel for Xbox One
+====
+Group of 8 troops which stay with the aircraft, providing the ability to capture buildings and airbases when landed nearby
+====
+Guided thermonuclear bomb, set to strategic yield. Detonates after a minimum time delay of 16 seconds, when below 500m (1650ft) altitude. Unless being lofted, level bombing should be carried out at a minimum of 1300m(4300ft).
+====
+Guided thermonuclear bomb, set to tactical yield. Detonates after a minimum time delay of 8 seconds, and when below 150m (500ft) altitude. For laydown delivery, it will deploy a parachute to allow the bomb to survive impact with the ground when dropped below 300m (1000ft).
+====
+Guided thermonuclear bomb, set to tactical yield. Detonates after a minimum time delay of 8 seconds, and when below 150m (500ft) altitude. For laydown delivery, it will deploy a parachute to allow the bomb to survive impact with the ground when dropped below 300m(1000ft).
+====
+HJZ Mayflash PS3 Game Controller Adapter
+====
+HJZ Mayflash WiiU Pro Game Controller Adapter
+====
+Hangar for storing medium-sized aircraft
+====
+Heavy duty tractor cab for hauling large trailer systems
+====
+Heavy thermobaric guided bomb capable of devastating soft targets over a wide area. Best used against buildings or lightly defended groups of vehicles.
+====
+High energy laser weapon designed to intercept missiles and bombs at ranges of up to 15km.
+====
+How much of a reward goes back into the Faction HQ. A value of 100% means all money earned is redistributed by the faction, while a value of 0% means the player who earned the score keeps all of the money.
+====
+Ideal for attacking SAM sites at beyond visual range, this anti-radiation missile is capable of high range and speed and specifically targets radar emission sources. If not provided a target, it will identify its own from incoming radar signals.
+====
+IndexNotFoundException - 'key' was not found in dictionary
+====
+Invert Throttle Control when used as Collective
+====
+Jess Tech GGE909 PC Recoil Pad
+====
+Keyboard&Mouse;Gamepad;Touch;Joystick;XR
+====
+KeywordEnum(6 Frames Layout, Latitude Longitude Layout)
+====
+Learn how to manage throttle, brake and rudder to safely taxi to the runway, before conducting your first take off. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.
+====
+Logistics vehicle with a loading system capable of handling a variety of tasks
+====
+Long range air defense trailer capable of engaging aerial targets detected by nearby radar trucks
+====
+Long range air defense unit capable of engaging aerial targets detected by nearby radar trucks
+====
+Long range artillery rocket with inertial navigation and terminal laser guidance to improve accuracy. A thermobaric warhead provides enhanced blast effects, ideal for demolishing buildings and defensive structures.
+====
+Long range ground launched semi-active radar homing missile
+====
+Long range launcher armed with a pair of 20kt Nuclear Piledrivers. Will deploy and fire automatically on known datalinked targets once the strategic escalation threshold is met.
+====
+Long range launcher armed with a pair of HE Piledrivers. Will deploy and fire automatically on known datalinked targets once the strategic escalation threshold is met.
+====
+Long-range air-to-air missile using a ramjet sustainer motor for beyond visual range (BVR) engagements. The AAM-36 takes approximately 20 seconds to reach a top speed of Mach 4.
+====
+Long-range anti-surface missile employing a quasi-ballistic trajectory, allowing it to reach distant targets at supersonic speeds.
+====
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+====
+Low velocity from short tube, fired more opportunistically by infantry
+====
+MFi game controller based on extended profile
+====
+MODE2 SHIFT POV Hat Down-Left
+====
+MODE2 SHIFT POV Hat Down-Right
+====
+MODE2 SHIFT POV Hat Up-Left
+====
+MODE2 SHIFT POV Hat Up-Right
+====
+Mad Catz Pro Flight Cessna Rudder Pedals
+====
+Mad Catz Pro Flight TPM System
+====
+Mad Catz Saitek Pro Flight X-56 Rhino Stick
+====
+Mad Catz Saitek Pro Flight X-56 Rhino Throttle
+====
+Madcatz Saitek Pro Flight X-55 Rhino Stick
+====
+Madcatz Saitek Pro Flight X-55 Rhino Throttle
+====
+Main color for static Virtual MFD buttons.
+====
+Main color for static Virtual MFD text.
+====
+Main color for static Virtual MFD visual elements.
+====
+Mayflash WiiU Pro Game Controller Adapter
+====
+Medium range 127mm rocket with a laser guidance package providing limited maneuverability. Launching aircraft must aim at the target and keep it selected to provide guidance.
+====
+Medium-range heat seeking missile ideal for attacking fast and maneuverable aircraft
+====
+Microsoft SideWinder Force Feedback Pro (USB)
+====
+Mode 1: Hold Power + X to connect. Triggers act as buttons.
+====
+Mode 2; Hold Power + XY to connect. Triggers act as a single axis.
+====
+Modular Support Vehicle carrying a Laser Air Defence System capable of destroying small calibre aerial munitions.
+====
+Move each selected unit around its own pivot
+====
+Move entire selection around shared pivot
+====
+Must be in Gamepad mode in Windows, OSX, Linux.
+====
+Must be in PC mode for Win/OSX/Linux, GameSmart mode for Android.
+====
+My-Power CO., LTD PS2 adapter
+====
+My-Power CO.,LTD. PS(R) Controller Adaptor
+====
+No driver or new driver without support for G25 around 10/2016
+====
+No driver or new driver without support for G27 around 10/2016
+====
+Nvidia Shield Portable and Nvidia Shield Wireless Controller (2015 model)
+====
+Occupying three structural hardpoints and weighing in at 1.6 tons loaded, this seven-barrelled, twin motor behemoth fires a mixed belt of 30mm armour piercing incendiary & HE rounds at 3000rpm. Can be made effective against the majority of enemy vehicles, buildings, and slow moving aircraft.
+====
+Optically guided 250kg bomb capable of destroying heavily armored vehicles and small buildings.
+====
+Optically guided 250kg bomb, fitted with range extension kit to allow it to glide over long distances.
+====
+Optically guided 500kg bomb, ideal for attacking convoys and large buildings.
+====
+Pitch Ang Vel [Target Ang Vel]
+====
+Players who are kicked from current session. Cleared when making a lobby.
+====
+Players who are permanently banned from joining games you host.
+====
+Players who are permanently muted in chat, and hides games they host in Multiplayer lobby list
+====
+Point-defence laser designed to intercept approaching missiles from within 2km.
+====
+Point-defence laser designed to intercept approaching missiles from within 8km.
+====
+Powerful long-range all-aspect radar, capable of spotting aircraft even at altitudes as low as 5m (16ft)
+====
+Press any button or move an axis on the controller you would like to use.
+====
+Pro Flight Helicopter PUMA - 4th generation Helicopter Controller
+====
+Protected parking area for aircraft, shielded from shrapnel
+====
+Reduce AI Aircraft per friendly player
+====
+Refrigerated, in-ground bulk liquid gas storage. Thick concrete for insulation makes it difficult to damage with weapons fire.
+====
+Reinforced bunker for storing ammunition and nuclear warheads. Can resupply units within 300m. It is resistant to bombs and missiles, often requiring multiple direct hits or large/penetrating munitions to destroy it.
+====
+Requires SteelSeries Engine software to be installed.
+====
+Rewired.UI.ControlMapper.ButtonInfo, Assembly-CSharp-firstpass
+====
+Round rampart to provide cover for vehicles
+====
+Saitek Heavy Equip Panel (Pro Farming)
+====
+Saitek Pro Flight Cessna Trim Wheel
+====
+Saitek Pro Flight Combat Rudder Pedals
+====
+Saitek Saitek Pro Flight Combat Rudder Pedals
+====
+Saitek Saitek Pro Flight Rudder Pedals
+====
+Saitek Saitek X52 Pro Flight Control System
+====
+Save New override button-danger-subtle
+====
+Select unit after placing (shift click to place more)
+====
+Short range 70mm rocket with a laser guidance package providing limited maneuverability. Launching aircraft must aim at the target and keep it selected to provide guidance.
+====
+Short-range anti-tank guided missile designed for knocking out vehicles, emplacements,  and small buildings
+====
+Short-range heat seeking missile ideal for attacking fast and maneuverable aircraft
+====
+Show all units or only selected
+====
+Single-use container for replenishing a warship's ammunition stores. Has floatation devices and can be picked up by ships within 200m after being placed in the water.
+====
+Single-use pallet for replenishing a warship's ammunition stores. Has floatation devices and can be picked up by ships within 200m after being placed in the water.
+====
+Slower firing than its rotary counterparts, the 27mm Autocannon packs a heavier punch and is effective against both aircraft and moderately armored surface targets.
+====
+Sporting a powerful autocannon and anti-armor missiles, the Linebreaker Infantry Fighting Vehicle is a versatile unit capable of engaging both air and ground threats
+====
+Square rampart to provide cover for vehicles
+====
+Standardized Gamepad (for platform-specific standardized layouts)
+====
+Stick Y axes do not return any value.
+====
+Super Dual Box Pro (default driver)
+====
+Super Dual Box Pro (downloaded driver)
+====
+Supplies fissile material for nuclear weapons. Having an enrichment plant ensures a steady supply of nuclear warheads.
+====
+Support vehicle capable of rearming friendly units within 300m
+====
+Switch is set to DirectInput mode
+====
+Synthetic fuel production unit capable of converting a large variety of organic feedstocks into fertilizer and combustible fuels.
+====
+T.RJ12 USB Adapter for T3PA and T3PA Pro racing pedals
+====
+Template for a dual stick game pad with up to 6 action buttons, 2 shoulder buttons, 2 triggers, and 3 center buttons.
+====
+Terminal Control Co-op as BDF
+====
+Terminal Control Co-op as PALA
+====
+Test Error Message, Test Error Message, Test ErrorTest Error Message
+====
+The 25mm rotary cannon fires dual purpose explosive shells, effective against aircraft or moderately armored surface targets.
+====
+The 30mm rotary cannon fires large, dual purpose explosive shells, effective against armored surface targets.
+====
+The 35mm Autocannon packs a heavier punch than other aerial guns and is effective against many armored surface targets. Its superior ballistics allow it to remain effective at ranges exceeding 3000m.
+====
+The AFV6 is a fast, lightweight multipurpose armoured vehicle. This is a short range air-defence variant, with a potent 20mm rotary cannon and an IRM-S1 launcher.
+====
+The AFV6 is a fast, lightweight multipurpose armoured vehicle. This is an anti-armour variant, equipped with a large, long range multiple ATGM launcher. Internal stores of extra missiles reduce seating capacity substantially.
+====
+The AFV6 is a fast, lightweight multipurpose armoured vehicle. This is the default variant, an armoured personnel carrier. The increased seating capacity allows it to capture locations faster than other variants.
+====
+The AFV6 is a fast, lightweight multipurpose armoured vehicle. This variant is an infantry fighting vehicle with a 25mm cannon.
+====
+The AFV8 Armored Personnel Carrier is a fast troop transport with a roof mounted machine gun to counter low-flying aerial threats and soft ground targets
+====
+The AGM-68 is a large, optically guided missile capable of destroying structures and heavily armored vehicles. It follows an unpredictable trajectory to avoid interception.
+====
+The ALND-4 (Air Launched Nuclear Deterrent) is a long range subsonic cruise missile carrying a tactical nuclear warhead.
+====
+The ARAD-45 uses the same body as the RAM-45 missile, but with an anti-radiation seeker, which will lock on to radar emissions after launch, making it ideal for attacking SAM sites at medium range.
+====
+The AT-145 is a short-range anti-tank guided missile designed for knocking out vehicles, emplacements and small buildings.
+====
+The Alkyon AB-4 is an advanced supersonic bomber with electronic warfare capabilities, designed to stealthily deliver nuclear or conventional payloads onto high value targets. 4 afterburning engines combined with variable geometry wings provide incredible top speed and enough maneuverability to evade aerial threats. If critically damaged, a crew escape capsule allows for safe ejection at any altitude or airspeed.
+====
+The Auger is a bunker busting gravity bomb with a precision guidance kit. It is capable of penetrating hardened structures before its large warhead detonates.
+====
+The Brawler is a reliable and rugged platform built to carry large quantities of precision weapons. Advanced propfan engines combine endurance with respectable speed, while redundant control surfaces, isolated engines, and heavy cockpit armor provide excellent survivability. The A-19 is in its element when attacking convoys of vehicles, distributed short-range air defenses, or vessels operating in coastal waters.
+====
+The Chicane can be taken down with a Nuke
+====
+The Cursor class represents the vanguard of the BDF fleet. This littoral flight deck (LFD) is designed to rapidly deploy light VTOL aircraft from shallow waterways. It employs a small waterplane area twin hull for stability and speed, and mounts a variety of short-range defensive weapons including a laser air defense system.
+====
+The EW-25 is a short take-off, vertical landing (STOVL) support aircraft with a variety of powerful electronic warfare systems. Able to triangulate radar positions, jam enemy radar installations, suppress air defences, and even shoot down missiles with a high energy laser, a single Medusa can easily turn the tide of a battle.
+====
+The FS-12 Revoker is built for agility above all else, capable of extreme maneuvers at almost any speed. Internal weapon bays help reduce drag, allowing supersonic speeds even at low altitudes and with heavy payloads. While less stealthy than newer fighters, the Revoker remains a cost-effective means of establishing air superiority.
+====
+The Hyperion class features a short take-off ramp and arrestor gear on its landing runway, and can accommodate a variety of aircraft types. Defended by two MMR-S3 batteries, one RAM-45 launcher, and two 30mm CIWS turrets, this fleet carrier is capable of countering most aerial threats.
+====
+The IRM-S1 is a man-portable air defense system (MANPADS) effective at countering air threats within 5km. An infrared homing seeker allows the missile to lock onto any aerial target with a heat signature.
+====
+The LCV25 is a 4x4 all terrain vehicle, offered in AA or AT configurations, combining the agility of a light recon vehicle with the firepower of heavier fighting vehicles. It is air transportable, with 2 units fitting inside the cargo bay of a VL-49 Tarantula.
+====
+The SAH-46 Chicane retains a traditional attack helicopter configuation while incorporating upgrades that keep it a formidable presence on the battlefield of the late 21st Century. Cutting edge stealth technology allows the Chicane to conduct pop-up attacks from behind terrain and disappear from radar without a trace.
+====
+The Surf Class is an inshore patrol vessel, nominally used for border protection and anti-piracy duties. While it lacks the staying power of larger ships, its speed and complement of vertically launched AGM-48s can make it a credible threat to them. The 30mm main gun has proximity fused shells and provides some amount of self-protection against missile attack.
+====
+The amount of starting funds players receive when joining. This is paid from the faction funds, which can overdraw for this purpose.
+====
+The base rate of income players receive from the faction HQ. This value is per player. If the faction runs out of money, this income will stop.
+====
+The global skill level multiplier for all AI units of the faction, which applies on top of individual skill levels.
+====
+The pool of starting funds, from which regular incomes and join allocations are drawn from. Player donations, contribution, and kill rewards from AI units go back into this pool. If the pool exceeds the starting amount, the excess is split amongst the current players.
+====
+This 400kg cluster bomb dispenses 8 GS25 submunitions capable of independently finding and targeting hostile units in the vicinity.
+====
+This advanced and highly mobile long-range artillery system fires 155mm laser guided shells. Capable of bombarding targets 40km away at a sustained 5 rounds per minute, the HLT Mobile Artillery will frequently relocate to avoid return fire.
+====
+This anti-radiation missile will lock on to radar emissions after launch, making it ideal for attacking SAM sites at beyond visual range.
+====
+This anti-ship cruise missile can be launched from aircraft or vertically by the Dynamo class Destroyer, using sea-skimming technique and supersonic speeds to penetrate the enemy's air defense systems.
+====
+This anti-ship cruise missile can be launched from aircraft or vertically by the Dynamo class Destroyer. It uses a low altitude sea-skimming flight profile and supersonic speeds to penetrate enemy air defense systems.
+====
+This anti-ship missile has a very low altitude cruise profile with a pop-up terminal attack mode designed to penetrate ship defenses. Can be deployed from aircraft or launched from an Argus Class Frigate.
+====
+This armored air defense vehicle combines off-road mobility with 12 short-range IR missiles capable of engaging low-flying aircraft
+====
+This compact warship is well equipped for defending coastal areas, armed with a 57mm cannon, 20mm point defense system, and battery of vertically launched RAM-45 missiles. A small landing pad at the stern allows it to serve as a mobile re-arming and refueling point for helicopters.
+====
+This computer stabilized turret fires dual purpose 20mm rounds, effective against aircraft or lighly armored surface targets at relatively short ranges
+====
+This formidable anti-air unit incorporates a radar capable of tracking multiple aerial targets at a range of up to 15km, and carries 16 vertical-launch missiles which can be fired in rapid succession
+====
+This glide bomb deploys folding wings, giving it an extended range from altitude. Guided by an optical seeker during the terminal phase, the PAB-80LR features a small radar cross-section and no IR signature.
+====
+This guided missile destroyer is armed with a battery of vertically launched cruise missiles and a 155mm railgun in its forward turret. Its powerful defensive armament of two MMR-S3 batteries, three R9 vertical launchers and four 30mm CIWS turrets, makes the Dynamo class a powerful warship, able to defend a fleet from any threat.
+====
+This gun shoots 30mm explosive shells effective against armored ground vehicles and buildings at ranges of over 2km (1.3m).
+====
+This heavy machine gun mounted on a tripod is low-cost means of defending point targets from light vehicles and low flying helicopters. Its small size and low profile make it difficult to spot from a distance.
+====
+This manually aimed static air defense position is a simple and low-cost means of defending point targets from helicopters and other low-flying aircraft. Its small size and low profile make it difficult to spot from a distance.
+====
+This modified AGM-48 replaces the missile's usual warhead with a panoramic optical sensor suite capable of detecting enemy targets and registering them as contacts on faction datalink
+====
+This rotary cannon fires 20mm explosive shells at 6000 rounds per minute, making it highly effective against aerial targets.
+====
+This self-propelled anti-aircraft gun sports twin 30mm autocannons firing proximity-fused shells, capable of accurately striking fast-moving targets at ranges of over 4000m
+====
+This trailer is equipped with a 20mm rotary gun to provide point defence against shells, missiles, bombs, and low flying aircraft within a range of approximately 3km.
+====
+This transportable air defense missile launcher capable of engaging aerial targets within 15km. It can be deployed by a utility aircraft and obtains target info from a nearby radar.
+====
+This transportable air defense radar unit can track multiple targets at ranges of up to 17km. It can be deployed by a utility aircraft and is able to provide target info to nearby SAM batteries.
+====
+This upfit for the AFV8 chassis features a 25mm cannon and anti-armor missile launcher, turning it into a fast infantry fighting vehicle.
+====
+This will restore the default input configuration for all players. Are you sure you want to do this?
+====
+This will restore the default input configuration. Are you sure you want to do this?d
+====
+Though lightly armed and armored, the LCV45 is a fast vehicle ideal for forward scouting
+====
+Thrustmaster FireStorm(TM) Dual Power Gamepad
+====
+TigerGame PS/PS2 Game Controller Adapter
+====
+Toggle Terrain angle following for new unit placement
+====
+Tractor unit for hauling trailer systems
+====
+Ubuntu, wired: Firefox, Ubuntu 17.04, wireless (BT pair): Firefox
+====
+Unguided air-to-air rocket with a 1.5kt nuclear warhead and a 12-second time delay fuse. Why is this still in the inventory?
+====
+UnityEngine.Rendering.UI.DebugUIHandlerButton, Unity.RenderPipelines.Core.Runtime
+====
+UnityEngine.Rendering.UI.DebugUIHandlerIntField, Unity.RenderPipelines.Core.Runtime
+====
+UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField, Unity.RenderPipelines.Core.Runtime
+====
+UnityEngine.Rendering.UI.DebugUIHandlerPanel, Unity.RenderPipelines.Core.Runtime
+====
+UnityEngine.Rendering.UI.DebugUIHandlerUIntField, Unity.RenderPipelines.Core.Runtime
+====
+Universal Render Pipeline/Particles/Simple Lit
+====
+Update 02/20/2023: Tested in Ubuntu 22.04. Xbox Series S/X controller via BT, Xbox One controller via BT.
+====
+Upon arrival within 2.5km (1.6mi) of the designated target, this 500kg glide bomb dispenses 12 GS25 submunitions capable of independently finding and targeting hostile units in the vicinity.
+====
+Use Head Tracker inputs for cockpit camera
+====
+Use Virtual Joystick (Mouse Flight Controls)
+====
+Using a combination of inertial guidance and terminal radar homing, the Scythe can engage aerial targets at beyond visual range
+====
+Vehicle deployment facility. Can defend itself with small arms fire.
+====
+Vertically launched missile effective against aerial radar returns at a range up to 15km
+====
+Waiting for server to load next mission
+====
+Weapon Safety Lock while Map Maximized
+====
+While the Type 12 may be a legacy design, it still remains a formidable presence on the battlefield. It offers better protection per unit weight than its contemporaries, owing to its novel monocoque composite hull & turret that give the Type-12 its signature shape. Its armament consists of a 130mm cannon firing hypervelocity SABOT rounds and a turreted 12.7mm machine gun.
+====
+Windows XP, Vista, 7, 8, RI (Win10, post AU)
+====
+Windows: Must use Windows Mode. Android: Can use Android or Windows modes.
+====
+Wired mode (mode 5), Joystick mode (mode1)
+====
+With a liberal application of armour and weapon modules, the latest iterations of the Spearhead are as protected as they are powerful. The combination of 130mm main gun and ATGM launcher allow it to hold its own against larger numbers of enemy armoured units, while the roof mounted 20kw pulse laser can protect the relatively thinner top armour against missiles. Its ever-growing list of capabilities has come with a diminished top speed and a total weight far exceeding its original design specifications.
+====
+Xbox One S (fw 3.1.1221.0), OSX, Bluetooth: Safari - LT/RT, View, Guide don't work
+====
+Xbox One S (orig fw), OSX, Bluetooth: Safari, Guide doesn't work
+====
+[start capture airbase] - Ref:2 - Type:StartObjective
+====
+bd7bc65f4bae14b4cae2fed6714f46ae
+====
+c3ad3cad-c7cf-4ca8-8c2e-e3df8d9960bb
+====
+default airbase, some value can not be changed
+====
+mayflash limited MAYFLASH GameCube Controller Adapter
+====
+#### level0
+Additionally, you can now hold down a modifier button (Default D-Pad Down) while adjusting throttle, allowing you to manually vector VTOL aircraft without needing a separate axis.
+====
+Are you sure you want to leave ?
+====
+Changing this will rename the project folder
+====
+Host has kicked you from the game
+====
+If you don't want to use radial menus, you can instead bind each of the radial menu features to buttons on your keyboard or HOTAS.
+====
+Learn how to manage throttle, brake and rudder to safely taxi to the runway, before conducting your first take off. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.
+====
+Save New override button-danger-subtle
+====
+The Chicane can be taken down with a Nuke
+====
+Welcome to Nuclear Option Early Access 0.34!
+====
+#### level1
+EXTREMELY LONG PLAYER NAME THAT GETS OUT OF BOUNDS
+====
+Long description about some stuff happening in the game. Long description about some stuff happening in the game. Long description about some stuff happening in the game.
+====
+Pitch Ang Vel [Target Ang Vel]
+====
+Target enemy units in sector A9, beware of SAM sites defenses and air patrols.
+====
+What the fuck did you just fucking say about me, you little bitch? I'll have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I'm the top sniper in the entire US armed forces. You
+====
+#### level2
+A great place for new players to learn the ropes. The description would highlight the helpful community and the cooperative nature of the missions.
+====
+Add AI Aircraft per enemy Player
+====
+Are you sure you want to block the owner of this lobby?
+====
+Can't edit both factions because supplies are not equal
+====
+Can't edit both factions because values are not equal
+====
+How much of a reward goes back into the Faction HQ. A value of 100% means all money earned is redistributed by the faction, while a value of 0% means the player who earned the score keeps all of the money.
+====
+Learn how to manage throttle, brake and rudder to safely taxi to the runway, before conducting your first take off. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.
+====
+Reduce AI Aircraft per friendly player
+====
+The amount of starting funds players receive when joining. This is paid from the faction funds, which can overdraw for this purpose.
+====
+The base rate of income players receive from the faction HQ. This value is per player. If the faction runs out of money, this income will stop.
+====
+The global skill level multiplier for all AI units of the faction, which applies on top of individual skill levels.
+====
+The pool of starting funds, from which regular incomes and join allocations are drawn from. Player donations, contribution, and kill rewards from AI units go back into this pool. If the pool exceeds the starting amount, the excess is split amongst the current players.
+====
+#### level3
+The SAH-46 Chicane retains a traditional attack helicopter configuation while incorporating upgrades that keep it a formidable presence on the battlefield of the late 21st Century. Cutting edge stealth technology allows the Chicane to conduct pop-up attacks from behind terrain and disappear from radar without a trace. Cutting edge stealth technology allows the Chicane to conduct pop-up attacks from behind terrain and disappear from radar without a trace.
+====
+#### level4
+Add AI Aircraft per enemy Player
+====
+Can't edit both factions because supplies are not equal
+====
+Can't edit both factions because values are not equal
+====
+How much of a reward goes back into the Faction HQ. A value of 100% means all money earned is redistributed by the faction, while a value of 0% means the player who earned the score keeps all of the money.
+====
+Learn how to manage throttle, brake and rudder to safely taxi to the runway, before conducting your first take off. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.
+====
+Reduce AI Aircraft per friendly player
+====
+The amount of starting funds players receive when joining. This is paid from the faction funds, which can overdraw for this purpose.
+====
+The base rate of income players receive from the faction HQ. This value is per player. If the faction runs out of money, this income will stop.
+====
+The global skill level multiplier for all AI units of the faction, which applies on top of individual skill levels.
+====
+The pool of starting funds, from which regular incomes and join allocations are drawn from. Player donations, contribution, and kill rewards from AI units go back into this pool. If the pool exceeds the starting amount, the excess is split amongst the current players.
+====

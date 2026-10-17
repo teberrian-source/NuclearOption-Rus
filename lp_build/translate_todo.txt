@@ -1,0 +1,360 @@
+########## weapon (116) ##########
+[WeaponInfo.description] 130mm manually loaded cannon firing SABOT shells.
+[WeaponInfo.description] 20mm autocannon firing explosive dual-purpose shells at a modest rate of fire.
+[WeaponInfo.description] 20mm coaxial weapon to supplement the fighting power of combat vehicles. 
+[MissileDefinition.description] 25kg radar guided submunition packing a fragmentation warhead
+[WeaponInfo.description] 2An fast firing, autoloaded 57mm gun, firing high velocity unguided shells. When fired against air targets, the shells use a proximity fuse to deal fragmentation damage.
+[WeaponInfo.description] A 12.7mm gun with 200 rounds, capable of firing at a very quick fire rate. Designed to cut through low flying aircraft with sheer fire rate.
+[WeaponInfo.description] A 127mm electromagnetic pulse railgun able to destroy hardened structures at range. Unguided, so shot convergence may vary.
+[WeaponInfo.description] A 20mm cannon firing dual purpose explosive shells, capable of airburst and impact damage, capable of tearing through enemy transport vehicles. 
+[WeaponInfo.description] A 30mm Chaingun firing air-burst shells, capable of engaging bombs, rockets and low flying aircraft. 
+[WeaponInfo.description] A 40mm grenade machine gun.
+[MissileDefinition.description] A 5kg HE warhead housed in a fin-stabilised airframe. Uses canard control for terminal guidance that is provided by an electro-optical seeker head.
+[MissileDefinition.description] A 6kg HE warhead housed in a fin-stabilised airframe. Uses canard control for terminal guidance that is provided by an electro-optical seeker head.
+[WeaponInfo.description] A Chain gun firing 30mm shells used for anti ground purposes, comes with 4 ATP missiles. 
+[WeaponInfo.description] A EW suite comprised of 4 jammers and a 50km radar. 
+[WeaponInfo.description] A IFV autocannon which allows engaging vehicles of similar armor class, and being able to destroy tanks from the sides/rear. Comes with a mixed loadout of anti ground and anti air missiles. 
+[WeaponInfo.description] A Mobile maintenance and support module allows for refueling and rearming units, and repairing bases within 50m
+[MissileDefinition.description] A RAM-45 equipped with a active radar seeker for the mobile use of anti air, without the capability of a radar. 
+[WeaponInfo.description] A Rotary cannon firing 20mm explosive shells at 6000 rounds per minute, comes with 4 IRM-S1s, suited for air defense. 
+[WeaponInfo.description] A anti air defense cannon, firing 57mm time-fused explosive shells. Automatically adjusts time fuse according to target parameters. 
+[WeaponInfo.description] A belt-fed 57mm triple-barrel chaingun firing general purpose SAPHE rounds for dealing with medium-armoured targets and structures.
+[WeaponInfo.description] A belt-fed two-tonne behemoth of a heavy gatling gun mounted onto a turret cradle. Whilst questionable in effectiveness, it does look and sound cool.
+[WeaponInfo.description] A cargo hook with a 20m (65ft) line for slinging external loads and recovering downed pilots.
+[WeaponInfo.description] A combination mount of additional laser designators and improved optics that extends visual range and allows for more targets to be simultaneously illuminated for laser-guided strikes.
+[WeaponInfo.description] A compact, probably non-euclidean deployable helipad for deployment and rearmament of rotary-wing aviation. Armed with IRM-S1 and 12.7mm machine gun turrets for self defence.
+[WeaponInfo.description] A heavy machine gun adapted for aircraft use, effective against aircraft and thinly-armoured ground targets. Unlike its smaller .50cal cousin, the 14.5 fires incendiary rounds with 5 grams of HE filler.
+[WeaponInfo.description] A heavy, unwieldy 155mm Railgun turret. Capable of engaging at range against slow moving targets or static structures.
+[MissileDefinition.description] A high drag 125kg bomb, ideal for destroying vehicles in extremely low attacks.
+[MissileDefinition.description] A high velocity direct fire Anti-Tank missile
+[MissileDefinition.description] A large anti-surface bomb granted extended range with an unpowered glide kit and INS guidance, able to destroy multiple hardened structures in a single hit.
+[WeaponInfo.description] A large thermobaric warhead designed to destroy enemy capital ships. Big badda boom.
+[MissileDefinition.description] A medium range subsonic 81mm HE mortar shell with an optical-laser guidance kit for light artillery purposes.
+[WeaponInfo.description] A mixed Loadout of ATP-1 and S1 for varied engagements
+[WeaponInfo.description] A open-top emplacement for attacking low flying aircraft in quick attacks.  
+[WeaponInfo.description] A short ranged missile, consisting of 6 cluster Active Radar homing bomblets that self-propel themselves towards their targets.
+The missile is hot-launched and orientates itself in the direction of the threat, and deploys the bomblets.
+[WeaponInfo.description] A single RAM45 launcher turret.
+[WeaponInfo.description] A single, and rather large, 50-ton ammo container. When placed on the ground, allows weapon rearmament for units within 200m. Avoid subjecting the containers to large impact forces, as they may detonate.
+[WeaponInfo.description] A super-cavitating interceptor engineered for pure kinetic urgency. By generating a localized gas-bubble envelope to negate hydrodynamic drag, the Mako closes the distance to its targets with predatory velocity. It can also be used as a counter-torpedo, but not very effective against its own kind
+[MissileDefinition.description] Advanced and highly flare-resistant medium range infrared air to air missile effective at ranges up to 20km.
+[MissileDefinition.description] Air-launched low-observable jet attack drone. Up to 1050 km/h; 20 m terrain-following; 68 kg warhead.
+[MissileDefinition.description] An active radar guided, beyond-visual-range air-to-air missile. The Scimitar maintains constant thrust and mid-course acceleration thanks to its ramjet engine, which can burn for up to a minute and gives the scimitar excellent speed and range.
+[WeaponInfo.description] An air transportable radar container, that can provide guidance to with nearby SARH SAM launchers with a range of 17km.
+[WeaponInfo.description] An air-transportable MMR-S3 SAM turret. Stows twelve missiles and unfolds once deployed. Fully autonomous fire control with a 10km range inbuilt IR tracker.
+[WeaponInfo.description] An air-transportable RAM-45 SAM turret. Stows six missiles, can be resupplied by containers and deploys after landing. Requires a Radar (HLT-R or Radar Station) for targeting.
+[WeaponInfo.description] An autoloaded 127mm artillery cannon, firing guided projectiles, air-cooled and with no active cooling systems prevents prolonged firing.  
+[WeaponInfo.description] An autoloaded 152mm gun, firing fin-stabilised guided projectiles. The gun requires airflow for cooling. It has a maximum firerate of 60RPM for 10 seconds, and can sustain a constant firerate of at least 40 RPM while moving at 500kph
+[WeaponInfo.description] An autoloaded 76mm artillery cannon, firing guided projectiles, air-cooled and with no active cooling systems prevents prolonged firing.  
+[MissileDefinition.description] An extended range guided artillery shell, using a combination of inertial navigation and terminal laser guidance to improve its accuracy.
+[MissileDefinition.description] An extended range guided artillery shell, using a combination of inertial navigation and terminal laser guidance to improve its accuracy. Foregoes some warhead mass in exchange for an advanced datalink seeker to allow independent confirmation of hits and advanced scouting of targets.
+
+[WeaponInfo.description] An extremely powerful long-range all-aspect radar system for early warning, capable of spotting aircraft even at altitudes as low as 5m (16ft)
+[WeaponInfo.description] Anti ground vehicle designed for destroying targets from afar with fast moving AT56 missiles that require line of sight
+[WeaponInfo.description] Autoloaded, 5 rounds 130mm cannon firing SABOT, and the capability to fire IRM-S1s and AGR-28s.
+[WeaponInfo.description] Confined space compatible shoulder fired recoilless rifle
+[WeaponInfo.description] Counter Rocket, Artillery and Missile system for protecting assets, firing 20mm proximity-fused at a fast rate. (Weapon info on the left side) 
+[WeaponInfo.description] Detachable aircraft external fuel tank containing 150gal / 450kg of fuel. Automatically detaches when empty.
+[WeaponInfo.description] Detachable aircraft external fuel tank containing 370gal / 1200kg of fuel. Automatically detaches when empty.
+[WeaponInfo.description] Detachable aircraft external fuel tank containing 600gal  / 2000kg of fuel. Automatically detaches when empty.
+[WeaponInfo.description] Dual 40mm cannon. Highly effective against surface targets, and damaging against air targets if you manage to hit
+[WeaponInfo.description] Dual mounted IRM-S1s, for intercepting low and slow flying aircraft.
+[WeaponInfo.description] Dual mounted guided ATP-1s, capable of firing over terrain, or supplementing anti ground capabilities.
+[WeaponInfo.description] Formidable but dated MBT design, lighter weight allows for carriage within the Chimera. Warning: Does not have a parachute, must be dropped on or near ground level.
+[WeaponInfo.description] Guided thermonuclear bomb, set to silly yield. Detonates after a minimum time delay of 8 seconds, and when below 150m (500ft) altitude. For laydown delivery, it will deploy a parachute to allow the bomb to survive impact with the ground when dropped below 300m (1000ft).
+[WeaponInfo.description] Hard kill active protection turret which automatically engages incoming projectiles below 200 meters. Fires a explosively formed penetrator to destroy projectiles. 
+[WeaponInfo.description] Heavy laser-guided rocket designed to cripple small surface vessels and damage larger ones.
+[WeaponInfo.description] Heavy, slow, and deadly. Just one Hammerhead has a warhead capable of splitting a capital ship in half, but requiring a patience to see the devastating outcome as it is classified as a marathon torpedo. The same distance travesed by 'Mako' will take twice as long for 'Hammerhead'.
+[WeaponInfo.description] High energy laser weapon for self defense against small projectiles at further range and for burst attacks. Does use capacitor. 
+[WeaponInfo.description] High wattage pulse laser for intercepting incoming munitions.
+[WeaponInfo.description] I'm Chief Splashabitch from the 57mmhoe tribe
+[WeaponInfo.description] Intermediate cartridge. It tickles.
+[MissileDefinition.description] Jet-powered low-observable one-way attack drone. 670 km/h cruise; 20 m terrain-following; 38 kg warhead.
+[WeaponInfo.description] LADS Module: Dedicated Laser Air Defense System designed to intercept approaching small munitions at range, struggles with larger bombs and saturation attacks. Does not use capacitor. 
+[WeaponInfo.description] Large INS guided rocket meant for shore bombardment with a secondary direct-attack capability. Accuracy is increased if the target is illuminated by a laser, but the extra guidance systems reduce its payload size compared to similarly sized weapons.
+[MissileDefinition.description] Larger Apex-8 drone with a one-second detachable ground-launch booster.
+[WeaponInfo.description] Laser weapon for self defense against small projectiles. Struggles against large anti tank missiles and bombs. Does not use capacitor.
+[WeaponInfo.description] Light, compact, agile, and deceptively lethal. While its 'Lemon' designation suggests a dud, it is anything but, a single Darkreach can launch 32 Lemons at once. Even if it's not the fastest, the deadliest, nor stealthiest, it's the cheapest, most reliable, and most accessible torpedo on the menu.
+[WeaponInfo.description] Long-range aircraft howitzer firing guided HE rounds.
+[MissileDefinition.description] Long-range anti-surface missile employing a quasi-ballistic trajectory, allowing it to reach distant targets at supersonic speeds; Equipped with a tactical-yield nuclear warhead. Warhead arms after 10 seconds of flight.
+[WeaponInfo.description] Low velocity from short tube, fired more opportunistically by infantry
+[WeaponInfo.description] Low-altitude jet attack drone; 38 kg shaped-charge/HE warhead. Selected surface target required.
+[MissileDefinition.description] Medium range heavy 203mm laser-guided rocket, with a powerful 50kg shaped charge warhead, best used against heavily armoured ground targets and structures. Launching aircraft must aim at the target and keep it selected to provide guidance.
+[WeaponInfo.description] Multipurpose 30mm autocannon meant for anti-surface duties.
+[MissileDefinition.description] Owing to shortcomings in practical use of the AGM-99 as an anti-ship weapon, this Boscali cruise missile boasts Mach 2.5 cruise speeds and a hefty 700kg warhead supported by a datalinked optical imaging seeker in order to take out heavily defended ships and structures. Nemesis stores 32 IR flares that dispense to defend it against incoming IR missiles.
+[WeaponInfo.description] Powerful tactical laser system capable of destroying targets with a debilitating blast of energy.
+[WeaponInfo.description] Proximity fused autocannon designed for destruction of enemy bombs, missiles and rockets, alongside low flying, fast aircraft. Capable of engaging from 4km.
+[WeaponInfo.description] Quadpacked AGM-68 stuffed in the tubes of the MSV TBM launcher
+[WeaponInfo.description] Ramp-dropped 4 x Apex-8; 7 s separation delay, 0.8 s launch interval.
+[WeaponInfo.description] Ramp-dropped 8 x Apex-6; 7 s separation delay, 0.8 s launch interval.
+[WeaponInfo.description] Shard class air defense radar adapted for air search. Includes a radar locater system allowing it to triangulate and share positions of enemy surface and aerial radar emitters
+[WeaponInfo.description] Short range anti air launcher from the Hexhound SAM, capable of engaging targets autonomously. 
+[MissileDefinition.description] Small Apex-6 drone deployed from an eight-drone pallet.
+[WeaponInfo.description] Strategic nuclear torpedo. Designed for total annihilation of anything unlucky enough to be within its blast radius. It is the most elusive as it swims the deepest and silent, but is also the slowest torpedo in the menu. Best used as a last resort, or when you have plenty of time.
+[MissileDefinition.description] The AAM-45 Sabre is a two-stage booster & ramjet, active-radar homing air-to-air missile designed to destroy high value targets from long range, built for carriage within the FS-41 Eclipse. This gigantic half-ton missile combines mach 4 closing speeds and home-on-jam with long range datalinked guidance with a short pitbull distance to oppress if not destroy enemy bombers and large fighters. It is less agile than its peers but packs a devastating punch.
+[MissileDefinition.description] The AGR-28 SLAGR (Sea Launched Anti Ground Rocket) is a large INS guided rocket meant for shore bombardment with a secondary direct-attack capability. Accuracy is increased if the target is illuminated by a laser, but the extra guidance systems reduce its payload size compared to similarly sized weapons.
+[MissileDefinition.description] The AGR-32 SLASHER (Ship Launched Anti Ship High Explosive Rocket) is a heavy laser-guided rocket designed to cripple small surface vessels and damage larger ones. Capable of overwhelming defenses and outright destroying smaller ships, it is a threat to any vessel, but its limited range puts the launching platform in danger.
+[WeaponInfo.description] The ASD-16 Aerial Submunitions Dispenser is a compact, self-contained bomblet dispenser used for area denial and saturation attacks. It utilises a similar model to the GS-25 bomblets found in the GBM-500LR albeit without automatic independent targeting.
+[WeaponInfo.description] The Combat Reconnaissance Vehicle (Light) / Serval is an 8-tonne armoured fighting vehicle designed for use as a scout and expeditionary warfare platform. The CRV-L offers high cross-country performance and high modularity for a variety of missions. The Recon variant is equipped with a 25mm autocannon for taking on medium armoured targets from flanks, and has excellent stealth & optics.
+[MissileDefinition.description] The HSM-750 Starfall is a heavy hypersonic strike missile with a unitary 750kg warhead and INS guidance system. It lofts to high altitude then dives onto its target at hypersonic speeds. Minimum warhead arming time of 10 seconds. INS seeker requires target to be painted on datalink for the duration of the flight otherwise the Starfall will miss.
+[WeaponInfo.description] The HSM-N Sunfall is a heavy hypersonic strike missile with a 20kT strategic yield nuclear warhead and INS guidance system. It lofts to high altitude then dives onto its target at hypersonic speeds.
+[MissileDefinition.description] The HSM-N Sunfall is a quasiballistic heavy hypersonic strike missile with a 20kT strategic yield nuclear warhead and INS guidance system. It lofts to high altitude then dives onto its target at hypersonic speeds.
+[WeaponInfo.description] The Mk.I Defensive Systems Addon is a series of standarized upgrades allowing for greater survivability when equipped on a ship. This package comes with a 80kw laser turret, as well as 8 built in jammers for degrading enemy air assets.
+[WeaponInfo.description] The Mk.III Defensive Systems Addon is a series of standarized upgrades allowing for greater survivability when equipped on a ship. This package comes with a 80kw phased array laser system, a 20kw rear laser turret, and 4 jammers for degrading enemy air and naval assets.
+[WeaponInfo.description] The Mk.X Defensive Systems Addon is a series of standarized upgrades allowing for greater survivability when equipped on a ship. This package comes with an 80kw laser turret and 4 30km range jammers for degrading enemy assets
+[MissileDefinition.description] The R-100N Zenith is a strategic terminal high-altitude air defence missile designed to intercept ballistic and hypersonic missiles at high altitudes. It features a attitude control motors, a low yield nuclear warhead and phenomenal climb speed to all but guarantee the destruction of its target.
+[MissileDefinition.description] The SAM-85 Whirlwind is a cold-launch SARH air defence missile designed to protect naval assets from aerial threats at medium range. It features a large warhead, good range and admirable agility.
+[MissileDefinition.description] The SLND-9 is a surface-launched variant of the infamous ALND-4 platform, with an improved design featuring a VLS booster to clear it from the launching ship and more active evasion patterns on final approach. It is also RAM treated and harder to intercept than its air launched sibling.
+[MissileDefinition.description] The SSM-114P Shipbreaker is a high speed, short ranged, ship-launched anti ship missile based off of the Piledriver TBM. Using a solid rocket motor rather than a jet, the Shipbreaker has high speed compared to conventional cruise missiles, but a limited range. Designed to penetrate ship defenses via speed. Highly effective, but probability of hit falls off rapidly as range increases.
+[WeaponInfo.description] This 30mm cannon fires dual purpose HE rounds for use against surface targets. It is mounted to a flex gimbal for ease of targeting and is capable of firing without pilot control. It occupies the volume of the right internal bay with its traversal mechanism and ammunition drum.
+[WeaponInfo.description] This external targeting system sports a 10km range high-magnification optical detector as well as three additional laser designators for the mounting aircraft.
+[MissileDefinition.description] This is what happens when we capture a pilot who ejected. Don't be like him.
+[MissileDefinition.description] This large hypersonic cruise missile can travel extreme ranges, evading air defenses through sheer speed.
+[WeaponInfo.description] This rapid-fire aircraft autocannon fires 20mm HE at a high rate of fire, able to tear through enemy aircraft with ease.
+[WeaponInfo.description] This rotary cannon fires high explosive 20mm rounds at 1,200rpm, excellent for close-in air to air engagements. This option has a lower fire rate than the standard 20mm for increased endurance at the cost of shot volume.
+[WeaponInfo.description] This rotary cannon fires high explosive 20mm rounds at 5,000rpm, excellent for close-in air to air engagements.
+[MissileDefinition.description] This stealthy, optically-guided glide bomb packs a heavy punch with its unitary 400kg HE warhead, and is detected at a shorter range compared to other glide munitions.
+[WeaponInfo.description] This twin-barrel 30mm swivel gunpod fires 30mm AP shells effective against armoured vehicles and buildings.
+[WeaponInfo.description] Turret containing a .50 cal rotary minigun and 4 IRM-S1 missiles for light air defense
+[WeaponInfo.description] a 90mm turret with limited traverse but high damage potential
+########## vehicle (38) ##########
+[UnitDefinition.description] 4 x Apex-8. Parachute deployment; 7 s delay; 0.8 s sequential release.
+[UnitDefinition.description] 8 x Apex-6. Parachute deployment; 7 s delay; 0.8 s sequential release.
+[UnitDefinition.description] A 1 ton ammo box designed to replenish the munitions of a ground vehicle. Avoid subjecting ammo box to enemy fire or impact forces. explosive.
+[VehicleDefinition.description] A compact, somewhat non-euclidean deployable helipad for deployment and rearmament of rotary-wing aviation. Armed with IRM-S1 and 12.7mm machine gun turrets for self defence.
+[BuildingDefinition.description] A dock for ships, allowing ships to be repaired and maintained.
+[UnitDefinition.description] A large ammunition container that allows continuous weapon rearmament for ground vehicles and aircraft within 100m. Avoid subjecting the container to large impact forces, as it may detonate.
+[UnitDefinition.description] Allows rearming of ships within 100m. Equipped with flotation device. Avoid subjecting the container to large impact forces, as it may detonate.
+[VehicleDefinition.description] An air-deployable Fire Control system for improving the targeting of air defence batteries.
+[VehicleDefinition.description] An air-transportable R-9 StratoLance launcher, tailored specifically for the cargo bay of the MC-260 Chimera. Links to nearby Radars and Fire Control systems to lock down large areas of airspace.
+[VehicleDefinition.description] An air-transportable, self-contained anti-air 35mm gun turret and optical tracking system. Fully self-sufficient once deployed with a range of 5km. For best results, pair with an ammo container to keep it topped up.
+[AircraftDefinition.description] Aryx Dynamics' largest aircraft so far, the MC-260 Chimera is a versatile heavy cargo aircraft designed for rugged heavy multirole austere operations in frontline areas. It offers short takeoff and landing performance at low load thanks to its blown wing configuration and thrust reversers, and fits in existing medium hangars due to its unique split-drag rudder and ventral strake setup. Chimera can operate as a gunship, a bomber, an AEW and a cargo transport. 
+[ShipDefinition.description] At 309m length and displacing over 100,000 tonnes, the Penumbra-class is the largest aircraft carrier ever constructed by a non-superpower nation. The BDF's flagship carrier features a myriad of defences, three water-cooled electro-magnetic aircraft catapults, four arresting wires and three elevators. This colossal vessel’s trimaran design maximises hangar space, internal volume and beam whilst providing stability in rough seas.
+[ShipDefinition.description] Coming in at 20,000 tonnes and common with mid-tier regional powers on a budget, the Devotion-class is the smallest conventional aircraft carrier in the world and amongst the few capital ships available on the export market. This light carrier is well defended with 64 RAM-45 anti-air missiles, two 30mm CIWS and an 80kW laser defence system. It can handle a range of aircraft thanks to its ski jump and offers arrested landing capability with three wires to the stern.
+[UnitDefinition.description] FOB Container: A self-deploying deploying point for vehicles, camoflauged and hard to detect at range. 
+[VehicleDefinition.description] Four-rail launcher for larger Apex-8 drones. Sequential launch interval: 1.25 s.
+[UnitDefinition.description] Helipad Container: Self deploying forward position for Helicopters. 
+[VehicleDefinition.description] Long range launcher armed with a nuclear-tipped hypersonic missile. Will deploy and fire automatically on known datalinked targets once the strategic escalation threshold is met.
+[AircraftDefinition.description] Proposed in the late 2040s as an upgrade and overhaul package for the export-model F-22C in the midst of the Third World War, the F-22E Strike Raptor takes the familiar F-22 aeroform and introduces a pair of midfuselage-chine EOTS for guiding precision-guided munitions, as well as a deepened and expanded weapon bay for carriage of large volumes of ordinance. Excellent agility, thrust vectoring, able to equip stealth weapon pods on its inner wing pylons, and now well-capable of ground attack as well as air dominance, the F-22E is just as fierce as its original design was half a century prior.
+[VehicleDefinition.description] Six-rail Apex-6 jet attack drone carrier on a vanilla MSV chassis. Sequential launch interval: 1.25 s. Drone cost: 550,000 USD.
+[ShipDefinition.description] Strength in Numbers: The Styx-Class Missile Cutter is a compact, low-cost warship designed to support larger battlegroups from afar by slinging long-range anti-ship missiles then hightailing it out of danger. It possesses remarkable speed and phenomenal missile firepower.
+[VehicleDefinition.description] Support vehicle with a slimmed down container for stowage in tactical airlifters, able to resupply other units
+[AircraftDefinition.description] The Alkyon AB-4 is an advanced supersonic bomber with electronic warfare capabilities, designed to stealthily deliver nuclear or conventional payloads onto high value targets. 4 afterburning engines combined with variable geometry wings provide incredible top speed and enough maneuverability to evade aerial threats. If critically damaged, a crew escape capsule allows for safe ejection at any altitude or airspeed. 
+[ShipDefinition.description] The Atlas-class Supply Ship is a heavy logistics vessel designed to keep allied ships resupplied at sea. Although very lightly armed, the Atlas is able to keep other ships topped up on ammunition by launching rotary logistics aircraft with naval supply containers. Warning: highly explosive contents.
+[AircraftDefinition.description] The Cursor class represents the vanguard of the BDF fleet. This littoral flight deck (LFD) is designed to rapidly deploy light VTOL aircraft from shallow waterways. It employs a small waterplane area twin hull for stability and speed, and mounts a variety of short-range defensive weapons including a laser air defense system. 
+[AircraftDefinition.description] The FS-41 Eclipse is a large twin-engine supersonic carrier-based interceptor aircraft designed to locate, intercept and destroy high value targets before they can threaten allied airspace and carrier groups. It combines mach 2+ speeds, an extraordinarily powerful radar and impressive stealth characteristics for its role of interception and oppression, bolstered by its signature AAM-45 Sabre armament. It is additionally highly agile thanks to its variable geometry wings and can carry limited air to ground stores for multi-mission capability.
+[VehicleDefinition.description] The Force Reconnaissance Combat Vehicle is a 27T deployable light tank and force-recon vehicle. Armed with a 105mm high velocity cannon and 12.7mm coaxial, the FRCV is designed to be deployed behind enemy lines to wreak havoc on supply lines, less protected airstrips and spot targets. 
+[AircraftDefinition.description] The Hartnell-Wesley OA-27 Cavalier is a lightweight trainer, attack and counterinsurgency aircraft in service with the Primevan State and PALAAF. Conceived before the revolution in one of the Primevan microstates, the Cavalier is the aircraft of choice for low intensity attack operations, border skirmishes and intermediate pilot training. It is reliable, rugged, and remarkably inexpensive to procure and maintain.
+[ShipDefinition.description] The Ironside is a compact heavy frigate focussing on anti-surface warfare. Designed to be the tip of the spear of any naval battlegroup, it is heavily armoured alongside a bow-mounted 130mm railgun and 24 anti-ship missile tubes can make short work of most surface threats, whilst its three-layered air defence system of RAM-45, MMR-S3 and 30mm cannons keep it protected from aerial threats.
+[ShipDefinition.description] The Keres-class is a compact, low cost USV platform designed to destroy high value targets with its onboard 1,000kg warhead. It can deal significant damage to capital ships and best operates in large numbers.
+[AircraftDefinition.description] The Linebreaker chassis is a highly proven armoured vehicle servicing a large variety of roles within Primeva's armed forces. While not as fast as the AFV8 Series the Linebreaker makes up for it with its superior offroad handling and crew comfort features.
+[ShipDefinition.description] The Manticore is a light gunboat designed for river & coastal patrol. This fast vessel is capable of taking on both surface and air threats with its 30mm multipurpose autocannon, two .50cal machine guns and rear-mounted IRM-S1 launcher.
+[AircraftDefinition.description] The RAH-72 is a recon and light attack helicopter. Capable of mounting decent numbers of lighter munitions, it is a single-seater, twin-turbine coaxial rotor design with a V-tail empennage, internal weapon bays underneath and four external pylons on stub wings tipped with its flare launchers. It implements low observability facet shaping, excellent optical sensors and mounts a large ground-scanning radar triangulator atop its rotor mast for detecting ground units and ships at long range. 
+[VehicleDefinition.description] The Type-12 CEV is a combat engineering vehicle built on an up-armoured Type-12 chassis. It operates at higher efficiency than the unmanned M12 Jackknife and sports a 12.7mm machine gun for self-defence.
+[VehicleDefinition.description] This advanced and highly mobile long-range artillery system fires 155mm laser guided shells. Capable of bombarding targets 40km away at a sustained 5 rounds per minute, the HLT Mobile Artillery will frequently relocate to avoid return fire. 
+[VehicleDefinition.description] This trailer is equipped with a 20mm rotary gun to provide point defence against shells, missiles, bombs, and low flying aircraft within a range of approximately 3km.
+[VehicleDefinition.description] This transportable air defence missile launcher is capable of engaging aerial targets within 10km. It can be parachute deployed and is fully autonomous, firing MMR-S3s at infrared signatures.
+[AircraftDefinition.description] This upfit for the AFV8 chassis features a 25mm cannon and anti-armor missile launcher, turning it into a fast infantry fighting vehicle. It's also amphibious
+[AircraftDefinition.description] While the Type-12 may be a legacy design, it still remains a formidable presence on the battlefield. It offers better protection per unit weight than its contemporaries, owing to its novel monocoque composite hull & turret that give the Type-12 its signature shape. Its armament consists of a 130mm cannon firing hypervelocity SABOT rounds and a turreted 12.7mm machine gun.
+########## hint (36) ##########
+[HintTip.text] Aircraft without built-in ECM can take an ECM Pod on an external hardpoint to help defeat radar guided missiles.
+[HintTip.text] Anti-radiation missiles are able to deal catastrophic damage to the Shard Class Corvette because its radar is located close to its bridge.
+[HintTip.text] As they have no crew or dismounts, Unmanned Ground Vehicles (UGV) can not capture and control locations.
+[HintTip.text] Ballistic Missile Launchers will hold fire until the strategic threshold is met. Once the strategic threshold is met, they will unleash a devastating barrage on all known high value targets.
+[HintTip.text] Bombs have a minimum 4-second arming delay. Take this into account when dropping them and check the Time of Flight indication on your HUD.
+[HintTip.text] Carrying infantry in a cargo aircraft provide it with the ability to capture airbases.
+[HintTip.text] Every aircraft has a distributed aperture optical detection system, which will automatically scrutinize and identify contacts for you inside several kilometers' range.
+[HintTip.text] Factories produce units over time, which are then deployed from vehicle depots and hangars.
+[HintTip.text] Field entrenchments do an excellent job of protecting ground units from direct fire. They do nothing to stop air strikes.
+[HintTip.text] Ground units in need of resupply must consume munitions to do so. Munitions are stored in munitions bunkers & ammo dumps. Munitions trucks will automatically ferry ammo to units needing resupply.
+[HintTip.text] Helicopters are typically fitted with an overrunning clutch that allows the rotor side of the drivetrain to rotate at a higher speed than the engine side.
+[HintTip.text] In a protracted fight, ensuring that your anti-air defenses are continually supplied with missiles is crucial. Munitions can be delivered by air or by munitions trucks.
+[HintTip.text] Jailbroken versions of Hexhounds can engage targets autonomously, removing the need for costly human oversight.
+[HintTip.text] Main battle tanks are heavily armored, but can still be defeated by aerial 30mm cannon fire by shooting into the engine bay or through the rear or roof of the turret.
+[HintTip.text] Munitions containers are volatile, and must be handled with care. Large impacts or weapons fire may cause them to detonate.
+[HintTip.text] Naval Supply containers can only be spawned from airbases on land. When dropped over water they will float, and can be picked up by ships within 200m.
+[HintTip.text] Press 'Center View' when in orbit mode around your aircraft to enter the chase mode, with 10 preset point of views, accessible with the numpad 0–9 keys.
+[HintTip.text] R9 Stratolance launchers are dependent on a linked radar system to provide targeting data. Destruction of either the radar or launchers will render the battery inoperable.
+[HintTip.text] Radar equipped planes can generate datalink contacts from enemy surface radars. The EW-25 Medusa can generate a contact from any enemy radar source.
+[HintTip.text] Reducing your fuel load can significantly improve your aircraft's flight characteristics, and also lets you take off faster.
+[HintTip.text] Ships are relatively unarmored, and have large volumes of ammunition stored deep inside them. Sometimes only a single hit can be completely catastrophic.
+[HintTip.text] The Hexhound is a bullet resistant 6x6 UGV chassis. It has a top speed off-road of 50km/h and over 100km range on a single charge.
+[HintTip.text] The KR-67 Ifrit has side weapon bays (sometimes referred to as 'heater bays') designed to accommodate a single IRM-S2 each.
+[HintTip.text] The PAB-80LR is small enough to fit inside most aircraft weapon bays, which provides stealth aircraft with fit for purpose stand-off attack weapons.
+[HintTip.text] The Radar Cross-Section (RCS) of an aircraft will decrease when it expends weapons on its external pylons.
+[HintTip.text] The Radial Menu gives you access to several actions relative to your aircraft and can be accessed by holding the 'Radial Menu' keybind.
+[HintTip.text] The UH-90 Ibis is a medium-sized utility helicopter, with two contra-rotating coaxial rotors and push props. It can use its dual 40mm grenade launchers firing from its side windows to clear hot landing zones.
+[HintTip.text] The cargo bay of the VL-49 Tarantula can fit a whole 40-foot shipping container.
+[HintTip.text] The cargo hook can be used to airlift ground units. UH-90 Ibis can lift up to 6 tons, while the VL-49 Tarantula can lift up to 20 tons.
+[HintTip.text] The fire suppression system will automatically contain engine fires, but a fuel fire outside the engine will spread and consume an aircraft.
+[HintTip.text] The impact angle of a projectile can determine how effectively it penetrates an armored target.
+[HintTip.text] Weapons stored on external hardpoints will increase the Radar Cross-Section (RCS) of an aircraft.
+[HintTip.text] You can issue movement orders to friendly ground units by selecting them on the map, and then right-clicking where you want them to go to.
+[HintTip.text] You can order manned turrets on your aircraft to Hold fire by pressing the 'Toggle Turret Control' button.
+[HintTip.text] You can rescue friendly pilots by landing near them. Rescue of (or capture, in the case of enemy) pilots yields a point reward.
+[HintTip.text] You can switch directly to any weapon station on by holding the 'Weapon Wheel' keybind and highlighting the desired weapon.
+########## tooltip (119) ##########
+[WingButton.tooltip] ATTACK TARGET - if you have contacts designated, sends the selection after them immediately. The button stays armed: right-click a hostile on the map to focus that target instead. Shift-right-click queues another.
+[WingButton.tooltip] Aileron Roll - selected wingmen; needs 350 m AGL and safe entry speed.
+[WingButton.tooltip] Allow launches from this field
+[WingButton.tooltip] Barrel Roll - selected wingmen; needs 500 m AGL and safe entry speed.
+[WingButton.tooltip] Break Left - selected wingmen; needs 120 m AGL and safe entry speed.
+[WingButton.tooltip] Break Right - selected wingmen; needs 120 m AGL and safe entry speed.
+[WingButton.tooltip] Buy the selected airframe. It launches from a friendly base with the fit chosen on LOADOUT and flies out to join the wing.
+[WingButton.tooltip] Cancel this aircraft's route and return to formation. Select exactly one aircraft first.
+[StyleLabel.tooltip] Color for 'critical' HUD Text elements.
+
+<i>(Example : Vortex Ring State, Kill info)</i>
+[StyleLabel.tooltip] Color for frames of 'critical' HUD Text elements.
+
+<i>(Example : Vortex Ring State)</i>
+[StyleLabel.tooltip] Color for the hit marker indicator.
+[StyleLabel.tooltip] Color for the negative throttle bar.
+
+<i>(Only applicable to certain airframes)</i>
+[StyleLabel.tooltip] Color for the reload progress bar.
+
+<i>(Only applicable for certain loadouts)</i>
+[StyleLabel.tooltip] Color for warning HUD Text elements.
+
+<i>(Example : OVERSPEED)</i>
+[StyleLabel.tooltip] Color for warning frames of HUD text elements.
+
+<i>(Example : Overspeed)</i>
+[WingButton.tooltip] Combat Spread — Mutual missile defense & wide scan
+[WingButton.tooltip] Complete the current node immediately. Continue to the next node, or form up when the route ends.
+[WingButton.tooltip] Conscript the friendly AI aircraft selected on the map into your wing. Press twice to confirm the fee.
+[WingButton.tooltip] Copy this template, so a variation can be made without losing the original.
+[WingButton.tooltip] Create a named group from the selected aircraft. Groups are optional and last for this mission.
+[WingButton.tooltip] Create a new blank pilot record in the editor
+[WingButton.tooltip] DELIVER CARGO - then right-click a drop point, or press again to use the stock supply route. Shift-right-click queues another drop. Only wingmen actually carrying a load can take this.
+[WingButton.tooltip] DISENGAGE - break contact and run for the nearest friendly base or ship, defending itself on the way. Not a landing order.
+[WingButton.tooltip] Delete currently selected custom pilot from file
+[WingButton.tooltip] Delete the saved group without releasing any aircraft.
+[WingButton.tooltip] Diamond — Tight perimeter & concentrated mass
+[WingButton.tooltip] Duplicate currently selected pilot with a new callsign
+[WingButton.tooltip] ENGAGE - hunt independently. Sets rules of engagement to FREE. The wingman picks its own targets and does not come back until told to.
+[WingButton.tooltip] Echelon Left — Off-axis radar & free egress left
+[WingButton.tooltip] Echelon Right — Off-axis radar & free egress right
+[WingButton.tooltip] Edit the last recalled group. SAVE updates its name and members to your current selection.
+[WingButton.tooltip] Expand to six aircraft per page, or collapse to four. Selection is preserved.
+[WingButton.tooltip] Export active squadron roster to exported_squadron.json
+[WingButton.tooltip] FORM UP - break off and return to formation on the leader. Cancels any attack, hold or route the selected wingmen are flying.
+[WingButton.tooltip] FREE - Flies a loose spread. Weapons free from the current task. Engage authorises pursuit.
+[ShowHoverText.showText] Filter preplaced map units
+[WingButton.tooltip] Finger Four — Two-element paired combat sweep
+[WingButton.tooltip] Fuel each requisition launches with, as a share of full tanks - steps 25 / 50 / 75 / 100%. Less fuel is lighter and more agile but calls bingo sooner; 100% is completely full even for an airframe that ships short.
+[WingButton.tooltip] Generate a completely fresh random pilot (identity, looks, and lore)
+[WingButton.tooltip] Generate background text matching pilot persona and callsign
+[AvTooltipTarget.tooltip] Group name, up to 12 characters
+[WingButton.tooltip] HEIGHT + - raise Move altitude. Applies to the next map Move and to selected wingmen already moving.
+[WingButton.tooltip] HEIGHT - - lower Move altitude. Applies to the next map Move and to selected wingmen already moving.
+[WingButton.tooltip] HOLD - Holds a tight slot. Intercepts missiles. Holds fire otherwise.
+[WingButton.tooltip] HOLD HERE - then right-click the map. The selection orbits that point and defends itself, but starts nothing. Shift-right-click queues the next order.
+[WingButton.tooltip] Hold selected airframe in wing reserve (+)
+[WingButton.tooltip] Immelmann - selected wingmen; needs 400 m AGL and safe entry speed.
+[WingButton.tooltip] JAM - the selected wingmen hold their formation slot and run their jammer pod against the target you have locked, until it dies or you order them off. Only wingmen carrying a jammer pod can take it.
+[WingButton.tooltip] LAND HERE - then right-click the map. Puts a rotary wingman on the ground at that spot rather than routing it to an airbase. Shift-right-click queues.
+[ShowHoverText.showText] LCAC
+Rank: 0
+Owned: 0
+Faction: 0
+[ShowHoverText.showText] LNBR
+Rank: 0
+Owned: 0
+Faction: 0
+[WingButton.tooltip] Ladder — Layered altitude & stepped escort
+[WingButton.tooltip] Launch from the closest checked field with a free hangar. No per-field queue.
+[WingButton.tooltip] Line Abreast — Frontal sweep & simultaneous lock
+[WingButton.tooltip] Loop - selected wingmen; needs 900 m AGL and safe entry speed.
+[ShowHoverText.showText] MSV
+Rank: 0
+Owned: 0
+Faction: 0
+[StyleLabel.tooltip] Main color for static HUD text elements.
+
+<i>(Example : Radar Altitude, Rank Up)</i>
+[StyleLabel.tooltip] Main color for static HUD visual elements.
+
+<i>(Example : Pitch, Compass)</i>
+[StyleLabel.tooltip] Main color for static Tac Screen text.
+
+<i>(Example : Mass, TWR)</i>
+[StyleLabel.tooltip] Main color for static Tac Screen visual elements.
+
+<i>(Example : Radar, Scanline)</i>
+[StyleLabel.tooltip] Main color for static Virtual MFD buttons.
+[StyleLabel.tooltip] Main color for static Virtual MFD text.
+[StyleLabel.tooltip] Main color for static Virtual MFD visual elements.
+[ShowHoverText.showText] Move each selected unit around its own pivot
+[ShowHoverText.showText] Move entire selection around shared pivot
+[AvTooltipTarget.tooltip] Name the template. Flight controls are held off while you type here.
+[WingButton.tooltip] Notch Threat - selected wingmen; needs 80 m AGL and safe entry speed.
+[ShowHoverText.showText] Number of nuclear warheads available to this faction
+[WingButton.tooltip] Open Pilot Studio. Ctrl-click opens the quick list; Shift-click opens the pilot folder.
+[WingButton.tooltip] Open Pilots folder in Windows Explorer
+[WingButton.tooltip] Organize local recovery for 10,000,000 funds. Completes in five mission minutes; the pilot remains at risk until then.
+[ShowHoverText.showText] PB
+Rank: 0
+Owned: 0
+Faction: 0
+Not available here
+[WingButton.tooltip] Permission to requisition past the mission's AI aircraft cap, at a surcharge. Changes nothing while the squadron still has room.
+[WingButton.tooltip] Put every wingman in the command scope, so the next order goes to the whole flight.
+[WingButton.tooltip] Queue at least two Move points with Shift-right-click, then enable PATROL to loop them. Turning it off finishes the remaining route once.
+[WingButton.tooltip] REFIT - land at base, refill fuel and ammunition, then resume this task and route. A new order cancels the saved task.
+[WingButton.tooltip] Randomize body, face, hair, faction uniform, and backdrop
+[WingButton.tooltip] Recall this group. With Flight expanded: Ctrl+1/2/3 recalls existing groups; Ctrl+Shift+1/2/3 replaces their selection.
+[WingButton.tooltip] Recruit a random custom pilot into the squadron roster
+[WingButton.tooltip] Recruit all unrecruited custom pilots into squadron
+[WingButton.tooltip] Recruit this pilot into active squadron roster
+[WingButton.tooltip] Release selected airframe back to faction stock (-)
+[WingButton.tooltip] Reload custom pilots from folder
+[WingButton.tooltip] Return to squadron roster view
+[WingButton.tooltip] SEEK & DESTROY - then right-click the map. The selection flies to that point, then begins hunting independently under the current rules of engagement. Shift-right-click queues another.
+[ShowHoverText.showText] SHP
+Rank: 0
+Owned: 0
+Faction: 0
+Not available here
+[WingButton.tooltip] SPEED + - raise Move speed. Applies to the next map Move and to selected wingmen already moving.
+[WingButton.tooltip] SPEED - - lower Move speed. Applies to the next map Move and to selected wingmen already moving.
+[WingButton.tooltip] SPLASH - priority saturation of all designated targets. Immediately commits every in-range weapon and empties those stores at native firing speed. Only critical self-preservation pauses the salvo; it resumes automatically. No short-range run-in.
+[ShowHoverText.showText] SPRHD
+Rank: 0
+Owned: 0
+Faction: 0
+[WingButton.tooltip] STAND DOWN - cancel the current task and loiter near the nearest friendly airbase or ship. Does not land and does not rejoin until ordered.
+[WingButton.tooltip] Save or update this custom pilot record in custom_pilots.json
+[StyleLabel.tooltip] Secondary color for static Tac Screen text.
+
+<i>(Example : NAV, RESET buttons)</i>
+[WingButton.tooltip] Select lead element: slots 1 and 2
+[WingButton.tooltip] Select only the nearest available field for this airframe.
+[WingButton.tooltip] Select paint livery for requisitioned aircraft of this type
+[WingButton.tooltip] Select second element: slots 3 and 4
+[WingButton.tooltip] Select twice within three seconds to delete this template. Aircraft already flying it keep their fit.
+[WingButton.tooltip] Selected aircraft refuel/rearm at bingo or empty combat stores, then resume their task. Skips deliberate land, cargo and retreat tasks. Requires AutoReturnOnEmpty in settings.
+[WingButton.tooltip] Send the nearest idle rescue-capable wing helicopter to this downed pilot on land. Water rescue uses the native hoist.
+[ShowHoverText.showText] Show all units or only selected
+[WingButton.tooltip] Show the rest of the list.
+[WingButton.tooltip] Split-S - selected wingmen; needs 1400 m AGL and safe entry speed.
+[WingButton.tooltip] Start a new empty template and fit it pylon by pylon.
+[WingButton.tooltip] Switch between the templates saved for this airframe.
+[WingButton.tooltip] TIGHT - Holds the slot. Engages aircraft, guarding you first.
+[WingButton.tooltip] Terrain Mask - selected wingmen; needs 40 m AGL and safe entry speed.
+[ShowHoverText.showText] The global skill level multiplier for all AI units of the faction, which applies on top of individual skill levels.
+[ShowHoverText.showText] Toggle Terrain angle following for new unit placement
+[WingButton.tooltip] Trail — Narrow corridor & terrain masking
+[ShowHoverText.showText] UGV
+Rank: 0
+Owned: 0
+Faction: 0
+[WingButton.tooltip] Vic — Flight symmetry & leader cohesion
+[WingButton.tooltip] WEAPON A-A - Prefers hostile aircraft and anti-air stores. Selected aircraft only.
+[WingButton.tooltip] WEAPON A-G - Prefers surface contacts and anti-surface stores. Selected aircraft only.
+[WingButton.tooltip] WEAPON AUTO - Picks the most effective ready station for the target. Selected aircraft only.
+[WingButton.tooltip] WEAPON GUNS - Prefers close-in stores, saving standoff weapons. Selected aircraft only.
+[WingButton.tooltip] Wall — Full-aspect barrier combat sweep
+[WingButton.tooltip] What the next one of these launches with: your current player default for this airframe, or one of the templates you have built for it on LOADOUT.
+[WingButton.tooltip] Wing Waggle - selected wingmen; needs 60 m AGL and safe entry speed.

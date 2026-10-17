@@ -1,0 +1,55 @@
+============================================================
+#1
+"• Additional Boats / Ships
+• PALA Landing ship
+• Additional high-end SAMs
+• Additional ground units
+• More infantry mechanics
+• Missile mechanic changes
+• Further development on Ignus Archipelag"
+============================================================
+#2
+"• Additional low-rank aircraft
+• Existing aircraft remasters
+• Light utility VTOL
+• Aerial drones
+• Additional helicopters
+• Additional nuclear weapon types
+• Additional conventional weapon type"
+============================================================
+#3
+"• New large landlocked map
+• Heavy cargo plane
+• Continued development and detailing of existing maps
+• More props and buildings
+• Logistics and economy changes
+• Graphics improvements
+• Sound im"
+============================================================
+#4
+"Small emplacements can remain hidden until they fire, giving them the ability to ambush low flying aircraft."
+============================================================
+#5
+"What the fuck did you just fucking say about me, you little bitch? I'll have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I"
+============================================================
+#6
+"This is how wide the text box should be This is how wide the text box should be This is how wide the text box should be 
+This is how wide the text box should be This is how wide the text box should be"
+============================================================
+#7
+"Эффективность лазера Medusa зависит от расстояния, максимальная эффективная дальность — 15 км. Использование на малой дистанции доставляет цели больше энергии, позволяя даже поджигать самолёты вблизи."
+============================================================
+#8
+"Units that can store nuclear warheads include Munitions Bunkers, Hardened Shelters, and Aircraft Carriers. Destroy these to deny the enemy the ability to use nukes."
+============================================================
+#9
+"Передовой учебно-боевой самолёт, отлично подходящий для лёгких боевых задач. T/A-30 обладает высокой манёвренностью на малых и средних скоростях и прощающими ошибки лётными характеристиками. Особенно "
+============================================================
+#10
+"The ARAD-45 uses the same body as the RAM-45 missile, but with an anti-radiation seeker, which will lock on to radar emissions after launch, making it ideal for attacking SAM sites at medium range."
+============================================================
+#11
+"Air-launched low-observable jet attack drone; 68 kg shaped-charge/HE warhead. Selected surface target required."
+============================================================
+#12
+"Medium range heavy 203mm laser-guided rocket, with a powerful 50kg shaped charge warhead, best used against heavily armoured ground targets and structures. Launching aircraft must aim at the target an"

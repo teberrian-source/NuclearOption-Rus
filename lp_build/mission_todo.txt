@@ -1,0 +1,701 @@
+##### Message
+A BDF engineer team is currently trying to recover a pair of tanks that were immobilised in yesterday's fighting.
+----
+##### Message
+A column of enemy vehicles is approaching the bridge to Boscali Island. Prevent them from crossing and doing damage to BDF facilities. This civilian airstrip has been commandeered as forward arming and refueling point.
+----
+##### Message
+A large enemy force is preparing to seize this airport, approaching via K92. You are to support K92's defenders as they perform a fighting retreat, and attrit as many enemy vehicles as possible.
+----
+##### Message
+A ship has been sunk. The Boscali Navy is moving to attack the island.
+----
+##### Message
+AAAHGRPL-%^$*&
+----
+##### Message
+Additionally, be warned that the enemy has an Argus Class air defence frigate, which requires its missiles be jammed directly.
+----
+##### Message
+All BDF ships are headed to the bottom of the strait - now we can take back South Boscali!
+----
+##### Message
+All Objectives are complete! Leave the area and RTB.
+----
+##### Message
+All enemy R9 systems are neutralised. Head back to the ships to re-arm.
+----
+##### Message
+BDF forces have been removed from the mainland and PALA holds the surrounding airstrips. PALA Is Victorious.
+----
+##### Message
+BDF special forces have set charges to take out PALA's heavy air defences, you'll be hitting the island as they detonate.
+----
+##### Message
+BDF's carrier is sinking. PALA is victorious!
+----
+##### Message
+Be advised, PALA is attempting to set up SAM sites in the southern hills overlooking Maris Airport. Find and destroy them before they lock down the airspace!
+----
+##### Message
+Be advised, enemy fighters have been spotted approaching from Feldspar
+----
+##### Message
+Due to terrain, it cannot be seen unless approaching from the south. You can either destroy the blockade, or attack via the mountains.
+----
+##### Message
+Enemy aircraft production facilities are destroyed. Mission accomplished.
+----
+##### Message
+Enemy aircraft production is destroyed - mission accomplished.
+----
+##### Message
+Enemy carrier spotted.
+----
+##### Message
+Enemy tanks cresting the ridge to the south!
+----
+##### Message
+Enemy tanks to the east, 5 kilometers out!
+----
+##### Message
+Enemy tanks to the north east!
+----
+##### Message
+Enemy tanks, south east, 3 kilometers out!
+----
+##### Message
+Enemy troop transports spotted on the highway to the south.
+----
+##### Message
+Excellent work! Return safely to base to complete the mission.
+----
+##### Message
+Excellent work, enemy anti-air launchers are destroyed.
+----
+##### Message
+Excellent work, the enemy column has been neutralized. Now we need to locate and destroy the enemy's vehicle depot to prevent further attacks.
+----
+##### Message
+Excellent work. The enemy airfield has been razed once again.
+----
+##### Message
+Good shooting. Now get back to friendly territory intact.
+----
+##### Message
+Good work. Next up is the dangerous bit. Continue along the highway south, use the foothills as cover.
+----
+##### Message
+Land on the back of one of the ships to re-arm. You will be assisting the attack on the airfield.
+----
+##### Message
+Mission Successful! The vehicle depot has been neutralized and your aircraft has returned to base.
+----
+##### Message
+Naval reinforcements are enroute. ETA 10 minutes.
+----
+##### Message
+Naval reinforcements have arrived.
+----
+##### Message
+Once the airport is under our control, mobile AA will begin to take up positions around it.
+----
+##### Message
+Once you've taken off, follow the highway south through the mountains.
+----
+##### Message
+One of the Shards has come online!
+----
+##### Message
+Our task is to interrupt them. They are without any air defence, and should be easy pickings.
+----
+##### Message
+PALA forces have been removed from the mainland and BDF holds the surrounding airstrips. BDF Is Victorious.
+----
+##### Message
+PALA forces have fortified Broken Atoll, using it as a staging ground.
+They are directly threatening our operations. We end that threat today.--
+----
+##### Message
+PALA has recently taken receipt of several R9 Stratolance batteries to prevent us from carrying out bombing raids.
+----
+##### Message
+PALA losses are heavy. Units are retreating.
+----
+##### Message
+PALA's carrier is sinking. BDF is victorious!
+----
+##### Message
+PALA's forces are completely routed. Congratulations, you've managed to turn an imminent defeat into a decisive victory.
+----
+##### Message
+Priority targets have been added to your HUD.
+----
+##### Message
+Recon says there are Radar SAMs scattered throughout the surrounding valley. Stay alert for radar warnings.
+----
+##### Message
+Remember, If you need to rearm, our special forces left behind supplies on the southern island.
+----
+##### Message
+SAM Site 1 is neutralised.
+----
+##### Message
+SAM Site 2 is neutralised.
+----
+##### Message
+Scramble! A pair of enemy bombers has been spotted releasing cruise missiles, targeting North Boscali Airbase. Shoot the missiles down before they destroy friendly facilities.
+----
+##### Message
+Sink the ships before they get within firing range of the island!
+----
+##### Message
+Special forces have scouted the island and set charges to take out the heavy air defenses.
+They've also taken control of a resupply point, use it to if you need to!
+--
+----
+##### Message
+Stand down. We're surrendering Vigil Cay to the BDF.
+----
+##### Message
+Stay on guard for enemy aircraft in the area. If you spot any, let your wingmen deal with them.
+----
+##### Message
+Targets marked. Bombers are now inbound.
+----
+##### Message
+That Shard is out of action.
+----
+##### Message
+The Atoll's commander is taking off in an Ibis north of the island.
+They are moving to the airfield to take cover.
+Take them out and some of the troops might lose the will to fight!
+----
+##### Message
+The BDF Fleet Carrier has been sunk.
+----
+##### Message
+The MLRS battery is out of action. Our base should be safe!
+----
+##### Message
+The PALA Fleet Carrier has been sunk.
+----
+##### Message
+The PALA artillery have destroyed out port on Ignus. You didn't stop them in time. Mission Failed.
+----
+##### Message
+The PALA has fortified Broken Atoll, using it as a staging ground.
+There are three primary targets: 1) the airbase in the west.2) the artillery base in the east.3) the naval garrison near the central inlet.
+----
+##### Message
+The airbase's supplies have been destroyed.
+PALA forces won't be able to launch aircraft!
+----
+##### Message
+The base has been hit!
+----
+##### Message
+The commander is down. It looks like some PALA forces are retreating!
+----
+##### Message
+The commander was able to RTB and get to a secure location. 
+Their troops will keep fighting.
+----
+##### Message
+The enemy aircraft have had time to fuel up and are taking off from the airfield!
+----
+##### Message
+The enemy has an anti-air laser shielding the depot, although it looks to have a blind spot in the low ground to its east.
+----
+##### Message
+The enemy has capitulated. We are victorious!
+----
+##### Message
+The enemy installation has been removed, mission accomplished!
+----
+##### Message
+The enemy is now past K92. They're pushing straight through to the airport. Do not let them reach it!
+----
+##### Message
+The first target area is the supply depot just over this crest. We expect no significant resistance here.
+----
+##### Message
+The last of us are pulling out now.
+----
+##### Message
+The naval base is down, good work!
+----
+##### Message
+The storm is starting to lift. Move fast and take out the targets before they can react.Good Luck!
+----
+##### Message
+There are three primary targets:
+Airbase: Destroy fuel and supplies to ground enemy fighters.
+Central Inlet: Strike the base before the Shards come online.
+East: Neutralize the MLRS battery before it destroys our base.--
+----
+##### Message
+There's an enemy SAM site watching the valley on the other side. Best keep out of its sight. Follow the coast if needed.
+----
+##### Message
+They are currently powered down, but not for long. 
+Attack the depot there to prevent them from launching.
+----
+##### Message
+They've got tanks approaching on all sides. We're going to pull out before we become encircled.
+----
+##### Message
+Today we'll be destroying all of them, and carrying out a bombing raid.
+----
+##### Message
+Today we're striking a vehicle depot located on the enemy's airbase.
+----
+##### Message
+Warning! Our base has taken heavy damage from the PALA artillery. Take out that site ASAP or our base will be destroyed!
+----
+##### Message
+We need to re-establish control of the strait. Sink some BDF ships!
+----
+##### Message
+We'll be targeting a supply point for the R9 systems as well as several active batteries. Staying low and fast will be key.
+----
+##### Message
+We're back on the offensive - excellent work!
+----
+##### Message
+We're going to open with bombs. Switch weapons to your PAB-250s, and start a shallow climb to 600m (2000ft).
+----
+##### Message
+We're losing factories! If this keeps up we're done for!
+----
+##### Message
+Well done, the threat has been neutralized.
+----
+##### Message
+Well done, we won't be seeing more vehicle threats any time soon.
+----
+##### Message
+Whichever route you choose, you should support your allies by jamming the blockade while on approach.
+----
+##### Message
+Work quickly - it looks like PALA is scrambling jets from the target airfield.
+----
+##### Message
+You are cleared for launch. We're pushing you right into the teeth of this storm. 
+Visibility is near zero, but it is the only thing masking your approach. 
+Get airborne and push to the first waypoint.--
+----
+##### Message
+Your primary target is an Annex Class Carrier currently situated inside a cove on the westmost point of Ignus Major.
+----
+##### body
+A single trigger pull <bind=Fire> will release one munition per designated target.
+Shoot when TGT is within MIN and MAX on the range indicator.
+All your current weapons are fire and forget.
+----
+##### body
+Anchored to the center of your view, there is a target designator diamond, which will become visible when you look around.
+You can select targets by looking at a unit, and pressing the Target Select button <bind=Select>
+----
+##### body
+As we approach the runway threshold, we will make another left turn to line up the plane on the runway.
+----
+##### body
+Congratulations - you've successfully avoided radar missiles in a worst case scenario.
+Ideally, you can avoid these missiles by breaking line of sight of the radar, or by hugging the surface as tightly as possible to stay within ground clutter. Feel free to resume and practice this.
+----
+##### body
+Different weapons have different intended targets. If targets are ever overlapping, target selection will be biased towards suitable targets for the currently selected weapon. 
+Switch weapons to your MMR-S3s, and find and destroy the plane approaching from bearing 180.
+----
+##### body
+Excellent work. This concludes Targeting and Weapons.
+----
+##### body
+Flare effectiveness is determined by your aspect to the missile, as well as your engine output. Lower your throttle and turn the plane side-on to the threat to get the most out of your flares. If you get fired on from behind at full throttle, or you may need to expend the whole cartridge.
+----
+##### body
+Four new contacts - enemy trucks - are present at bearing 060.Press the Next Weapon button <bind=Next Weapon> or the weapon wheel <bind=Weapon Wheel> + <bind=Radial Menu Horizontal> until your AGM-48s are selected, and then designate the four enemy trucks as targets and fire on them.
+----
+##### body
+Good job - the trucks are destroyed.
+
+The process for targeting and firing on aerial targets is the same, however, you should make sure you have the right weapon selected.
+----
+##### body
+Good, now tap the wheelbrake <bind=Brake> to keep your plane from exceeding 50km/h. We are approaching a turn which will require you stay slow.Use the rudder to steer <bind=Yaw>
+----
+##### body
+Great job, we're in the air! If you haven't already, you should now retract your landing gear using <bind=Gear> or the radial menu <bind=Radial Menu> + <bind=Radial Menu Horizontal>
+----
+##### body
+Having received an emission doesn't necessarily mean you have been spotted - it just means you have detected that a radar is being used.
+----
+##### body
+Hold down the wheelbrake button <bind=Brake> to bring the plane to a stop.
+----
+##### body
+If you are using virtual joystick (mouse flight), you will need to hold the freelook button <bind=Free Look> to look around.
+If you are using a controller, you should make sure virtual joystick is disabled in options, and use the right stick <bind=Pan View> to look around.
+----
+##### body
+In front of you is an enemy SAM launcher which fires IRM-S2s. It has an effective range of 8km (5 miles).
+
+To pass the training, you will have to fly within half that distance from it, and then return to this point alive.
+----
+##### body
+In this instance, however, you have definitely been spotted. The radar has a range of approximately 40km, and is only 15km away.
+The radar will now be used to guide a Stratolance missile into you.
+----
+##### body
+Increase throttle to 100%, and when speed is above 180km/h, gradually pull back on the stick to lift off. <bind=Pitch:neg>
+----
+##### body
+Lower your landing gear using <bind=Gear> or the radial menu <bind=Radial Menu> + <bind=Radial Menu Horizontal>
+
+Your flaps will automatically lower to landing position at slower speeds - you will notice a change in handling.
+----
+##### body
+Lowering your gear has also activated the landing assist on the HUD.It has two features: The Glideslope indicator, and the Angle of Attack (AoA) Indexer
+----
+##### body
+Make sure flares are selected and visible in the top right of the HMD <bind=Next Countermeasure>
+
+When fired on, press and hold the Countermeasure button. <bind=Countermeasures>
+----
+##### body
+Missiles that see via the infrared spectral band are a common battlefield threat.
+
+The signature of your aircraft is provided to them by the heat that operating it produces.
+----
+##### body
+Notching alone is rarely enough to defeat a missile, especially in less stealthy aircraft.
+While in the notch envelope however, is the ideal time to use your ECM. The lack of doppler shifted returns, combined with the radar ECM, should mask you from the radar.
+----
+##### body
+Notching, in short, can be described as flying perpendicular to the enemy radar.
+
+Doing this removes the doppler shift from your return frequencies, making it harder for the radar to track you.
+----
+##### body
+Now leave the SAM's area of effect and return to where you started. Because you'll be showing it your exhaust as you fly away, it is especially important that you reduce your throttle to reduce your signature compared to that of your flares.
+----
+##### body
+Now that the missile is close enough to be picked up and analysed by your sensors, a notch guide is provided both on the HUD and minimap.
+
+The yellow dotted line indicates the ideal heading to maintain in order to perform a notch.
+----
+##### body
+Now turn left and keep the plane centered on the runway.
+----
+##### body
+On the left side of the HUD is your angle of attack indexer. Green is too slow, yellow is on speed, and red is too fast.While steering, adjust the throttle to keep the AoA indexer showing a yellow circle. Continue until you touch down.
+----
+##### body
+Our goal will be to get to cover behind the mountains. Start by breaking right, diving toward the water's surface, and getting the incoming radar line to stay at your 9 o'clock.
+You should also select your Radar ECM by pressing Next Countermeasures <bind=Next Countermeasure>
+----
+##### body
+Positioned on a small island 20km (12 miles) in front of you are two trucks.
+
+One tows a launch system for R9 Stratolance missiles, while the other carries a connected radar that provides guidance for them.
+----
+##### body
+Pre-flaring (releasing flares if you suspect you're about to be fired on) is the most effective use of flares, as it can prevent the launching platform from obtaining a lock.
+Try releasing flares periodically (once or twice a second) when in danger.
+----
+##### body
+Radar pings appear as lines on your minimap
+
+Grey = this radar has probably not detected you
+Yellow = this radar has probably detected you
+Red = this radar is actively targeting you
+----
+##### body
+Red icons denote enemy units.
+
+Blue icons denote friendly units.
+
+
+Do not fire on the blue icons.
+----
+##### body
+Take some time to practice selecting and deselecting targets. You will need to be proficient at this, and be able to do it quickly under pressure in order to be truly effective in combat.
+When you are ready to start shooting, fly to the marked waypoint.
+----
+##### body
+The airstrip you'll be landing at is directly infront of you. Start by reducing your throttle <bind=Throttle:neg> to zero - this will deploy the airbrake.
+Try to bring your speed down to at most 375kph (200 knots) before the next waypoint.
+----
+##### body
+The bright light rising up off of the island is a Stratolance missile. You have been fired at.
+
+As you are high in the air and well within the range of the missile, the only way to survive this encounter is by executing a notch.
+----
+##### body
+The emission from the radar is detectable by your radar receiver, and the direction to the radar is indicated by an orange line on the minimap. As radar based detection relies on bouncing a signal off of something, you can detect radar emissions at approximately double the range of a radar system.
+----
+##### body
+The jammer's effectiveness is proportional to remaining capacitor charge. It is best used in 3 second bursts per missile.
+
+Use the jammer <bind=Countermeasures> while notching to escape toward the coast.
+----
+##### body
+The line coming out of the runway with a small circle at the end is your glideslope indicator.
+
+As you glide, steer so that your velocity vector envelops the small circle at the end of the glideslope.
+----
+##### body
+The tracking must be broken for at least 3 seconds for the missile to not re-acquire.
+Note that even when the missile loses track, it will still head for the last calculated intercept point. You must take care to evade whilst not exiting the notch.
+----
+##### body
+Today we're going to be practicing taxiing to the runway threshold and taking off. To begin, increase the throttle to 20% using <bind=Throttle:pos>
+----
+##### body
+Today you will learn how to target and fire on enemy units.
+Your HMD will highlight all units known to either your aircraft's sensors or the datalink system.
+
+Observe the various units highlighted in front of you.
+----
+##### body
+Well done, you've entered the IR SAM's area of effect and come back alive.
+
+This completes the training, but if you still have flares left, feel free to resume and continue tempting fate.
+----
+##### body
+Well done. Normally, you wouldn't come to a complete stop, as it is important to keep the runway clear.Use one of the two marked ramps to exit the runway.
+----
+##### body
+When you come to a stop at an airbase, you can disembark the plane using the Eject key <bind=Eject>This will return your plane to your inventory. This will be important later.
+----
+##### body
+You are pulling away too soon. While the best and most obvious survival method is to avoid the SAM in the first place, for the sake of this demonstration, please take unreasonable risk.
+----
+##### body
+You can add multiple targets to your designation.
+
+To remove the last selected target, press Target Cancel <bind=Cancel>
+To clear the designation entirely, hold the button down.
+----
+##### body
+You can defeat IR missiles by using flares - intense heat signatures - that can either distract or dazzle the seeker head.
+
+Every aircraft in the arsenal has flares.
+----
+##### description
+A battle for air superiority fought between two large airbases, using high-end assets. Rank 3 aircraft available at start.
+----
+##### description
+A combined-arms battle on the eastern half of the map, limited to smaller aircraft. Each side has one main airbase and one forward airbase, with naval assets watching the flanks.
+----
+##### description
+A pure air & sea battle between two carrier groups. Boscali's Annex Class Assault Carrier vs Primeva's Hyperion Class Fleet Carrier, with their respective compliments of aircraft.The first side to sink the other's carrier wins. All 36 carrier aircraft are available immediately, and cannot be replaced easily if shot down. Fly, fight, and land with care.
+----
+##### description
+An opportunity arises to take possession of a valuable piece of sea mining infrastructure. PALA and BDF try to beat each other to the punch.
+----
+##### description
+Challenging co-op mission where PALA provokes the BDF navy, and must defend Vigil Cay airbase from a naval attack.
+----
+##### description
+Fly an SAH-46 Chicane under the radar to eliminate an enemy forward arming and refueling point.
+----
+##### description
+Fly the A-19 Brawler in a demanding, high tempo close air support mission as BDF narrowly defend Maris Airport against a massive PALA armoured assault.
+----
+##### description
+Fly the SFB-81 Darkreach on a bombing mission to destroy a PALA vehicle depot on a heavily defended airbase.
+----
+##### description
+Fly the T/A-30 Compass in an intense dogfight - your side is outnumbered 8 to 5.
+----
+##### description
+In preparation for a large air raid, use the SAH-46 Chicane to neutralise several long range SAM systems.
+----
+##### description
+Infiltrate and destroy a PALA island stronghold under the cover of a raging storm, using the the VT-7 Vagrant.
+----
+##### description
+Launch from an aircraft carrier and tackle a diverse set of targets in a versatile aircraft.
+----
+##### description
+Learn how to defeat semi-active radar homing missiles. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.
+----
+##### description
+Learn how to designate targets and use missiles to destroy them. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.
+----
+##### description
+Learn how to prepare for and perform a landing. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.
+----
+##### description
+Learn how to use flares to defeat IR missiles. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.
+----
+##### description
+Prevent a column of vehicles from crossing the bridge to Boscali Island, before neutralizing the attack at its source.
+----
+##### description
+Use the FS-12 Revoker to intercept a volley of cruise missiles launched at your base from Primeva.
+----
+##### description
+Use various SEAD/DEAD abilities unique to the EW-25 Medusa to facilitate an attack against a heavily defended ammo dump.
+----
+##### message
+Be advised that radar SAMs have been spotted on the mountaintops. If you receive radar warnings, drop to below 20m radar altitude.
+----
+##### message
+Excellent work, the mission was successful.
+----
+##### message
+Good job, the enemy base is neutralized. Now return to base immediately before any patrolling aircraft can intercept you!
+----
+##### message
+Stay as close to the ground as possible while crossing the ridgeline... we've picked up a Boltstrike very close to your position.
+----
+##### message
+The target area is dead ahead. Keep an eye out for short range SAMs and anti aircraft guns.
+----
+##### message
+This morning you will be conducting a strike on a forward base hidden in the mountains. Follow the waypoints to the target area.
+----
+##### objectiveName
+Destroy FARP
+----
+##### objectiveName
+Return to Base
+----
+##### objectiveName
+Waypoint
+----
+##### title
+Aerial Targets                              1/2
+----
+##### title
+Aerial Targets                              2/2
+----
+##### title
+Angle of Attack Indexer     3/3
+----
+##### title
+Brakes
+----
+##### title
+Centered on runway
+----
+##### title
+Defending                                    1/4
+----
+##### title
+Defending                                    2/4
+----
+##### title
+Defending                                    3/4
+----
+##### title
+Defending                                    4/4
+----
+##### title
+Deploy Gear
+----
+##### title
+Enemy Radar                             1/2
+----
+##### title
+Enemy Radar                             2/2
+----
+##### title
+Escape
+----
+##### title
+Escaped Successfully
+----
+##### title
+Evasion Complete
+----
+##### title
+Flare Usage                                 1/3
+----
+##### title
+Flare Usage                                 2/3
+----
+##### title
+Flare Usage                                 3/3
+----
+##### title
+Fratricide
+----
+##### title
+Full Throttle
+----
+##### title
+Glideslope indicator          2/3
+----
+##### title
+Helmet Mounted Display
+----
+##### title
+Infrared Countermeasures          1/3
+----
+##### title
+Infrared Countermeasures          2/3
+----
+##### title
+Infrared Countermeasures          3/3
+----
+##### title
+Landing Assist                   1/3
+----
+##### title
+Landing Complete
+----
+##### title
+Not dangerous enough
+----
+##### title
+Notching                                      1/3
+----
+##### title
+Notching                                      2/3
+----
+##### title
+Notching                                      3/3
+----
+##### title
+Prepare for Landing
+----
+##### title
+Radar Range                              1/3
+----
+##### title
+Radar Range                              2/3
+----
+##### title
+Radar Range                              3/3
+----
+##### title
+Successful Landing
+----
+##### title
+Successful Takeoff
+----
+##### title
+Target Designation                     1/4
+----
+##### title
+Target Designation                     2/4
+----
+##### title
+Target Designation                     3/4
+----
+##### title
+Target Designation                     4/4
+----
+##### title
+Weapon Usage                            1/2
+----
+##### title
+Weapon Usage                            2/2
+----
+##### title
+Wheel Brakes
+----

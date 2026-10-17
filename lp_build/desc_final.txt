@@ -1,0 +1,8 @@
+=== НЕТ В СЛОВАРЕ ===
+
+According to all known laws of aviation and annoying people on the subreddit, there is no way that an MC-260 Chimera should be able to fly. Its little wings are far too small to get its fat little body off of the ground. The Chimera of course, flies anyway, because Aryx doesn't care what aerodynamics thinks.
+
+Гелікоптери, Tarantula та MC-260 Chimera виключені. Не використані гармати, гаки, TGP, радоми та вузькі кінцеві пілони. У Ternion використано зовнішні групи 4–8. Відсутній модовий літак пропускається Blueprinter із попередженням, а не блокує інші літаки.
+
+=== ПОЧТИ-СОВПАДЕНИЯ (данные | ключ) ===
+

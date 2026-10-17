@@ -1,0 +1,83 @@
+Armour rolling
+Assault landing
+B Ground push
+B Supply income
+B Supply income 2
+Break the Cinder Gate depot
+Break the Delta Gate depot
+Build the Dunmore supply dump
+Build the Hollin supply dump
+Burn Port Ansel
+Burn the Rook station
+Capture Dunmore Crossing LZ
+Capture Fenwick
+Capture Graylock South
+Capture Hollin Mine LZ
+Capture Kittiwake FARP
+Capture Skerry Island
+Capture Sorrel Field
+Capture Tarn Head Strip
+Capture the Ostrin Isles
+Catch the mobile SAM
+Destroy Ironjaw fuel terminal
+Destroy the Boscali radar network
+Destroy the Fenwick aircraft factories
+Destroy the Graylock peninsula aircraft factories
+Destroy the Primeva radar network
+Destroy the SAM radars
+Destroy the Sill depot
+Destroy the Sorrel aircraft factories
+Destroy the Tarn Head aircraft factories
+Hold Fenwick, the Ostrin Isles and Skerry Island
+Hold the Sill for 45 minutes
+Keep the fleet afloat for 45 minutes
+Keep the umbrella up for an hour
+Landing run
+Patrol leg 01
+Patrol leg 02
+Patrol leg 03
+Patrol leg 04
+Patrol leg 05
+Patrol leg 06
+Patrol leg 07
+Patrol leg 08
+Patrol leg 09
+Patrol leg 10
+Patrol leg 11
+Patrol leg 12
+Patrol leg 13
+Patrol leg 14
+Patrol leg 15
+Patrol leg 16
+Patrol leg 17
+Patrol leg 18
+Patrol leg 19
+Patrol leg 20
+Patrol leg 21
+Patrol leg 22
+Patrol leg 23
+Patrol leg 24
+Patrol leg 25
+Patrol leg 26
+Patrol leg 27
+Patrol leg 28
+Patrol leg 29
+Patrol leg 30
+R Ground push
+R Supply income
+R Supply income 2
+Reinforcements 1
+Reinforcements 2
+Reinforcements 3
+Second wave
+Sink the Tarn Bay fleet
+Sink the assault fleet
+Sink the carrier group
+Sink the fjord corvettes
+Sink the landing force
+Strike the carrier
+Supply convoy 1
+Supply convoy 2
+Supply convoy 3
+Supply convoy 4
+Supply convoy 5

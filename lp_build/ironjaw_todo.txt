@@ -1,0 +1,430 @@
+##### /airbases[]/DisplayName (16)
+Brekka Hills FARP
+----
+Cinder Gate FARP
+----
+Delta Gate FARP
+----
+Dunmore Crossing LZ
+----
+Dunmore Supply Dump
+----
+Fenwick Field
+----
+Graylock South Strip
+----
+Graylock Strip
+----
+Hollin Mine LZ
+----
+Hollin Supply Dump
+----
+Kittiwake FARP
+----
+Ostrin Isles Strip
+----
+Rook Island NAS
+----
+Skerry Island LZ
+----
+Sorrel Field
+----
+Tarn Head Strip
+----
+##### /missionSettings/description (15)
+A Confrontation-style war over the east half of the map. Boscali fly from a carrier group south of Fenwick and from the Fenwick and Kittiwake landing zones; Primeva fly from Graylock Strip, Graylock South and Brekka Hills. Aircraft factories west of Fenwick and on the Graylock peninsula build new airframes. The Ostrin Isles and Skerry Island start neutral; helicopter troops take them. Destroy the enemy aircraft factories to win. Everyone starts at rank 0.
+----
+A Primeva amphibious fleet is steaming through Ansel Reach to seize Port Ansel, with a second wave coming up Gannet Sound later. Boscali must sink the fleets before they burn the port's fuel tanks; Primeva win if the tank farm burns. AI aircraft fly for both sides.
+----
+A Primeva carrier group and landing force come up from the south toward Rook Island. Boscali defend from Sorrel Field and Rook Island; Primeva fly from the carrier, with Tarn Head Strip far to the north as a backup. Boscali must sink the landing force before its troops land and burn the Rook Island station.
+----
+A combined-arms war across the Cinder Range, built like the stock Confrontation. Each side has a main airbase, a forward helicopter base with a vehicle depot and three vehicle factories, and an aircraft factory complex. Factories keep both sides supplied with airframes and armour, and the ground war fights over two neutral landing zones in the middle. Break the enemy forward depot, then destroy their aircraft factories to win. Everyone starts at rank 0 with little money; nuclear weapons clear at escalation 256. Graylock Strip is closed.
+----
+A helicopter-heavy fight for the islands, in the spirit of Terminal Control. Boscali start at Sorrel Field, Rook Island and Kittiwake; Primeva at Graylock Strip, Graylock South and Brekka Hills. Fenwick (well defended), the Ostrin Isles and Skerry Island start neutral. Hold all three at once, or take the enemy's forward base, to win. Fenwick sits about 15 km from Kittiwake and 20 km from Graylock South.
+----
+A small, Altercation-size strike up Graylock Fjord. A Boscali carrier group sits at the fjord mouth with a forward pad on Skerry Island. Primeva hold the fjord with corvettes, a SAM site and armour guarding the supply depot at the Sill, the narrow crossing at the fjord head. Boscali must destroy the depot and its guard; Primeva win if they hold out for 45 minutes or sink the carrier group.
+----
+Air race on Ironjaw Sound: Fjord Sprint. Short, fast and low over water: north up Halvard Sound, through Ironjaw Narrows, west along Tarn Bay, a hop over the neck into the narrow north fjord and out through its S-bend to the open sea. 41 km, 26 gates, about 3.0 min in a fast jet. Any aircraft. Needs the TerrainLabRace plugin on the host: spawn at Sorrel Field and the host puts you on the start grid in the air. Host chat: !race grid (open the grid), !race go (start now), !race reset, !race status.
+----
+Air race on Ironjaw Sound: Glacier Run. Longer and technical: from Halvard's inner bay west up the Lower Ice, over The Col at about 800 m, down onto the Upper Ice, round into the long north valley and out over Tarn Head glacier to the strip. 41 km, 22 gates, about 3.0 min in a fast jet. Any aircraft. Needs the TerrainLabRace plugin on the host: spawn at Sorrel Field and the host puts you on the start grid in the air. Host chat: !race grid (open the grid), !race go (start now), !race reset, !race status.
+----
+Air race on Ironjaw Sound: Grand Tour. The whole map: out from Sorrel Field, up the Delta river, north through Hollin Gap between the coast range and the high peaks, along Tarn Bay and the Narrows, south down Halvard Sound and home past Fenwick Island and Ansel Reach. 128 km, 43 gates, about 9.3 min in a fast jet. Any aircraft. Needs the TerrainLabRace plugin on the host: spawn at Sorrel Field and the host puts you on the start grid in the air. Host chat: !race grid (open the grid), !race go (start now), !race reset, !race status.
+----
+Boscali push north up the Cinder Notch road to take Tarn Head Strip and burn the Ironjaw fuel terminal. Primeva send a counter-attack south toward Sorrel Field. First side to capture the other's main airbase wins. AI aircraft fly for both sides.
+----
+Fjord Confrontation with a supply war. Each side has a supply yard at its forward helicopter base (Delta Gate, Cinder Gate) with crates of munitions and fuel, and a convoy brings three more crates every eight minutes for forty minutes. Sling crates under a UH-90 Ibis or VL-49 Tarantula and carry them to the front: a crate on the ground counts like a squad of troops toward capturing a site, and ground units can rearm and refuel from it. Take a landing zone, then build its supply dump by bringing crates to the concrete pad: a built dump gives a forward vehicle depot, an ammunition bunker, a munitions truck, a repair dozer and air defence, and raises your faction income. Break the enemy forward depot, then destroy their aircraft factories to win. Everyone starts at rank 0; nuclear weapons clear at escalation 256. Graylock Strip is closed.
+----
+Free flight over all of Ironjaw Sound. Boscali hold the south and the outer islands (Sorrel Field, Port Ansel, Rook Island, Kittiwake, Fenwick, Ostrin Isles); Primeva hold the fjords and the north (Tarn Head Strip, Graylock Strip, Graylock South, Brekka Hills, Skerry Island). Every airbase and FARP is open, so you can spawn almost anywhere. Both sides have air defences, radars, garrisons and ships, so stay over your own side unless you want a fight. All aircraft, unlimited funds, no AI aircraft.
+----
+Primeva have spread long-range SAM sites across the fjord country, with a mobile SAM patrolling the Cinder Notch road. Boscali must destroy every SAM radar within an hour; Primeva win if the umbrella survives. AI aircraft fly for both sides.
+----
+Primeva warships patrol Tarn Bay and the Ironjaw Narrows. Boscali must sink most of them within 45 minutes; Primeva win if the fleet survives. AI aircraft fly for both sides.
+----
+The whole of Ironjaw Sound at war, built like the stock Escalation. Boscali hold the south: Sorrel Field, Rook Island, Kittiwake FARP and the Delta Gate FARP. Primeva hold the fjords and the north-east: Tarn Head Strip, Graylock Strip, Graylock South, Brekka Hills and the Cinder Gate FARP. Each side has two aircraft factory complexes and an enrichment plant by its main base, and vehicle factories feeding a depot at its forward FARP. Factories build new airframes over the whole match, so the heavy jets arrive late. Armour rolls from the start and reinforcement columns come down the Cinder Notch road and the west road through Hollin Mine. Five landing zones in between start neutral and become forward spawns for whoever takes them. Break the enemy forward depot, then destroy their aircraft factories to win. Everyone starts at rank 0; nuclear weapons clear at escalation 256.
+----
+##### /objectives[]/DisplayName (83)
+Armour rolling
+----
+Assault landing
+----
+B Ground push
+----
+B Supply income
+----
+B Supply income 2
+----
+Break the Cinder Gate depot
+----
+Break the Delta Gate depot
+----
+Build the Dunmore supply dump
+----
+Build the Hollin supply dump
+----
+Burn Port Ansel
+----
+Burn the Rook station
+----
+Capture Dunmore Crossing LZ
+----
+Capture Fenwick
+----
+Capture Graylock South
+----
+Capture Hollin Mine LZ
+----
+Capture Kittiwake FARP
+----
+Capture Skerry Island
+----
+Capture Sorrel Field
+----
+Capture Tarn Head Strip
+----
+Capture the Ostrin Isles
+----
+Catch the mobile SAM
+----
+Destroy Ironjaw fuel terminal
+----
+Destroy the Boscali radar network
+----
+Destroy the Fenwick aircraft factories
+----
+Destroy the Graylock peninsula aircraft factories
+----
+Destroy the Primeva radar network
+----
+Destroy the SAM radars
+----
+Destroy the Sill depot
+----
+Destroy the Sorrel aircraft factories
+----
+Destroy the Tarn Head aircraft factories
+----
+Hold Fenwick, the Ostrin Isles and Skerry Island
+----
+Hold the Sill for 45 minutes
+----
+Keep the fleet afloat for 45 minutes
+----
+Keep the umbrella up for an hour
+----
+Landing run
+----
+Patrol leg 01
+----
+Patrol leg 02
+----
+Patrol leg 03
+----
+Patrol leg 04
+----
+Patrol leg 05
+----
+Patrol leg 06
+----
+Patrol leg 07
+----
+Patrol leg 08
+----
+Patrol leg 09
+----
+Patrol leg 10
+----
+Patrol leg 11
+----
+Patrol leg 12
+----
+Patrol leg 13
+----
+Patrol leg 14
+----
+Patrol leg 15
+----
+Patrol leg 16
+----
+Patrol leg 17
+----
+Patrol leg 18
+----
+Patrol leg 19
+----
+Patrol leg 20
+----
+Patrol leg 21
+----
+Patrol leg 22
+----
+Patrol leg 23
+----
+Patrol leg 24
+----
+Patrol leg 25
+----
+Patrol leg 26
+----
+Patrol leg 27
+----
+Patrol leg 28
+----
+Patrol leg 29
+----
+Patrol leg 30
+----
+R Ground push
+----
+R Supply income
+----
+R Supply income 2
+----
+Reinforcements 1
+----
+Reinforcements 2
+----
+Reinforcements 3
+----
+Second wave
+----
+Sink the Tarn Bay fleet
+----
+Sink the assault fleet
+----
+Sink the carrier group
+----
+Sink the fjord corvettes
+----
+Sink the landing force
+----
+Strike the carrier
+----
+Supply convoy 1
+----
+Supply convoy 2
+----
+Supply convoy 3
+----
+Supply convoy 4
+----
+Supply convoy 5
+----
+##### /outcomes[]/Message (99)
+A Primeva assault fleet (destroyer, frigate, corvette and three landing craft) is in Ansel Reach, heading for Port Ansel. Sink it before the landing craft reach the waterfront. Expect a second wave from the south later.
+----
+A Primeva carrier group and a landing force (two corvettes and three landing craft) are south-east of Rook Island. The landing craft turn for the beach in about ten minutes. Sink the landing force and protect the Rook Island station.
+----
+A Primeva corvette and patrol boats are circling Tarn Bay, with a destroyer on picket in the Ironjaw Narrows. Sink at least four of the five ships within 45 minutes.
+----
+A supply convoy reached Delta Gate and Cinder Gate. Three more crates wait in each supply yard.
+----
+All of Ironjaw Sound is in play. Boscali armour is massing at the Delta Gate depot, north of Sorrel Field. Break the Delta Gate depot and its factories, then destroy the Boscali aircraft factories around Sorrel Field to win. Our own factories around Tarn Head build new airframes all match, and the heavy jets come late; protect them. Neutral landing zones at Fenwick, the Ostrin Isles, Skerry Island, Dunmore Crossing and Hollin Mine become forward helicopter bases once your troops hold them. You start at rank 0: earn rank and buy bigger aircraft.
+----
+All of Ironjaw Sound is in play. Primeva armour is massing at the Cinder Gate depot, south of Cinder Notch. Break the Cinder Gate depot and its factories, then destroy the Primeva aircraft factories around Tarn Head to win. Our own factories around Sorrel Field build new airframes all match, and the heavy jets come late; protect them. Neutral landing zones at Fenwick, the Ostrin Isles, Skerry Island, Dunmore Crossing and Hollin Mine become forward helicopter bases once your troops hold them. You start at rank 0: earn rank and buy bigger aircraft.
+----
+Armour is moving north on the Cinder Notch road toward Tarn Head Strip. Clear the air defences at Tarn Head, hit the Ironjaw fuel terminal, and cover the convoy until it captures the strip.
+----
+Armour is moving up the west road toward Hollin Mine.
+----
+Armour is rolling out of Delta Gate and Cinder Gate toward Dunmore Crossing and Hollin Mine. Hold the landing zones and you can fly helicopters from the front.
+----
+Boscali aircraft production is destroyed. Primeva hold Ironjaw Sound.
+----
+Boscali aircraft production is destroyed. The delta is open.
+----
+Boscali aircraft production is destroyed. The east is Primeva.
+----
+Boscali armour is coming up the Cinder Notch road. Hold Tarn Head Strip. Our counter-attack group is pushing south toward Sorrel Field: escort it and capture the Boscali base.
+----
+Boscali armour is massing at the Delta Gate depot, north of Sorrel Field. Take the Dunmore Crossing and Hollin Mine landing zones, break the Delta Gate depot and its factories, then destroy the aircraft factories east of Sorrel Field. Our own aircraft factories east of Tarn Head build new airframes; protect them. You start at rank 0: fly the light aircraft, earn rank, and buy bigger ones.
+----
+Boscali built the Dunmore supply dump. A forward vehicle depot, an ammunition bunker, a munitions truck, a repair dozer and air defence are up there.
+----
+Boscali built the Hollin supply dump. A forward vehicle depot, an ammunition bunker, a munitions truck, a repair dozer and air defence are up there.
+----
+Boscali have a working supply dump at the front. Boscali income rises by half.
+----
+Boscali have knocked out half of the Primeva radar network.
+----
+Boscali hold Dunmore Crossing.
+----
+Boscali hold Dunmore Crossing. Helicopters can fly from its pads, and an air defence section is setting up there.
+----
+Boscali hold Dunmore Crossing. Helicopters can fly from its pads. Bring supply crates to the Dunmore Supply Dump to build a forward base there.
+----
+Boscali hold Fenwick.
+----
+Boscali hold Hollin Mine.
+----
+Boscali hold Hollin Mine. Helicopters can fly from its pads, and an air defence section is setting up there.
+----
+Boscali hold Hollin Mine. Helicopters can fly from its pads. Bring supply crates to the Hollin Supply Dump to build a forward base there.
+----
+Boscali hold Skerry Island, at the mouth of Graylock Fjord.
+----
+Boscali hold Skerry Island. Helicopters can fly from its pads, and an air defence section is setting up there.
+----
+Boscali hold Sorrel Field, Rook Island NAS, Kittiwake FARP, Fenwick Field, Delta Gate FARP, Ostrin Isles Strip and Dunmore Crossing LZ. Free flight.
+----
+Boscali hold all three islands.
+----
+Boscali hold the Ostrin Isles.
+----
+Boscali hold the Ostrin Isles. Helicopters can fly from its pads, and an air defence section is setting up there.
+----
+Boscali run both supply dumps. Boscali income is now double.
+----
+Both Primeva corvettes in Graylock Fjord are sunk.
+----
+Every Primeva SAM radar is down. The fjords are open.
+----
+Fenwick, the Ostrin Isles and Skerry Island are neutral. Land troops by helicopter and hold all three at once, or take Graylock South. Fenwick is well defended; bring more than one load. Protect Kittiwake.
+----
+Fenwick, the Ostrin Isles and Skerry Island are neutral. Land troops by helicopter and hold all three at once, or take the Boscali FARP at Kittiwake. Fenwick is well defended; bring more than one load. Protect Graylock South.
+----
+Fjord Sprint: 26 gates, 41 km. Spawn in any aircraft; the host opens the grid.
+----
+Fly up Graylock Fjord from the carrier and destroy the supply depot and its armour guard at the Sill, the crossing at the fjord head. Two corvettes and a SAM site cover the fjord. You have 45 minutes.
+----
+Four Primeva SAM sites cover the north: above Tarn Head, above Cinder Notch, on the north coast road and at Graylock. Find and destroy every SAM radar within an hour. A mobile SAM also patrols the Cinder Notch road.
+----
+Glacier Run: 22 gates, 41 km. Spawn in any aircraft; the host opens the grid.
+----
+Grand Tour: 43 gates, 128 km. Spawn in any aircraft; the host opens the grid.
+----
+Graylock South has fallen to Boscali.
+----
+Heavy armour columns are on the Cinder Notch road.
+----
+Hold the Sill for 45 minutes. Boscali strike aircraft will come up Graylock Fjord from a carrier at its mouth. Fly CAP from Graylock Strip and Brekka Hills, or go after the carrier.
+----
+Ironjaw fuel terminal is burning. Primeva aircraft will be short of fuel.
+----
+Keep the SAM umbrella up for an hour. Fly CAP over the SAM sites and hunt the Boscali strike flights.
+----
+Kittiwake has fallen to Primeva.
+----
+Our carrier group is south of Fenwick; jets fly from its deck, helicopters from Fenwick and Kittiwake. Take the Ostrin Isles and Skerry Island with helicopter troops, then destroy the Primeva aircraft factories on the Graylock peninsula. Protect our own factories west of Fenwick. You start at rank 0.
+----
+Our carrier group is south-east of Rook Island. Cover the landing force on its run to the Rook Island beach and destroy the station there: radar, fuel tanks and stores.
+----
+Our fleet is moving on Port Ansel through Ansel Reach. Cover it, knock out the port's air defences, and destroy the tank farm. A second wave will follow up Gannet Sound.
+----
+Port Ansel's tank farm is burning. Boscali have lost their port.
+----
+Primeva aircraft production is destroyed. Boscali hold Ironjaw Sound.
+----
+Primeva aircraft production is destroyed. The east is Boscali.
+----
+Primeva aircraft production is destroyed. The fjord country is open.
+----
+Primeva armour is massing at the Cinder Gate depot, south of Cinder Notch. Take the Dunmore Crossing and Hollin Mine landing zones, break the Cinder Gate depot and its factories, then destroy the aircraft factories east of Tarn Head. Our own aircraft factories east of Sorrel Field build new airframes; protect them. You start at rank 0: fly the light aircraft, earn rank, and buy bigger ones.
+----
+Primeva built the Dunmore supply dump. A forward vehicle depot, an ammunition bunker, a munitions truck, a repair dozer and air defence are up there.
+----
+Primeva built the Hollin supply dump. A forward vehicle depot, an ammunition bunker, a munitions truck, a repair dozer and air defence are up there.
+----
+Primeva have a working supply dump at the front. Primeva income rises by half.
+----
+Primeva have knocked out half of the Boscali radar network.
+----
+Primeva hold Dunmore Crossing.
+----
+Primeva hold Dunmore Crossing. Helicopters can fly from its pads, and an air defence section is setting up there.
+----
+Primeva hold Dunmore Crossing. Helicopters can fly from its pads. Bring supply crates to the Dunmore Supply Dump to build a forward base there.
+----
+Primeva hold Fenwick.
+----
+Primeva hold Hollin Mine.
+----
+Primeva hold Hollin Mine. Helicopters can fly from its pads, and an air defence section is setting up there.
+----
+Primeva hold Hollin Mine. Helicopters can fly from its pads. Bring supply crates to the Hollin Supply Dump to build a forward base there.
+----
+Primeva hold Skerry Island.
+----
+Primeva hold Skerry Island. Helicopters can fly from its pads, and an air defence section is setting up there.
+----
+Primeva hold Tarn Head Strip, Graylock Strip, Graylock South Strip, Brekka Hills FARP, Cinder Gate FARP, Skerry Island LZ and Hollin Mine LZ. Free flight.
+----
+Primeva hold all three islands.
+----
+Primeva hold the Ostrin Isles.
+----
+Primeva hold the Ostrin Isles. Helicopters can fly from its pads, and an air defence section is setting up there.
+----
+Primeva landing craft are turning for the Port Ansel waterfront.
+----
+Primeva landing craft are turning for the Rook Island beach.
+----
+Primeva run both supply dumps. Primeva income is now double.
+----
+Protect the fleet in Tarn Bay and the destroyer in the Ironjaw Narrows for 45 minutes.
+----
+Radar contact: a second Primeva group is coming north up Gannet Sound.
+----
+Reinforcement columns are on the Cinder Notch road, heading for the front.
+----
+Sorrel Field has fallen to Primeva.
+----
+Supplies win this war. Our supply yard is at Cinder Gate FARP, south of Cinder Notch, and a convoy brings more crates every eight minutes. Fly UH-90s or VL-49s, sling crates to Dunmore Crossing and Hollin Mine, and build their supply dumps by bringing crates to the concrete pads: each dump gives us a forward depot and more income. Then break the Delta Gate depot and destroy the aircraft factories east of Sorrel Field. Hunt Boscali supply helicopters on the way.
+----
+Supplies win this war. Our supply yard is at Delta Gate FARP, north of Sorrel Field, and a convoy brings more crates every eight minutes. Fly UH-90s or VL-49s, sling crates to Dunmore Crossing and Hollin Mine, and build their supply dumps by bringing crates to the concrete pads: each dump gives us a forward depot and more income. Then break the Cinder Gate depot and destroy the aircraft factories east of Tarn Head. Hunt Primeva supply helicopters on the way.
+----
+Tarn Head Strip is ours. Primeva have lost the fjord country.
+----
+The Boscali carrier group is crippled.
+----
+The Cinder Gate depot is broken and Primeva armour has stopped coming. Their aircraft factories around Tarn Head are the last target.
+----
+The Cinder Gate depot is broken and Primeva armour has stopped coming. Their aircraft factories east of Tarn Head are the last target.
+----
+The Delta Gate depot is broken and Boscali armour has stopped coming. Their aircraft factories around Sorrel Field are the last target.
+----
+The Delta Gate depot is broken and Boscali armour has stopped coming. Their aircraft factories east of Sorrel Field are the last target.
+----
+The Primeva assault fleet is broken. Port Ansel holds.
+----
+The Primeva carrier is out of action.
+----
+The Primeva landing force is broken. Rook Island holds.
+----
+The Rook Island station is burning. Boscali have lost the south.
+----
+The SAM umbrella held for an hour. Boscali have given up the hunt.
+----
+The Sill depot is burning and the crossing is open.
+----
+The Sill held for 45 minutes. The Boscali strike has failed.
+----
+The Tarn Bay fleet is on the bottom.
+----
+The fleet survived. Boscali strike aircraft have turned back.
+----
+The last supply convoy reached Delta Gate and Cinder Gate. Three more crates wait in each supply yard; there are no more after these.
+----
+The mobile SAM on the Cinder Notch road is destroyed.
+----
+We hold Graylock Strip, Graylock South and Brekka Hills. Take the Ostrin Isles and Skerry Island with helicopter troops, then destroy the Boscali aircraft factories west of Fenwick. Their jets fly from a carrier south of Fenwick. Protect our own factories on the Graylock peninsula. You start at rank 0.
+----

@@ -1,0 +1,144 @@
+﻿╨╜╨░╨╣╨┤╨╡╨╜╨╛ ╨╛╨┐╨╕╤Б╨░╨╜╨╕╨╣ ╨▓ ╨░╤Б╤Б╨╡╤В╨░╤Е: 143
+[resources.assets] A 6-ton munitions pallet for replenishing a warship's ammunition stores. Has floatation devices and can be picked up by ships with
+[resources.assets] A 6-ton munitions pallet. When placed on the ground, allows continuous weapon rearmament for ground vehicles and aircraft within 1
+[resources.assets] A Hexhound equipped with a four-shot IRM-S1 launcher. Its small profile makes it hard to detect, allowing it to ambush low flying 
+[resources.assets] A Laser Air Defence System capable of destroying small calibre aerial munitions.
+[resources.assets] A compact and advanced multirole fighter, the Vortex is capable of operating vertically from small carriers and remaining undetect
+[resources.assets] A concealed front line fighting position of an infantry team armed with light machine guns, grenades, and rocket launchers. Capabl
+[resources.assets] A controller that allows up to 6-degrees of freedom: Translate X, Y, Z and rotate X, Y, Z.
+[resources.assets] A large, carrier capable, twin engine multirole fighter, the Ifrit is equally suited to air superiority and ground attack missions
+[resources.assets] A single 10-ton ammo container. When placed on the ground, allows weapon rearmament for units within 100m. Avoid subjecting the co
+[resources.assets] A single 10-ton container for replenishing a warship's ammunition stores. Has floatation devices and can be picked up by ships wit
+[resources.assets] A single use, air transportable 1500L fuel bladder that can be deployed at Forward Operation Bases.
+[resources.assets] A small pallet carrying 1.5 tons of munitions. When placed on the ground, allows rearmament of units within 100m. Volatile.
+[resources.assets] A small, remote-controlled, air-transportable combat engineering unit designed for light role forces. Combat engineering units are
+[resources.assets] A small, remote-controlled, air-transportable combat engineering unit designed for light role forces. Combat engineering units are
+[resources.assets] A subsonic anti-ship missile with a very low altitude cruise profile and pop-up terminal attack mode designed to penetrate ship de
+[resources.assets] A surface-launched active radar homing missile. Uses a combination of inertial guidance and terminal radar homing, and can be fire
+[resources.assets] Airbase support vehicle capable of refueling aircraft parked within 300m
+[resources.assets] AircraftDefinition;CI-22 Cricket;CI-22;Designed for counter insurgency operations and low-intensity battlefields, the CI-22 Cricke
+[resources.assets] AircraftDefinition;EW-25 Medusa;EW-25;The EW-25 is a short take-off, vertical landing (STOVL) support aircraft with a variety of p
+[resources.assets] AircraftDefinition;FS-12 Revoker;FS-12;The FS-12 Revoker is built for agility above all else, capable of extreme maneuvers at almo
+[resources.assets] AircraftDefinition;FS-20 Vortex;FS-20;A compact and advanced multirole fighter, the Vortex is capable of operating vertically from
+[resources.assets] AircraftDefinition;KR-67 Ifrit;KR-67;A large, carrier capable, twin engine multirole fighter, the Ifrit is equally suited to air s
+[resources.assets] AircraftDefinition;SAH-46 Chicane;SAH-46;The SAH-46 Chicane retains a traditional attack helicopter configuation while incorporati
+[resources.assets] AircraftDefinition;SFB-81 Darkreach;SFB-81;Featuring powerful engines, a stealthy silhouette, and 4 large internal weapon bays, th
+[resources.assets] AircraftDefinition;T/A-30 Compass;T/A-30;An advanced jet trainer which is well suited for light combat duty, the T/A-30 is highly 
+[resources.assets] Allows continuous weapon rearmament for ground vehicles and aircraft within 100m. Avoid subjecting the container to large impact f
+[resources.assets] An advanced jet trainer which is well suited for light combat duty, the T/A-30 is highly maneuverable at low to medium speeds and 
+[resources.assets] An air transportable 10,000L fuel tank that can be deployed at Forward Operation Bases.
+[resources.assets] An air transportable 6000L fuel tank that can be deployed at Forward Operation Bases.
+[sharedassets0.assets] Based on Arimo, which was designed by Steve Matteson as an innovative, refreshing sans serif design that is metrically compatible 
+[sharedassets0.assets] Based on Arimo, which was designed by Steve Matteson as an innovative, refreshing sans serif design that is metrically compatible 
+[resources.assets] Bristling with air defense weapons, the Argus class is a missile frigate designed to protect valuable assets from air attack. Capa
+[resources.assets] BuildingDefinition;Pillbox;BNKR;Designed to supplement and eventually replace human sentries, the pillbox represents part of a net
+[resources.assets] BuildingDefinition;Refinery Structure;BLD;Synthetic fuel production unit capable of converting a large variety of organic feedstoc
+[resources.assets] BuildingDefinition;Storage Tank;BLD;Refrigerated, in-ground bulk liquid gas storage. Thick concrete for insulation makes it diffic
+[resources.assets] Capable of tracking multiple aerial units at ranges of up to 100km (60m).
+[resources.assets] Capable of tracking multiple aerial units at ranges of up to 40km
+[resources.assets] Command vehicle capable of distributing targets from a radar to individual SAM launchers in a battery
+[resources.assets] Compact and maneuverable short-range heat seeking missile, ideal for defensive anti-air use
+[resources.assets] Designed for a PALA fast vertical lift program in the 2050s, the UH-90 was conceptualized as a medium-sized compound utility helic
+[resources.assets] Designed for counter insurgency operations and low-intensity battlefields, the CI-22 Cricket features robust landing gear and shor
+[resources.assets] Designed for long-range precision strikes against high value targets, this tactical ballistic missile leaves the atmosphere before
+[resources.assets] Designed for rapidly delivering vehicles from Annex class assault carriers to landing points, this fast hovercraft can carry up to
+[resources.assets] Designed specifically for anti-armor applications, this short range fire-and-forget missile is ideal for penetrating well protecte
+[resources.assets] Designed to supplement and eventually replace human sentries, the pillbox represents part of a networked perimeter monitoring syst
+[resources.assets] Directional offensive jammer, capable of blinding one targeted radar per pod at ranges of up to 50km.
+[resources.assets] Featuring 8 IR missile launchers, this air defense system is capable of intercepting missiles and aircraft at a range of up to 5km
+[resources.assets] Featuring a unique 3-post ducted thrust system, this trainer doubles as an affordable attack aircraft with VTOL capability. The Va
+[resources.assets] Featuring powerful engines, a stealthy silhouette, and 4 large internal weapon bays, the SFB-81 Darkreach is a formidable bomber c
+[resources.assets] Firing 57mm proximity fused explosive shells, the Anvil is capable of dealing devastating volleys against both air and land target
+[resources.assets] Heavy thermobaric guided bomb capable of devastating soft targets over a wide area. Best used against buildings or lightly defende
+[resources.assets] High energy laser weapon designed to intercept missiles and bombs at ranges of up to 15km.
+[resources.assets] Ideal for attacking SAM sites at beyond visual range, this anti-radiation missile is capable of high range and speed and specifica
+[sharedassets0.assets] Liberation is a trademark of Red Hat, Inc. registered in U.S. Patent and Trademark Office and certain other jurisdictions.
+[resources.assets] Logistics vehicle with a loading system capable of handling a variety of tasks
+[resources.assets] Long range air defense trailer capable of engaging aerial targets detected by nearby radar trucks
+[resources.assets] Long range air defense unit capable of engaging aerial targets detected by nearby radar trucks
+[resources.assets] Long range artillery rocket with inertial navigation and terminal laser guidance to improve accuracy. A thermobaric warhead provid
+[resources.assets] MissileDefinition;AGM-68;MSL;The AGM-68 is a large, optically guided missile capable of destroying structures and heavily armored 
+[resources.assets] MissileDefinition;AGM-99;MSL;This air launched anti-ship missile has a very low altitude cruise profile with a pop-up terminal att
+[resources.assets] MissileDefinition;ALND-4 (20kt);MSL;The ALND-4 (Air Launched Nuclear Deterrent) is a long range subsonic cruise missile carrying a
+[resources.assets] MissileDefinition;AShM-300;MSL;This anti-ship cruise missile can be launched vertically by the Dynamo class Destroyer, using sea-s
+[resources.assets] MissileDefinition;Demolition Bomb;BOMB;Heavy thermobaric guided bomb capable of devastating soft targets over a wide area. Best us
+[resources.assets] MissileDefinition;GPO-2P Auger;BOMB;The Auger is a bunker busting gravity bomb with a precision guidance kit. It is capable of pen
+[resources.assets] MissileDefinition;PAB-250;BOMB;Optically guided 250kg bomb capable of destroying heavily armored vehicles and small buildings.;2.2
+[resources.assets] MissileDefinition;PAB-80LR;BOMB;This glide bomb deploys folding wings, giving it an extended range from altitude. Guided by an opt
+[resources.assets] Modular Support Vehicle carrying a Laser Air Defence System capable of destroying small calibre aerial munitions.
+[resources.assets] Occupying three structural hardpoints and weighing in at 1.6 tons loaded, this seven-barrelled, twin motor behemoth fires a mixed 
+[resources.assets] Optically guided 250kg bomb capable of destroying heavily armored vehicles and small buildings.
+[resources.assets] Point-defence laser designed to intercept approaching missiles from within 2km.
+[resources.assets] Point-defence laser designed to intercept approaching missiles from within 8km.
+[resources.assets] Powerful long-range all-aspect radar, capable of spotting aircraft even at altitudes as low as 5m (16ft)
+[resources.assets] Refrigerated, in-ground bulk liquid gas storage. Thick concrete for insulation makes it difficult to damage with weapons fire.
+[resources.assets] ShipDefinition;Hyperion Class Carrier;SHP;The Hyperion class features a short take-off ramp and arrestor gear on its landing runwa
+[resources.assets] ShipDefinition;OTB-31 landing craft;LCAC;Designed for rapidly delivering vehicles from Annex class assault carriers to landing poi
+[resources.assets] ShipDefinition;Shard Class Corvette;SHP;This compact warship is well equipped for defending coastal areas, armed with a 57mm canno
+[resources.assets] Short-range anti-tank guided missile designed for knocking out vehicles, emplacements,  and small buildings
+[resources.assets] Single-use container for replenishing a warship's ammunition stores. Has floatation devices and can be picked up by ships within 2
+[resources.assets] Single-use pallet for replenishing a warship's ammunition stores. Has floatation devices and can be picked up by ships within 200m
+[resources.assets] Sporting a powerful autocannon and anti-armor missiles, the Linebreaker Infantry Fighting Vehicle is a versatile unit capable of e
+[resources.assets] Support vehicle capable of rearming friendly units within 300m
+[resources.assets] Synthetic fuel production unit capable of converting a large variety of organic feedstocks into fertilizer and combustible fuels.
+[sharedassets0.assets] Text that is a long item title Text that is a long item title Text that is a long item title
+[resources.assets] The AFV6 is a fast, lightweight multipurpose armoured vehicle. This is a short range air-defence variant, with a potent 20mm rotar
+[resources.assets] The AFV6 is a fast, lightweight multipurpose armoured vehicle. This is an anti-armour variant, equipped with a large, long range m
+[resources.assets] The AFV6 is a fast, lightweight multipurpose armoured vehicle. This is the default variant, an armoured personnel carrier. The inc
+[resources.assets] The AFV6 is a fast, lightweight multipurpose armoured vehicle. This variant is an infantry fighting vehicle with a 25mm cannon.
+[resources.assets] The AFV8 Armored Personnel Carrier is a fast troop transport with a roof mounted machine gun to counter low-flying aerial threats 
+[resources.assets] The AGM-68 is a large, optically guided missile capable of destroying structures and heavily armored vehicles. It follows an unpre
+[resources.assets] The ALND-4 (Air Launched Nuclear Deterrent) is a long range subsonic cruise missile carrying a tactical nuclear warhead.
+[resources.assets] The AT-145 is a short-range anti-tank guided missile designed for knocking out vehicles, emplacements and small buildings.
+[resources.assets] The Alkyon AB-4 is an advanced supersonic bomber with electronic warfare capabilities, designed to stealthily deliver nuclear or c
+[resources.assets] The Auger is a bunker busting gravity bomb with a precision guidance kit. It is capable of penetrating hardened structures before 
+[resources.assets] The Brawler is a reliable and rugged platform built to carry large quantities of precision weapons. Advanced propfan engines combi
+[resources.assets] The Chicane can be taken down with a Nuke
+[resources.assets] The Cursor class represents the vanguard of the BDF fleet. This littoral flight deck (LFD) is designed to rapidly deploy light VTO
+[resources.assets] The EW-25 is a short take-off, vertical landing (STOVL) support aircraft with a variety of powerful electronic warfare systems. Ab
+[resources.assets] The FS-12 Revoker is built for agility above all else, capable of extreme maneuvers at almost any speed. Internal weapon bays help
+[resources.assets] The Hyperion class features a short take-off ramp and arrestor gear on its landing runway, and can accommodate a variety of aircra
+[resources.assets] The IRM-S1 is a man-portable air defense system (MANPADS) effective at countering air threats within 5km. An infrared homing seeke
+[resources.assets] The LCV25 is a 4x4 all terrain vehicle, offered in AA or AT configurations, combining the agility of a light recon vehicle with th
+[resources.assets] The SAH-46 Chicane retains a traditional attack helicopter configuation while incorporating upgrades that keep it a formidable pre
+[resources.assets] The Surf Class is an inshore patrol vessel, nominally used for border protection and anti-piracy duties. While it lacks the stayin
+[resources.assets] This 400kg cluster bomb dispenses 8 GS25 submunitions capable of independently finding and targeting hostile units in the vicinity
+[resources.assets] This advanced and highly mobile long-range artillery system fires 155mm laser guided shells. Capable of bombarding targets 40km aw
+[resources.assets] This anti-ship cruise missile can be launched from aircraft or vertically by the Dynamo class Destroyer, using sea-skimming techni
+[resources.assets] This anti-ship cruise missile can be launched from aircraft or vertically by the Dynamo class Destroyer. It uses a low altitude se
+[resources.assets] This anti-ship missile has a very low altitude cruise profile with a pop-up terminal attack mode designed to penetrate ship defens
+[resources.assets] This armored air defense vehicle combines off-road mobility with 12 short-range IR missiles capable of engaging low-flying aircraf
+[resources.assets] This compact warship is well equipped for defending coastal areas, armed with a 57mm cannon, 20mm point defense system, and batter
+[resources.assets] This formidable anti-air unit incorporates a radar capable of tracking multiple aerial targets at a range of up to 15km, and carri
+[resources.assets] This glide bomb deploys folding wings, giving it an extended range from altitude. Guided by an optical seeker during the terminal 
+[resources.assets] This heavy machine gun mounted on a tripod is low-cost means of defending point targets from light vehicles and low flying helicop
+[resources.assets] This manually aimed static air defense position is a simple and low-cost means of defending point targets from helicopters and oth
+[resources.assets] This modified AGM-48 replaces the missile's usual warhead with a panoramic optical sensor suite capable of detecting enemy targets
+[resources.assets] This self-propelled anti-aircraft gun sports twin 30mm autocannons firing proximity-fused shells, capable of accurately striking f
+[resources.assets] This transportable air defense missile launcher capable of engaging aerial targets within 15km. It can be deployed by a utility ai
+[resources.assets] This transportable air defense radar unit can track multiple targets at ranges of up to 17km. It can be deployed by a utility airc
+[resources.assets] This upfit for the AFV8 chassis features a 25mm cannon and anti-armor missile launcher, turning it into a fast infantry fighting v
+[resources.assets] Though lightly armed and armored, the LCV45 is a fast vehicle ideal for forward scouting
+[resources.assets] Upon arrival within 2.5km (1.6mi) of the designated target, this 500kg glide bomb dispenses 12 GS25 submunitions capable of indepe
+[resources.assets] VehicleDefinition;AFV6 AA;AA;The AFV6 is a fast, lightweight multipurpose armoured vehicle. This is a short range air-defence vari
+[resources.assets] VehicleDefinition;AFV6 APC;APC;The AFV6 is a fast, lightweight multipurpose armoured vehicle. This is the default variant, an armo
+[resources.assets] VehicleDefinition;AFV6 AT;AT;The AFV6 is a fast, lightweight multipurpose armoured vehicle. This is an anti-armour variant, equipp
+[resources.assets] VehicleDefinition;AFV6 IFV;IFV;The AFV6 is a fast, lightweight multipurpose armoured vehicle. This variant is an infantry fighting
+[resources.assets] VehicleDefinition;AFV8 APC;APC;The AFV8 Armored Personnel Carrier is a fast troop transport with a roof mounted machine gun to cou
+[resources.assets] VehicleDefinition;AFV8 IFV;IFV;This upfit for the AFV8 chassis features a 25mm cannon and anti-armor missile launcher, turning it 
+[resources.assets] VehicleDefinition;AFV8 Mobile Air Defense;SAM IR;Featuring 8 IR missile launchers, this air defense system is capable of intercept
+[resources.assets] VehicleDefinition;AeroSentry SPAAG;SPAAG;This self-propelled anti-aircraft gun sports twin 30mm autocannons firing proximity-fused
+[resources.assets] VehicleDefinition;FGA-57 Anvil;SPAAG;Firing 57mm proximity fused explosive shells, the Anvil is capable of dealing devastating vol
+[resources.assets] VehicleDefinition;HLT Flatbed;HLT;Logistics vehicle with a loading system capable of handling a variety of tasks;10.1;2.7;3;10.876
+[resources.assets] VehicleDefinition;HLT Fuel Tanker;HLT;Airbase support vehicle capable of refueling aircraft parked within 300m;10.1;2.7;3;10.87658
+[resources.assets] VehicleDefinition;HLT Munitions Truck;HLT;Support vehicle capable of rearming friendly units within 300m;10.1;2.7;3.4;10.99364;0;0
+[resources.assets] VehicleDefinition;HLT Radar Truck;RDR;Capable of tracking multiple aerial units at ranges of up to 40km;10.1;2.7;5.9;12.00458;0;0;
+[resources.assets] VehicleDefinition;LCV25 AA;LCV25;The LCV25 is a 4x4 all terrain vehicle, offered in AA or AT configurations, combining the agility
+[resources.assets] VehicleDefinition;LCV25 AT;LCV25;The LCV25 is a 4x4 all terrain vehicle, offered in AA or AT configurations, combining the agility
+[resources.assets] VehicleDefinition;LCV45 Recon Truck;LCV45;Though lightly armed and armored, the LCV45 is a fast vehicle ideal for forward scouting
+[resources.assets] VehicleDefinition;Linebreaker IFV;IFV;Sporting a powerful autocannon and anti-armor missiles, the Linebreaker Infantry Fighting Ve
+[resources.assets] VehicleDefinition;Linebreaker SAM;SAM IR;This armored air defense vehicle combines off-road mobility with 12 short-range IR missil
+[resources.assets] VehicleDefinition;Spearhead MBT;MBT;With a liberal application of armour and weapon modules, the latest iterations of the Spearhea
+[resources.assets] VehicleDefinition;StratoLance R9 Launcher;SAM R;long range air defense trailer capable of engaging aerial targets detected by near
+[resources.assets] VehicleDefinition;T9K41 Boltstrike;SAM R;This formidable anti-air unit incorporates a radar capable of tracking multiple aerial ta
+[resources.assets] With a liberal application of armour and weapon modules, the latest iterations of the Spearhead are as protected as they are power

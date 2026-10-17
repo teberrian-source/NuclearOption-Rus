@@ -1,0 +1,26 @@
+=== ╤Б╨░╨╝╤Л╨╡ ╤З╨░╤Б╤В╤Л╨╡ ╤Б╤В╤А╨╛╨║╨╕ ╨╗╨╛╨│╨░ (╤В╨╛╨┐-25) ===
+  401  [TRACE] miss: "CAPACITOR N  kJ"
+  109  [TRACE] miss: "R[Nm]"
+  100  [TRACE] miss: "-N,Nm/s"
+   96  [TRACE] miss: "+N,Nm/s"
+   33  [TRACE] miss: "R[N,Nm]"
+   29  [HB] Enabled=True isPatching=False translated=N missed=N untranslated=
+   22  [PatchRunner] Could not set m_SavedProperties.m_TexEnvs[N].second.m_Te
+   20  [Ops] Aircraft N_palafighterN not found
+   17  [TRACE] miss: "Cursor Class LFD Nm"
+   16  [HOOK] TMP_OnEnable entered (n=N), Enabled=True, isPatching=False
+   14  [HOOK] TMP_text_setter entered (n=N), Enabled=True, isPatching=True
+   12  [TRACE] miss: "+Nm/s"
+    8  FontEngine redirect: LoadFontFace(proxy, N) тЖТ LoadFontFace(file) = Suc
+    8  [Ops] Aircraft Aryx_PropAttackerN not found
+    8  [TRACE] miss: "<color=#FFFFFFFF>$N,Nm</color> <color=#NFFNFF>(+$N,Nm)<
+    5  [HOOK] UI_OnEnable entered (n=N), Enabled=True, isPatching=False
+    5  [Torpedo] TorpedoMounts: registered TorpedoBig_internalxN on cockpit h
+    5  Mission reset: clearing mod state
+    4  Patched: TMP_Text.SetText(String, Single, Single, Single, Single, Sing
+    4  [HOOK] UI_text_setter entered (n=N), Enabled=True, isPatching=True
+    4  [Torpedo] TorpedoMounts: registered TorpedoFast_internalxN_stack on co
+    4  [Torpedo] TorpedoMounts: added TorpedoBig_internalxN (from CruiseMissi
+    4  Exported N untranslated strings to untranslated.txt
+    4  [TRACE] miss: "<color=#FFFFFFFF>$N,Nm</color> <color=#NFFNFF>(+$N,Nk)<
+    3  [Torpedo] TorpedoMounts: registered TorpedoFast_internalxN on cockpit 

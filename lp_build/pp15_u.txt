@@ -1,0 +1,8 @@
+BOM: True | CRLF: 2607 | LF ╨▓╤Б╨╡╨│╨╛: 2607
+ok ╨▓╨╡╤А╤Б╨╕╤П (BepInPlugin)
+ok ╨▓╨╡╤А╤Б╨╕╤П (╨╗╨╛╨│)
+ok ╨▓╨╡╤А╤Б╨╕╤П (╨╛╨║╨╜╨╛)
+!! ╤Е╨╛╤В╨║╨╡╨╕ Ctrl+F4/F5/F6: ╨╜╨░╨╣╨┤╨╡╨╜╨╛ 0 ╤Б╨╛╨▓╨┐╨░╨┤╨╡╨╜╨╕╨╣ тАФ ╨Я╨а╨Ю╨Я╨г╨б╨Ъ
+ok ╨╝╨╡╤В╨╛╨┤ CtrlHeld
+!! ╤Б╤В╨░╤А╤Л╨╣ ╨▒╨╗╨╛╨║ LabelWithValueKeys ╨╜╨╡ ╨╜╨░╨╣╨┤╨╡╨╜
+╨╖╨░╨┐╨╕╤Б╨░╨╜╨╛, ╨▒╤Н╨║╨░╨┐: C:\Users\user\AppData\Local\Temp\lp_build\KoreanPatch\Plugin.cs.bak_024047

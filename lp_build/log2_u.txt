@@ -1,0 +1,112 @@
+=== ╤Д╨░╨╣╨╗╤Л ╨┐╨╗╨░╨│╨╕╨╜╨░ (mtime) ===
+  extracted_gamedata.txt                93655  17.10 21:32:41
+  extracted_strings.txt                199161  17.10 21:32:58
+  final.txt                               516  17.10 03:41:28
+  final_u.txt                             403  17.10 03:41:28
+  rd.txt                                 2888  17.10 03:41:07
+  rd_u.txt                               3108  17.10 03:41:07
+  ru.backup_022611.json                616222  16.10 23:59:31
+  ru.backup_032408.json                677148  17.10 02:26:11
+  ru.backup_204057.json                372140  16.10 20:17:24
+  ru.backup_204228.json                496974  16.10 20:40:57
+  ru.backup_204523.json                500750  16.10 20:42:28
+  ru.backup_211147.json                509111  16.10 20:45:23
+  ru.backup_211302.json                510969  16.10 21:11:47
+  ru.backup_213617.json                511757  16.10 21:13:02
+  ru.backup_215856.json                535353  16.10 21:36:17
+  ru.backup_221005.json                535308  16.10 21:58:56
+  ru.backup_221737.json                534966  16.10 22:10:06
+  ru.backup_221916.json                538466  16.10 22:17:37
+  ru.backup_230444.json                543316  16.10 22:19:16
+  ru.backup_235528.json                544131  16.10 23:04:44
+  ru.backup_235706.json                616310  16.10 23:55:28
+  ru.backup_235746.json                616310  16.10 23:55:28
+  ru.backup_235840.json                616310  16.10 23:55:28
+  ru.backup_235931.json                616250  16.10 23:58:40
+  ru.json                              680797  17.10 03:24:08
+  untranslated.txt                       6881  17.10 21:32:16
+
+=== ╤Б╤В╤А╨╛╨║╨╕ ╨┐╨╗╨░╨│╨╕╨╜╨░ ╨▓ ╨╗╨╛╨│╨╡ ===
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.23.5]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Info   :Custom Maps] lake water: 78 of 78 water tests patched; a raised lake is water to them as the sea is
+[Info   :Naval Power] Patches applied: 58
+[Info   :   BepInEx] Loading [Localization Patch 3.2.4]
+[Info   :Localization Patch] Auto-detected language: ru
+[Info   :Localization Patch] Loaded 4256 translations from ru.json
+[Info   :Localization Patch] Patched: FontEngine.LoadFontFace(Font, int) redirect
+[Info   :Localization Patch] Patched: TMP_Text.text setter
+[Info   :Localization Patch] Patched: Text.text setter
+[Info   :Localization Patch] Patched: TMP_Text.SetText(String, Boolean)
+[Info   :Localization Patch] Patched: TMP_Text.SetText(String, Single)
+[Info   :Localization Patch] Patched: TMP_Text.SetText(String, Single, Single)
+[Info   :Localization Patch] Patched: TMP_Text.SetText(String, Single, Single, Single)
+[Info   :Localization Patch] Patched: TMP_Text.SetText(String, Single, Single, Single, Single)
+[Info   :Localization Patch] Patched: TMP_Text.SetText(String, Single, Single, Single, Single, Single)
+[Info   :Localization Patch] Patched: TMP_Text.SetText(String, Single, Single, Single, Single, Single, Single)
+[Info   :Localization Patch] Patched: TMP_Text.SetText(String, Single, Single, Single, Single, Single, Single, Single)
+[Info   :Localization Patch] Patched: TMP_Text.SetText(String, Single, Single, Single, Single, Single, Single, Single, Single)
+[Info   :Localization Patch] Patched: TMP_Text.SetText(StringBuilder)
+[Info   :Localization Patch] Patched: TextMeshProUGUI.OnEnable (prefab text)
+[Info   :Localization Patch] Patched: TextMeshPro.OnEnable (prefab text)
+[Info   :Localization Patch] Patched: UI Text.OnEnable (prefab text)
+[Info   :Localization Patch] Patched: TMPro.TMP_Dropdown+OptionData.text setter
+[Info   :Localization Patch] Patched: TMPro.TMP_Dropdown+OptionData.ctor(string)
+[Info   :Localization Patch] Patched: UnityEngine.UI.Dropdown+OptionData.text setter
+[Info   :Localization Patch] Patched: UnityEngine.UI.Dropdown+OptionData.ctor(string)
+[Info   :Localization Patch] Harmony: 20 patches applied successfully
+[Info   :Localization Patch] [DIAG-after-apply] set_text patches=1, TMPUGUI.OnEnable patches=1, hookLogCount=0
+[Info   :Localization Patch] [TRACE] hit: "Settings"
+[Info   :Localization Patch] [DIAG-after-apply] Translate("Settings") => "╨Э╨░╤Б╤В╤А╨╛╨╣╨║╨╕"
+[Info   :Localization Patch] Using font: WDXLLubrifontSC-Regular.ttf
+[Info   :Localization Patch] Unity version: 2022.3.62f2
+[Info   :Localization Patch] FontEngine.InitializeFontEngine: Success
+[Info   :Localization Patch] AddFontResourceEx: result=2
+[Info   :Localization Patch] FontEngine.LoadFontFace(filePath): Success
+[Info   :Localization Patch] Font face loaded: WDXL Lubrifont SC Regular, 36pt
+[Info   :Localization Patch] Created OS font from registered name: WDXL Lubrifont SC
+[Info   :Localization Patch] FontEngine redirect: LoadFontFace(proxy, 36) тЖТ LoadFontFace(file) = Success
+[Info   :Localization Patch] FontEngine redirect: LoadFontFace(proxy, 36) тЖТ LoadFontFace(file) = Success
+[Info   :Localization Patch] CreateFontAsset succeeded with registered font!
+[Info   :Localization Patch] Pre-populating 65 unique Korean chars from translations...
+[Info   :Localization Patch] FontEngine redirect: LoadFontFace(proxy, 36) тЖТ LoadFontFace(file) = Success
+[Info   :Localization Patch] Pre-populated ALL 65 Korean glyphs successfully!
+[Info   :Localization Patch] Added Korean font to TMP global fallback list
+[Info   :Localization Patch] Custom TMP font ready (WDXLLubrifontSC-Regular)! Atlas: 4096x4096
+[Info   :Localization Patch] Patched 1 new TMP fonts with Korean fallback (total: 1)
+[Info   :Localization Patch] FrameHelper created on standalone GameObject
+[Info   :Localization Patch] Localization Patch v3.2.4 loaded тАФ lang=ru, 4256 translations, Font: Ready (WDXLLubrifontSC-Regular)
+[Info   :   BepInEx] Loading [LocalizationPatch Dropdown Addon 1.0.0]
+[Info   :LocalizationPatch Dropdown Addon] LocalizationPatch Dropdown Addon v1.0.0 loaded.
+[Info   :Custom Map Loader] Harmony patches applied
+[Info   :NOMapLoader] Successfully patched DestroyInstance
+[Info   :NOMapLoader] Successfully patched Show
+[Info   :NOMapLoader] Awaiting blueprinter patching!
+[Info   :RAH-72 Pushout] Patched Aircraft.Awake postfix.
+[Warning:  HarmonyX] nuclearoption.knockpush: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual void Unit::OnEnabl
+[Info   :RAH-72 Pushout] Patched Aircraft.OnEnable postfix.
+[Warning:  HarmonyX] AccessTools.Method: Could not find method for type Aircraft and name Start and parameters
+... ╨▓╤Б╨╡╨│╨╛ ╤Б╨╛╨▓╨┐╨░╨┤╨╡╨╜╨╕╨╣: 1518
+
+=== ╨║╨╛╨╜╨╡╤Ж ╨╗╨╛╨│╨░ (╨┐╨╛╤Б╨╗╨╡╨┤╨╜╨╕╨╡ 20) ===
+[Info   :Localization Patch] [TRACE] miss: "R[101m]"
+[Info   :Localization Patch] [TRACE] miss: "R[102m]"
+[Info   :Localization Patch] [TRACE] miss: "R[103m]"
+[Info   :Localization Patch] [TRACE] miss: "R[104m]"
+[Info   :Localization Patch] [TRACE] miss: "R[105m]"
+[Info   :Localization Patch] [TRACE] miss: "R[106m]"
+[Info   :Localization Patch] [TRACE] miss: "R[107m]"
+[Info   :Localization Patch] [HB] Enabled=True isPatching=False translated=36855 missed=16135 untranslated=863 scanUntil=177,1 now=230,2 hooks=40 set_text patches=1
+[Info   :Localization Patch] [TRACE] miss: "R[108m]"
+[Info   :Localization Patch] [TRACE] miss: "R[109m]"
+[Info   :Localization Patch] [TRACE] miss: "R[110m]"
+[Info   :Localization Patch] [TRACE] miss: "R[112m]"
+[Info   :Localization Patch] [TRACE] miss: "R[113m]"
+[Info   :Localization Patch] [TRACE] miss: "R[114m]"
+[Info   :Localization Patch] [TRACE] miss: "<color=#FFFFFFFF>$23,4m</color> <color=#80FF80FF>(+$2,88m)</color>"
+[Info   :Localization Patch] [TRACE] miss: "R[115m]"
+[Info   :Localization Patch] [TRACE] miss: "R[116m]"
+[Info   :Localization Patch] [TRACE] miss: "R[117m]"
+[Info   :Localization Patch] [TRACE] miss: "R[118m]"
+

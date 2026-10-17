@@ -1,0 +1,6 @@
+╨╖╨░╨┐╨╕╤Б╨╡╨╣: 4256
+'Ingress Via Mountains' -> '╨Т╤Е╨╛╨┤ ╨▓ ╤А╨░╨╣╨╛╨╜ ╤З╨╡╤А╨╡╨╖ ╨│╨╛╤А╤Л'
+'Defend Maris Airport' -> '╨Ю╨▒╨╛╤А╨╛╨╜╤П╤В╤М Maris Airport'
+'Sink Enemy Carrier' -> '╨Я╨╛╤В╨╛╨┐╨╕╤В╤М ╨░╨▓╨╕╨░╨╜╨╛╤Б╨╡╤Ж ╨┐╤А╨╛╤В╨╕╨▓╨╜╨╕╨║╨░'
+'Drop Path To Height' -> None
+'Destroy Radar' -> '╨г╨╜╨╕╤З╤В╨╛╨╢╨╕╤В╤М ╨а╨Ы╨б'

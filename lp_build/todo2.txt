@@ -1,0 +1,48 @@
+########## hint (0) ##########
+########## object (45) ##########
+[object] Boscali and Primeva were long-standing trade partners.
+[object] LCV25 AA and AFV6 SAM launch shorter ranged IRM-S1 missiles.
+[object] SAM launchers and anti-air guns.
+[object] Unmanned Ground Vehicles (UGV) can not capture and control locations.
+[object] accessible with the numpad 0–9 keys.
+[object] aircraft can fly above short range systems with impunity.
+[object] allowing more targets to be hit per salvo when working cooperatively.
+[object] and Aircraft Carriers. Destroy these to deny the enemy the ability to use nukes.
+[object] and KR-67 Ifrit have relaxed or negative stability
+[object] and also lets you take off faster.
+[object] and as such they are more resistant to anti-air lasers.
+[object] and can be fired from behind terrain.
+[object] and can be picked up by ships within 200m.
+[object] and can remain airborne with significant damage.
+[object] and can spot targets from further away than other aircraft.
+[object] and has practically no radar floor.
+[object] and have large volumes of ammunition stored deep inside them. Sometimes only a single hit can be completely catastrophic.
+[object] and must be handled with care. Large impacts or weapons fire may cause them to detonate.
+[object] and then right-clicking where you want them to go to.
+[object] are directional so that they can only be seen from behind.
+[object] as well as the dormant volcanic cone of Ignus Minor.
+[object] as well as the number of buildings present at the location.
+[object] but a fuel fire outside the engine will spread and consume an aircraft.
+[object] but can also give away your position. Planes equipped with radar can turn it on or off with the Toggle Radar keybind.
+[object] but can still be defeated by aerial 30mm cannon fire by shooting into the engine bay or through the rear or roof of the turret.
+[object] but creates radioactive residue that lasts for years.
+[object] ensuring that your anti-air defenses are continually supplied with missiles is crucial. Munitions can be delivered by air or by munitions trucks.
+[object] even burning aircraft at very short range.
+[object] generating a large condensation vapor cone around the aircraft.
+[object] giving them the ability to ambush low flying aircraft.
+[object] has a higher top speed on-road than the Linebreaker chassis favored by Primeva.
+[object] in the case of enemy) pilots yields a point reward.
+[object] is able to punch well above its weight as an earthmover by using its internal capacity as ballast.
+[object] or be focused on fewer targets to increase their effective range.
+[object] or used separately for more varied loadouts.
+[object] removing the need for costly human oversight.
+[object] such as bombs or cruise missiles.
+[object] they will unleash a devastating barrage on all known high value targets.
+[object] used to quickly build protective walls for firing positions and forward operating bases.
+[object] which are then deployed from vehicle depots and hangars.
+[object] which provides access to several parameters and allows finer control over the camera.
+[object] which provides stealth aircraft with fit for purpose stand-off attack weapons.
+[object] which will automatically scrutinize and identify contacts for you inside several kilometers' range.
+[object] while the VL-49 Tarantula can lift up to 20 tons.
+[object] with two contra-rotating coaxial rotors and push props. It can use its dual 40mm grenade launchers firing from its side windows to clear hot landing zones.
+########## other (0) ##########

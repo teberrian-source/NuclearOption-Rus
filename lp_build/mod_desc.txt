@@ -1,0 +1,32 @@
+﻿╨╜╨░╨╣╨┤╨╡╨╜╨╛ ╨╛╨┐╨╕╤Б╨░╨╜╨╕╨╣: 31
+[NavalPower.dll] A jam list carries on through whatever else the flight is ordered to do, and stops only when cleared or when the flight is sent home. When a radar-guided missil
+[NavalPower.dll] Any flight carrying a jamming pod is a jammer. Right-click a hostile
+[WingCommand.dll] Can identify most engines before the aircraft comes into view.
+[NavalPower.dll] Charge the reserve for the extra work, so a faster crew gets through the same total amount of damage control, just sooner. Turn this off to make damage control 
+[NavalPower.dll] Click one of your ships on the map, or switch the camera to it any other way: command starts at once and the command bar appears. Clicking another of your ships
+[WingCommand.dll] Copy this template, so a variation can be made without losing the original.
+[KnockPush.dll] FLIGHT-ASSIST GATED (v1.9.20): like YawPFactor, this is a HeloFlyByWire gain that acts ONLY while Flight Assist (FBW) is ON
+[KnockPush.dll] FLIGHT-ASSIST GATED (v1.9.20): this is a HeloFlyByWire gain
+[KnockPush.dll] Gives the pusher prop its own damage model so it can be shot out, ground-struck, or lost with a tail sever. Default: true. Set false for an indestructible pushe
+[Torpedo.dll] Heavy, slow, and deadly. Just one Hammerhead has a warhead capable of splitting a capital ship in half, but requiring a patience to see the devastating outcome 
+[PlayableVehicles.dll] Host: Only your purchased vehicles or vehicles delivered by players can be driven
+[NavalPower.dll] How many extra shares of effort a prioritised compartment may take from the compartments being withheld. The ship's total capacity is unchanged either way; this
+[MissileCameraRemoteControl.dll] If false (default): only official MissileCamera RC clones can be remote-controlled. If true: any allied LocalSim munition (including other mods).
+[Newtonsoft.Json.dll] Json.NET is a popular high-performance JSON framework for .NET
+[WingCommand.dll] Makes elaborate breakfasts whenever the alert schedule allows.
+[LocalizationPatch.dll] No existing Korean-capable font found in game
+[PlayableVehicles.dll] Only your purchased vehicles or vehicles delivered by players can be driven
+[KnockPush.dll] PHYSICS NOTE: rotor flap dynamics are a spring-mass-damper. The damping ratio
+[LocalizationPatch.dll] Searching for existing Korean-capable font in game...
+[WingCommand.dll] Send an idle rescue-capable wing helicopter to this downed pilot on land.
+[WingCommand.dll] Send the nearest idle rescue-capable wing helicopter to this downed pilot on land. Water rescue uses the native hoist.
+[PlayableVehicles.dll] Server rules: Only your purchased vehicles or vehicles delivered by players can be driven
+[WingCommand.dll] Smart is the full behaviour and the default. Performance is a lean profile for busy missions and multiplayer hosts, where the host simulates every AI wingman: c
+[Torpedo.dll] Strategic nuclear torpedo. Designed for total annihilation of anything unlucky enough to be within its blast radius. It is the most elusive as it swims the deep
+[MissileCameraRemoteControl.dll] Subsonic anti-ship missile with a data-linked mid-course channel. Designed for sea-skimming approach and pop-up terminal attack; friendly units can update the i
+[KnockPush.dll] THE nose-safety knob. ABSOLUTE elevation (deg) of the nose-safe fuselage line STRAIGHT AHEAD (azimuth 0). The line tilts UP to the right (away from the nose) at
+[ConfigurationManager.dll] The key can be overridden by a game-specific plugin if necessary, in that case this setting is ignored.
+[NavalPower.dll] The status on each flight says what it is doing: FORMING UP, JOINING, RUNNING IN, BOMB RUN (unguided bombs: flown at the flight's height on a line to the target
+[WingCommand.dll] This one comes out of the reserve as recovered - the fit above applies to the next new airframe.
+[NavalPower.dll] What a new flight does when it comes home to a land airfield: on, it is rearmed (paid per round) and refuelled and goes back out to its task; off, it parks and 
+[NavalPower.dll] While commanding a ship, the Deck view button (bottom left, above the event line) puts the camera on it. Deck view is a free camera that rides with the ship: it

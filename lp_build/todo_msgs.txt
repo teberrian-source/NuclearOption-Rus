@@ -1,0 +1,396 @@
+### 1
+The enemy installation has been removed, mission accomplished!
+
+### 2
+PALA forces have been removed from the mainland and BDF holds the surrounding airstrips. BDF Is Victorious.
+
+### 3
+BDF forces have been removed from the mainland and PALA holds the surrounding airstrips. PALA Is Victorious.
+
+### 4
+Once the airport is under our control, mobile AA will begin to take up positions around it.
+
+### 5
+There are three primary targets:
+
+Airbase: Destroy fuel and supplies to ground enemy fighters.
+
+Central Inlet: Strike the base before the Shards come online.
+
+East: Neutralize the MLRS battery before it destroys our base.
+
+--
+
+### 6
+All Objectives are complete! Leave the area and RTB.
+
+### 7
+You are cleared for launch. We're pushing you right into the teeth of this storm.
+
+Visibility is near zero, but it is the only thing masking your approach.
+
+Get airborne and push to the first waypoint.
+
+--
+
+### 8
+PALA forces have fortified Broken Atoll, using it as a staging ground.
+
+They are directly threatening our operations. We end that threat today.
+
+--
+
+### 9
+Special forces have scouted the island and set charges to take out the heavy air defenses.
+
+They've also taken control of a resupply point, use it to if you need to!
+
+--
+
+### 10
+The storm is starting to lift. Move fast and take out the targets before they can react.
+
+Good Luck!
+
+### 11
+BDF special forces have set charges to take out PALA's heavy air defences, you'll be hitting the island as they detonate.
+
+### 12
+They are currently powered down, but not for long.
+
+Attack the depot there to prevent them from launching.
+
+### 13
+The MLRS battery is out of action. Our base should be safe!
+
+### 14
+The airbase's supplies have been destroyed.
+
+PALA forces won't be able to launch aircraft!
+
+### 15
+The naval base is down, good work!
+
+### 16
+Remember, If you need to rearm, our special forces left behind supplies on the southern island.
+
+### 17
+The PALA artillery have destroyed out port on Ignus. You didn't stop them in time. Mission Failed.
+
+### 18
+One of the Shards has come online!
+
+### 19
+The PALA has fortified Broken Atoll, using it as a staging ground.
+
+There are three primary targets:
+
+1) the airbase in the west.
+
+2) the artillery base in the east.
+
+3) the naval garrison near the central inlet.
+
+### 20
+That Shard is out of action.
+
+### 21
+The enemy aircraft have had time to fuel up and are taking off from the airfield!
+
+### 22
+Warning! Our base has taken heavy damage from the PALA artillery.
+
+Take out that site ASAP or our base will be destroyed!
+
+### 23
+Priority targets have been added to your HUD.
+
+### 24
+The Atoll's commander is taking off in an Ibis north of the island.
+
+They are moving to the airfield to take cover.
+
+Take them out and some of the troops might lose the will to fight!
+
+### 25
+The commander is down. It looks like some PALA forces are retreating!
+
+### 26
+The commander was able to RTB and get to a secure location.
+
+Their troops will keep fighting.
+
+### 27
+Enemy aircraft production facilities are destroyed. Mission accomplished.
+
+### 28
+The BDF Fleet Carrier has been sunk.
+
+### 29
+The PALA Fleet Carrier has been sunk.
+
+### 30
+The enemy has capitulated. We are victorious!
+
+### 31
+Naval reinforcements are enroute. ETA 10 minutes.
+
+### 32
+Naval reinforcements have arrived.
+
+### 33
+Enemy tanks cresting the ridge to the south!
+
+### 34
+Enemy tanks, south east, 3 kilometers out!
+
+### 35
+Enemy tanks to the east, 5 kilometers out!
+
+### 36
+Enemy tanks to the north east!
+
+### 37
+They've got tanks approaching on all sides. We're going to pull out before we become encircled.
+
+### 38
+A large enemy force is preparing to seize this airport, approaching via K92. You are to support K92's defenders as they perform a fighting retreat, and attrit as many enemy vehicles as possible.
+
+### 39
+Enemy troop transports spotted on the highway to the south.
+
+### 40
+The enemy is now past K92. They're pushing straight through to the airport. Do not let them reach it!
+
+### 41
+Be advised, PALA is attempting to set up SAM sites in the southern hills overlooking Maris Airport. Find and destroy them before they lock down the airspace!
+
+### 42
+Excellent work, enemy anti-air launchers are destroyed.
+
+### 43
+PALA's forces are completely routed. Congratulations, you've managed to turn an imminent defeat into a decisive victory.
+
+### 44
+The last of us are pulling out now.
+
+### 45
+PALA losses are heavy. Units are retreating.
+
+### 46
+A BDF engineer team is currently trying to recover a pair of tanks that were immobilised in yesterday's fighting.
+
+### 47
+Our task is to interrupt them. They are without any air defence, and should be easy pickings.
+
+### 48
+We're going to open with bombs. Switch weapons to your PAB-250s, and start a shallow climb to 600m (2000ft).
+
+### 49
+AAAHGRPL-%^$*&
+
+### 50
+Enemy aircraft production is destroyed - mission accomplished.
+
+### 51
+We need to re-establish control of the strait. Sink some BDF ships!
+
+### 52
+A ship has been sunk. The Boscali Navy is moving to attack the island.
+
+### 53
+Sink the ships before they get within firing range of the island!
+
+### 54
+All BDF ships are headed to the bottom of the strait - now we can take back South Boscali!
+
+### 55
+Stand down. We're surrendering Vigil Cay to the BDF.
+
+### 56
+We're back on the offensive - excellent work!
+
+### 57
+We're losing factories! If this keeps up we're done for!
+
+### 58
+A column of enemy vehicles is approaching the bridge to Boscali Island. Prevent them from crossing and doing damage to BDF facilities. This civilian airstrip has been commandeered as forward arming and refueling point.
+
+### 59
+Excellent work, the enemy column has been neutralized. Now we need to locate and destroy the enemy's vehicle depot to prevent further attacks.
+
+### 60
+Well done, we won't be seeing more vehicle threats any time soon.
+
+### 61
+There's an enemy SAM site watching the valley on the other side. Best keep out of its sight. Follow the coast if needed.
+
+### 62
+The enemy has an anti-air laser shielding the depot, although it looks to have a blind spot in the low ground to its east.
+
+### 63
+Recon says there are Radar SAMs scattered throughout the surrounding valley. Stay alert for radar warnings.
+
+### 64
+Stay on guard for enemy aircraft in the area. If you spot any, let your wingmen deal with them.
+
+### 65
+Excellent work! Return safely to base to complete the mission.
+
+### 66
+Mission Successful! The vehicle depot has been neutralized and your aircraft has returned to base.
+
+### 67
+Today we're striking a vehicle depot located on the enemy's airbase.
+
+### 68
+The first target area is the supply depot just over this crest. We expect no significant resistance here.
+
+### 69
+Good work. Next up is the dangerous bit. Continue along the highway south, use the foothills as cover.
+
+### 70
+SAM Site 1 is neutralised.
+
+### 71
+SAM Site 2 is neutralised.
+
+### 72
+Work quickly - it looks like PALA is scrambling jets from the target airfield.
+
+### 73
+All enemy R9 systems are neutralised. Head back to the ships to re-arm.
+
+### 74
+Land on the back of one of the ships to re-arm. You will be assisting the attack on the airfield.
+
+### 75
+Targets marked. Bombers are now inbound.
+
+### 76
+Excellent work. The enemy airfield has been razed once again.
+
+### 77
+PALA has recently taken receipt of several R9 Stratolance batteries to prevent us from carrying out bombing raids.
+
+### 78
+Today we'll be destroying all of them, and carrying out a bombing raid.
+
+### 79
+Once you've taken off, follow the highway south through the mountains.
+
+### 80
+We'll be targeting a supply point for the R9 systems as well as several active batteries. Staying low and fast will be key.
+
+### 81
+Enemy carrier spotted.
+
+### 82
+PALA's carrier is sinking. BDF is victorious!
+
+### 83
+BDF's carrier is sinking. PALA is victorious!
+
+### 84
+Be advised, enemy fighters have been spotted approaching from Feldspar
+
+### 85
+Your primary target is an Annex Class Carrier currently situated inside a cove on the westmost point of Ignus Major.
+
+### 86
+Due to terrain, it cannot be seen unless approaching from the south. You can either destroy the blockade, or attack via the mountains.
+
+### 87
+Whichever route you choose, you should support your allies by jamming the blockade while on approach.
+
+### 88
+Good shooting. Now get back to friendly territory intact.
+
+### 89
+Additionally, be warned that the enemy has an Argus Class air defence frigate, which requires its missiles be jammed directly.
+
+### 90
+Well done, the threat has been neutralized.
+
+### 91
+The base has been hit!
+
+### 92
+Scramble! A pair of enemy bombers has been spotted releasing cruise missiles, targeting North Boscali Airbase. Shoot the missiles down before they destroy friendly facilities.
+
+### 93
+This morning you will be conducting a strike on a forward base hidden in the mountains. Follow the waypoints to the target area.
+
+### 94
+Be advised that radar SAMs have been spotted on the mountaintops. If you receive radar warnings, drop to below 20m radar altitude.
+
+### 95
+Stay as close to the ground as possible while crossing the ridgeline... we've picked up a Boltstrike very close to your position.
+
+### 96
+The target area is dead ahead. Keep an eye out for short range SAMs and anti aircraft guns.
+
+### 97
+Good job, the enemy base is neutralized. Now return to base immediately before any patrolling aircraft can intercept you!
+
+### 98
+Excellent work, the mission was successful.
+
+### 99
+Learn how to use flares to defeat IR missiles. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.
+
+### 100
+Fly an SAH-46 Chicane under the radar to eliminate an enemy forward arming and refueling point.
+
+### 101
+Infiltrate and destroy a PALA island stronghold under the cover of a raging storm, using the the VT-7 Vagrant.
+
+### 102
+A combined-arms battle on the eastern half of the map, limited to smaller aircraft. Each side has one main airbase and one forward airbase, with naval assets watching the flanks.
+
+### 103
+Fly the A-19 Brawler in a demanding, high tempo close air support mission as BDF narrowly defend Maris Airport against a massive PALA armoured assault.
+
+### 104
+Launch from an aircraft carrier and tackle a diverse set of targets in a versatile aircraft.
+
+### 105
+Fly the T/A-30 Compass in an intense dogfight - your side is outnumbered 8 to 5.
+
+### 106
+A battle for air superiority fought between two large airbases, using high-end assets. Rank 3 aircraft available at start.
+
+### 107
+Challenging co-op mission where PALA provokes the BDF navy, and must defend Vigil Cay airbase from a naval attack.
+
+### 108
+An opportunity arises to take possession of a valuable piece of sea mining infrastructure. PALA and BDF try to beat each other to the punch.
+
+### 109
+Learn how to prepare for and perform a landing. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.
+
+### 110
+Prevent a column of vehicles from crossing the bridge to Boscali Island, before neutralizing the attack at its source.
+
+### 111
+Fly the SFB-81 Darkreach on a bombing mission to destroy a PALA vehicle depot on a heavily defended airbase.
+
+### 112
+In preparation for a large air raid, use the SAH-46 Chicane to neutralise several long range SAM systems.
+
+### 113
+A pure air & sea battle between two carrier groups. Boscali's Annex Class Assault Carrier vs Primeva's Hyperion Class Fleet Carrier, with their respective compliments of aircraft.
+
+The first side to sink the other's carrier wins. All 36 carrier aircraft are available immediately, and cannot be replaced easily if shot down. Fly, fight, and land with care.
+
+### 114
+Use various SEAD/DEAD abilities unique to the EW-25 Medusa to facilitate an attack against a heavily defended ammo dump.
+
+### 115
+Learn how to defeat semi-active radar homing missiles. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.
+
+### 116
+Learn how to designate targets and use missiles to destroy them. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.
+
+### 117
+Use the FS-12 Revoker to intercept a volley of cruise missiles launched at your base from Primeva.

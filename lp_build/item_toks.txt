@@ -1,0 +1,92 @@
+
+########## 'Ammo Box' — вхождений: 2
+  [Kar_1.1.2.dll.47768.unity3d]  ┃  ┃  ┃ Ammo Box ┃  ┃  ┃ A 1 ton ammo box designed to replenish the munitions of a ground vehic ┃  ┃  ┃ 
+
+########## 'Ammo box' — вхождений: 6
+  [Kar_1.1.2.dll.47768.unity3d]  ┃  ┃  ┃ Ammo box ┃  ┃  ┃  ┃  ┃  ┃ 
+  [Kar_1.1.2.dll.47768.unity3d]  ┃  ┃  ┃ Ammo box ┃  ┃  ┃  ┃ Ammo Box ┃  ┃ 
+
+########## 'Cargo 2x' — вхождений: 2
+  [Kar_1.1.2.dll.47768.unity3d]  ┃  ┃  ┃ Cargo 2x ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'Launchers' — вхождений: 2
+  [Kar_1.1.2.dll.47768.unity3d]  ┃  ┃  ┃ Launchers ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'Point Defence' — вхождений: 2
+  [Kar_1.1.2.dll.47768.unity3d]  ┃  ┃  ┃ Point Defence ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'Point Defense' — вхождений: 8
+  [Kar_1.1.2.dll.47768.unity3d]  ┃  ┃  ┃ Point Defense ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'Roof Mount' — вхождений: 2
+  [Kar_1.1.2.dll.47768.unity3d]  ┃  ┃  ┃ Roof Mount ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'roof mount' — вхождений: 2
+  [Kar_1.1.2.dll.47768.unity3d]  ┃  ┃  ┃ roof mount ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'roof turret' — вхождений: 2
+  [Kar_1.1.2.dll.47768.unity3d]  ┃  ┃  ┃ roof turret ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'The Device' — вхождений: 2
+  [Kar_1.1.2.dll.47768.unity3d]  ┃  ┃  ┃ The Device ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'Truck bed' — вхождений: 2
+  [Kar_1.1.2.dll.47768.unity3d]  ┃  ┃  ┃ Truck bed ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'Vehicle Cargo' — вхождений: 2
+  [Kar_1.1.2.dll.47768.unity3d]  ┃  ┃  ┃ Vehicle Cargo ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'coax' — вхождений: 6
+  [Kar_1.1.2.dll.47768.unity3d]  ┃  ┃  ┃ coax ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'subturret (H)' — вхождений: 2
+  [Kar_1.1.2.dll.47768.unity3d]  ┃  ┃  ┃ subturret (H) ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'subturrets' — вхождений: 2
+  [Kar_1.1.2.dll.47768.unity3d]  ┃  ┃  ┃ subturrets ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'tow hook' — вхождений: 2
+  [Kar_1.1.2.dll.47768.unity3d]  ┃  ┃  ┃ tow hook ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'turret mount' — вхождений: 6
+  [Kar_1.1.2.dll.47768.unity3d]  ┃  ┃  ┃ turret mount ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'Gun Mount' — вхождений: 1
+  [Aryx_RAH_72_Knockout_1.1.1.dll.201]  ┃  ┃  ┃ Gun Mount ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'Internal Gun' — вхождений: 1
+  [Aryx_F22E_StrikeRaptor_1.0.4.dll.1]  ┃  ┃  ┃ Internal Gun ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'Internal Cannon' — вхождений: 2
+  [Aryx_F16M_KingViper_1.2.3.dll.2020]  ┃  ┃  ┃ Internal Cannon ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'Outer Weapon Bays' — вхождений: 2
+  [Aryx_F22E_StrikeRaptor_1.0.4.dll.1]  ┃  ┃  ┃ Outer Weapon Bays ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'Side Mount' — вхождений: 1
+  [Bote_1.5.2.dll.62156.unity3d]  ┃  ┃  ┃ Side Mount ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'TGP' — вхождений: 1
+  [Aryx_F16M_KingViper_1.2.3.dll.2020]  ┃  ┃  ┃ TGP ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'Tailhook' — вхождений: 4
+  [Aryx_F22E_StrikeRaptor_1.0.4.dll.1]  ┃  ┃  ┃ Tailhook ┃  ┃  ┃  ┃  ┃  ┃ 
+  [Aryx_F99_Shrike_1.1.3.dll.21136.un]  ┃  ┃  ┃ Tailhook ┃  ┃  ┃ 
+
+########## 'Top Mount' — вхождений: 1
+  [Bote_1.5.2.dll.62156.unity3d]  ┃  ┃  ┃ Top Mount ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'VLS' — вхождений: 1
+  [Bote_1.5.2.dll.62156.unity3d]  ┃  ┃  ┃ VLS ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'Weapon Bays' — вхождений: 2
+  [Aryx_F22E_StrikeRaptor_1.0.4.dll.1]  ┃  ┃  ┃ Weapon Bays ┃  ┃  ┃  ┃  ┃  ┃ 
+
+########## 'Radome' — вхождений: 5
+  [Aryx_MC260_Chimera_1.2.0.dll.84708]  ┃  ┃  ┃ Radome ┃  ┃  ┃  ┃  ┃  ┃ 
+  [Aryx_MC260_Chimera_1.2.0.dll.84708]  ┃  ┃  ┃ Radome ┃  ┃  ┃  ┃  ┃  ┃ RADAR
+  [Aryx_MC260_Chimera_1.2.0.dll.84708]  ┃  ┃  ┃ Radome ┃  ┃  ┃  ┃  ┃ 
+
+########## 'Turret' — вхождений: 26
+  [Apex-6.dll.17012.unity3d]  ┃  ┃  ┃ Turret ┃  ┃  ┃  ┃  ┃  ┃ 
+  [Apex-6.dll.17012.unity3d]  ┃  ┃  ┃ Turret ┃  ┃  ┃  ┃  ┃ 
