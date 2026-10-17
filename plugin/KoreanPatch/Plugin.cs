@@ -21,7 +21,7 @@ using WindowFunction = UnityEngine.GUI.WindowFunction;
 
 namespace KoreanPatch;
 
-[BepInPlugin("com.noms.localizationpatch", "Localization Patch", "3.2.4")]
+[BepInPlugin("com.noms.localizationpatch", "Localization Patch", "3.3.0")]
 public class Plugin : BaseUnityPlugin
 {
 	private static class FontEngine_LoadFontFace_Redirect
@@ -311,6 +311,9 @@ public class Plugin : BaseUnityPlugin
 
 	private ConfigEntry<string> languageConfig;
 
+	/// <summary>Авто-выгрузка определений при запуске (по умолчанию выключена — она подвешивает игру).</summary>
+	private ConfigEntry<bool> autoDumpConfig;
+
 	internal static string CurrentLanguage = "ko";
 
 	internal static Dictionary<string, string> Translations = new Dictionary<string, string>();
@@ -420,6 +423,10 @@ public class Plugin : BaseUnityPlugin
 		Instance = this;
 		languageConfig = ((BaseUnityPlugin)this).Config.Bind<string>("General", "Language", "auto", "Language code: auto (auto-detect from .json files), or specify manually (ko, de, ru, es, fr, tr, ja, zh, etc.)");
 		CurrentLanguage = languageConfig.Value.ToLower().Trim();
+		autoDumpConfig = ((BaseUnityPlugin)this).Config.Bind<bool>("General", "AutoDump", false,
+			"Авто-выгрузка определений игры при запуске (extracted_gamedata.txt, extracted_strings.txt). "
+			+ "Сканирует все объекты игры рефлексией и подвешивает игру примерно на 10-20 секунд, 3 прохода. "
+			+ "Обычно не нужно: выгрузка доступна по Ctrl+F4 и Ctrl+F6.");
 		string directoryName = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 		if (CurrentLanguage == "auto")
 		{
@@ -480,7 +487,7 @@ public class Plugin : BaseUnityPlugin
 		// Первая сцена уже загружена к моменту Awake — запускаем первый скан вручную.
 		lastTextScanTime = -999f;
 		sceneScanUntilTime = Time.time + 10f;
-		Log.LogInfo((object)$"Localization Patch v3.2.4 loaded — lang={CurrentLanguage}, {Translations.Count} translations, Font: {fontStatusText}");
+		Log.LogInfo((object)$"Localization Patch v3.3.0 loaded — lang={CurrentLanguage}, {Translations.Count} translations, Font: {fontStatusText}");
 	}
 
 	private void ApplyHarmonyPatches()
@@ -779,7 +786,7 @@ public class Plugin : BaseUnityPlugin
 		}
 		// Автовыгрузка определений (описания техники/оружия, включая модовые) — 3 прохода,
 		// т.к. объекты подгружаются не сразу. Файлы: extracted_gamedata.txt, extracted_strings.txt
-		if (Enabled && autoDumpCount < 3 && Time.time >= nextAutoDumpTime)
+		if (Enabled && autoDumpConfig != null && autoDumpConfig.Value && autoDumpCount < 3 && Time.time >= nextAutoDumpTime)
 		{
 			autoDumpCount++;
 			nextAutoDumpTime = Time.time + (float)(autoDumpCount * 60);
@@ -2611,7 +2618,7 @@ public class Plugin : BaseUnityPlugin
 		//IL_01b4: Expected O, but got Unknown
 		//IL_01ba: Unknown result type (might be due to invalid IL or missing references)
 		GUILayout.BeginVertical(Array.Empty<GUILayoutOption>());
-		GUILayout.Label("Localization Patch v3.2.4 (" + CurrentLanguage + ")", headerStyle, Array.Empty<GUILayoutOption>());
+		GUILayout.Label("Localization Patch v3.3.0 (" + CurrentLanguage + ")", headerStyle, Array.Empty<GUILayoutOption>());
 		GUILayout.Space(5f);
 		GUILayout.BeginHorizontal(Array.Empty<GUILayoutOption>());
 		GUILayout.Label("Patch:", labelStyle, (GUILayoutOption[])(object)new GUILayoutOption[1] { GUILayout.Width(80f) });

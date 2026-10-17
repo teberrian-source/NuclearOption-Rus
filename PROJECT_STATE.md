@@ -16,10 +16,11 @@
 
 | Параметр | Значение |
 |---|---|
-| Версия плагина | **3.2.4** |
+| Версия плагина | **3.3.0** (в 3.3.0 убраны подвесы при запуске) |
 | Записей в словаре `ru.json` | **4256** |
 | Размер `ru.json` | 680 797 байт |
 | SHA-256 (первые 16) | `6D3E6F67370B8E2B` |
+| DLL | 61 952 байта, SHA-256 (первые 16) `71AA5EC08143D1A3` |
 | Язык | `ru` (автоопределение по файлу `ru.json`) |
 
 ## 2. Где что лежит
@@ -45,7 +46,7 @@
 | `plugin\KoreanPatch\*.cs` | остальные исходники (патчи Harmony и пр.) |
 | `plugin\LocalizationPatch.csproj` | сборка net472 (ссылки на BepInEx из папки игры) |
 | `plugin\Properties\AssemblyInfo.cs` | атрибуты сборки |
-| `plugin\build\LocalizationPatch.dll` | собранный плагин v3.2.4 |
+| `plugin\build\LocalizationPatch.dll` | собранный плагин v3.3.0 |
 | `plugin\regex_test\` | мини-проект: проверка шаблонов/регулярок |
 | `tools\*.py` | скрипты раундов: сбор строк, слияние в `ru.json`, правки `Plugin.cs` |
 | `tools\restructure_repo.py` | раскладка репозитория по папкам + чистка мусора |
@@ -148,28 +149,32 @@ control-символы), предварительно убрать строки-
 с 14 до **151** записи (имена задач и точек маршрута, чтобы работал шаблон
 «подпись + дистанция», например `Вход в район через горы 1,2km`).
 
+В версии **3.3.0** (17.10.2026): устранены подвесы игры при запуске (авто-выгрузки теперь
+только по флагу `AutoDump`, см. §8.1), поправлены ссылки на игру в csproj
+(`$(UserProfile)\Desktop\NuclearOption_0.34.2` вместо относительных путей), собран пакет
+для передачи (см. §10).
+
 ## 8. Отложенные задачи
 
-### 8.1. Зависания при запуске игры (~2 раза по 10 с) — ЖДЁТ КОМАНДЫ «убери зависания»
-Диагноз (проверен по логу сессии 17.10 21:32):
-- Причина — **авто-выгрузки плагина**: `Plugin.cs`, условие `autoDumpCount < 3 && Time.time >= nextAutoDumpTime`
-  (`nextAutoDumpTime = 25f`, далее +60 и +120 с) вызывает `ExtractGameData()` + `ExtractAllStrings()`.
-- `ExtractAllStrings()` → `CollectFromObject()` рекурсивно читает **рефлексией все поля** у всех
-  `ScriptableObject` и `MonoBehaviour` (глубина 3, списки до 5000 элементов). При 33 модах это
-  десятки тысяч объектов — синхронная работа в главном потоке.
-- Доказательство: `extracted_gamedata.txt` записан 21:32:41, `extracted_strings.txt` — 21:32:58,
-  т.е. один проход ≈ 17 с непрерывной работы; в логе ровно 3 пары `Extracted 101 hint lines` +
-  `ExtractAllStrings: N text`.
-- Побочно: `[TRACE] miss:` пишет 1500+ строк на диск в главном потоке (мелкие подёргивания).
+### 8.1. Зависания при запуске игры (~2 раза по 10 с) — ИСПРАВЛЕНО в 3.3.0
+Что было: авто-выгрузки плагина (`Plugin.cs`, `autoDumpCount < 3 && Time.time >= nextAutoDumpTime`,
+`nextAutoDumpTime = 25f` +60 с +120 с) запускали `ExtractGameData()` + `ExtractAllStrings()`.
+`ExtractAllStrings()` → `CollectFromObject()` рекурсивно читает рефлексией все поля у всех
+`ScriptableObject`/`MonoBehaviour` (глубина 3, списки до 5000 элементов) — при 33 модах это
+десятки тысяч объектов, синхронно в главном потоке. Доказательство: `extracted_gamedata.txt`
+21:32:41 → `extracted_strings.txt` 21:32:58, то есть один проход ≈ 17 с.
 
-Готовые варианты фикса (выбрать и применить, нужна пересборка DLL):
-1. Отключить авто-выгрузки, оставить только `Ctrl+F4` / `Ctrl+F6` (минимальная правка, рекомендуется).
-2. То же + флаг `AutoDump` в BepInEx-конфиге плагина (по умолчанию `false`).
-3. Дополнительно разбить сбор строк по кадрам (корутина), чтобы и ручные выгрузки не фризили.
-4. Отдельно: приглушить `[TRACE]` логи (`untranslated.txt` при этом остаётся работать).
+Что сделано в 3.3.0: добавлен конфиг `General/AutoDump` (по умолчанию `false`), условие
+авто-выгрузки теперь `if (Enabled && autoDumpConfig != null && autoDumpConfig.Value && ...)`.
+Авто-выгрузки по умолчанию не выполняются; выгрузка — по `Ctrl+F4` / `Ctrl+F6`.
+Правку вносит `tools\fix_freezes.py`.
 
-Решение пользователя (17.10.2026): **пока русификатор не доделан — оставить как есть**,
-фикс применить позже по команде.
+Если понадобится вернуть авто-выгрузку: `AutoDump = true` в
+`<игра>\BepInEx\config\com.noms.localizationpatch.cfg` (подвесы вернутся — этот режим
+только для сбора данных).
+
+Осталось по мелочи (не влияет на игру): `[TRACE] miss:` пишет до 2000 строк за сессию
+в главном потоке — при желании приглушить, бюджет ограничен (`traceLoggedMisses.Count < 2000`).
 
 ### 8.2. Прочее
 - `untranslated.txt` местами «поехал»: внутри ключей встречаются переводы строк.
@@ -179,13 +184,32 @@ control-символы), предварительно убрать строки-
 
 ## 9. Как восстановить проект «с нуля»
 
-1. Скопировать постоянную копию инструментов (см. §2) на место.
-2. Взять `ru.json` из `C:\Users\user\Documents\NuclearOption_Rus\ru.json` и положить в
-   `<игра>\BepInEx\plugins\LocalizationPatch\` (+ копию в `BepInEx\config\LocalizationPatch\`).
+1. Клонировать репозиторий: `git clone https://github.com/teberrian-source/NuclearOption-Rus.git`
+   (или взять локальную папку `C:\Users\user\Documents\NuclearOption_Rus\`).
+2. Взять `dict\ru.json` и положить в `<игра>\BepInEx\plugins\LocalizationPatch\`
+   (+ копию в `BepInEx\config\LocalizationPatch\`).
 3. Собрать плагин (§3) или взять готовый `plugin\build\LocalizationPatch.dll`.
 4. Приложить штатные `LocalizationPatchDropdown.dll` и `WDXLLubrifontSC-Regular.ttf`
    (если папка плагина пуста — их можно взять со страницы релизов плагина).
 5. Проверить в логе после запуска: `Loaded 4256 translations from ru.json`,
-   `Localization Patch v3.2.4 loaded`.
+   `Localization Patch v3.3.0 loaded`.
+
+## 10. Пакет русификатора для передачи
+
+Собирается скриптом `tools\build_release.py` → `dist\NuclearOption-Rus-v3.3.0\` и
+`dist\NuclearOption-Rus-v3.3.0.zip` (3,7 МБ).
+
+Внутри: `BepInEx\plugins\LocalizationPatch\{ru.json, LocalizationPatch.dll,
+LocalizationPatchDropdown.dll, WDXLLubrifontSC-Regular.ttf}`, `Установить.cmd`
+(лаунчер), `install.ps1` (ищет игру через библиотеки Steam, копирует файлы,
+проверяет наличие BepInEx), `ПРОЧТИ МЕНЯ.txt` (инструкция, хоткеи, разбор проблем).
+
+Важно при правке: `install.ps1` писать в UTF-8 **с BOM** (иначе PowerShell 5.1
+портит кириллицу), `Установить.cmd` — в UTF-8 **без BOM** (cmd.exe с `chcp 65001`
+не переваривает BOM). Скрипт сборки это уже соблюдает.
+
+Отдавать другу: ссылку на релиз
+`https://github.com/teberrian-source/NuclearOption-Rus/releases/latest` или сам ZIP.
+Требуется установленный BepInEx 5.x (x64) — ссылка есть в `ПРОЧТИ МЕНЯ.txt`.
 
 Ссылки проекта: https://github.com/9138noms/NuclearOption-LocalizationInstaller
