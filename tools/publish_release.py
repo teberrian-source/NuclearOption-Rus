@@ -3,7 +3,7 @@
 
 Токен берётся из хранилища Windows (git credential fill) и на экран не выводится.
 """
-import io, json, os, subprocess, sys, urllib.error, urllib.request
+import io, json, os, subprocess, sys, urllib.error, urllib.parse, urllib.request
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 OWNER = "teberrian-source"
@@ -72,11 +72,13 @@ if status not in (200, 201):
         sys.exit(1)
 print("релиз:", rel["html_url"])
 
-# вложение
+# вложение (загрузка идёт на uploads.github.com, а не на api.github.com)
 name = os.path.basename(ZIP)
 with open(ZIP, "rb") as f:
     blob = f.read()
-status, asset = call("{}/releases/{}/assets?name={}".format(API, rel["id"], name), raw=blob, ctype="application/zip")
+upload_url = "https://uploads.github.com/repos/{}/{}/releases/{}/assets?name={}".format(
+    OWNER, REPO, rel["id"], urllib.parse.quote(name))
+status, asset = call(upload_url, raw=blob, ctype="application/zip")
 if status in (200, 201):
     print("вложение загружено: {} ({:,} Б)".format(asset["name"], asset["size"]))
     print("ссылка на скачивание:", asset["browser_download_url"])
