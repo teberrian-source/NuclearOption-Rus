@@ -48,6 +48,7 @@
 | `plugin\LocalizationPatch.csproj` | сборка net472 (ссылки на BepInEx из папки игры) |
 | `plugin\Properties\AssemblyInfo.cs` | атрибуты сборки |
 | `plugin\build\LocalizationPatch.dll` | собранный плагин v3.3.1 |
+| `plugin\README.md` | копия пользовательской документации плагина (держать синхронно с файлом в игре) |
 | `plugin\regex_test\` | мини-проект: проверка шаблонов/регулярок |
 | `tools\*.py` | скрипты раундов: сбор строк, слияние в `ru.json`, правки `Plugin.cs` |
 | `tools\restructure_repo.py` | раскладка репозитория по папкам + чистка мусора |
