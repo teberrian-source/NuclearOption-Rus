@@ -55,13 +55,13 @@
 | `README.md` | описание проекта (для GitHub) |
 | `PROJECT_STATE.md` | этот файл |
 
-Рабочая копия тех же файлов лежит в `%TEMP%\lp_build\` — её может стереть система,
-поэтому постоянная копия здесь.
+Скрипты раундов и рабочие выгрузки лежат в самом репозитории (`tools\`, `data\`); временная
+папка `%TEMP%\lp_build\` — только черновик, система может её стереть.
 
 **Три копии словаря** (синхронизировать после каждой правки!):
 1. `<игра>\BepInEx\plugins\LocalizationPatch\ru.json` — рабочий
 2. `<игра>\BepInEx\config\LocalizationPatch\ru.json` — бэкап
-3. `C:\Users\user\Documents\NuclearOption_Rus\ru.json` — бэкап
+3. `C:\Users\user\Documents\NuclearOption_Rus\dict\ru.json` — бэкап (в git)
 
 Бэкапы `ru.backup_*.json` и `LocalizationPatch.dll.bak_*` держим только последние (2 и 1);
 остальные убраны в `C:\Users\user\Documents\NuclearOption_Rus\backups\` (в git не попадают).
