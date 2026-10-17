@@ -4,7 +4,7 @@ import hashlib, io, os, shutil, sys, zipfile
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-VER = "3.3.0"
+VER = "3.3.1"
 REPO = r"C:\Users\user\Documents\NuclearOption_Rus"
 GAME = r"C:\Users\user\Desktop\NuclearOption_0.34.2"
 PLUG = os.path.join(GAME, r"BepInEx\plugins\LocalizationPatch")
@@ -89,8 +89,11 @@ $dst = Join-Path $game 'BepInEx\plugins\LocalizationPatch'
 New-Item -ItemType Directory -Force -Path $dst | Out-Null
 Copy-Item (Join-Path $src '*') $dst -Recurse -Force
 
-$lang = Join-Path $game 'BepInEx\config\LocalizationPatch\ru.json'
-Copy-Item (Join-Path $src 'ru.json') $lang -Force -ErrorAction SilentlyContinue
+$langDir = Join-Path $game 'BepInEx\config\LocalizationPatch'
+try {{
+    New-Item -ItemType Directory -Force -Path $langDir | Out-Null
+    Copy-Item (Join-Path $src 'ru.json') (Join-Path $langDir 'ru.json') -Force
+}} catch {{ Say "Бэкап словаря не скопирован (не критично)." }}
 
 Say ''
 Say "Файлы установлены в: $dst"
@@ -141,16 +144,23 @@ BepInEx из архива в папку игры, подтвердив заме�
 
 Горячие клавиши в игре
 ----------------------
+Ничего нажимать не нужно — перевод включается сам. Клавиши ниже — только
+для доработки перевода, в обычной игре они не требуются.
+
 Ctrl+F5 — перечитать словарь ru.json (правки видны без перезапуска)
 Ctrl+F4 — выгрузить подсказки/энциклопедию (для перевода)
 Ctrl+F6 — выгрузить длинные строки из памяти игры
-F9/F10  — окно плагина со статистикой
 
 Настройки
 ---------
 <игра>\BepInEx\config\com.noms.localizationpatch.cfg
-  Language = auto   (язык определяется по файлу ru.json)
-  AutoDump = false  (авто-выгрузка при запуске; трогать не нужно — она подвешивает игру)
+  Language = auto        (язык определяется по файлу ru.json)
+  AutoDump = false       (авто-выгрузка при запуске; трогать не нужно — она подвешивает игру)
+  ShowDebugWindow = false (окно отладки по F9/F10; игроку не нужно)
+  VerboseLog = false     ([TRACE] логи и выгрузка untranslated.txt; игроку не нужно)
+
+Все четыре параметра по умолчанию — "для игрока": ничего лишнего не пишется
+и никакие окна не всплывают.
 
 Если что-то не работает
 -----------------------

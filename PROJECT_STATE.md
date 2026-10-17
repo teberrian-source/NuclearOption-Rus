@@ -16,11 +16,11 @@
 
 | Параметр | Значение |
 |---|---|
-| Версия плагина | **3.3.0** (в 3.3.0 убраны подвесы при запуске) |
+| Версия плагина | **3.3.1** (в 3.3.0 убраны подвесы, в 3.3.1 отключён отладочный вывод) |
 | Записей в словаре `ru.json` | **4256** |
 | Размер `ru.json` | 680 797 байт |
 | SHA-256 (первые 16) | `6D3E6F67370B8E2B` |
-| DLL | 61 952 байта, SHA-256 (первые 16) `71AA5EC08143D1A3` |
+| DLL | 62 464 байта, SHA-256 (первые 16) `2D65BBC639241683` |
 | Язык | `ru` (автоопределение по файлу `ru.json`) |
 
 ## 2. Где что лежит
@@ -29,12 +29,13 @@
 
 | Файл | Назначение |
 |---|---|
-| `BepInEx\plugins\LocalizationPatch\LocalizationPatch.dll` | сам плагин (61 440 Б) |
+| `BepInEx\plugins\LocalizationPatch\LocalizationPatch.dll` | сам плагин (62 464 Б) |
 | `BepInEx\plugins\LocalizationPatch\ru.json` | словарь перевода (4256 записей) |
 | `BepInEx\plugins\LocalizationPatch\LocalizationPatchDropdown.dll` | аддон выпадающих списков (штатный, не трогать) |
 | `BepInEx\plugins\LocalizationPatch\WDXLLubrifontSC-Regular.ttf` | шрифт с кириллицей (штатный, не трогать) |
 | `BepInEx\plugins\LocalizationPatch\README.md` | документация плагина (для пользователей) |
-| `BepInEx\LogOutput.log` | лог игры: строки `[TRACE] miss:`/`hit:` плагина, `[HB]` — пульс раз в 10 с |
+| `BepInEx\LogOutput.log` | лог игры: строки `[TRACE] miss:`/`hit:` и пульс `[HB]` — только при `VerboseLog = true` |
+| `BepInEx\config\com.noms.localizationpatch.cfg` | конфиг: `Language`, `AutoDump`, `ShowDebugWindow`, `VerboseLog` |
 
 **Репозиторий проекта** (git, публикуется на GitHub как `NuclearOption-Rus`):
 `C:\Users\user\Documents\NuclearOption_Rus\`
@@ -42,11 +43,11 @@
 | Папка/файл | Назначение |
 |---|---|
 | `dict\ru.json` | словарь перевода (4256 записей) |
-| `plugin\KoreanPatch\Plugin.cs` | исходник плагина (BOM + CRLF, ~2636 строк) |
+| `plugin\KoreanPatch\Plugin.cs` | исходник плагина (BOM + CRLF, ~2676 строк) |
 | `plugin\KoreanPatch\*.cs` | остальные исходники (патчи Harmony и пр.) |
 | `plugin\LocalizationPatch.csproj` | сборка net472 (ссылки на BepInEx из папки игры) |
 | `plugin\Properties\AssemblyInfo.cs` | атрибуты сборки |
-| `plugin\build\LocalizationPatch.dll` | собранный плагин v3.3.0 |
+| `plugin\build\LocalizationPatch.dll` | собранный плагин v3.3.1 |
 | `plugin\regex_test\` | мини-проект: проверка шаблонов/регулярок |
 | `tools\*.py` | скрипты раундов: сбор строк, слияние в `ru.json`, правки `Plugin.cs` |
 | `tools\restructure_repo.py` | раскладка репозитория по папкам + чистка мусора |
@@ -62,7 +63,8 @@
 2. `<игра>\BepInEx\config\LocalizationPatch\ru.json` — бэкап
 3. `C:\Users\user\Documents\NuclearOption_Rus\ru.json` — бэкап
 
-Бэкапы `ru.backup_*.json` лежат в папке плагина; бэкапы DLL — `LocalizationPatch.dll.bak_*`.
+Бэкапы `ru.backup_*.json` и `LocalizationPatch.dll.bak_*` держим только последние (2 и 1);
+остальные убраны в `C:\Users\user\Documents\NuclearOption_Rus\backups\` (в git не попадают).
 
 ## 3. Сборка и установка плагина
 
@@ -92,7 +94,12 @@ Copy-Item 'C:\Users\user\Documents\NuclearOption_Rus\plugin\bin\Release\Localiza
 | `Ctrl+F5` | перезагрузить `ru.json` без перезапуска игры (старое `Ctrl+F10` тоже работает) |
 | `Ctrl+F4` | выгрузить `extracted_gamedata.txt` (старое `Ctrl+F11`) |
 | `Ctrl+F6` | выгрузить `extracted_strings.txt` (старое `Ctrl+F12`) |
-| `F9`/`F10` | окно плагина со статистикой |
+| `F9`/`F10` | окно плагина со статистикой (только при `ShowDebugWindow = true`) |
+
+Флаги конфига (`com.noms.localizationpatch.cfg`, все по умолчанию `false`):
+`ShowDebugWindow` — разрешить окно по `F9`/`F10`; `VerboseLog` — `[TRACE]`-логи, пульс `[HB]`
+и выгрузка `untranslated.txt`; `AutoDump` — авто-выгрузка определений при запуске.
+На рабочей машине (для доработки перевода) стоит `VerboseLog = true`.
 
 ## 5. Правила перевода (согласованы с пользователем)
 
@@ -106,7 +113,8 @@ Copy-Item 'C:\Users\user\Documents\NuclearOption_Rus\plugin\bin\Release\Localiza
 
 ## 6. Как добавлять новые строки
 
-1. Взять непереведённые строки: `untranslated.txt` в папке плагина (пишется раз в 60 с),
+1. Взять непереведённые строки: `untranslated.txt` в папке плагина (пишется раз в 60 с
+   при `VerboseLog = true`),
    выгрузки `extracted_*.txt`, либо напрямую из ресурсов игры
    (`NuclearOption_Data\resources.assets`, `level0…level5`: поля JSON `Message`, `message`,
    `description`, `body`, `title`, `objectives[].DisplayName`) и из миссий
@@ -154,6 +162,14 @@ control-символы), предварительно убрать строки-
 (`$(UserProfile)\Desktop\NuclearOption_0.34.2` вместо относительных путей), собран пакет
 для передачи (см. §10).
 
+В версии **3.3.1** (17.10.2026): из релиза убрано всё отладочное — окно статистики
+доступно только при `ShowDebugWindow = true`, а `[TRACE]`-логи, пульс `[HB]` и выгрузка
+`untranslated.txt` — только при `VerboseLog = true`; подпись кнопки перезагрузки исправлена
+на `Ctrl+F5`. Логика перевода не менялась: без флагов отключается только вывод, применение
+строк работает как раньше. Правку вносит `tools\fix_superfluous.py`.
+Локальная уборка: из папки плагина удалены отладочные файлы (`final*.txt`, `rd*.txt`),
+старые бэкапы словаря и DLL перенесены в `backups\` (см. §2).
+
 ## 8. Отложенные задачи
 
 ### 8.1. Зависания при запуске игры (~2 раза по 10 с) — ИСПРАВЛЕНО в 3.3.0
@@ -174,11 +190,13 @@ control-символы), предварительно убрать строки-
 только для сбора данных).
 
 Осталось по мелочи (не влияет на игру): `[TRACE] miss:` пишет до 2000 строк за сессию
-в главном потоке — при желании приглушить, бюджет ограничен (`traceLoggedMisses.Count < 2000`).
+в главном потоке — **в 3.3.1 закрыто флагом** `VerboseLog` (в релизе строки не пишутся
+вовсе, на рабочей машине флаг включён для диагностики).
 
 ### 8.2. Прочее
 - `untranslated.txt` местами «поехал»: внутри ключей встречаются переводы строк.
-- Авто-выгрузка `untranslated.txt` раз в 60 с идёт всегда — она дешёвая, её трогать не нужно.
+- Авто-выгрузка `untranslated.txt` раз в 60 с идёт при `VerboseLog = true` (в релизе
+  выключено, на рабочей машине включено).
 - Остались непереведёнными служебные/мемные строки и часть модовых описаний — при
   необходимости собрать новый `untranslated.txt` (запустить игру, подождать, `Ctrl+F4`/`Ctrl+F6`).
 
@@ -192,12 +210,12 @@ control-символы), предварительно убрать строки-
 4. Приложить штатные `LocalizationPatchDropdown.dll` и `WDXLLubrifontSC-Regular.ttf`
    (если папка плагина пуста — их можно взять со страницы релизов плагина).
 5. Проверить в логе после запуска: `Loaded 4256 translations from ru.json`,
-   `Localization Patch v3.3.0 loaded`.
+   `Localization Patch v3.3.1 loaded`.
 
 ## 10. Пакет русификатора для передачи
 
-Собирается скриптом `tools\build_release.py` → `dist\NuclearOption-Rus-v3.3.0\` и
-`dist\NuclearOption-Rus-v3.3.0.zip` (3,7 МБ).
+Собирается скриптом `tools\build_release.py` → `dist\NuclearOption-Rus-v3.3.1\` и
+`dist\NuclearOption-Rus-v3.3.1.zip` (3,7 МБ).
 
 Внутри: `BepInEx\plugins\LocalizationPatch\{ru.json, LocalizationPatch.dll,
 LocalizationPatchDropdown.dll, WDXLLubrifontSC-Regular.ttf}`, `Установить.cmd`

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Публикация релиза v3.3.0 на GitHub: создаёт релиз и прикладывает ZIP-пакет.
+"""Публикация релиза v3.3.1 на GitHub: создаёт релиз и прикладывает ZIP-пакет.
 
 Токен берётся из хранилища Windows (git credential fill) и на экран не выводится.
 """
@@ -8,20 +8,24 @@ import io, json, os, subprocess, sys, urllib.error, urllib.parse, urllib.request
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 OWNER = "teberrian-source"
 REPO = "NuclearOption-Rus"
-TAG = "v3.3.0"
-ZIP = r"C:\Users\user\Documents\NuclearOption_Rus\dist\NuclearOption-Rus-v3.3.0.zip"
-NOTES = """Русификатор Nuclear Option 0.34.2 — версия 3.3.0.
+TAG = "v3.3.1"
+ZIP = r"C:\Users\user\Documents\NuclearOption_Rus\dist\NuclearOption-Rus-v3.3.1.zip"
+NOTES = """Русификатор Nuclear Option 0.34.2 — версия 3.3.1.
 
-**Что в архиве:** словарь перевода (4256 записей), плагин LocalizationPatch 3.3.0,
+**Что в архиве:** словарь перевода (4256 записей), плагин LocalizationPatch 3.3.1,
 аддон выпадающих списков, шрифт с кириллицей, установщик `Установить.cmd` и инструкция.
 
 **Установка:** дважды щёлкнуть `Установить.cmd` (сам находит папку игры) — или скопировать
 папку `BepInEx` из архива в папку игры. Нужен BepInEx 5.x (x64).
 
-**Главное в 3.3.0:** убраны подвесы игры на ~10 секунд при каждом запуске — авто-выгрузка
+**Главное в 3.3.1:** из релиза убрано всё отладочное — окно статистики больше не всплывает
+(включается флагом `ShowDebugWindow = true`), подробные `[TRACE]` логи и выгрузка
+`untranslated.txt` по умолчанию отключены (`VerboseLog = true` — включить), подпись кнопки
+исправлена на `Ctrl+F5`. Игроку в логе теперь достаются только строки о загрузке перевода.
+
+**Ранее в 3.3.0:** убраны подвесы игры на ~10 секунд при каждом запуске — авто-выгрузка
 определений больше не запускается сама (только по `Ctrl+F4`/`Ctrl+F6` или `AutoDump = true`
-в конфиге). В 3.2.4: перевод точки маршрута `Ingress Via Mountains`, хоткей `Ctrl+F5`
-для перечитывания словаря, белый список подписей задач.
+в конфиге).
 """
 
 if not os.path.isfile(ZIP):
@@ -64,7 +68,7 @@ def call(url, payload=None, method=None, raw=None, ctype=None):
 
 
 # релиз (если уже есть — берём существующий)
-status, rel = call(API + "/releases", {"tag_name": TAG, "name": "Русификатор Nuclear Option 3.3.0", "body": NOTES, "draft": False, "prerelease": False})
+status, rel = call(API + "/releases", {"tag_name": TAG, "name": "Русификатор Nuclear Option 3.3.1", "body": NOTES, "draft": False, "prerelease": False})
 if status not in (200, 201):
     status, rel = call(API + "/releases/tags/" + TAG)
     if status != 200:

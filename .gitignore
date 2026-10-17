@@ -2,5 +2,6 @@
 bin/
 obj/
 dist/
+backups/
 *.bak_*
 *.user

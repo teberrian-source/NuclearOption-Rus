@@ -21,7 +21,7 @@ using WindowFunction = UnityEngine.GUI.WindowFunction;
 
 namespace KoreanPatch;
 
-[BepInPlugin("com.noms.localizationpatch", "Localization Patch", "3.3.0")]
+[BepInPlugin("com.noms.localizationpatch", "Localization Patch", "3.3.1")]
 public class Plugin : BaseUnityPlugin
 {
 	private static class FontEngine_LoadFontFace_Redirect
@@ -314,6 +314,16 @@ public class Plugin : BaseUnityPlugin
 	/// <summary>Авто-выгрузка определений при запуске (по умолчанию выключена — она подвешивает игру).</summary>
 	private ConfigEntry<bool> autoDumpConfig;
 
+	private ConfigEntry<bool> debugWindowConfig;
+
+	private ConfigEntry<bool> verboseLogConfig;
+
+	/// <summary>Окно отладки разрешено (ShowDebugWindow = true).</summary>
+	internal static bool WindowAllowed;
+
+	/// <summary>Подробные логи и выгрузка untranslated.txt (VerboseLog = true).</summary>
+	internal static bool Verbose;
+
 	internal static string CurrentLanguage = "ko";
 
 	internal static Dictionary<string, string> Translations = new Dictionary<string, string>();
@@ -427,6 +437,12 @@ public class Plugin : BaseUnityPlugin
 			"Авто-выгрузка определений игры при запуске (extracted_gamedata.txt, extracted_strings.txt). "
 			+ "Сканирует все объекты игры рефлексией и подвешивает игру примерно на 10-20 секунд, 3 прохода. "
 			+ "Обычно не нужно: выгрузка доступна по Ctrl+F4 и Ctrl+F6.");
+		debugWindowConfig = ((BaseUnityPlugin)this).Config.Bind<bool>("General", "ShowDebugWindow", false,
+			"Показывать окно отладки (переключение по F9/F10). Игрокам не нужно.");
+		verboseLogConfig = ((BaseUnityPlugin)this).Config.Bind<bool>("General", "VerboseLog", false,
+			"Подробные [TRACE] логи и периодическая выгрузка untranslated.txt (для доработки перевода).");
+		WindowAllowed = debugWindowConfig.Value;
+		Verbose = verboseLogConfig.Value;
 		string directoryName = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 		if (CurrentLanguage == "auto")
 		{
@@ -487,7 +503,7 @@ public class Plugin : BaseUnityPlugin
 		// Первая сцена уже загружена к моменту Awake — запускаем первый скан вручную.
 		lastTextScanTime = -999f;
 		sceneScanUntilTime = Time.time + 10f;
-		Log.LogInfo((object)$"Localization Patch v3.3.0 loaded — lang={CurrentLanguage}, {Translations.Count} translations, Font: {fontStatusText}");
+		Log.LogInfo((object)$"Localization Patch v3.3.1 loaded — lang={CurrentLanguage}, {Translations.Count} translations, Font: {fontStatusText}");
 	}
 
 	private void ApplyHarmonyPatches()
@@ -763,9 +779,12 @@ public class Plugin : BaseUnityPlugin
 		{
 			lastHeartbeatTime = Time.time;
 			EnsurePatches();
-			Log.LogInfo((object)$"[HB] Enabled={Enabled} isPatching={isPatching} translated={translatedCount} missed={missedCount} untranslated={untranslatedStrings.Count} scanUntil={sceneScanUntilTime:F1} now={Time.time:F1} hooks={hookLogCount} {DescribePatches()}");
+			if (Verbose)
+			{
+				Log.LogInfo((object)$"[HB] Enabled={Enabled} isPatching={isPatching} translated={translatedCount} missed={missedCount} untranslated={untranslatedStrings.Count} scanUntil={sceneScanUntilTime:F1} now={Time.time:F1} hooks={hookLogCount} {DescribePatches()}");
+			}
 		}
-		if (!CtrlHeld() && (Input.GetKeyDown((KeyCode)290) || Input.GetKeyDown((KeyCode)291)))
+		if (WindowAllowed && !CtrlHeld() && (Input.GetKeyDown((KeyCode)290) || Input.GetKeyDown((KeyCode)291)))
 		{
 			showUI = !showUI;
 			Log.LogInfo((object)$"UI toggle: {showUI}");
@@ -800,7 +819,7 @@ public class Plugin : BaseUnityPlugin
 				Log.LogWarning((object)("Auto dump failed: " + autoDumpEx.Message));
 			}
 		}
-		if (Enabled && Time.time - lastAutoExportTime > 60f)
+		if (Enabled && Verbose && Time.time - lastAutoExportTime > 60f)
 		{
 			lastAutoExportTime = Time.time;
 			if (untranslatedStrings.Count > 0)
@@ -1644,7 +1663,7 @@ public class Plugin : BaseUnityPlugin
 		if (TranslationKeys.Contains(text))
 		{
 			Instance.translatedCount++;
-			if (traceLoggedHits.Count < 1500 && traceLoggedHits.Add(text))
+			if (Verbose && traceLoggedHits.Count < 1500 && traceLoggedHits.Add(text))
 			{
 				Log.LogInfo((object)$"[TRACE] hit: \"{text.Substring(0, Math.Min(180, text.Length))}\"");
 			}
@@ -1677,11 +1696,11 @@ public class Plugin : BaseUnityPlugin
 		if (text.Length > 1 && text.Length < 3000 && !IsNumericOrSymbol(text) && !IsJunkForTranslation(text))
 		{
 			Instance.missedCount++;
-			if (Instance.untranslatedStrings.Count < 100000)
+			if (Verbose && Instance.untranslatedStrings.Count < 100000)
 			{
 				Instance.untranslatedStrings.Add(text);
 			}
-			if (traceLoggedMisses.Count < 2000 && traceLoggedMisses.Add(text))
+			if (Verbose && traceLoggedMisses.Count < 2000 && traceLoggedMisses.Add(text))
 			{
 				Log.LogInfo((object)$"[TRACE] miss: \"{text.Substring(0, Math.Min(200, text.Length))}\"");
 			}
@@ -2605,7 +2624,7 @@ public class Plugin : BaseUnityPlugin
 		//IL_0031: Unknown result type (might be due to invalid IL or missing references)
 		//IL_0036: Unknown result type (might be due to invalid IL or missing references)
 		InitStyles();
-		if (showUI)
+		if (showUI && WindowAllowed)
 		{
 			windowRect = GUI.Window(9997, windowRect, new WindowFunction(DrawWindow), "", boxStyle);
 		}
@@ -2618,7 +2637,7 @@ public class Plugin : BaseUnityPlugin
 		//IL_01b4: Expected O, but got Unknown
 		//IL_01ba: Unknown result type (might be due to invalid IL or missing references)
 		GUILayout.BeginVertical(Array.Empty<GUILayoutOption>());
-		GUILayout.Label("Localization Patch v3.3.0 (" + CurrentLanguage + ")", headerStyle, Array.Empty<GUILayoutOption>());
+		GUILayout.Label("Localization Patch v3.3.1 (" + CurrentLanguage + ")", headerStyle, Array.Empty<GUILayoutOption>());
 		GUILayout.Space(5f);
 		GUILayout.BeginHorizontal(Array.Empty<GUILayoutOption>());
 		GUILayout.Label("Patch:", labelStyle, (GUILayoutOption[])(object)new GUILayoutOption[1] { GUILayout.Width(80f) });
@@ -2633,7 +2652,7 @@ public class Plugin : BaseUnityPlugin
 		GUILayout.Label("Font: " + fontStatusText, labelStyle, Array.Empty<GUILayoutOption>());
 		GUILayout.Label($"Patched game fonts: {totalFontsPatched}", labelStyle, Array.Empty<GUILayoutOption>());
 		GUILayout.Space(10f);
-		if (GUILayout.Button("Reload translations (Ctrl+F10)", buttonStyle, Array.Empty<GUILayoutOption>()))
+		if (GUILayout.Button("Reload translations (Ctrl+F5)", buttonStyle, Array.Empty<GUILayoutOption>()))
 		{
 			LoadTranslations();
 		}

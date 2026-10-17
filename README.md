@@ -5,7 +5,7 @@
 
 - Плагин-основа: [9138noms/NuclearOption-LocalizationPatch](https://github.com/9138noms/NuclearOption-LocalizationPatch)
 - Текущая версия словаря: **4256 записей** (`dict/ru.json`, 680 797 байт)
-- Версия плагина в этом репозитории: **3.3.0** (`plugin/build/LocalizationPatch.dll`)
+- Версия плагина в этом репозитории: **3.3.1** (`plugin/build/LocalizationPatch.dll`)
 
 ## Что переводится
 
@@ -35,7 +35,21 @@
 | `Ctrl+F5` | перезагрузить `ru.json` без перезапуска игры (старое `Ctrl+F10` тоже работает) |
 | `Ctrl+F4` | выгрузить `extracted_gamedata.txt` (подсказки, энциклопедия) |
 | `Ctrl+F6` | выгрузить `extracted_strings.txt` (длинные строки из памяти) |
-| `F9` / `F10` | окно плагина со статистикой |
+| `F9` / `F10` | окно плагина со статистикой (только при `ShowDebugWindow = true`) |
+
+## Настройки плагина
+
+`<игра>/BepInEx/config/com.noms.localizationpatch.cfg`
+
+| Параметр | По умолчанию | Что даёт |
+|---|---|---|
+| `Language` | `auto` | язык определяется по файлу словаря |
+| `AutoDump` | `false` | авто-выгрузка определений при запуске (подвешивает игру, не нужно) |
+| `ShowDebugWindow` | `false` | разрешить окно отладки по `F9`/`F10` |
+| `VerboseLog` | `false` | подробные `[TRACE]` логи и периодическая выгрузка `untranslated.txt` |
+
+Все три «отладочных» флага выключены: игроку ничего лишнего не пишется и окна не всплывают.
+Для доработки перевода достаточно поставить `VerboseLog = true`.
 
 ## Структура репозитория
 
@@ -57,14 +71,17 @@ dotnet build LocalizationPatch.csproj -c Release
 
 ## Готовый пакет для установки
 
-`dist/NuclearOption-Rus-v3.3.0.zip` (3,7 МБ): словарь, плагин, аддон выпадающих списков,
+`dist/NuclearOption-Rus-v3.3.1.zip` (3,7 МБ): словарь, плагин, аддон выпадающих списков,
 шрифт, `Установить.cmd` (сам находит папку игры) и инструкция `ПРОЧТИ МЕНЯ.txt`.
 Тот же архив приложен к релизу
-[v3.3.0](https://github.com/teberrian-source/NuclearOption-Rus/releases/latest) —
+[v3.3.1](https://github.com/teberrian-source/NuclearOption-Rus/releases/latest) —
 оттуда удобно отдавать друзьям ссылкой.
 
 ## История версий
 
+- **3.3.1** — релиз очищен от отладочного: окно статистики (`F9`/`F10`) доступно только при
+  `ShowDebugWindow = true`, подробные `[TRACE]`-логи и периодическая выгрузка `untranslated.txt`
+  — только при `VerboseLog = true`; подпись кнопки перезагрузки исправлена на `Ctrl+F5`.
 - **3.3.0** — устранены подвесы игры на ~10 секунд при каждом запуске: авто-выгрузки
   определений (`ExtractGameData` + `ExtractAllStrings`, рефлексия по всем объектам игры)
   больше не запускаются сами. Теперь они только по флагу `AutoDump = true` в конфиге
