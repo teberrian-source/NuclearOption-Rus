@@ -27,7 +27,10 @@ for base, dirs, files in os.walk(root):
         except OSError:
             continue
         if empty or ".bak_" in f:
-            os.remove(p)
+            try:
+                os.remove(p)
+            except OSError:
+                continue  # файл занят другим процессом (например, вывод самого скрипта)
             removed.append(p + (" (пустой)" if empty else " (бэкап)"))
 
 # 2. Новые папки

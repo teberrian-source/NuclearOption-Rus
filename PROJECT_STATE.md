@@ -35,22 +35,26 @@
 | `BepInEx\plugins\LocalizationPatch\README.md` | документация плагина (для пользователей) |
 | `BepInEx\LogOutput.log` | лог игры: строки `[TRACE] miss:`/`hit:` плагина, `[HB]` — пульс раз в 10 с |
 
-**Исходники и инструменты (постоянная копия):** `C:\Users\user\Documents\NuclearOption_Rus\lp_build\`
-(то же самое, что в `%TEMP%\lp_build`; в TEMP лежит рабочая копия — её может стереть система,
-поэтому постоянная копия и нужна).
+**Репозиторий проекта** (git, публикуется на GitHub как `NuclearOption-Rus`):
+`C:\Users\user\Documents\NuclearOption_Rus\`
 
-| Файл/папка | Назначение |
+| Папка/файл | Назначение |
 |---|---|
-| `KoreanPatch\Plugin.cs` | исходник плагина (BOM + CRLF, ~2636 строк) |
-| `KoreanPatch\*.cs` | остальные исходники (патчи Harmony и пр.) |
-| `LocalizationPatch.csproj` | сборка net472 (ссылки на BepInEx из папки игры) |
-| `Properties\AssemblyInfo.cs` | атрибуты сборки |
-| `build\LocalizationPatch.dll` | собранный плагин v3.2.4 |
-| `regex_test\` | отдельный мини-проект: проверка шаблонов/регулярок |
-| `merge*.py`, `prep*.py`, `add_round*.py` | скрипты раундов: сборка строк и слияние в `ru.json` |
-| `patch_plugin15.py`, `gen_labelkeys.py` | правки `Plugin.cs`: хоткеи, версия, белый список подписей |
-| `r15_index.json`, `tr15_*.json`, `todo_*.json` | пакеты перевода (что и как переводилось) |
-| `log*_u.txt`, `*_out.txt` | выгрузки логов/диагностики (читать их удобнее отсюда) |
+| `dict\ru.json` | словарь перевода (4256 записей) |
+| `plugin\KoreanPatch\Plugin.cs` | исходник плагина (BOM + CRLF, ~2636 строк) |
+| `plugin\KoreanPatch\*.cs` | остальные исходники (патчи Harmony и пр.) |
+| `plugin\LocalizationPatch.csproj` | сборка net472 (ссылки на BepInEx из папки игры) |
+| `plugin\Properties\AssemblyInfo.cs` | атрибуты сборки |
+| `plugin\build\LocalizationPatch.dll` | собранный плагин v3.2.4 |
+| `plugin\regex_test\` | мини-проект: проверка шаблонов/регулярок |
+| `tools\*.py` | скрипты раундов: сбор строк, слияние в `ru.json`, правки `Plugin.cs` |
+| `tools\restructure_repo.py` | раскладка репозитория по папкам + чистка мусора |
+| `data\` | рабочие выгрузки (`untranslated.txt`, `extracted_*`) и пакеты перевода (`tr*.json`, `todo*.json`, `r15*`) |
+| `README.md` | описание проекта (для GitHub) |
+| `PROJECT_STATE.md` | этот файл |
+
+Рабочая копия тех же файлов лежит в `%TEMP%\lp_build\` — её может стереть система,
+поэтому постоянная копия здесь.
 
 **Три копии словаря** (синхронизировать после каждой правки!):
 1. `<игра>\BepInEx\plugins\LocalizationPatch\ru.json` — рабочий
@@ -62,14 +66,14 @@
 ## 3. Сборка и установка плагина
 
 ```powershell
-cd C:\Users\user\Documents\NuclearOption_Rus\lp_build
+cd C:\Users\user\Documents\NuclearOption_Rus\plugin
 dotnet build LocalizationPatch.csproj -c Release
 ```
 Затем (игра должна быть **закрыта**):
 ```powershell
 $dst = 'C:\Users\user\Desktop\NuclearOption_0.34.2\BepInEx\plugins\LocalizationPatch'
 Copy-Item "$dst\LocalizationPatch.dll" "$dst\LocalizationPatch.dll.bak_$(Get-Date -Format HHmmss)" -Force
-Copy-Item 'C:\Users\user\Documents\NuclearOption_Rus\lp_build\bin\Release\LocalizationPatch.dll' "$dst\LocalizationPatch.dll" -Force
+Copy-Item 'C:\Users\user\Documents\NuclearOption_Rus\plugin\bin\Release\LocalizationPatch.dll' "$dst\LocalizationPatch.dll" -Force
 (Get-FileHash "$dst\LocalizationPatch.dll").Hash   # сверить с bin\Release
 ```
 Важно: если сборка ругается на «Повторяющийся атрибут … regex_test\obj\…» — в csproj уже
@@ -178,7 +182,7 @@ control-символы), предварительно убрать строки-
 1. Скопировать постоянную копию инструментов (см. §2) на место.
 2. Взять `ru.json` из `C:\Users\user\Documents\NuclearOption_Rus\ru.json` и положить в
    `<игра>\BepInEx\plugins\LocalizationPatch\` (+ копию в `BepInEx\config\LocalizationPatch\`).
-3. Собрать плагин (§3) или взять готовый `lp_build\build\LocalizationPatch.dll`.
+3. Собрать плагин (§3) или взять готовый `plugin\build\LocalizationPatch.dll`.
 4. Приложить штатные `LocalizationPatchDropdown.dll` и `WDXLLubrifontSC-Regular.ttf`
    (если папка плагина пуста — их можно взять со страницы релизов плагина).
 5. Проверить в логе после запуска: `Loaded 4256 translations from ru.json`,
