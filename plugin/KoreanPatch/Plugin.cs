@@ -21,7 +21,7 @@ using WindowFunction = UnityEngine.GUI.WindowFunction;
 
 namespace KoreanPatch;
 
-[BepInPlugin("com.noms.localizationpatch", "Localization Patch", "3.3.1")]
+[BepInPlugin("com.noms.localizationpatch", "Localization Patch", "3.3.2")]
 public class Plugin : BaseUnityPlugin
 {
 	private static class FontEngine_LoadFontFace_Redirect
@@ -72,6 +72,10 @@ public class Plugin : BaseUnityPlugin
 			try
 			{
 				string text = Translate(value);
+				if (mapperLabels.Contains(text.Trim()) || mapperLabels.Contains(value.Trim()))
+				{
+					DisableWordWrap(__instance);
+				}
 				if (text != value)
 				{
 					value = text;
@@ -127,6 +131,10 @@ public class Plugin : BaseUnityPlugin
 			try
 			{
 				string text = Translate(sourceText);
+				if (mapperLabels.Contains(text.Trim()) || mapperLabels.Contains(sourceText.Trim()))
+				{
+					DisableWordWrap(__instance);
+				}
 				if (text != sourceText)
 				{
 					sourceText = text;
@@ -358,6 +366,59 @@ public class Plugin : BaseUnityPlugin
 	private static HashSet<string> traceLoggedMisses = new HashSet<string>();
 	private static HashSet<string> traceLoggedHits = new HashSet<string>();
 
+	/// <summary>Строки меню управления: русские подписи шире английских, перенос ломает список.</summary>
+	private static readonly HashSet<string> mapperLabels = new HashSet<string>(new string[]
+	{
+		"None", "Controller:", "Assigned Controllers:", "Remove",
+		"Calibrate", "Assign Controller", "Categories:", "Game",
+		"Chat", "Mission Editor", "Debug", "Done",
+		"Restore Defaults", "Actions", "Keyboard", "Mouse",
+		"Controller", "Flight Controls", "Camera Controls", "Gameplay",
+		"Pitch Axis", "Pitch Up", "Pitch Down", "Roll Axis",
+		"Roll Right", "Roll Left", "Yaw Axis", "Yaw Right",
+		"Yaw Left", "Throttle Axis", "Increase Throttle", "Decrease Throttle",
+		"Brake Axis", "Apply Brakes", "Brake Axis -", "Custom Axis 1",
+		"Custom Axis 1 Up", "Custom Axis 1 Down", "Fire", "Target Select",
+		"Target Cancel", "Open Weapon Wheel", "Next Weapon", "Previous Weapon",
+		"Link Guns", "Toggle Turret Control", "Next Countermeasure", "Countermeasures",
+		"Open Radial Menu", "Eject", "Toggle Engine", "Toggle Flight Assist",
+		"Toggle Gear", "Toggle Night Vision", "Toggle Radar", "Toggle Navigation Lights",
+		"Axis Modifier", "Center View", "Switch View", "Tilt View",
+		"Tilt Up", "Tilt Down", "Pan View", "Pan Right",
+		"Pan Left", "Zoom View", "Zoom In", "Zoom Out",
+		"Free Look", "Field of View", "Increase FoV", "Decrease FoV",
+		"Move Longitudinal", "Move Forward", "Move Backward", "Move Lateral",
+		"Move Right", "Move Left", "Move Vertical", "Move Up",
+		"Move Down", "Camera Jump", "Look At Enemy Aircraft", "Jump to Enemy Aircraft",
+		"Look At Target", "Pause", "Toggle Slow Motion", "Toggle Map",
+		"Open Chat", "Move Map Horizontal", "Move Map Right", "Move Map Left",
+		"Move Map Vertical", "Move Map Up", "Move Map Down", "Radial Menu Horizontal",
+		"Radial Menu Right", "Radial Menu Left", "Radial Menu Vertical", "Radial Menu Up",
+		"Radial Menu Down", "Submit Chat", "Cancel Chat", "Vote Kick Yes",
+		"Vote Kick No", "Focus Unit", "Delete Unit", "Select Unit Mode",
+		"Translate Unit Mode", "Rotate Unit Mode", "Toggle Left Panel", "Toggle mission debug menu",
+		"Toggle debug graphs", "Toggle performance numbers", "Deploy Unit", "Next Unit",
+		"Previous Unit", "Call Resupply", "Call Resupply - Player", "Deploy FOB",
+		"Next Camera", "Previous Camera",
+	});
+
+	/// <summary>Отключает перенос строк в TMP-лейбле (надпись одной строкой, без наложения).</summary>
+	internal static void DisableWordWrap(TMP_Text tmp)
+	{
+		if ((Object)(object)tmp == (Object)null)
+		{
+			return;
+		}
+		try
+		{
+			tmp.enableWordWrapping = false;
+		}
+		catch (Exception ex)
+		{
+			Log.LogWarning((object)("DisableWordWrap failed: " + ex.Message));
+		}
+	}
+
 	// --- Диагностика: видим ли мы входы в хуки вообще ---
 	private static int hookLogCount;
 	private float lastHeartbeatTime;
@@ -503,7 +564,7 @@ public class Plugin : BaseUnityPlugin
 		// Первая сцена уже загружена к моменту Awake — запускаем первый скан вручную.
 		lastTextScanTime = -999f;
 		sceneScanUntilTime = Time.time + 10f;
-		Log.LogInfo((object)$"Localization Patch v3.3.1 loaded — lang={CurrentLanguage}, {Translations.Count} translations, Font: {fontStatusText}");
+		Log.LogInfo((object)$"Localization Patch v3.3.2 loaded — lang={CurrentLanguage}, {Translations.Count} translations, Font: {fontStatusText}");
 	}
 
 	private void ApplyHarmonyPatches()
@@ -2637,7 +2698,7 @@ public class Plugin : BaseUnityPlugin
 		//IL_01b4: Expected O, but got Unknown
 		//IL_01ba: Unknown result type (might be due to invalid IL or missing references)
 		GUILayout.BeginVertical(Array.Empty<GUILayoutOption>());
-		GUILayout.Label("Localization Patch v3.3.1 (" + CurrentLanguage + ")", headerStyle, Array.Empty<GUILayoutOption>());
+		GUILayout.Label("Localization Patch v3.3.2 (" + CurrentLanguage + ")", headerStyle, Array.Empty<GUILayoutOption>());
 		GUILayout.Space(5f);
 		GUILayout.BeginHorizontal(Array.Empty<GUILayoutOption>());
 		GUILayout.Label("Patch:", labelStyle, (GUILayoutOption[])(object)new GUILayoutOption[1] { GUILayout.Width(80f) });
