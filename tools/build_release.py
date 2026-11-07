@@ -4,7 +4,7 @@ import hashlib, io, os, shutil, sys, zipfile
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-VER = "3.3.2"
+VER = "3.3.3"
 REPO = r"C:\Users\user\Documents\NuclearOption_Rus"
 GAME = r"C:\Users\user\Desktop\NuclearOption_0.34.2"
 PLUG = os.path.join(GAME, r"BepInEx\plugins\LocalizationPatch")
@@ -14,7 +14,7 @@ PKG = os.path.join(DIST, "NuclearOption-Rus-v" + VER)
 # ---------- 1. файлы -------------
 # (это удерживает сборку внутри репозитория; из старого пакета берём только
 # неизменные бинарники — dropdown-аддон и шрифт)
-PREV_PKG = os.path.join(DIST, "NuclearOption-Rus-v3.3.1", "BepInEx", "plugins", "LocalizationPatch")
+PREV_PKG = os.path.join(DIST, "NuclearOption-Rus-v3.3.2", "BepInEx", "plugins", "LocalizationPatch")
 files = {
     r"BepInEx\plugins\LocalizationPatch\ru.json": os.path.join(REPO, r"dict\ru.json"),
     r"BepInEx\plugins\LocalizationPatch\LocalizationPatch.dll": os.path.join(REPO, r"plugin\build\LocalizationPatch.dll"),

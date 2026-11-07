@@ -17,9 +17,10 @@
 | Параметр | Значение |
 |---|---|
 | Версия плагина | **3.3.2** (3.3.1 — релизная чистка; 3.3.2 — фикс переноса строк в меню управления) |
-| Записей в словаре `ru.json` | **4256** |
-| Размер `ru.json` | 680 797 байт |
-| SHA-256 (первые 16) | `6D3E6F67370B8E2B` |
+| Записей в словаре `ru.json` | **4268** |
+| Пакет | **v3.3.3** (словарь +12 записей; DLL тот же 3.3.2) |
+| Размер `ru.json` | 690 797 байт |
+| SHA-256 (первые 16) | `079D8E3AB7B08DAC` |
 | DLL | 67 072 байта, SHA-256 (первые 16) `80D7024E7A8EC404` (сборка 08.11.2026) |
 | Язык | `ru` (автоопределение по файлу `ru.json`) |
 
@@ -210,14 +211,36 @@ control-символы), предварительно убрать строки-
 3. Собрать плагин (§3) или взять готовый `plugin\build\LocalizationPatch.dll`.
 4. Приложить штатные `LocalizationPatchDropdown.dll` и `WDXLLubrifontSC-Regular.ttf`
    (если папка плагина пуста — их можно взять со страницы релизов плагина).
-5. Проверить в логе после запуска: `Loaded 4256 translations from ru.json`,
+5. Проверить в логе после запуска: `Loaded 4268 translations from ru.json`,
    `Localization Patch v3.3.2 loaded`.
+
+## 9.1. Диагностика «самонажатий вверх» и подфризов (08.11.2026)
+
+Симптом: после сворачивания/возврата игры фантомные нажатия «вверх», микро-подфризы.
+
+Проверено и **исключено**:
+- Русификатор — Harmony-патчи только на TMP-текст, код ввода не трогает.
+- Ошибка Rewired `Error creating CalibrationMap from XML` — есть в 0.34.2 и 0.34.3
+  одинаково, старая и не связана.
+
+Причина (вылелена): в системе сервис **Microsoft Game Input** —
+создан виртуальный геймпад `Synthetic Gamepad` (SWD\SYNTHETICGAMEPADENUM\...,
+ConfigManagerErrorCode 22, статус Error). Rewired ресканит контроллеры именно
+в момент сворачивания/возврата окна — падающее устройство даёт фантомную ось.
+
+Сделано 08.11.2026: `sc.exe stop` + `start= disabled` для `GameInputSvc`
+и `GameInputRedistService` (ускорено с UAC-повышением). Откат:
+`sc.exe config GameInputSvc start= demand` + `sc.exe config GameInputRedistService
+start= auto` и запустить службы.
+
+Проверка пользователя pending: свернуть/развернуть 5–10 раз, фантомные «вверх» должны уйти.
+Подфризы: если останутся — смотреть Blueprinter в 0.34.3 отдельно.
 
 ## 10. Пакет русификатора для передачи
 
-Собирается скриптом `tools\build_release.py` → `dist\NuclearOption-Rus-v3.3.2\` и
-`dist\NuclearOption-Rus-v3.3.2.zip` (3,7 МБ, sha256 `8977a311f2976e34424330d6a94fd1e5ccf5d1a274c55e1f53a3d13645de8454`).
-Скрипт берёт все файлы из репозитория (dropdown-аддон и шрифт — из пакета v3.3.1).
+Собирается скриптом `tools\build_release.py` → `dist\NuclearOption-Rus-v3.3.3\` и
+`dist\NuclearOption-Rus-v3.3.3.zip` (3,7 МБ).
+Скрипт берёт все файлы из репозитория (dropdown-аддон и шрифт — из пакета v3.3.2).
 
 Внутри: `BepInEx\plugins\LocalizationPatch\{ru.json, LocalizationPatch.dll,
 LocalizationPatchDropdown.dll, WDXLLubrifontSC-Regular.ttf}`, `Установить.cmd`
