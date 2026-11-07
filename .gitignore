@@ -7,3 +7,5 @@ backups/
 *.user
 
 vendor/
+
+tools/__pycache__/
