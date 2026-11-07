@@ -17,21 +17,22 @@
 | Параметр | Значение |
 |---|---|
 | Версия плагина | **3.3.2** (3.3.1 — релизная чистка; 3.3.2 — фикс переноса строк в меню управления) |
-| Записей в словаре `ru.json` | **4268** |
-| Пакет | **v3.3.3** (словарь +12 записей; DLL тот же 3.3.2) |
-| Размер `ru.json` | 690 797 байт |
-| SHA-256 (первые 16) | `079D8E3AB7B08DAC` |
+| Записей в словаре `ru.json` | **4262** |
+| Пакет | **v3.3.3** (словарь +6 записей; ползунки отслеживания — по просьбе пользователя вернулись к оригиналу; DLL тот же 3.3.2) |
+| Размер `ru.json` | 690 187 байт |
+| SHA-256 (первые 16) | `F9637FA39D04720A` |
 | DLL | 67 072 байта, SHA-256 (первые 16) `80D7024E7A8EC404` (сборка 08.11.2026) |
 | Язык | `ru` (автоопределение по файлу `ru.json`) |
 
 ## 2. Где что лежит
 
-**Игра (рабочая копия — только эта!):** `C:\Users\user\Desktop\NuclearOption_0.34.2\`
+**Играбельная копия (основная):** `C:\Users\user\Desktop\Nuclear.Option.v0.34.3\`
+Старая копия `NuclearOption_0.34.2` была удалена пользователем 08.11.2026 — актуальна только 0.34.3.
 
 | Файл | Назначение |
 |---|---|
 | `BepInEx\plugins\LocalizationPatch\LocalizationPatch.dll` | сам плагин (62 464 Б) |
-| `BepInEx\plugins\LocalizationPatch\ru.json` | словарь перевода (4256 записей) |
+| `BepInEx\plugins\LocalizationPatch\ru.json` | словарь перевода (4262 записи) |
 | `BepInEx\plugins\LocalizationPatch\LocalizationPatchDropdown.dll` | аддон выпадающих списков (штатный, не трогать) |
 | `BepInEx\plugins\LocalizationPatch\WDXLLubrifontSC-Regular.ttf` | шрифт с кириллицей (штатный, не трогать) |
 | `BepInEx\plugins\LocalizationPatch\README.md` | документация плагина (для пользователей) |
@@ -43,7 +44,7 @@
 
 | Папка/файл | Назначение |
 |---|---|
-| `dict\ru.json` | словарь перевода (4256 записей) |
+| `dict\ru.json` | словарь перевода (4262 записи) |
 | `plugin\KoreanPatch\Plugin.cs` | исходник плагина (BOM + CRLF, ~2676 строк) |
 | `plugin\KoreanPatch\*.cs` | остальные исходники (патчи Harmony и пр.) |
 | `plugin\LocalizationPatch.csproj` | сборка net472 (ссылки на BepInEx из папки игры) |
@@ -211,7 +212,7 @@ control-символы), предварительно убрать строки-
 3. Собрать плагин (§3) или взять готовый `plugin\build\LocalizationPatch.dll`.
 4. Приложить штатные `LocalizationPatchDropdown.dll` и `WDXLLubrifontSC-Regular.ttf`
    (если папка плагина пуста — их можно взять со страницы релизов плагина).
-5. Проверить в логе после запуска: `Loaded 4268 translations from ru.json`,
+5. Проверить в логе после запуска: `Loaded 4262 translations from ru.json`,
    `Localization Patch v3.3.2 loaded`.
 
 ## 9.1. Диагностика «самонажатий вверх» и подфризов (08.11.2026)
