@@ -5,3 +5,5 @@ dist/
 backups/
 *.bak_*
 *.user
+
+vendor/

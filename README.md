@@ -5,7 +5,7 @@
 
 - Плагин-основа: [9138noms/NuclearOption-LocalizationPatch](https://github.com/9138noms/NuclearOption-LocalizationPatch)
 - Текущая версия словаря: **4256 записей** (`dict/ru.json`, 680 797 байт)
-- Версия плагина в этом репозитории: **3.3.1** (`plugin/build/LocalizationPatch.dll`)
+- Версия плагина в этом репозитории: **3.3.2** (`plugin/build/LocalizationPatch.dll`)
 
 ## Что переводится
 
@@ -71,13 +71,20 @@ dotnet build LocalizationPatch.csproj -c Release
 
 ## Готовый пакет для установки
 
-`dist/NuclearOption-Rus-v3.3.1.zip` (3,7 МБ): словарь, плагин, аддон выпадающих списков,
+`dist/NuclearOption-Rus-v3.3.2.zip` (3,7 МБ): словарь, плагин, аддон выпадающих списков,
 шрифт, `Установить.cmd` (сам находит папку игры) и инструкция `ПРОЧТИ МЕНЯ.txt`.
 Тот же архив приложен к релизу
-[v3.3.1](https://github.com/teberrian-source/NuclearOption-Rus/releases/latest) —
+[v3.3.2](https://github.com/teberrian-source/NuclearOption-Rus/releases/tag/v3.3.2) —
 оттуда удобно отдавать друзьям ссылкой.
 
 ## История версий
+
+- **3.3.2** — фикс меню управления: подписи действий переносятся на вторую строку
+  (русский текст на 30–80% шире английского, высота строки фиксирована), из-за чего
+  строки наезжали друг на друга. Для 110 строк меню перенос отключён
+  (`enableWordWrapping = false`). Важно: при включённом моде Boscali Ocean
+  Training Exercise (BOTE) назначение vanilla-действий в этом меню всё равно
+  не работает — это конфликт самого BOTE, не русификатора (см. PROJECT_STATE).
 
 - **3.3.1** — релиз очищен от отладочного: окно статистики (`F9`/`F10`) доступно только при
   `ShowDebugWindow = true`, подробные `[TRACE]`-логи и периодическая выгрузка `untranslated.txt`

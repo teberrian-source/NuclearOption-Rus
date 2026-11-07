@@ -16,11 +16,11 @@
 
 | Параметр | Значение |
 |---|---|
-| Версия плагина | **3.3.1** (в 3.3.0 убраны подвесы, в 3.3.1 отключён отладочный вывод) |
+| Версия плагина | **3.3.2** (3.3.1 — релизная чистка; 3.3.2 — фикс переноса строк в меню управления) |
 | Записей в словаре `ru.json` | **4256** |
 | Размер `ru.json` | 680 797 байт |
 | SHA-256 (первые 16) | `6D3E6F67370B8E2B` |
-| DLL | 62 464 байта, SHA-256 (первые 16) `2D65BBC639241683` |
+| DLL | 67 072 байта, SHA-256 (первые 16) `80D7024E7A8EC404` (сборка 08.11.2026) |
 | Язык | `ru` (автоопределение по файлу `ru.json`) |
 
 ## 2. Где что лежит
@@ -211,12 +211,13 @@ control-символы), предварительно убрать строки-
 4. Приложить штатные `LocalizationPatchDropdown.dll` и `WDXLLubrifontSC-Regular.ttf`
    (если папка плагина пуста — их можно взять со страницы релизов плагина).
 5. Проверить в логе после запуска: `Loaded 4256 translations from ru.json`,
-   `Localization Patch v3.3.1 loaded`.
+   `Localization Patch v3.3.2 loaded`.
 
 ## 10. Пакет русификатора для передачи
 
-Собирается скриптом `tools\build_release.py` → `dist\NuclearOption-Rus-v3.3.1\` и
-`dist\NuclearOption-Rus-v3.3.1.zip` (3,7 МБ).
+Собирается скриптом `tools\build_release.py` → `dist\NuclearOption-Rus-v3.3.2\` и
+`dist\NuclearOption-Rus-v3.3.2.zip` (3,7 МБ, sha256 `8977a311f2976e34424330d6a94fd1e5ccf5d1a274c55e1f53a3d13645de8454`).
+Скрипт берёт все файлы из репозитория (dropdown-аддон и шрифт — из пакета v3.3.1).
 
 Внутри: `BepInEx\plugins\LocalizationPatch\{ru.json, LocalizationPatch.dll,
 LocalizationPatchDropdown.dll, WDXLLubrifontSC-Regular.ttf}`, `Установить.cmd`

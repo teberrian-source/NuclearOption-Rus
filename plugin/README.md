@@ -1,4 +1,4 @@
-﻿# Nuclear Option — Russian Localization Patch v3.3.1
+﻿# Nuclear Option — Russian Localization Patch v3.3.2
 
 Плагин русификации интерфейса Nuclear Option (BepInEx 5.x, Unity 2022.3).
 
@@ -35,7 +35,7 @@
 в `<игра>\BepInEx\config\com.noms.localizationpatch.cfg`, параметр `AutoDump = true`.
 Обычная выгрузка — вручную: `Ctrl+F4` и `Ctrl+F6`.
 
-## Отладочный вывод (изменено в 3.3.1)
+## Отладочный вывод (изменено в 3.3.1, действует и в 3.3.2)
 Игроку в логе достаются только строки о загрузке перевода. Остальное выключено по умолчанию
 и включается флагами в `<игра>\BepInEx\config\com.noms.localizationpatch.cfg`:
 
