@@ -4,7 +4,7 @@ import hashlib, io, os, shutil, sys, zipfile
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-VER = "3.3.2"
+VER = "3.3.2.1"
 REPO = r"C:\Users\user\Documents\NuclearOption_Rus"
 GAME = r"C:\Users\user\Desktop\NuclearOption_0.34.2"
 PLUG = os.path.join(GAME, r"BepInEx\plugins\LocalizationPatch")
@@ -168,7 +168,7 @@ Ctrl+F6 — выгрузить длинные строки из памяти и�
 Если что-то не работает
 -----------------------
 1. Посмотрите лог: <игра>\BepInEx\LogOutput.log
-   Ищите строки "Localization Patch v{V} loaded" и "Loaded N translations from ru.json".
+   Ищите строки "Localization Patch v3.3.2 loaded" и "Loaded N translations from ru.json".
 2. Если перевод не подхватился — убедитесь, что рядом с плагином лежит ru.json.
 3. Если игра не запускается — удалите папку
    <игра>\BepInEx\plugins\LocalizationPatch и проверьте игру без неё.

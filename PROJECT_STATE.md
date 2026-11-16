@@ -250,9 +250,18 @@ Game Input/Rewired. 14.11.2026 пользователь подтвердил: «
 
 ## 10. Пакет русификатора для передачи
 
-Собирается скриптом `tools\build_release.py` → `dist\NuclearOption-Rus-v3.3.2\` и
-`dist\NuclearOption-Rus-v3.3.2.zip` (3,7 МБ, sha256 `8977a311f2976e34424330d6a94fd1e5ccf5d1a274c55e1f53a3d13645de8454`).
-Скрипт берёт все файлы из репозитория (dropdown-аддон и шрифт — из пакета v3.3.1).
+**Актуальный релиз — v3.3.2.1** (17.11.2026): плагин 3.3.2 без изменений
+(DLL `80D7024E...`), словарь **4297** записей (раунды 15–18: описания миссий
+0.34.6 дословно, полное описание Cascadia Falling, ракеты R-60M/R-73, UI,
+расшифровка ЭПР → «Радиозаметность», укорочены вылезающие строки).
+`dist\NuclearOption-Rus-v3.3.2.1.zip` (3,7 МБ, sha256 `e1999d0460f5f55f...f09f48`).
+В `README` пакета строка лога зафиксирована как «v3.3.2 loaded» (внутренняя
+версия DLL), версия пакета — 3.3.2.1.
+
+Предыдущий пакет: `dist\NuclearOption-Rus-v3.3.2.zip` (3,7 МБ, sha256
+`8977a311f2976e34424330d6a94fd1e5ccf5d1a274c55e1f53a3d13645de8454`),
+словарь 4256. Собирается скриптом `tools\build_release.py` (из репозитория;
+dropdown-аддон и шрифт — из пакета v3.3.1).
 
 Внутри: `BepInEx\plugins\LocalizationPatch\{ru.json, LocalizationPatch.dll,
 LocalizationPatchDropdown.dll, WDXLLubrifontSC-Regular.ttf}`, `Установить.cmd`
