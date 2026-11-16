@@ -4559,5 +4559,9 @@ Victory is acheived when all enemy aircraft factories are destroyed and the enem
     "No Results": "Нет результатов",
     "Hardened Aircraft Shelter": "Укреплённое самолётное укрытие",
     "<font=\"MaterialSymbolsSharp\">\\ue5dd</font> / <font=\"MaterialSymbolsSharp\">\\ue31b</font> Select": "<font=\"MaterialSymbolsSharp\">\\ue5dd</font> / <font=\"MaterialSymbolsSharp\">\\ue31b</font> Выбрать",
-    "<font=\"MaterialSymbolsSharp\">\\ue984\\ue986</font> Navigate": "<font=\"MaterialSymbolsSharp\">\\ue984\\ue986</font> Навигация"
+    "<font=\"MaterialSymbolsSharp\">\\ue984\\ue986</font> Navigate": "<font=\"MaterialSymbolsSharp\">\\ue984\\ue986</font> Навигация",
+    "PTB-1500 centreline drop tank: 1,500 litres (about 1,180 kg) of fuel, used before the internal fuel. Select it and fire to drop it, or press the jettison key (Ctrl+J by default).": "Подвесной бак PTB-1500 на центральном пилоне: 1500 литров (около 1180 кг) топлива, расходуется до внутренних баков. Выберите его и произведите выстрел, чтобы сбросить, или нажмите клавишу аварийного сброса (по умолчанию Ctrl+J).",
+    "GSh-30-1: single-barrel 30 mm recoil-operated cannon in the left wing root, 150 rounds. Fires about 1,650 rounds per minute; a one-second burst is a sixth of the magazine, so fire short bursts.": "GSh-30-1: одноствольная 30-мм пушка с откатом ствола в корне левого крыла, 150 снарядов. Темп около 1650 выстрелов в минуту; секундная очередь — шестая часть боекомплекта, поэтому стреляйте короткими очередями.",
+    "Long-range radar on a two-stage mast that rises out of the spine. It lies flush in its well on the ground near a hangar and deploys clear of it.": "Дальнобойный радар на двухсекционной мачте, поднимающейся из хребта фюзеляжа. На земле лежит заподлицо в своём колодце рядом с ангаром, при развёртывании выступает из него целиком.",
+    "Dorsal": "Спинной"
 }
