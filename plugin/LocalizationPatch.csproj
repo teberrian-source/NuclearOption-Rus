@@ -3,6 +3,7 @@
     <AssemblyName>LocalizationPatch</AssemblyName>
     <RootNamespace>KoreanPatch</RootNamespace>
     <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>False</GenerateTargetFrameworkAttribute>
     <TargetFramework>net472</TargetFramework>
     <LangVersion>11.0</LangVersion>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
@@ -27,47 +28,47 @@
 
   <ItemGroup>
     <Reference Include="BepInEx">
-      <HintPath>$(UserProfile)\Desktop\NuclearOption_0.34.2\BepInEx\core\BepInEx.dll</HintPath>
+      <HintPath>$(UserProfile)\Desktop\Nuclear.Option.v0.34.6\BepInEx\core\BepInEx.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="0Harmony">
-      <HintPath>$(UserProfile)\Desktop\NuclearOption_0.34.2\BepInEx\core\0Harmony.dll</HintPath>
+      <HintPath>$(UserProfile)\Desktop\Nuclear.Option.v0.34.6\BepInEx\core\0Harmony.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>$(UserProfile)\Desktop\NuclearOption_0.34.2\NuclearOption_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>$(UserProfile)\Desktop\Nuclear.Option.v0.34.6\NuclearOption_Data\Managed\Unity.TextMeshPro.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>$(UserProfile)\Desktop\NuclearOption_0.34.2\NuclearOption_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>$(UserProfile)\Desktop\Nuclear.Option.v0.34.6\NuclearOption_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>$(UserProfile)\Desktop\NuclearOption_0.34.2\NuclearOption_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>$(UserProfile)\Desktop\Nuclear.Option.v0.34.6\NuclearOption_Data\Managed\UnityEngine.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>$(UserProfile)\Desktop\NuclearOption_0.34.2\NuclearOption_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(UserProfile)\Desktop\Nuclear.Option.v0.34.6\NuclearOption_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>$(UserProfile)\Desktop\NuclearOption_0.34.2\NuclearOption_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>$(UserProfile)\Desktop\Nuclear.Option.v0.34.6\NuclearOption_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.TextCoreFontEngineModule">
-      <HintPath>$(UserProfile)\Desktop\NuclearOption_0.34.2\NuclearOption_Data\Managed\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <HintPath>$(UserProfile)\Desktop\Nuclear.Option.v0.34.6\NuclearOption_Data\Managed\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>$(UserProfile)\Desktop\NuclearOption_0.34.2\NuclearOption_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>$(UserProfile)\Desktop\Nuclear.Option.v0.34.6\NuclearOption_Data\Managed\UnityEngine.UI.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>$(UserProfile)\Desktop\NuclearOption_0.34.2\NuclearOption_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>$(UserProfile)\Desktop\Nuclear.Option.v0.34.6\NuclearOption_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>$(UserProfile)\Desktop\NuclearOption_0.34.2\NuclearOption_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>$(UserProfile)\Desktop\Nuclear.Option.v0.34.6\NuclearOption_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="System.Core" />

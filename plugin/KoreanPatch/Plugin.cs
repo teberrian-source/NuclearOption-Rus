@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -21,7 +21,7 @@ using WindowFunction = UnityEngine.GUI.WindowFunction;
 
 namespace KoreanPatch;
 
-[BepInPlugin("com.noms.localizationpatch", "Localization Patch", "3.3.2")]
+[BepInPlugin("com.noms.localizationpatch", "Localization Patch", "3.3.3")]
 public class Plugin : BaseUnityPlugin
 {
 	private static class FontEngine_LoadFontFace_Redirect
@@ -564,7 +564,7 @@ public class Plugin : BaseUnityPlugin
 		// Первая сцена уже загружена к моменту Awake — запускаем первый скан вручную.
 		lastTextScanTime = -999f;
 		sceneScanUntilTime = Time.time + 10f;
-		Log.LogInfo((object)$"Localization Patch v3.3.2 loaded — lang={CurrentLanguage}, {Translations.Count} translations, Font: {fontStatusText}");
+		Log.LogInfo((object)$"Localization Patch v3.3.3 loaded — lang={CurrentLanguage}, {Translations.Count} translations, Font: {fontStatusText}");
 	}
 
 	private void ApplyHarmonyPatches()
@@ -855,6 +855,18 @@ public class Plugin : BaseUnityPlugin
 			LoadTranslations();
 			translatedInstances.Clear();
 			Log.LogInfo((object)$"Translations reloaded: {Translations.Count} entries");
+			try
+			{
+				// Рескан по хоткею (только Ctrl+F5): переводит надписи, которые
+				// уже были установлены мимо хуков (описания миссий в браузере и т.п.).
+				// Постоянного периодического скана нет — ноль нагрузки в фоне.
+				ScanAndTranslateAllText();
+				Log.LogInfo((object)"[HB] Ctrl+F5 rescan finished");
+			}
+			catch (Exception rescanEx)
+			{
+				Log.LogWarning((object)("Ctrl+F5 rescan failed: " + rescanEx.Message));
+			}
 		}
 		if (CtrlHeld() && (Input.GetKeyDown((KeyCode)285) || Input.GetKeyDown((KeyCode)292)))
 		{
@@ -2698,7 +2710,7 @@ public class Plugin : BaseUnityPlugin
 		//IL_01b4: Expected O, but got Unknown
 		//IL_01ba: Unknown result type (might be due to invalid IL or missing references)
 		GUILayout.BeginVertical(Array.Empty<GUILayoutOption>());
-		GUILayout.Label("Localization Patch v3.3.2 (" + CurrentLanguage + ")", headerStyle, Array.Empty<GUILayoutOption>());
+		GUILayout.Label("Localization Patch v3.3.3 (" + CurrentLanguage + ")", headerStyle, Array.Empty<GUILayoutOption>());
 		GUILayout.Space(5f);
 		GUILayout.BeginHorizontal(Array.Empty<GUILayoutOption>());
 		GUILayout.Label("Patch:", labelStyle, (GUILayoutOption[])(object)new GUILayoutOption[1] { GUILayout.Width(80f) });
