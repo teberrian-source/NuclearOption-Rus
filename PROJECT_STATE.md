@@ -171,6 +171,22 @@ control-символы), предварительно убрать строки-
 Локальная уборка: из папки плагина удалены отладочные файлы (`final*.txt`, `rd*.txt`),
 старые бэкапы словаря и DLL перенесены в `backups\` (см. §2).
 
+Раунд 16 (16.11.2026, 0.34.6): свежий `untranslated.txt` показал, что описания миссий
+Ironjaw Sound **обновились в 0.34.6** (старые ключи раунда 15 дословно не совпадают,
+например «sink the carrier group» → «sink the carrier»). Добавлены 24 записи (словарь
+4269 → **4293**, коммит раунда 16): дословные ключи из дампа — Escalation (два фронта),
+Escalation North, Ostrin Confrontation, Port Ansel Defence, Sill Strike, Icebreaker,
+SAM Hunt, KR-33 01. Dustbowl, Swiss Alps Free Flight, **полное описание Cascadia Falling**
+(2180 символов; в дампе хвост «each silo field is one to put out of action…» есть —
+обрезание до 2000 символов было только в чтении), описания ракет R-60M и R-73, UI
+(`<b>Esc</b> Close`, Select/Navigate с тегами шрифта, `1 Found`, `Aircraft:/Commands/
+Cursor : AA-nn/History/No Results`, тултип кика, `Hardened Aircraft Shelter`).
+Скрипт `tools\add2_346.py` (текстовая вставка в конец словаря с сохранением
+`//`-комментариев; `tools\extract_346.py`, `tools\pull_346.py` — вытягивание исходников).
+Не добавлено: `BOSCALI OBJECTIVES`/`PRIMEVA OBJECTIVES` — в дампе отсутствуют
+(плагин их не видит: рендерятся не через TMP-хуки или это спрайты; кандидат на
+рескан-плагин 3.3.3 из ветки `backup/post-3.3.2-work-0811`). `VerboseLog` выключен обратно.
+
 ## 8. Отложенные задачи
 
 ### 8.0. Самонажатия «вверх» — РЕШЕНО (08–14.11.2026)
