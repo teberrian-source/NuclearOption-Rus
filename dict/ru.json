@@ -42,9 +42,9 @@
     "Changelog": "Список изменений",
     "CHANGELOG": "СПИСОК ИЗМЕНЕНИЙ",
     "Control Changes": "Изменения управления",
-    "Development Roadmap": "Дорожная карта разработки",
-    "Join our Community": "Присоединиться к сообществу",
-    "Join Our Community": "Присоединиться к сообществу",
+    "Development Roadmap": "Дорожная карта",
+    "Join our Community": "Наше сообщество",
+    "Join Our Community": "Наше сообщество",
     "JOIN OUR COMMUNITY": "ПРИСОЕДИНИТЬСЯ К СООБЩЕСТВУ",
     "Community": "Сообщество",
     "DONATE": "ПОЖЕРТВОВАТЬ",
@@ -357,8 +357,8 @@
     "P/W": "Мощность/вес",
     "P/W :": "Мощность/вес :",
     "RCS": "ЭПР",
-    "RCS:": "ЭПР:",
-    "RCS :": "ЭПР :",
+    "RCS:": "ЭПР (радиозаметность):",
+    "RCS :": "ЭПР (радиозаметность) :",
     "Weight": "Вес",
     "Cost": "Стоимость",
     "Cost:": "Стоимость:",
@@ -1128,7 +1128,7 @@
     "Resume Mission": "Продолжить миссию",
     "HIDE UI": "СКРЫТЬ ИНТЕРФЕЙС",
     "Hide UI": "Скрыть интерфейс",
-    "RESTART MISSION": "ПЕРЕЗАПУСТИТЬ МИССИЮ",
+    "RESTART MISSION": "ПЕРЕЗАПУСК МИССИИ",
     "Restart Mission": "Перезапустить миссию",
 
     // ========== Mission Editor (additional) ==========
@@ -2800,7 +2800,7 @@ VALUE": "ИТОГО
     "EW": "РЭБ",
     "LOG": "ЛОГ",
     "Next aircraft:
-Never": "Следующий самолет:
+Never": "След. самолёт:
 Никогда",
     "Requisition
  via Rank (0)": "Реквизиция
@@ -3188,7 +3188,7 @@ Victory is acheived when all enemy aircraft factories are destroyed and the enem
     "Outer Pylons": "Внешние пилоны",
     "Wing Glove Pylons": "Пилоны на законцовках крыла",
     "Toggle Left Panel": "Переключить левую панель",
-    "Next aircraft:": "Следующий самолёт:",
+    "Next aircraft:": "След. самолёт:",
     "Rank:": "Ранг:",
     "Owned:": "Куплено:",
     "Faction:": "Фракция:",
