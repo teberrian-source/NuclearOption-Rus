@@ -14,7 +14,7 @@ using UnityEngine;
 
 namespace AllocProbe
 {
-    [BepInPlugin("teberrian.allocprobe", "AllocProbe", "1.5.0")]
+    [BepInPlugin("teberrian.allocprobe", "AllocProbe", "1.6.0")]
     public class Plugin : BaseUnityPlugin
     {
         private ManualLogSource Log;
@@ -26,6 +26,12 @@ namespace AllocProbe
         private readonly HashSet<string> patchedAsms = new HashSet<string>();
         private readonly HashSet<string> modAsmNames = new HashSet<string>();
 
+        // 1.6: полная обёртка — только у главных подозреваемых; остальные моды — как в 1.4
+        private static readonly HashSet<string> FullWrap = new HashSet<string>
+        {
+            "GroundControlRts", "NavalPower", "PlayableVehicles",
+        };
+
         private void Awake()
         {
             Log = Logger;
@@ -33,7 +39,7 @@ namespace AllocProbe
             next = Time.realtimeSinceStartup + 5f;
             rescan = Time.realtimeSinceStartup + 10f;
             harmony = new Harmony("teberrian.allocprobe");
-            Log.LogInfo("AllocProbe 1.5.0 loaded");
+            Log.LogInfo("AllocProbe 1.6.0 loaded");
         }
 
         /// <summary>Человеческое имя метода: сборка.класс (корутины — внешний класс).</summary>
@@ -123,17 +129,26 @@ namespace AllocProbe
 
                 var list = new List<MethodInfo>();
                 bool isUiAsm = asm.GetName().Name == "Unity.TextMeshPro" || asm.GetName().Name == "UnityEngine.UI";
-                bool isModAsm = modAsmNames.Contains(asm.GetName().Name);
+                bool fullWrap = FullWrap.Contains(asm.GetName().Name);
                 foreach (var t in types)
                 {
-                    if (isUiAsm || isModAsm)
+                    if (isUiAsm || fullWrap)
                     {
-                        // TMP/UI и все модовые сборки: оборачиваем почти всё —
-                        // обработчики событий, Invoke-цели и потоки модов не ходят через Update
+                        // TMP/UI и подозреваемые сборки: оборачиваем почти всё, кроме
+                        // аксессоров и тривиальных методов — иначе штурм GC на горячих путях
                         foreach (var m in t.GetMethods(BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.DeclaredOnly))
                         {
                             if (m.IsAbstract || m.IsVirtual) continue;
                             if (t.IsAbstract || t.IsInterface) continue;
+                            string mn = m.Name;
+                            if (mn.StartsWith("get_") || mn.StartsWith("set_") ||
+                                mn.StartsWith("add_") || mn.StartsWith("remove_")) continue;
+                            try
+                            {
+                                var body = m.GetMethodBody();
+                                if (body == null || body.GetILAsByteArray().Length < 24) continue;
+                            }
+                            catch { continue; }
                             list.Add(m);
                         }
                         continue;
@@ -159,7 +174,7 @@ namespace AllocProbe
                 patchedAsms.Add(asm.GetName().Name);
             }
             if (methods > 0)
-                Log.LogInfo($"AllocProbe 1.5: +{methods} methods across {owners.Count} classes (total assemblies: {patchedAsms.Count})");
+                Log.LogInfo($"AllocProbe 1.6: +{methods} methods across {owners.Count} classes (total assemblies: {patchedAsms.Count})");
         }
 
         private void Update()
@@ -209,6 +224,33 @@ namespace AllocProbe
     /// <summary>Статические обёртки: меряем кучу до/после оригинального метода.</summary>
     internal static class Patches
     {
+        // кэш: MethodBase -> имя владельца (без аллокации строк в горячем пути)
+        private static readonly System.Collections.Concurrent.ConcurrentDictionary<MethodBase, string> OwnerCache =
+            new System.Collections.Concurrent.ConcurrentDictionary<MethodBase, string>();
+
+        /// <summary>Имя владельца с кэшированием: «сборка.класс» (корутины — внешний класс).</summary>
+        private static string OwnerOf(MethodBase m)
+        {
+            return OwnerCache.GetOrAdd(m, mm =>
+            {
+                try
+                {
+                    var t = mm.DeclaringType;
+                    if (t == null) return "?";
+                    var outer = t;
+                    while (outer.IsNested && outer.DeclaringType != null)
+                        outer = outer.DeclaringType;
+                    string asm;
+                    try { asm = outer.Assembly.GetName().Name; } catch { asm = "?"; }
+                    return asm + "." + outer.Name;
+                }
+                catch
+                {
+                    return "?";
+                }
+            });
+        }
+
         public static void Prefix(ref long __state)
         {
             __state = GC.GetTotalMemory(false);
@@ -220,18 +262,8 @@ namespace AllocProbe
             {
                 long d = GC.GetTotalMemory(false) - __state;
                 if (d <= 0) return;
-                string owner = null;
-                var t = __originalMethod.DeclaringType;
-                if (t != null)
-                {
-                    var outer = t;
-                    while (outer.IsNested && outer.DeclaringType != null)
-                        outer = outer.DeclaringType;
-                    string asm;
-                    try { asm = outer.Assembly.GetName().Name; } catch { asm = "?"; }
-                    owner = asm + "." + outer.Name;
-                }
-                if (owner != null)
+                string owner = OwnerOf(__originalMethod);
+                if (owner != null && owner != "?")
                     PluginAccumulator.Add(owner, d);
             }
             catch
