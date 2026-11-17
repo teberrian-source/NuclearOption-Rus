@@ -1,6 +1,6 @@
 # Nuclear Option — русификатор (Russian Localization)
 
-Словарь русского перевода и инструменты для **Nuclear Option 0.34.2**
+Словарь русского перевода и инструменты для **Nuclear Option 0.34.6**
 (плагин `LocalizationPatch`, BepInEx 5.x).
 
 - Плагин-основа: [9138noms/NuclearOption-LocalizationPatch](https://github.com/9138noms/NuclearOption-LocalizationPatch)
