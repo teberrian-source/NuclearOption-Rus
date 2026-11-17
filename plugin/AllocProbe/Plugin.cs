@@ -14,7 +14,7 @@ using UnityEngine;
 
 namespace AllocProbe
 {
-    [BepInPlugin("teberrian.allocprobe", "AllocProbe", "1.3.0")]
+    [BepInPlugin("teberrian.allocprobe", "AllocProbe", "1.4.0")]
     public class Plugin : BaseUnityPlugin
     {
         private ManualLogSource Log;
@@ -32,7 +32,7 @@ namespace AllocProbe
             next = Time.realtimeSinceStartup + 5f;
             rescan = Time.realtimeSinceStartup + 10f;
             harmony = new Harmony("teberrian.allocprobe");
-            Log.LogInfo("AllocProbe 1.3.0 loaded");
+            Log.LogInfo("AllocProbe 1.4.0 loaded");
         }
 
         /// <summary>Человеческое имя метода: сборка.класс (корутины — внешний класс).</summary>
@@ -55,7 +55,19 @@ namespace AllocProbe
             }
         }
 
-        /// <summary>Кандидаты на обёртку из одной сборки: Update-семейство + MoveNext.</summary>
+        private static readonly HashSet<string> Callbacks = new HashSet<string>
+        {
+            "Start", "Awake", "OnEnable", "OnDisable", "OnDestroy",
+            "OnGUI", "OnDrawGizmos", "OnDrawGizmosSelected",
+            "OnRenderObject", "OnPostRender", "OnPreRender", "OnWillRenderObject",
+            "OnTriggerEnter", "OnTriggerStay", "OnTriggerExit",
+            "OnCollisionEnter", "OnCollisionStay", "OnCollisionExit",
+            "OnControllerColliderHit", "OnParticleCollision",
+            "OnAnimatorMove", "OnApplicationFocus", "OnApplicationPause",
+            "OnMouseEnter", "OnMouseOver", "OnMouseExit", "OnMouseDown", "OnMouseUp",
+        };
+
+        /// <summary>Кандидаты на обёртку из одной сборки: Update-семейство, корутины и движковые колбэки.</summary>
         private static IEnumerable<MethodInfo> CandidateMethods(Type t)
         {
             if (t.IsAbstract || t.IsInterface) yield break;
@@ -72,7 +84,10 @@ namespace AllocProbe
                             && m.GetParameters().Length == 0
                             && !m.IsVirtual
                             && typeof(System.Collections.IEnumerator).IsAssignableFrom(t);
-                if (upd || move) yield return m;
+                bool cb = Callbacks.Contains(n)
+                          && m.ReturnType == typeof(void)
+                          && !m.IsVirtual;
+                if (upd || move || cb) yield return m;
             }
         }
 
@@ -140,7 +155,7 @@ namespace AllocProbe
                 patchedAsms.Add(asm.GetName().Name);
             }
             if (methods > 0)
-                Log.LogInfo($"AllocProbe 1.3: +{methods} methods across {owners.Count} classes (total assemblies: {patchedAsms.Count})");
+                Log.LogInfo($"AllocProbe 1.4: +{methods} methods across {owners.Count} classes (total assemblies: {patchedAsms.Count})");
         }
 
         private void Update()
