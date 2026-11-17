@@ -14,7 +14,7 @@ using UnityEngine;
 
 namespace AllocProbe
 {
-    [BepInPlugin("teberrian.allocprobe", "AllocProbe", "1.6.0")]
+    [BepInPlugin("teberrian.allocprobe", "AllocProbe", "1.7.0")]
     public class Plugin : BaseUnityPlugin
     {
         private ManualLogSource Log;
@@ -39,7 +39,7 @@ namespace AllocProbe
             next = Time.realtimeSinceStartup + 5f;
             rescan = Time.realtimeSinceStartup + 10f;
             harmony = new Harmony("teberrian.allocprobe");
-            Log.LogInfo("AllocProbe 1.6.0 loaded");
+            Log.LogInfo("AllocProbe 1.7.0 loaded");
         }
 
         /// <summary>Человеческое имя метода: сборка.класс (корутины — внешний класс).</summary>
@@ -100,8 +100,6 @@ namespace AllocProbe
 
         private void PatchAll()
         {
-            int methods = 0;
-            var owners = new HashSet<string>();
             var targets = new List<Assembly>();
 
             foreach (var a in AppDomain.CurrentDomain.GetAssemblies())
@@ -157,33 +155,55 @@ namespace AllocProbe
                 }
 
                 foreach (var m in list)
-                {
-                    try
-                    {
-                        harmony.Patch(m,
-                            prefix: new HarmonyMethod(typeof(Patches), nameof(Patches.Prefix)),
-                            postfix: new HarmonyMethod(typeof(Patches), nameof(Patches.Suffix)));
-                        methods++;
-                        owners.Add(OwnerName(m));
-                    }
-                    catch
-                    {
-                        // отдельный метод не патчится — не критично
-                    }
-                }
+                    pending.Add(m); // 1.7: патчим порциями по кадрам, не одним махом
                 patchedAsms.Add(asm.GetName().Name);
             }
-            if (methods > 0)
-                Log.LogInfo($"AllocProbe 1.6: +{methods} methods across {owners.Count} classes (total assemblies: {patchedAsms.Count})");
+        }
+
+        /// <summary>Непатченные методы, ожидающие Harmony-обёртки (порционно).</summary>
+        private readonly List<MethodInfo> pending = new List<MethodInfo>();
+        private const int PatchBudgetPerFrame = 250;
+
+        /// <summary>Патчит до PatchBudgetPerFrame методов за вызов; true — ещё есть работа.</summary>
+        private bool PatchChunk()
+        {
+            int n = 0;
+            while (pending.Count > 0 && n < PatchBudgetPerFrame)
+            {
+                var m = pending[pending.Count - 1];
+                pending.RemoveAt(pending.Count - 1);
+                try
+                {
+                    harmony.Patch(m,
+                        prefix: new HarmonyMethod(typeof(Patches), nameof(Patches.Prefix)),
+                        postfix: new HarmonyMethod(typeof(Patches), nameof(Patches.Suffix)));
+                }
+                catch
+                {
+                    // отдельный метод не патчится — не критично
+                }
+                n++;
+            }
+            return pending.Count > 0;
         }
 
         private void Update()
         {
+            // 1.7: патчинг порциями — не вешаем кадр; замер стартует, когда всё обёрнуто
+            if (pending.Count > 0)
+            {
+                PatchChunk();
+                if (pending.Count > 0) return;
+                Log.LogInfo($"AllocProbe: patching complete ({patchedAsms.Count} assemblies)");
+                next = Time.realtimeSinceStartup + 2f;
+                lastHeap = GC.GetTotalMemory(false);
+                started = true;
+                return;
+            }
             if (!started)
             {
                 if (Time.realtimeSinceStartup < next) return;
                 PatchAll();
-                started = true;
                 next = Time.realtimeSinceStartup + 2f;
                 lastHeap = GC.GetTotalMemory(false);
                 return;
