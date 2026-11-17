@@ -14,7 +14,7 @@ using UnityEngine;
 
 namespace AllocProbe
 {
-    [BepInPlugin("teberrian.allocprobe", "AllocProbe", "1.2.0")]
+    [BepInPlugin("teberrian.allocprobe", "AllocProbe", "1.3.0")]
     public class Plugin : BaseUnityPlugin
     {
         private ManualLogSource Log;
@@ -32,7 +32,7 @@ namespace AllocProbe
             next = Time.realtimeSinceStartup + 5f;
             rescan = Time.realtimeSinceStartup + 10f;
             harmony = new Harmony("teberrian.allocprobe");
-            Log.LogInfo("AllocProbe 1.2.0 loaded");
+            Log.LogInfo("AllocProbe 1.3.0 loaded");
         }
 
         /// <summary>Человеческое имя метода: сборка.класс (корутины — внешний класс).</summary>
@@ -91,7 +91,9 @@ namespace AllocProbe
                 if (patchedAsms.Contains(name)) continue;
                 bool isMod = loc.Replace('/', '\\').ToLowerInvariant().Contains("bepinex\\plugins");
                 bool isGame = name == "Assembly-CSharp" || name == "Assembly-CSharp-firstpass";
-                if (!isMod && !isGame) continue;
+                // 1.3: TMP и uGUI — их перестройки идут из Canvas-колбэков движка, минуя Update
+                bool isUi = name == "Unity.TextMeshPro" || name == "UnityEngine.UI";
+                if (!isMod && !isGame && !isUi) continue;
                 targets.Add(a);
             }
 
@@ -103,8 +105,22 @@ namespace AllocProbe
                 catch { continue; }
 
                 var list = new List<MethodInfo>();
+                bool isUiAsm = asm.GetName().Name == "Unity.TextMeshPro" || asm.GetName().Name == "UnityEngine.UI";
                 foreach (var t in types)
+                {
+                    if (isUiAsm)
+                    {
+                        // TMP/UI: оборачиваем почти всё — перестройки текста не ходят через Update
+                        foreach (var m in t.GetMethods(BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.DeclaredOnly))
+                        {
+                            if (m.IsAbstract || m.IsVirtual) continue;
+                            if (t.IsAbstract || t.IsInterface) continue;
+                            list.Add(m);
+                        }
+                        continue;
+                    }
                     list.AddRange(CandidateMethods(t));
+                }
 
                 foreach (var m in list)
                 {
@@ -124,7 +140,7 @@ namespace AllocProbe
                 patchedAsms.Add(asm.GetName().Name);
             }
             if (methods > 0)
-                Log.LogInfo($"AllocProbe 1.2: +{methods} methods across {owners.Count} classes (total assemblies: {patchedAsms.Count})");
+                Log.LogInfo($"AllocProbe 1.3: +{methods} methods across {owners.Count} classes (total assemblies: {patchedAsms.Count})");
         }
 
         private void Update()
