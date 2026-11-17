@@ -14,22 +14,25 @@ using UnityEngine;
 
 namespace AllocProbe
 {
-    [BepInPlugin("teberrian.allocprobe", "AllocProbe", "1.1.0")]
+    [BepInPlugin("teberrian.allocprobe", "AllocProbe", "1.2.0")]
     public class Plugin : BaseUnityPlugin
     {
         private ManualLogSource Log;
         private Harmony harmony;
-        private bool patched;
+        private bool started;
         private float next;
+        private float rescan;
         private long lastHeap;
+        private readonly HashSet<string> patchedAsms = new HashSet<string>();
 
         private void Awake()
         {
             Log = Logger;
-            patched = false;
+            started = false;
             next = Time.realtimeSinceStartup + 5f;
+            rescan = Time.realtimeSinceStartup + 10f;
             harmony = new Harmony("teberrian.allocprobe");
-            Log.LogInfo("AllocProbe 1.1.0 loaded");
+            Log.LogInfo("AllocProbe 1.2.0 loaded");
         }
 
         /// <summary>Человеческое имя метода: сборка.класс (корутины — внешний класс).</summary>
@@ -85,6 +88,7 @@ namespace AllocProbe
                 string loc = "";
                 try { name = a.GetName().Name; loc = a.Location ?? ""; } catch { continue; }
                 if (name == "AllocProbe" || name == "HeapWatch") continue;
+                if (patchedAsms.Contains(name)) continue;
                 bool isMod = loc.Replace('/', '\\').ToLowerInvariant().Contains("bepinex\\plugins");
                 bool isGame = name == "Assembly-CSharp" || name == "Assembly-CSharp-firstpass";
                 if (!isMod && !isGame) continue;
@@ -117,20 +121,29 @@ namespace AllocProbe
                         // отдельный метод не патчится — не критично
                     }
                 }
+                patchedAsms.Add(asm.GetName().Name);
             }
-            patched = true;
-            Log.LogInfo($"AllocProbe 1.1: patched {methods} methods across {owners.Count} owner classes");
+            if (methods > 0)
+                Log.LogInfo($"AllocProbe 1.2: +{methods} methods across {owners.Count} classes (total assemblies: {patchedAsms.Count})");
         }
 
         private void Update()
         {
-            if (!patched)
+            if (!started)
             {
                 if (Time.realtimeSinceStartup < next) return;
                 PatchAll();
+                started = true;
                 next = Time.realtimeSinceStartup + 2f;
                 lastHeap = GC.GetTotalMemory(false);
                 return;
+            }
+
+            // доскан лениво загруженных сборок раз в 10 с
+            if (Time.realtimeSinceStartup >= rescan)
+            {
+                rescan = Time.realtimeSinceStartup + 10f;
+                PatchAll();
             }
 
             float now = Time.realtimeSinceStartup;
