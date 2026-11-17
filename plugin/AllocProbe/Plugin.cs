@@ -1,12 +1,7 @@
-// AllocProbe — диагностический плагин (план Б охоты на GC-мусор).
-// При первом Update обходит все сборки, загруженные из BepInEx\plugins,
-// и оборачивает Harmony-префиксами/суффиксами их Update/FixedUpdate/LateUpdate.
-// Каждый вызов меряет GC.GetTotalMemory(false) до/после; положительная дельта
-// аккумулируется на сборку (DLL) владельца метода. Раз в 2 секунды пишет в лог:
-//   [ALLOC] total=+X KB/2s | DLL=+Y KB/2s ... | residual=Z KB/2s
-// residual = общий рост кучи минус attributed — мусор вне обёрнутых Update
-// (ваниль, корутины, события и т.п.).
-// Отключение: перенести папку из BepInEx/plugins в BepInEx/disabledPlugins.
+// AllocProbe 1.1 — расширение охвата: корутины (MoveNext) модов + ванильные
+// классы Assembly-CSharp(-firstpass): Update-семейство и MoveNext.
+// Приписка мусора по паре «сборка.класс» (для корутин — внешний класс).
+// Отчёт раз в 2 с: [ALLOC] total | топ-12 | residual.
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -19,7 +14,7 @@ using UnityEngine;
 
 namespace AllocProbe
 {
-    [BepInPlugin("teberrian.allocprobe", "AllocProbe", "1.0.0")]
+    [BepInPlugin("teberrian.allocprobe", "AllocProbe", "1.1.0")]
     public class Plugin : BaseUnityPlugin
     {
         private ManualLogSource Log;
@@ -27,65 +22,87 @@ namespace AllocProbe
         private bool patched;
         private float next;
         private long lastHeap;
-        private const string Self1 = "AllocProbe";
-        private const string Self2 = "HeapWatch";
 
         private void Awake()
         {
             Log = Logger;
             patched = false;
-            next = Time.realtimeSinceStartup + 5f; // дать всем плагинам загрузиться
+            next = Time.realtimeSinceStartup + 5f;
             harmony = new Harmony("teberrian.allocprobe");
-            Log.LogInfo("AllocProbe 1.0.0 loaded");
+            Log.LogInfo("AllocProbe 1.1.0 loaded");
         }
 
-        /// <summary>Сборки, чьи DLL лежат в BepInEx/plugins (кроме самой диагностики).</summary>
-
-        /// <summary>Сборки, чьи DLL лежат в BepInEx/plugins (кроме самой диагностики).</summary>
-        private static bool IsModAssembly(Assembly a)
+        /// <summary>Человеческое имя метода: сборка.класс (корутины — внешний класс).</summary>
+        private static string OwnerName(MethodBase m)
         {
             try
             {
-                string loc = a.Location;
-                if (string.IsNullOrEmpty(loc)) return false;
-                if (!loc.Replace('/', '\\').ToLowerInvariant().Contains("bepinex\\plugins")) return false;
-                string name = a.GetName().Name;
-                if (name == Self1 || name == Self2) return false;
-                return true;
+                var t = m.DeclaringType;
+                if (t == null) return "?";
+                var outer = t;
+                while (outer.IsNested && outer.DeclaringType != null)
+                    outer = outer.DeclaringType;
+                string asm;
+                try { asm = outer.Assembly.GetName().Name; } catch { asm = "?"; }
+                return asm + "." + outer.Name;
             }
             catch
             {
-                return false;
+                return "?";
             }
         }
 
-        /// <summary>Обёртка Update-семейства всех модовых сборок.</summary>
-        private void PatchMods()
+        /// <summary>Кандидаты на обёртку из одной сборки: Update-семейство + MoveNext.</summary>
+        private static IEnumerable<MethodInfo> CandidateMethods(Type t)
+        {
+            if (t.IsAbstract || t.IsInterface) yield break;
+            foreach (var m in t.GetMethods(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.DeclaredOnly))
+            {
+                if (m.IsAbstract) continue;
+                string n = m.Name;
+                bool upd = (n == "Update" || n == "FixedUpdate" || n == "LateUpdate")
+                           && m.ReturnType == typeof(void)
+                           && m.GetParameters().Length == 0
+                           && !m.IsVirtual;
+                bool move = n == "MoveNext"
+                            && m.ReturnType == typeof(bool)
+                            && m.GetParameters().Length == 0
+                            && !m.IsVirtual
+                            && typeof(System.Collections.IEnumerator).IsAssignableFrom(t);
+                if (upd || move) yield return m;
+            }
+        }
+
+        private void PatchAll()
         {
             int methods = 0;
-            var assemblies = AppDomain.CurrentDomain.GetAssemblies().Where(IsModAssembly).ToList();
-            foreach (var asm in assemblies)
+            var owners = new HashSet<string>();
+            var targets = new List<Assembly>();
+
+            foreach (var a in AppDomain.CurrentDomain.GetAssemblies())
+            {
+                string name;
+                string loc = "";
+                try { name = a.GetName().Name; loc = a.Location ?? ""; } catch { continue; }
+                if (name == "AllocProbe" || name == "HeapWatch") continue;
+                bool isMod = loc.Replace('/', '\\').ToLowerInvariant().Contains("bepinex\\plugins");
+                bool isGame = name == "Assembly-CSharp" || name == "Assembly-CSharp-firstpass";
+                if (!isMod && !isGame) continue;
+                targets.Add(a);
+            }
+
+            foreach (var asm in targets)
             {
                 Type[] types;
                 try { types = asm.GetTypes(); }
                 catch (ReflectionTypeLoadException e) { types = e.Types.Where(t => t != null).ToArray(); }
                 catch { continue; }
 
-                var target = new List<MethodInfo>();
+                var list = new List<MethodInfo>();
                 foreach (var t in types)
-                {
-                    if (t.IsAbstract || t.IsInterface) continue;
-                    foreach (var m in t.GetMethods(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.DeclaredOnly))
-                    {
-                        if (m.IsAbstract || m.IsVirtual) continue;
-                        if (m.ReturnType != typeof(void)) continue;
-                        if (m.GetParameters().Length != 0) continue;
-                        string n = m.Name;
-                        if (n == "Update" || n == "FixedUpdate" || n == "LateUpdate")
-                            target.Add(m);
-                    }
-                }
-                foreach (var m in target)
+                    list.AddRange(CandidateMethods(t));
+
+                foreach (var m in list)
                 {
                     try
                     {
@@ -93,16 +110,16 @@ namespace AllocProbe
                             prefix: new HarmonyMethod(typeof(Patches), nameof(Patches.Prefix)),
                             postfix: new HarmonyMethod(typeof(Patches), nameof(Patches.Suffix)));
                         methods++;
+                        owners.Add(OwnerName(m));
                     }
-                    catch (Exception ex)
+                    catch
                     {
-                        Log.LogWarning($"patch failed {m.DeclaringType?.Name}.{m.Name}: {ex.Message}");
+                        // отдельный метод не патчится — не критично
                     }
                 }
             }
             patched = true;
-            Log.LogInfo($"AllocProbe: patched {methods} Update-methods in {assemblies.Count} assemblies");
-            foreach (var a in assemblies) Log.LogInfo("  asm: " + a.GetName().Name);
+            Log.LogInfo($"AllocProbe 1.1: patched {methods} methods across {owners.Count} owner classes");
         }
 
         private void Update()
@@ -110,7 +127,7 @@ namespace AllocProbe
             if (!patched)
             {
                 if (Time.realtimeSinceStartup < next) return;
-                PatchMods();
+                PatchAll();
                 next = Time.realtimeSinceStartup + 2f;
                 lastHeap = GC.GetTotalMemory(false);
                 return;
@@ -132,36 +149,42 @@ namespace AllocProbe
                 {
                     if (kv.Value <= 0) continue;
                     sum += kv.Value;
-                    string name;
-                    try { name = kv.Key.GetName().Name; } catch { name = "?"; }
-                    parts.Add($"{name}={kv.Value / 1024.0:0} KB");
+                    parts.Add($"{kv.Key}={kv.Value / 1024.0:0} KB");
                     PluginAccumulator.Bytes[kv.Key] = 0;
                 }
             }
             long residual = total - sum;
-            Log.LogInfo($"[ALLOC] total={(total > 0 ? total : 0) / 1024.0:0} KB/2s | {(parts.Count > 0 ? string.Join("; ", parts.Take(12)) : "все по нулям")} | residual={residual / 1024.0:0} KB/2s");
+            Log.LogInfo($"[ALLOC] total={(total > 0 ? total : 0) / 1024.0:0} KB/2s | {(parts.Count > 0 ? string.Join("; ", parts.Take(14)) : "все по нулям")} | residual={residual / 1024.0:0} KB/2s");
         }
     }
 
     /// <summary>Статические обёртки: меряем кучу до/после оригинального метода.</summary>
     internal static class Patches
     {
-        /// <summary>Запоминаем объём кучи до вызова.</summary>
         public static void Prefix(ref long __state)
         {
             __state = GC.GetTotalMemory(false);
         }
 
-        /// <summary>Положительная дельта — мусор этого Update; пишем на сборку владельца.</summary>
         public static void Suffix(long __state, MethodBase __originalMethod)
         {
             try
             {
                 long d = GC.GetTotalMemory(false) - __state;
                 if (d <= 0) return;
-                var asm = __originalMethod.DeclaringType?.Assembly;
-                if (asm == null) return;
-                PluginAccumulator.Add(asm, d);
+                string owner = null;
+                var t = __originalMethod.DeclaringType;
+                if (t != null)
+                {
+                    var outer = t;
+                    while (outer.IsNested && outer.DeclaringType != null)
+                        outer = outer.DeclaringType;
+                    string asm;
+                    try { asm = outer.Assembly.GetName().Name; } catch { asm = "?"; }
+                    owner = asm + "." + outer.Name;
+                }
+                if (owner != null)
+                    PluginAccumulator.Add(owner, d);
             }
             catch
             {
@@ -170,19 +193,17 @@ namespace AllocProbe
         }
     }
 
-    /// <summary>Счётчик, доступный из статических обёрток (без ссылки на плагин).</summary>
+    /// <summary>Счётчик по имени «сборка.класс».</summary>
     internal static class PluginAccumulator
     {
-        /// <summary>Сборка -> накопленные байты мусора.</summary>
-        public static readonly Dictionary<Assembly, long> Bytes = new Dictionary<Assembly, long>();
+        public static readonly Dictionary<string, long> Bytes = new Dictionary<string, long>();
 
-        /// <summary>Прибавить дельту к счётчику сборки (потокобезопасно достаточно).</summary>
-        public static void Add(Assembly a, long d)
+        public static void Add(string owner, long d)
         {
             lock (Bytes)
             {
-                Bytes.TryGetValue(a, out long v);
-                Bytes[a] = v + d;
+                Bytes.TryGetValue(owner, out long v);
+                Bytes[owner] = v + d;
             }
         }
     }
