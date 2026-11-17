@@ -14,7 +14,7 @@ using UnityEngine;
 
 namespace AllocProbe
 {
-    [BepInPlugin("teberrian.allocprobe", "AllocProbe", "1.7.0")]
+    [BepInPlugin("teberrian.allocprobe", "AllocProbe", "1.8.0")]
     public class Plugin : BaseUnityPlugin
     {
         private ManualLogSource Log;
@@ -39,7 +39,7 @@ namespace AllocProbe
             next = Time.realtimeSinceStartup + 5f;
             rescan = Time.realtimeSinceStartup + 10f;
             harmony = new Harmony("teberrian.allocprobe");
-            Log.LogInfo("AllocProbe 1.7.0 loaded");
+            Log.LogInfo("AllocProbe 1.8.0 loaded");
         }
 
         /// <summary>Человеческое имя метода: сборка.класс (корутины — внешний класс).</summary>
@@ -112,7 +112,8 @@ namespace AllocProbe
                 bool isMod = loc.Replace('/', '\\').ToLowerInvariant().Contains("bepinex\\plugins");
                 if (isMod) modAsmNames.Add(name);
                 bool isGame = name == "Assembly-CSharp" || name == "Assembly-CSharp-firstpass";
-                // 1.3: TMP и uGUI — их перестройки идут из Canvas-колбэков движка, минуя Update
+                // 1.3: TMP и uGUI — только лёгкие кандидаты; полный обход горячих UI-методов
+                // роняет FPS (обёртка на каждый мелкий вызов дороже пользы)
                 bool isUi = name == "Unity.TextMeshPro" || name == "UnityEngine.UI";
                 if (!isMod && !isGame && !isUi) continue;
                 targets.Add(a);
@@ -126,13 +127,12 @@ namespace AllocProbe
                 catch { continue; }
 
                 var list = new List<MethodInfo>();
-                bool isUiAsm = asm.GetName().Name == "Unity.TextMeshPro" || asm.GetName().Name == "UnityEngine.UI";
                 bool fullWrap = FullWrap.Contains(asm.GetName().Name);
                 foreach (var t in types)
                 {
-                    if (isUiAsm || fullWrap)
+                    if (fullWrap)
                     {
-                        // TMP/UI и подозреваемые сборки: оборачиваем почти всё, кроме
+                        // Подозреваемые сборки: оборачиваем почти всё, кроме
                         // аксессоров и тривиальных методов — иначе штурм GC на горячих путях
                         foreach (var m in t.GetMethods(BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.DeclaredOnly))
                         {
