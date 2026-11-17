@@ -14,7 +14,7 @@ using UnityEngine;
 
 namespace AllocProbe
 {
-    [BepInPlugin("teberrian.allocprobe", "AllocProbe", "1.4.0")]
+    [BepInPlugin("teberrian.allocprobe", "AllocProbe", "1.5.0")]
     public class Plugin : BaseUnityPlugin
     {
         private ManualLogSource Log;
@@ -24,6 +24,7 @@ namespace AllocProbe
         private float rescan;
         private long lastHeap;
         private readonly HashSet<string> patchedAsms = new HashSet<string>();
+        private readonly HashSet<string> modAsmNames = new HashSet<string>();
 
         private void Awake()
         {
@@ -32,7 +33,7 @@ namespace AllocProbe
             next = Time.realtimeSinceStartup + 5f;
             rescan = Time.realtimeSinceStartup + 10f;
             harmony = new Harmony("teberrian.allocprobe");
-            Log.LogInfo("AllocProbe 1.4.0 loaded");
+            Log.LogInfo("AllocProbe 1.5.0 loaded");
         }
 
         /// <summary>Человеческое имя метода: сборка.класс (корутины — внешний класс).</summary>
@@ -105,6 +106,7 @@ namespace AllocProbe
                 if (name == "AllocProbe" || name == "HeapWatch") continue;
                 if (patchedAsms.Contains(name)) continue;
                 bool isMod = loc.Replace('/', '\\').ToLowerInvariant().Contains("bepinex\\plugins");
+                if (isMod) modAsmNames.Add(name);
                 bool isGame = name == "Assembly-CSharp" || name == "Assembly-CSharp-firstpass";
                 // 1.3: TMP и uGUI — их перестройки идут из Canvas-колбэков движка, минуя Update
                 bool isUi = name == "Unity.TextMeshPro" || name == "UnityEngine.UI";
@@ -121,11 +123,13 @@ namespace AllocProbe
 
                 var list = new List<MethodInfo>();
                 bool isUiAsm = asm.GetName().Name == "Unity.TextMeshPro" || asm.GetName().Name == "UnityEngine.UI";
+                bool isModAsm = modAsmNames.Contains(asm.GetName().Name);
                 foreach (var t in types)
                 {
-                    if (isUiAsm)
+                    if (isUiAsm || isModAsm)
                     {
-                        // TMP/UI: оборачиваем почти всё — перестройки текста не ходят через Update
+                        // TMP/UI и все модовые сборки: оборачиваем почти всё —
+                        // обработчики событий, Invoke-цели и потоки модов не ходят через Update
                         foreach (var m in t.GetMethods(BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.DeclaredOnly))
                         {
                             if (m.IsAbstract || m.IsVirtual) continue;
@@ -155,7 +159,7 @@ namespace AllocProbe
                 patchedAsms.Add(asm.GetName().Name);
             }
             if (methods > 0)
-                Log.LogInfo($"AllocProbe 1.4: +{methods} methods across {owners.Count} classes (total assemblies: {patchedAsms.Count})");
+                Log.LogInfo($"AllocProbe 1.5: +{methods} methods across {owners.Count} classes (total assemblies: {patchedAsms.Count})");
         }
 
         private void Update()
