@@ -21,7 +21,7 @@ using WindowFunction = UnityEngine.GUI.WindowFunction;
 
 namespace KoreanPatch;
 
-[BepInPlugin("com.noms.localizationpatch", "Localization Patch", "3.3.3")]
+[BepInPlugin("com.noms.localizationpatch", "Localization Patch", "3.3.4")]
 public class Plugin : BaseUnityPlugin
 {
 	private static class FontEngine_LoadFontFace_Redirect
@@ -854,6 +854,7 @@ public class Plugin : BaseUnityPlugin
 		{
 			LoadTranslations();
 			translatedInstances.Clear();
+			ResultCache.Clear();
 			Log.LogInfo((object)$"Translations reloaded: {Translations.Count} entries");
 			try
 			{
@@ -1726,7 +1727,38 @@ public class Plugin : BaseUnityPlugin
 		}
 	}
 
+	// Кэш результатов перевода по полной строке: одна и та же надпись
+	// устанавливается многократно (каждый кадр/перестройка UI), повторный
+	// разбор (Trim/Substring/Regex/Split) — чистый мусор для GC.
+	// Очищается при перезагрузке словаря и переключении Enabled.
+	internal static Dictionary<string, string> ResultCache = new Dictionary<string, string>();
+	private const int ResultCacheMax = 50000;
+
 	internal static string Translate(string original)
+	{
+		if (!Enabled || string.IsNullOrEmpty(original))
+		{
+			return original;
+		}
+		lock (ResultCache)
+		{
+			if (ResultCache.TryGetValue(original, out string cached))
+			{
+				return cached;
+			}
+		}
+		string res = TranslateUncached(original);
+		lock (ResultCache)
+		{
+			if (ResultCache.Count < ResultCacheMax && !ResultCache.ContainsKey(original))
+			{
+				ResultCache[original] = res;
+			}
+		}
+		return res;
+	}
+
+	internal static string TranslateUncached(string original)
 	{
 		if (!Enabled || string.IsNullOrEmpty(original))
 		{
@@ -2728,6 +2760,7 @@ public class Plugin : BaseUnityPlugin
 		if (GUILayout.Button("Reload translations (Ctrl+F5)", buttonStyle, Array.Empty<GUILayoutOption>()))
 		{
 			LoadTranslations();
+			ResultCache.Clear();
 		}
 		if (GUILayout.Button("Export untranslated strings", buttonStyle, Array.Empty<GUILayoutOption>()))
 		{
