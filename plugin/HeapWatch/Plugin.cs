@@ -38,12 +38,12 @@ namespace HeapWatch
             float fps = 1f / Time.smoothDeltaTime;
 
             Log.LogInfo(string.Format(
-                "[HEAP] mono={0:0.0} MB (+{1:0} KB/2s) | unityHeap={2:0.0} MB | proc={3:0} MB | GC gen0={4} gen1={5} gen2={6} | fps={7:0}",
+                "[HEAP t={8:0.0}s] mono={0:0.0} MB (+{1:0} KB/2s) | unityHeap={2:0.0} MB | proc={3:0} MB | GC gen0={4} gen1={5} gen2={6} | fps={7:0}",
                 heap / 1048576.0, (heap - lastHeap) / 1024.0,
                 Profiler.usedHeapSize / 1048576.0,
                 proc.PrivateMemorySize64 / 1048576.0,
                 g0 - lastGen0, g1 - lastGen1, g2 - lastGen2,
-                fps));
+                fps, now));
 
             lastHeap = heap; lastGen0 = g0; lastGen1 = g1; lastGen2 = g2;
         }
