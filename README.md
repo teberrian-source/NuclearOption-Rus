@@ -4,8 +4,8 @@
 (плагин `LocalizationPatch`, BepInEx 5.x).
 
 - Плагин-основа: [9138noms/NuclearOption-LocalizationPatch](https://github.com/9138noms/NuclearOption-LocalizationPatch)
-- Текущая версия словаря: **4256 записей** (`dict/ru.json`, 680 797 байт)
-- Версия плагина в этом репозитории: **3.3.2** (`plugin/build/LocalizationPatch.dll`)
+- Текущий объём словаря: **4343 записи** (`dict/ru.json`, 722 527 байт)
+- Версия плагина: **3.3.4** (`plugin/bin/Release/LocalizationPatch.dll`)
 
 ## Что переводится
 
@@ -17,6 +17,26 @@
 | Подсказки, статусы HUD, названия задач | Деньги, дистанции, единицы, таймеры, координаты сетки |
 
 Мусорные строки игры (`ConfigDescription.*`, placeholder-строки, Lorem ipsum) не переводятся.
+
+## Состояние перевода модов (18.11.2026)
+
+| Мод (активный набор) | Перевод | Чем |
+|---|---|---|
+| Базовая игра 0.34.6 | ✅ полный | наш LocalizationPatch 3.3.4 (словарь 4343) |
+| Ground Control (RTS) | ✅ полный (UI, обучение, экономика, оверлеи) | сторонний Rusifikator-NuclearOption-GroundControl 1.0.1 (Tatarok, MIT), настроен только на этот мод — см. `docs/gc-rus-translator.md` |
+| NavalPower | ❌ | — |
+| PlayableVehicles | ❌ | — |
+| KnockPush (Aryx RAH-72) | ❌ | — |
+| NOX | ❌ | — |
+| NOSMR | ❌ | — |
+| NOMapLoader / NOCustomMaps | ❌ (UI минимальный) | — |
+| IronjawSound (карта) | ❌ | — |
+| Blueprinter + аддоны | частично | аддонные описания, попавшие в словарь игры |
+| Solar_Su30VXN, aryx.f99/fs41/mc260/rah72 | описания ✅ / UI ❌ | словарь игры (описания); названия техники не переводим по политике |
+| ConfigurationManager / RuntimeUnityEditor | ❌ (инструменты, не геймплей) | — |
+
+Приоритет следующего словарного раунда: **NavalPower → PlayableVehicles → NOX**
+(их UI идёт через TMP/UGUI и переводится нашим движком без доработок).
 
 ## Установка
 
