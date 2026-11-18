@@ -28,7 +28,7 @@
 | PlayableVehicles | ❌ | — |
 | KnockPush (Aryx RAH-72) | ❌ | — |
 | NOX | ❌ | — |
-| NOSMR | ❌ | — |
+| NOSMR | ❌ (не переводится — серверный) | серверный плагин (RaylaValdez): транслирует список модов сервера по A2S_RULES в NOMM + авто-подключение NOMM; игроку переводить нечего |
 | NOMapLoader / NOCustomMaps | ❌ (UI минимальный) | — |
 | IronjawSound (карта) | ❌ | — |
 | Blueprinter + аддоны | частично | аддонные описания, попавшие в словарь игры |
