@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Text.RegularExpressions;
 using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
@@ -14,7 +15,7 @@ using UnityEngine;
 
 namespace AllocProbe
 {
-    [BepInPlugin("teberrian.allocprobe", "AllocProbe", "1.8.0")]
+    [BepInPlugin("teberrian.allocprobe", "AllocProbe", "1.9.0")]
     public class Plugin : BaseUnityPlugin
     {
         private ManualLogSource Log;
@@ -32,6 +33,12 @@ namespace AllocProbe
             "GroundControlRts", "NavalPower", "PlayableVehicles",
         };
 
+        // 1.9: прицельный поиск создателя разового выброса (+334 МБ при меню миссий):
+        // полная обёртка только классов с такими именами в игровой сборке и модах
+        private static readonly Regex TargetClass = new Regex(
+            "Mission|Preview|Thumbnail|Campaign|Workshop|UGC|RemoteStorage|Image|Download|Web|Screenshot",
+            RegexOptions.Compiled);
+
         private void Awake()
         {
             Log = Logger;
@@ -39,7 +46,7 @@ namespace AllocProbe
             next = Time.realtimeSinceStartup + 5f;
             rescan = Time.realtimeSinceStartup + 10f;
             harmony = new Harmony("teberrian.allocprobe");
-            Log.LogInfo("AllocProbe 1.8.0 loaded");
+            Log.LogInfo("AllocProbe 1.9.0 loaded");
         }
 
         /// <summary>Человеческое имя метода: сборка.класс (корутины — внешний класс).</summary>
@@ -127,12 +134,15 @@ namespace AllocProbe
                 catch { continue; }
 
                 var list = new List<MethodInfo>();
-                bool fullWrap = FullWrap.Contains(asm.GetName().Name);
+                string asmName;
+                try { asmName = asm.GetName().Name; } catch { continue; }
+                bool fullWrap = FullWrap.Contains(asmName);
+                bool isGame = asmName == "Assembly-CSharp" || asmName == "Assembly-CSharp-firstpass";
                 foreach (var t in types)
                 {
-                    if (fullWrap)
+                    if (fullWrap || (isGame && TargetClass.IsMatch(t.Name)))
                     {
-                        // Подозреваемые сборки: оборачиваем почти всё, кроме
+                        // Подозреваемые сборки и классы-кандидаты: оборачиваем почти всё, кроме
                         // аксессоров и тривиальных методов — иначе штурм GC на горячих путях
                         foreach (var m in t.GetMethods(BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.DeclaredOnly))
                         {
