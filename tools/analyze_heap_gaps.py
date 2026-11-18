@@ -11,13 +11,13 @@ heap = []
 for l in lines:
     if "[HEAP" not in l:
         continue
-    t = re.search(r"t=([\d.]+)s", l)
+    t = re.search(r"t=([\d.,]+)s", l)
     mb = re.search(r"mono=([\d,]+) MB \(\+([\d,]+) KB/2s\)", l)
     gc = re.search(r"GC gen0=(\d+) gen1=(\d+) gen2=(\d+)", l)
     fps = re.search(r"fps=(\d+)", l)
     if not (t and mb and gc and fps):
         continue
-    heap.append((float(t.group(1)),
+    heap.append((float(t.group(1).replace(",", ".")),
                  int(mb.group(2).replace(",", "")),
                  int(gc.group(1)), int(gc.group(2)), int(gc.group(3)),
                  int(fps.group(1)), l[22:150]))
