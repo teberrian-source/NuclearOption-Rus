@@ -335,3 +335,16 @@ blacknight2u.f117a.nighthawk, aryx.mig15, aryx.f22e, 1509_PalaFighter1; удал
 мусора и кучи. Инструменты: HeapWatch (`[HEAP t=…]`, метки времени), AllocProbe
 (1.9, в disabledPlugins, включать только для точечной диагностики).
 Релиз 3.3.4 готов к сборке/публикации отдельно от охоты.
+
+## 11.2. Перевод Ground Control (RTS) — стороннее решение (18.11.2026)
+
+GC рисует UI через IMGUI с литералами в DLL — TMP-хуки нашего плагина эти
+строки не видят. Установлен сторонний Rusifikator-NuclearOption-GroundControl
+1.0.1 (Tatarok/Ilyasik2001, MIT; репо `...-RTS.` с точкой в конце имени):
+LiteralPatcher (IL-литералы) + ImguiPatches (отрисовка IMGUI) + FitText.
+Конфиг `com.gcru.russian.cfg`: TranslateGame=false (базу переводит наш плагин),
+GC-перевод включён; из translations/ удалены names_* и game_missions.json
+(политика: имена техники/локаций/миссий — английскими). Детали и план
+обновления: `docs/gc-rus-translator.md`. Сравнение механизмов — в чате;
+задача на завтра: «скрещивание» — перенос IL-литерального патчера и
+{0}-паттернов в наш плагин (MIT, с атрибуцией Tatarok).
